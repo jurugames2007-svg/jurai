@@ -1,0 +1,58 @@
+# ROM files (copyrighted)
+*.GBA
+*.gba
+*.sav
+*.ss1
+
+# Third-party tool archives
+*.zip
+*.7z
+
+# Third-party precompiled tools (keep source only)
+WindHex32/
+crystaltile2/
+yychr20210606/
+tile_molester_021/
+tlp11/
+
+# ROM dumps / test files
+222.GBA
+222.sav
+First Try
+First Try.GBA
+First Try.sav
+First Try.ss1
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+PyFiles/dist/
+PyFiles/build/
+
+# Save states
+*.ss1
+*.ss2
+
+# Generated output/dump files
+PyFiles/dialogue_dump.txt
+PyFiles/full_rom_dialogue.txt
+PyFiles/full_rom_dialogue2.txt
+PyFiles/targeted_dialogue.txt
+PyFiles/TextEditorOutput.txt
+"PyFiles/Output final.txt"
+
+# ROM folder (all ROMs)
+Roms/
+
+# IDE / editor
+.idea/
+*.iml
+
+# Claude Code internals
+.claude/
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db

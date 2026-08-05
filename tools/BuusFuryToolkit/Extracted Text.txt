@@ -1,0 +1,3307 @@
+[0x5792E] Start
+[0x5793A] Options
+[0x5794A] Singleplayer
+[0x57966] Multiplayer
+[0x5797E] Wireless Slave
+[0x5799C] Wireless Master
+[0x579BC] Save Game
+[0x579D0] Saving...
+[0x579E4] Select Game
+[0x579FC] New Game
+[0x57A0E] Delete Game
+[0x57A26] Switch Character
+[0x57A48] Empty Game
+[0x57A5E] Game [25]d
+[0x57A6E] Language
+[0x57A80] Sound FX Volume
+[0x57AA0] Music Volume
+[0x57ABA] Text Speed
+[0x57AD0] Sleep
+[0x57ADC] Credits
+[0x57AEC] Load
+[0x57AF6] Quit
+[0x57B00] Select
+[0x57B0E] Accept
+[0x57B1C] Delete
+[0x57B2A] Cancel
+[0x57B38] Are you sure?
+[0x57B54] Status
+[0x57B62] Skills
+[0x57B70] Journal
+[0x57B80] Goals
+[0x57B8C] Completed Goals
+[0x57BAC] Inventory
+[0x57BC0] Supplies
+[0x57BD2] Story Items
+[0x57BEA] Equip
+[0x57BF6] Yes
+[0x57BFE] No
+[0x57C04] Pause
+[0x57C10] [08][05][25]s[08][02] [08][03]LVL [25]d
+[0x57C34] [08][05]HP:[08][02] [08]v[25]d[08][05]/[08]v[25]d
+[0x57C60] [08][05]EP:[08][02] [08]v[25]d[08][05]/[08]v[25]d
+[0x57C8C] [08][05]XP:[08][02] [08]v[25]d
+[0x57CAA] [08][05]NXT LVL:[08][02] [08]v[25]d
+[0x57CD2] [08][05]ZENIE: [08]v[25]d
+[0x57CF2] [08][05]TIME: [08]v[25]d:[25]02d
+[0x57D2C] [08][05]POW:
+[0x57D3E] [08][05]END:
+[0x57D62] LevelUp!
+[0x57D86] Skills
+[0x57D94] Use Points
+[0x57DFE] [08][05]POW: [08]v[25]d
+[0x57E1A] [08][05]POW: [08][06][25]d
+[0x57E36] [08][05]POW: [08][03][25]d
+[0x57E52] [08][05]END: [08]v[25]d
+[0x57E6E] [08][05]END: [08][06][25]d
+[0x57E8A] [08][05]END: [08][03][25]d
+[0x57F40] Equip to [25]s
+[0x57F58] Unequip from [25]s
+[0x57F78] Drop
+[0x57F82] No Equipment Available
+[0x57FB0] Can't drop here!
+[0x57FD2] No Supplies
+[0x57FEA] No Story Items
+[0x58008] Use
+[0x58010] Back
+[0x5801A] Trading Post
+[0x58034] [08][05]Your Trade:
+[0x58054] [08][05]Friend's Trade:
+[0x5807C] Zenie
+[0x58088] How many to trade?
+[0x580AE] Propose Trade
+[0x580CA] Accept
+[0x580D8] Decline
+[0x580E8] You have accepted trade
+[0x58118] TRADE
+[0x58124] COMPLETE!
+[0x58138] Waiting for a friend...
+[0x58168] No Saved Games
+[0x58186] Please select a saved game
+[0x581BC] Disconnected
+[0x581D6] Select Saved Game
+[0x581FA] Dojo
+[0x58204] Start Fight
+[0x5821C] Balanced Mode
+[0x58238] In-Game Mode
+[0x58252] Character Mode:
+[0x58272] Rounds:
+[0x5828E] Battle with your friends in the Dojo!
+[0x582DA] Choose your character!
+[0x58308] Round 1
+[0x58318] Round 2
+[0x58328] Round 3
+[0x58338] Round 4
+[0x58348] Round 5
+[0x58358] You Win!!
+[0x5836C] You Lose!!
+[0x58382] Draw!!
+[0x58390] Grab your prize!
+[0x583B2] Go back to training!
+[0x583DC] Goku
+[0x583E6] SS Goku
+[0x583F6] SS3 Goku
+[0x58408] Teen Gohan
+[0x5841E] SS Teen Gohan
+[0x5843A] Mystic Gohan
+[0x58454] Great Saiyaman
+[0x58472] Gohan
+[0x5847E] SS Gohan
+[0x58490] Trunks
+[0x5849E] SS Trunks
+[0x584B2] Vegeta
+[0x584C0] SS Vegeta
+[0x584D4] Goten
+[0x584E0] SS Goten
+[0x584F2] Gotenks
+[0x58502] SS Gotenks
+[0x58518] SS3 Gotenks
+[0x58530] Vegito
+[0x5853E] SS Vegito
+[0x58552] SS Gogeta
+[0x58566] Hercule
+[0x58576] Videl
+[0x58582] Pikkon
+[0x58590] Piccolo
+[0x585A0] Broly
+[0x585AC] Majin Buu
+[0x585C0] Super Buu
+[0x585D4] Super Buu 2
+[0x585EC] Super Buu 3
+[0x58604] Kid Buu
+[0x58614] Uub
+[0x5861C] Watch This!
+[0x58634] Your Turn!
+[0x5864A] Fusion-Ha!
+[0x58660] [08][03]Level [25]d
+[0x5867A] Press A Button To Punch
+[0x586AA] [25]d ZENIE
+[0x586C6] Buy x [25]d
+[0x586D8] Sell x [25]d
+[0x586F8] Goku
+[0x58702] Gohan
+[0x5870E] Goten
+[0x5871A] Trunks
+[0x58728] Vegeta
+[0x58736] Gotenks
+[0x58746] Vegito
+[0x58754] Gogeta
+[0x58762] Android 18
+[0x58778] Hercule
+[0x58788] Krillin
+[0x58798] Piccolo
+[0x587A8] Pikkon
+[0x587B6] Tien
+[0x587C0] Videl
+[0x587CC] Yamcha
+[0x587DA] YOAV
+[0x587E4] GOHAN
+[0x587F0] GOTEN
+[0x587FC] TRUNKS
+[0x5880A] VEGETA
+[0x58818] GOTENKS
+[0x58828] VEGITO
+[0x58836] GOGETA
+[0x58844] ANDROID 18
+[0x5885A] HERCULE
+[0x5886A] KRILLIN
+[0x5887A] PICCOLO
+[0x5888A] PIKKON
+[0x58898] TIEN
+[0x588A2] VIDEL
+[0x588AE] YAMCHA
+[0x588BC] [08][03]HP
+[0x588DA] [08][06]POW
+[0x588EA] [08][1D]END
+[0x588FA] No
+Portrait
+Data
+[0x5891C] Database Empty
+[0x5893A] -None- (Body)
+[0x58958] Cotton Gi
+[0x5896C] A simple cotton gi.
+[0x58994] -None- (Hands)
+[0x589B4] -None- (Feet)
+[0x589D2] -None- (Accessories)
+[0x589FE] Wool Sweater
+[0x58A18] A thick knitted wool sweater.
+[0x58A54] Leather Jacket
+[0x58A72] A cool looking leather jacket.
+[0x58AB0] Wooden Armor
+[0x58ACA] Armor carved out of wood.
+[0x58AFE] Stone O-Yoroi
+[0x58B1A] A traditional samurai armor carved out of stone.
+[0x58B7C] Bronze Keiko
+[0x58B96] A traditional samurai scale armor made of bronze.
+[0x58BFA] Iron Armor
+[0x58C10] A chestplate made of iron.
+[0x58C46] Silver Armor
+[0x58C60] A chestplate made of silver.
+[0x58C9A] Gold Armor
+[0x58CB0] A chestplate made of gold.
+[0x58CE6] Platinum Armor
+[0x58D04] A chestplate made of platinum.
+[0x58D42] Diamond Armor
+[0x58D5E] A chestplate carved out of a giant diamond.
+[0x58DB6] Geromantium Kataginu
+[0x58DE0] A traditional samurai clothing made of Geromantium.
+[0x58E48] Reflective Tunic
+[0x58E6A] A tunic made of a reflective material resistant to energy attacks.
+[0x58EF0] Brute Coat
+[0x58F06] The kind of coat a real tough guy might wear.
+[0x58F62] Jade Keiko
+[0x58F78] A traditional samurai scale armor made of jade that reduces damage done while blocking.
+[0x59028] Mystic Aegis
+[0x59042] A mystical chestplate that reduces the cost of the energy block.
+[0x590C4] Dirty Shirt
+[0x590DC] Maybe you should get this shirt cleaned before you wear it.
+[0x59154] Dirty Gi
+[0x59166] Maybe you should get this gi cleaned before you wear it.
+[0x591D8] Dirty Armor
+[0x591F0] Maybe you should get this armor cleaned before you wear it.
+[0x59268] Clean Shirt
+[0x59280] A shirt so clean it shines!
+[0x592B8] Clean Gi
+[0x592CA] A gi so clean it shines!
+[0x592FC] Clean Armor
+[0x59314] An armor so clean it shines!
+[0x5934E] Prototype Space Armor
+[0x5937A] It's a prototype so it isn't working yet.
+[0x593CE] Enhanced Space Armor
+[0x593F8] This high tech armor emits an electronic aura.
+[0x59456] Spiked Breastplate
+[0x5947C] This breastplate is covered with sharp spikes.
+[0x594DA] Halloween Costume
+[0x594FE] It's a scary Halloween costume.
+[0x5953E] Rhinestone Leisure Suit
+[0x5956E] This a really tacky looking suit.
+[0x595B2] Fancy Wardrobe
+[0x595D0] This suit is expensive looking.
+[0x59610] Stylish Haori
+[0x5962C] Wearing this stylish jacket gives you a lot of charisma.
+[0x5969E] Do-Maru of Shadows
+[0x596C4] A traditional samurai armor that is good for stealth.
+[0x59730] Monk's Robe
+[0x59748] A simple monks robe that is good for stealth.
+[0x597A4] Super Armor
+[0x597BC] This armor has magic that makes Super Saiyan last longer.
+[0x59830] Wet Suit
+[0x59842] This suit helps you catch better fish.
+[0x59890] Pyrite Armor
+[0x598AA] It looks like Gold Amor, but it's fool's gold!
+[0x59908] Armor of Light
+[0x59926] This magic armor makes your energy regenerate faster when you use melee.
+[0x599B8] Armor of Darkness
+[0x599DC] This magic armor makes your HP increase faster when you use melee.
+[0x59A62] Force Suit
+[0x59A78] This suit is imbued with the power of science.
+[0x59AD6] Crystal O-Yoroi
+[0x59AF6] The crystals in this armor make your energy attacks stronger.
+[0x59B72] Titanium Breastplate
+[0x59B9C] A breastplate made of titanium.
+[0x59BDC] "BAD MAN" Shirt
+[0x59BFC] A pink shirt? Who would wear such a ridiculous thing?
+[0x59C68] "Z" Armor
+[0x59C7C] This magic armor constantly heals you.
+[0x59CCA] Dragon Armor
+[0x59CE4] Armor made from the scales of a dragon. Reduces the cost of energy attacks.
+[0x59D7C] Saiyan Armor
+[0x59D96] Armor like the Saiyans once wore.
+[0x59DDA] Cotton Gloves
+[0x59DF6] A pair of simple cotton gloves.
+[0x59E36] Wool Mittens
+[0x59E50] A pair of thick knitted wool mittens.
+[0x59E9C] Leather Gloves
+[0x59EBA] Gloves made of tough leather.
+[0x59EF6] Brass Knuckles
+[0x59F14] A pair of brass knuckles.
+[0x59F48] Iron Bracer
+[0x59F60] An arm guard made of iron.
+[0x59F96] Silver Gauntlets
+[0x59FB8] A pair of gauntlets made of silver.
+[0x5A000] Platinum Gauntlets
+[0x5A026] A pair of gauntlets made of platinum.
+[0x5A072] Diamond Gauntlets
+[0x5A096] A pair of gauntlets carved from a diamond.
+[0x5A0EC] Geromantium Gloves
+[0x5A112] A pair of gloves made of Geromantium.
+[0x5A15E] Reflective Gloves
+[0x5A182] A pair of gloves made of a reflective material resistant to energy attacks.
+[0x5A21A] Brute Gloves
+[0x5A234] The kind of gloves a real tough guy might wear.
+[0x5A294] 1 Ton Armbands
+[0x5A2B2] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A348] 2 Ton Armbands
+[0x5A366] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A3FC] 10 Ton Armbands
+[0x5A41C] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A4B2] 20 Ton Armbands
+[0x5A4D2] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A568] 100 Ton Armbands
+[0x5A58A] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A620] Kiloton Armbands
+[0x5A642] Weighted armbands slow you down, but give you more experience as a reward.
+[0x5A6D8] Magician's Gloves
+[0x5A6FC] These magic gloves reduce the cost of an energy block.
+[0x5A76A] Dirty Gloves
+[0x5A784] Maybe you should get these gloves cleaned before you wear it.
+[0x5A800] Dirty Gauntlets
+[0x5A820] Maybe you should get these gauntlets cleaned before you wear it.
+[0x5A8A2] Clean Gloves
+[0x5A8BC] Gloves so clean they shine!
+[0x5A8F4] Clean Gauntlets
+[0x5A914] Gauntlets so clean they shine!
+[0x5A952] Prototype Energy Gloves
+[0x5A982] It's a prototype so it isn't working yet.
+[0x5A9D6] Enhanced Energy Gloves
+[0x5AA04] These are powerful high tech gloves.
+[0x5AA4E] Power Gauntlets
+[0x5AA6E] These gauntlets are glowing with energy.
+[0x5AAC0] Super Gloves
+[0x5AADA] These gloves have magic that make Super Saiyan last longer.
+[0x5AB52] Scuba Gloves
+[0x5AB6C] These gloves helps you catch better fish.
+[0x5ABC0] Geromantis Gloves
+[0x5ABE4] Looks like Geromantium Gloves, but are actually a cheap knock-off.
+[0x5AC6A] Charge Gloves
+[0x5AC86] You can detect power flowing through these high tech gloves.
+[0x5AD00] Crystal Gauntlets
+[0x5AD24] The crystals in these gauntlets make your energy attacks stronger.
+[0x5ADAA] Saiyan Gloves
+[0x5ADC6] Gloves like the Saiyans once wore.
+[0x5AE0C] Pilaf's Gloves
+[0x5AE2A] Legend has it wearing these gloves will make you rich!
+[0x5AE98] Cotton Tabi
+[0x5AEB0] Simple cotton tabi boots.
+[0x5AEE4] Woolen Shoes
+[0x5AEFE] Shoes made of knitted wool.
+[0x5AF36] Leather Moccasins
+[0x5AF5A] Moccasins made of thick tanned leather.
+[0x5AFAA] Wooden Geta
+[0x5AFC2] Sandals made of wood.
+[0x5AFEE] Stone Geta
+[0x5B004] Sandals made of stone.
+[0x5B032] Bronze Plated Boots
+[0x5B05A] Leather boots covered in bronze plates.
+[0x5B0AA] Iron Greaves
+[0x5B0C4] Shin-guards made of iron.
+[0x5B0F8] Silver Boots
+[0x5B112] Boots made of silver.
+[0x5B13E] Gold Boots
+[0x5B154] Boots made of gold.
+[0x5B17C] Geromantium Tabi
+[0x5B19E] Tabi boots made of Geromantium.
+[0x5B1DE] Winged Sandals
+[0x5B1FC] These winged sandals will make you walk and run faster.
+[0x5B26C] 1 Ton Boots
+[0x5B284] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B314] 2 Ton Boots
+[0x5B32C] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B3BC] 10 Ton Boots
+[0x5B3D6] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B466] 20 Ton Boots
+[0x5B480] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B510] 100 Ton Boots
+[0x5B52C] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B5BC] Kiloton Boots
+[0x5B5D8] Weighted boots slow you down, but give you more experience as a reward.
+[0x5B668] Dirty Tabi
+[0x5B67E] Maybe you should get these tabi boots cleaned before you wear them.
+[0x5B706] Dirty Shoes
+[0x5B71E] Maybe you should get these shoes cleaned before you wear them.
+[0x5B79C] Dirty Boots
+[0x5B7B4] Maybe you should get these boots cleaned before you wear them.
+[0x5B832] Clean Tabi
+[0x5B848] Tabi boots so clean they shine!
+[0x5B888] Clean Shoes
+[0x5B8A0] Shoes so clean they shine!
+[0x5B8D6] Clean Boots
+[0x5B8EE] Boots so clean they shine!
+[0x5B924] Prototype Hyper Boots
+[0x5B950] It's a prototype so it isn't working yet.
+[0x5B9A4] Enhanced Hyper Boots
+[0x5B9CE] These are powerful high tech boots.
+[0x5BA16] Alligator Loafers
+[0x5BA3A] These are some expensive shoes!
+[0x5BA7A] Spirit Geta
+[0x5BA92] There is a mysterious supernatural aura around these sandals.
+[0x5BB0E] Sneakers
+[0x5BB20] These are sneakers... For sneaking!
+[0x5BB68] Soccer Cleats
+[0x5BB84] These soccer cleats pack quite a kick!
+[0x5BBD2] Super Boots
+[0x5BBEA] These boots have magic that makes Super Saiyan last longer.
+[0x5BC62] Flippers
+[0x5BC74] These flippers helps you catch better fish.
+[0x5BCCC] Silvery Boots
+[0x5BCE8] These look like Silver Boots, but the silver paint is scratching off.
+[0x5BD74] Shock Boots
+[0x5BD8C] You can detect power flowing through these high tech boots.
+[0x5BE04] Saiyan Boots
+[0x5BE1E] Boots like the Saiyans once wore.
+[0x5BE62] Wool Cap
+[0x5BE74] A thick knitted wool cap.
+[0x5BEA8] Stone Men-po
+[0x5BEC2] An armored samurai face mask made of stone.
+[0x5BF1A] Iron Kabuto
+[0x5BF32] A traditional samurai helmet made of iron.
+[0x5BF88] Geromantium Bandana
+[0x5BFB0] A bandana made of Geromantium.
+[0x5BFEE] Mercury's Cap
+[0x5C00A] The legendary cap of Mercury.
+[0x5C046] Dirty Cape
+[0x5C05C] Maybe you should get this cape cleaned before you wear it.
+[0x5C0D2] Dirty Belt
+[0x5C0E8] Maybe you should get this belt cleaned before you wear it.
+[0x5C15E] Clean Cape
+[0x5C174] A cape so clean it shines!
+[0x5C1AA] Clean Belt
+[0x5C1C0] A belt so clean it shines!
+[0x5C1F6] Demon Mask
+[0x5C20C] This a terrifying looking mask.
+[0x5C24C] Rhinestone Sunglasses
+[0x5C278] These are some really tacky looking sunglasses.
+[0x5C2D8] Lucky Charm
+[0x5C2F0] This charm gives you good luck!
+[0x5C330] Rabbit's Foot
+[0x5C34C] This rabbit's foot gives you good luck!
+[0x5C39C] Four-Leaf Clover
+[0x5C3BE] This four-leaf clover gives you good luck!
+[0x5C414] Skull Ring
+[0x5C42A] There's an evil aura around this ring...
+[0x5C47C] Doom Amulet
+[0x5C494] There's an evil aura around this amulet...
+[0x5C4EA] Expensive Wristwatch
+[0x5C514] This is an extremely expensive wristwatch.
+[0x5C56A] Monocle
+[0x5C57A] Wearing this classy monocle gives you lots of charisma.
+[0x5C5EA] Eldritch Cameo
+[0x5C608] This carving of unfathomable age is etched in a long forgotten ancient language.
+[0x5C6AA] Pure Black Cape
+[0x5C6CA] How much more black could this cape be? The answer is none.
+[0x5C742] Super Cape
+[0x5C758] This cape has magic that makes Super Saiyan last longer.
+[0x5C7CA] Snorkel
+[0x5C7DA] This snorkel helps you catch better fish.
+[0x5C82E] Hare's Foot
+[0x5C846] This item looks like a rabbit's foot... but it's not real.
+[0x5C8BC] Talisman of Light
+[0x5C8E0] This talisman increases the amount of energy recharged when you use melee attacks.
+[0x5C986] Vampire Cape
+[0x5C9A0] This cape causes HP to be recharged instead of energy when you use melee attacks.
+[0x5CA44] Polka-Dot Kazoo
+[0x5CA64] This is a very silly kazoo.
+[0x5CA9C] Crystal Pendant
+[0x5CABC] The crystals in this pendant increase the power of energy attacks.
+[0x5CB42] Crisis Ring
+[0x5CB5A] When you're about to die, this ring makes you stronger.
+[0x5CBCA] Garlic Necklace
+[0x5CBEA] This protects against the undead.
+[0x5CC2E] Evil Talisman
+[0x5CC4A] There is a terrible cost to this talisman's power.
+[0x5CCB0] Ox-King's Hat
+[0x5CCCC] This is the kind of viking hat that Ox-King is often seen wearing.
+[0x5CD52] "Gokuu" Hat
+[0x5CD6A] If you wear this hat while you level up, you'll get a bonus!
+[0x5CDE4] Majestic Chopsticks
+[0x5CE0C] Food tastes better when you use these chopsticks.
+[0x5CE70] Primordial Twisty-Straw
+[0x5CEA0] Drinks taste better when you use this ancient straw.
+[0x5CF0A] White Belt
+[0x5CF20] This is a white karate belt.
+[0x5CF5A] Yellow Belt
+[0x5CF72] This is a yellow karate belt.
+[0x5CFAE] Red Belt
+[0x5CFC0] This is a red karate belt.
+[0x5CFF6] Green Belt
+[0x5D00C] This is a green karate belt.
+[0x5D046] Blue Belt
+[0x5D05A] This is a blue karate belt.
+[0x5D092] Brown Belt
+[0x5D0A8] This is a brown karate belt.
+[0x5D0E2] Black Belt
+[0x5D0F8] This is a black karate belt.
+[0x5D132] Quartz Amulet
+[0x5D14E] This is an amulet made of quartz.
+[0x5D192] Topaz Amulet
+[0x5D1AC] This is an amulet made of topaz.
+[0x5D1EE] Amethyst Amulet
+[0x5D20E] This is an amulet made of amethyst.
+[0x5D256] Sapphire Amulet
+[0x5D276] This is an amulet made of sapphire.
+[0x5D2BE] Emerald Amulet
+[0x5D2DC] This is an amulet made of emerald.
+[0x5D322] Ruby Amulet
+[0x5D33A] This is an amulet made of ruby.
+[0x5D37A] Diamond Amulet
+[0x5D398] This is an amulet made of diamond.
+[0x5D3DE] Bandana
+[0x5D3EE] Only a really vicious criminal would wear something like this.
+[0x5D46C] Airship
+[0x5D47C] Airship Interior
+[0x5D49E] Atrium
+[0x5D4AC] Baba's Arena
+[0x5D4C6] Babidi's Ship
+[0x5D4E2] Inside Babidi's Ship
+[0x5D50C] Barren Wasteland
+[0x5D52E] Bulma's Airship
+[0x5D54E] Bulma's House
+[0x5D56A] Brain
+[0x5D576] Dr. Brief's Lab
+[0x5D596] Buu's House
+[0x5D5AE] Capsule Corporation
+[0x5D5D6] Capsule Room
+[0x5D5F0] Cave of the Ancients
+[0x5D61A] Chi Chi's Room
+[0x5D638] Computer Room
+[0x5D654] Control Room
+[0x5D66E] Crash Site
+[0x5D684] Demon World
+[0x5D69C] Diablo Desert
+[0x5D6B8] Earth
+[0x5D6C4] East District 439
+[0x5D6E8] Exhibit Hall
+[0x5D702] Final Showdown
+[0x5D720] Fukurou Forest
+[0x5D73E] Giant Airship
+[0x5D75A] Giant Crater
+[0x5D774] Gohan and Goten's Room
+[0x5D7A2] Goku's House
+[0x5D7BC] Grandpa Gohan's Hut
+[0x5D7E4] Grand Kai's Mansion
+[0x5D80C] Grand Kai's Planet
+[0x5D832] Gravity Chamber
+[0x5D852] Heaven
+[0x5D860] Hercule Caf
+[0x5D87A] Hercule City
+[0x5D894] Hercule's Mansion
+[0x5D8B8] HFIL
+[0x5D8C2] High Above Earth
+[0x5D8E4] Hyperbolic Time Chamber
+[0x5D914] Intestines
+[0x5D92A] Kame House
+[0x5D940] Kami's Lookout
+[0x5D95E] Kami's Palace
+[0x5D97A] Korin's Tower
+[0x5D996] Kyodai Pyramid
+[0x5D9B4] Outside Kyodai Pyramid
+[0x5D9E2] Lighthouse
+[0x5D9F8] Lobby
+[0x5DA04] Musuka Circus
+[0x5DA20] Nataday Village
+[0x5DA40] Ninja Stronghold
+[0x5DA62] Northern Wilderness
+[0x5DA8A] Orange Star High School
+[0x5DABA] Other World Stadium
+[0x5DAE2] Papaya Island
+[0x5DAFE] Pilaf's Castle
+[0x5DB1C] Planet of the Kais
+[0x5DB42] Rocky Canyon
+[0x5DB5C] Rogue Submarine
+[0x5DB7C] Roshi's Island
+[0x5DB9A] Diablo Desert
+[0x5DBB6] Sinking Ship
+[0x5DBD0] Snakeway
+[0x5DBE2] Southwest Forest
+[0x5DC04] Stolen Airship
+[0x5DC22] Stomach
+[0x5DC32] The Other World
+[0x5DC52] Thieves Den
+[0x5DC6A] Throne Room
+[0x5DC82] Totenhotep's Chamber
+[0x5DCAC] Diablo Desert Express
+[0x5DCD8] Volcano
+[0x5DCE8] Volcano Summit
+[0x5DD06] West City
+[0x5DD1A] Western Wilderness
+[0x5DD40] A Button: [08][07]Descend/Land[08][02] B Button: [08][07]Ascend
+[0x5DDA0] World Tournament Stadium
+[0x5DDD2] Yakon's Planet
+[0x5DDF0] Yemma's Office
+[0x5DE0E] Z-Mart
+[0x5DE1C] Other World Saga
+[0x5DE3E] Great Saiyaman Saga
+[0x5DE66] World Tournament Saga
+[0x5DE92] Babidi Saga
+[0x5DEAA] Majin Vegeta Saga
+[0x5DECE] Dragon Ball Saga
+[0x5DEF0] Majin Buu Saga
+[0x5DF0E] Janemba Saga
+[0x5DF28] Super Buu Saga
+[0x5DF46] Fusion Saga
+[0x5DF5E] Kid Buu Saga
+[0x5DF78] A New Beginning
+[0x5DF98] Go to King Yemma's Castle
+[0x5DFCC] Train with Other World Fighters
+[0x5E00C] Go to the Other World Tournament
+[0x5E04E] Go to your class at Orange Star High School
+[0x5E0A6] Fly to West City and talk to Bulma
+[0x5E0EC] Fight Crime in Hercule City
+[0x5E124] Defeat the Red Shark Gang and Save the Mayor
+[0x5E17E] Save Chobi from the Circus
+[0x5E1B4] Tell Your Mother That Goku's Coming Back
+[0x5E206] Tell Piccolo and Dende That Goku's Coming Back
+[0x5E264] Tell Bulma and Vegeta That Goku's Coming Back
+[0x5E2C0] Tell Master Roshi and Krillin That Goku's Coming Back
+[0x5E32C] Meet Goten in the eastern forest to train.
+[0x5E382] Meet Bulma to go to the World Tournament
+[0x5E3D4] Register for the World Tournament
+[0x5E418] Go to Kami's Lookout and get a Senzu Bean from Korrin
+[0x5E484] Find Babidi's Spaceship
+[0x5E4B4] Enter Babidi's Ship and Defeat Dabura
+[0x5E500] Destroy Babidi's Spaceship
+[0x5E536] Go To Kami's Lookout
+[0x5E560] Get the Dragon Radar from Bulma
+[0x5E5A0] Find The Dragon Balls
+[0x5E5CC] Find Vegeta in HFIL
+[0x5E5F4] Defeat Janemba
+[0x5E612] Pull the Z-Sword from the rock
+[0x5E650] Take a nap at Kami's Lookout
+[0x5E68A] Get the Scouter Upgrade from Dr. Brief at Capsule Corp
+[0x5E6F8] Save Goten and Trunks from Super Buu.
+[0x5E744] Find Dende
+[0x5E75A] Go back and defeat Super Buu
+[0x5E794] Find Gohan, Goten, Trunks, and Piccolo
+[0x5E7E2] Escape from Buu
+[0x5E802] Go to the Barren Wastelands and Defeat Kid Buu
+[0x5E860] Get a root beer for the Lighthouse Keeper
+[0x5E8B4] Get a turkey for the Lighthouse Keeper
+[0x5E902] Get Hercule-ade for the Lighthouse Keeper
+[0x5E956] Get an elixir for the Lighthouse Keeper
+[0x5E9A6] Get a dinosaur tail for the Lighthouse Keeper
+[0x5EA02] Get a super elixir for the Lighthouse Keeper
+[0x5EA5C] Defeat Airship Bandits and take the bandanas they drop to the Ninja
+[0x5EAE4] Miso Soup
+[0x5EAF8] Miso Soup
+[0x5EB0C] Miso Soups
+[0x5EB22] A tasty, yet nutritious soup. Restores 20 hit points.
+[0x5EB8E] Rice Ball
+[0x5EBA2] Rice Ball
+[0x5EBB6] Rice Balls
+[0x5EBCC] A small ball of sticky rice. Restores 40 hit points.
+[0x5EC36] Chicken Leg
+[0x5EC4E] Chicken Leg
+[0x5EC66] Chicken Legs
+[0x5EC80] It tastes like chicken! Restores 80 hit points.
+[0x5ECE0] Hamburger
+[0x5ECF4] Hamburger
+[0x5ED08] Hamburgers
+[0x5ED1E] A flame broiled and delicious hamburger. Restores 120 hit points.
+[0x5EDA2] Onigiri
+[0x5EDB2] Onigiri
+[0x5EDC2] Onigiri
+[0x5EDD2] A traditional triangle of rice, wrapped in kelp. Restores 200 hit points.
+[0x5EE66] Curry Plate
+[0x5EE7E] Curry Plate
+[0x5EE96] Curry Plates
+[0x5EEB0] A dish of chicken and rice covered in a spicy curry sauce. Restores 400 hit points.
+[0x5EF58] Turkey
+[0x5EF66] Turkey
+[0x5EF74] Turkeys
+[0x5EF84] A full sized turkey with stuffing. Restores 800 hit points.
+[0x5EFFC] Steak
+[0x5F008] Steak
+[0x5F014] Steaks
+[0x5F022] A medium-rare steak seasoned to perfection. Restores 600 hit points.
+[0x5F0AC] 3Course Meal
+[0x5F0C6] Three Course Meal
+[0x5F0EA] Three Course Meals
+[0x5F110] Are you sure you can eat that all by yourself? Restores 1100 hit points.
+[0x5F1A2] DinosaurTail
+[0x5F1BC] Dinosaur Tail
+[0x5F1D8] Dinosaur Tails
+[0x5F1F6] They say the most succulent dinosaur meat comes from the tail. Restores 1500 hit points.
+[0x5F2A8] Milk
+[0x5F2B2] Milk
+[0x5F2BC] Milk
+[0x5F2C6] A carton of milk. Restores 20 energy points.
+[0x5F320] Tea
+[0x5F328] Tea
+[0x5F330] Tea
+[0x5F338] Care for a spot of tea? Restores 40 energy points.
+[0x5F39E] Soda
+[0x5F3A8] Soda
+[0x5F3B2] Sodas
+[0x5F3BE] Now that's a tasty beverage! Restores 80 energy points.
+[0x5F42E] V. Soda
+[0x5F43E] Vanilla Soda
+[0x5F458] Vanilla Sodas
+[0x5F474] Vanilla makes a good soda even better! Restores 125 energy points.
+[0x5F4FA] C. Soda
+[0x5F50A] Cherry Soda
+[0x5F522] Cherry Sodas
+[0x5F53C] There's nothing like a good Cherry Soda! Restores 175 energy points.
+[0x5F5C6] Root Beer
+[0x5F5DA] Root Beer
+[0x5F5EE] Root Beers
+[0x5F604] A cool refreshing root beer. Restores 250 energy points.
+[0x5F676] Hercule-ade
+[0x5F68E] Hercule-ade
+[0x5F6A6] Hercule-ades
+[0x5F6C0] Replenishes your precious electrolytes. Restores 350 energy points.
+[0x5F748] Elixir
+[0x5F756] Elixir
+[0x5F764] Elixirs
+[0x5F774] A rare magical liquid that restores your vitality! Restores 500 energy points.
+[0x5F812] S. Elixir
+[0x5F826] Super Elixir
+[0x5F840] Super Elixirs
+[0x5F85C] The best magical elixir on the market. Restores 750 energy points.
+[0x5F8E2] DinosaurMilk
+[0x5F8FC] Dinosaur Milk
+[0x5F918] Dinosaur Milk
+[0x5F934] Where does dinosaur milk come from? Restores 2500 energy points.
+[0x5F9B6] Holy Water
+[0x5F9CC] Holy Water
+[0x5F9E2] Holy Waters
+[0x5F9FA] The legendary holy water of Korin. Greatly increases your stats for 30 seconds.
+[0x5FA9A] Senzu Bean
+[0x5FAB0] Senzu Bean
+[0x5FAC6] Senzu Beans
+[0x5FADE] One of Korin's special Senzu Beans. Fully restores hit points and energy.
+[0x5FB72] Capsule
+[0x5FB82] Capsule
+[0x5FB92] Capsules
+[0x5FBA4] A Dyna-Cap.  What is contained inside? It is a mystery.
+[0x5FC14] L. Crystal
+[0x5FC2A] Lazarus Crystal
+[0x5FC4A] Lazarus Crystals
+[0x5FC6C] A strange blue crystal. Some say carrying them is good luck!
+[0x5FCE6] 2402 Capsule
+[0x5FD00] 2402 Capsule
+[0x5FD1A] 2402 Capsule
+[0x5FD34] A Number 2402 Capsule that contains a digital wrist watch.
+[0x5FDAA] Dragon Ball 1
+[0x5FDC6] Dragon Ball 1
+[0x5FDE2] Dragon Ball 1
+[0x5FDFE] The one-star Dragon Ball.
+[0x5FE32] Dragon Ball 2
+[0x5FE4E] Dragon Ball 2
+[0x5FE6A] Dragon Ball 2
+[0x5FE86] The two-star Dragon Ball.
+[0x5FEBA] Dragon Ball 3
+[0x5FED6] Dragon Ball 3
+[0x5FEF2] Dragon Ball 3
+[0x5FF0E] The three-star Dragon Ball.
+[0x5FF46] Dragon Ball 4
+[0x5FF62] Dragon Ball 4
+[0x5FF7E] Dragon Ball 4
+[0x5FF9A] The four-star Dragon Ball.
+[0x5FFD0] Dragon Ball 5
+[0x5FFEC] Dragon Ball 5
+[0x60008] Dragon Ball 5
+[0x60024] The five-star Dragon Ball.
+[0x6005A] Dragon Ball 6
+[0x60076] Dragon Ball 6
+[0x60092] Dragon Ball 6
+[0x600AE] The six-star Dragon Ball.
+[0x600E2] Dragon Ball 7
+[0x600FE] Dragon Ball 7
+[0x6011A] Dragon Ball 7
+[0x60136] The seven-star Dragon Ball.
+[0x6016E] P. Earring
+[0x60184] Potara Earring
+[0x601A2] Potara Earrings
+[0x601C2] Wear these Earrings to perform a more powerful fusion than the fusion dance.
+[0x6025C] Small Fish
+[0x60272] Small Fish
+[0x60288] Small Fish
+[0x6029E] A lovely, little fish.
+[0x602CC] Red Snapper
+[0x602E4] Red Snapper
+[0x602FC] Red Snapper
+[0x60314] Oooo! A Red Snapper! Very tasty!
+[0x60356] Large Fish
+[0x6036C] Large Fish
+[0x60382] Large Fish
+[0x60398] Once thought extinct, these giant fish are now quite plentiful.
+[0x60418] Switch
+[0x60426] Switch
+[0x60434] Switch
+[0x60442] It's a switch with two prongs, but it's not attached to anything.
+[0x604C6] Grandpa's Key
+[0x604E2] Grandpa's Key
+[0x604FE] Grandpa's Key
+[0x6051A] The key to Grandpa Gohan's house.
+[0x6055E] Headdress
+[0x60572] Headdress of Totenhotep
+[0x605A2] Headdress of Totenhotep
+[0x605D2] The headdress of an ancient pharaoh. Some say it's cursed!
+[0x60648] Key
+[0x60650] Key
+[0x60658] Key
+[0x60660] An old key.
+[0x60678] Ninja Key
+[0x6068C] Ninja Key
+[0x606A0] Ninja Key
+[0x606B4] The key to the Boss Ninja's inner sanctum
+[0x60708] Old Shoe
+[0x6071A] Old Shoe
+[0x6072C] Old Shoes
+[0x60740] An old shoe? What are you going to do with this?
+[0x607A2] H. Exhibit [23]1
+[0x607BE] Hercule Exhibit [23]1
+[0x607E4] Hercule Exhibit [23]1
+[0x6080A] A crate with Hercule's logo on it.
+[0x60850] H. Exhibit [23]2
+[0x6086C] Hercule Exhibit [23]2
+[0x60892] Hercule Exhibit [23]2
+[0x608B8] A crate with Hercule's logo on it.
+[0x608FE] H. Exhibit [23]3
+[0x6091A] Hercule Exhibit [23]3
+[0x60940] Hercule Exhibit [23]3
+[0x60966] A crate with Hercule's logo on it.
+[0x609AC] H. Exhibit [23]4
+[0x609C8] Hercule Exhibit [23]4
+[0x609EE] Hercule Exhibit [23]4
+[0x60A14] A crate with Hercule's logo on it.
+[0x60A5A] H. Exhibit [23]5
+[0x60A76] Hercule Exhibit [23]5
+[0x60A9C] Hercule Exhibit [23]5
+[0x60AC2] A crate with Hercule's logo on it.
+[0x60B08] H. Exhibit [23]6
+[0x60B24] Hercule Exhibit [23]6
+[0x60B4A] Hercule Exhibit [23]6
+[0x60B70] A crate with Hercule's logo on it.
+[0x60BB6] H. Exhibit [23]7
+[0x60BD2] Hercule Exhibit [23]7
+[0x60BF8] Hercule Exhibit [23]7
+[0x60C1E] A crate with Hercule's logo on it.
+[0x60C64] H. Exhibit [23]8
+[0x60C80] Hercule Exhibit [23]8
+[0x60CA6] Hercule Exhibit [23]8
+[0x60CCC] A crate with Hercule's logo on it.
+[0x60D12] H. Exhibit [23]9
+[0x60D2E] Hercule Exhibit [23]9
+[0x60D54] Hercule Exhibit [23]9
+[0x60D7A] A crate with Hercule's logo on it.
+[0x60DC0] H. Exhibit [23]10
+[0x60DDE] Hercule Exhibit [23]10
+[0x60E06] Hercule Exhibit [23]10
+[0x60E2E] A crate with Hercule's logo on it.
+[0x60E74] H. Exhibit [23]11
+[0x60E92] Hercule Exhibit [23]11
+[0x60EBA] Hercule Exhibit [23]11
+[0x60EE2] A crate with Hercule's logo on it.
+[0x60F28] H. Exhibit [23]12
+[0x60F46] Hercule Exhibit [23]12
+[0x60F6E] Hercule Exhibit [23]12
+[0x60F96] A crate with Hercule's logo on it.
+[0x60FDC] H. Exhibit [23]13
+[0x60FFA] Hercule Exhibit [23]13
+[0x61022] Hercule Exhibit [23]13
+[0x6104A] A crate with Hercule's logo on it.
+[0x61090] H. Exhibit [23]14
+[0x610AE] Hercule Exhibit [23]14
+[0x610D6] Hercule Exhibit [23]14
+[0x610FE] A crate with Hercule's logo on it.
+[0x61144] H. Exhibit [23]15
+[0x61162] Hercule Exhibit [23]15
+[0x6118A] Hercule Exhibit [23]15
+[0x611B2] A crate with Hercule's logo on it.
+[0x611F8] H. Exhibit [23]16
+[0x61216] Hercule Exhibit [23]16
+[0x6123E] Hercule Exhibit [23]16
+[0x61266] A crate with Hercule's logo on it.
+[0x612AC] H. Exhibit [23]17
+[0x612CA] Hercule Exhibit [23]17
+[0x612F2] Hercule Exhibit [23]17
+[0x6131A] A crate with Hercule's logo on it.
+[0x61360] H. Exhibit [23]18
+[0x6137E] Hercule Exhibit [23]18
+[0x613A6] Hercule Exhibit [23]18
+[0x613CE] A crate with Hercule's logo on it.
+[0x61414] H. Exhibit [23]19
+[0x61432] Hercule Exhibit [23]19
+[0x6145A] Hercule Exhibit [23]19
+[0x61482] A crate with Hercule's logo on it.
+[0x614C8] H. Exhibit [23]20
+[0x614E6] Hercule Exhibit [23]20
+[0x6150E] Hercule Exhibit [23]20
+[0x61536] A crate with Hercule's logo on it.
+[0x6157C] H. Exhibit [23]21
+[0x6159A] Hercule Exhibit [23]21
+[0x615C2] Hercule Exhibit [23]21
+[0x615EA] A crate with Hercule's logo on it.
+[0x61630] H. Exhibit [23]22
+[0x6164E] Hercule Exhibit [23]22
+[0x61676] Hercule Exhibit [23]22
+[0x6169E] A crate with Hercule's logo on it.
+[0x616E4] H. Exhibit [23]23
+[0x61702] Hercule Exhibit [23]23
+[0x6172A] Hercule Exhibit [23]23
+[0x61752] A crate with Hercule's logo on it.
+[0x61798] H. Exhibit [23]24
+[0x617B6] Hercule Exhibit [23]24
+[0x617DE] Hercule Exhibit [23]24
+[0x61806] A crate with Hercule's logo on it.
+[0x6184C] H. Exhibit [23]25
+[0x6186A] Hercule Exhibit [23]25
+[0x61892] Hercule Exhibit [23]25
+[0x618BA] A crate with Hercule's logo on it.
+[0x61900] Z. Exhibit [23]1
+[0x6191C] Z-Fighter Exhibit [23]1
+[0x61946] Z-Fighter Exhibit [23]1
+[0x61970] A crate with a Z logo on it.
+[0x619AA] Z. Exhibit [23]2
+[0x619C6] Z-Fighter Exhibit [23]2
+[0x619F0] Z-Fighter Exhibit [23]2
+[0x61A1A] A crate with a Z logo on it.
+[0x61A54] Z. Exhibit [23]3
+[0x61A70] Z-Fighter Exhibit [23]3
+[0x61A9A] Z-Fighter Exhibit [23]3
+[0x61AC4] A crate with a Z logo on it.
+[0x61AFE] Z. Exhibit [23]4
+[0x61B1A] Z-Fighter Exhibit [23]4
+[0x61B44] Z-Fighter Exhibit [23]4
+[0x61B6E] A crate with a Z logo on it.
+[0x61BA8] Z. Exhibit [23]5
+[0x61BC4] Z-Fighter Exhibit [23]5
+[0x61BEE] Z-Fighter Exhibit [23]5
+[0x61C18] A crate with a Z logo on it.
+[0x61C52] Z. Exhibit [23]6
+[0x61C6E] Z-Fighter Exhibit [23]6
+[0x61C98] Z-Fighter Exhibit [23]6
+[0x61CC2] A crate with a Z logo on it.
+[0x61CFC] Z. Exhibit [23]7
+[0x61D18] Z-Fighter Exhibit [23]7
+[0x61D42] Z-Fighter Exhibit [23]7
+[0x61D6C] A crate with a Z logo on it.
+[0x61DA6] Z. Exhibit [23]8
+[0x61DC2] Z-Fighter Exhibit [23]8
+[0x61DEC] Z-Fighter Exhibit [23]8
+[0x61E16] A crate with a Z logo on it.
+[0x61E50] Z. Exhibit [23]9
+[0x61E6C] Z-Fighter Exhibit [23]9
+[0x61E96] Z-Fighter Exhibit [23]9
+[0x61EC0] A crate with a Z logo on it.
+[0x61EFA] Z. Exhibit [23]10
+[0x61F18] Z-Fighter Exhibit [23]10
+[0x61F44] Z-Fighter Exhibit [23]10
+[0x61F70] A crate with a Z logo on it.
+[0x61FAA] Z. Exhibit [23]11
+[0x61FC8] Z-Fighter Exhibit [23]11
+[0x61FF4] Z-Fighter Exhibit [23]11
+[0x62020] A crate with a Z logo on it.
+[0x6205A] Z. Exhibit [23]12
+[0x62078] Z-Fighter Exhibit [23]12
+[0x620A4] Z-Fighter Exhibit [23]12
+[0x620D0] A crate with a Z logo on it.
+[0x6210A] Z. Exhibit [23]13
+[0x62128] Z-Fighter Exhibit [23]13
+[0x62154] Z-Fighter Exhibit [23]13
+[0x62180] A crate with a Z logo on it.
+[0x621BA] Z. Exhibit [23]14
+[0x621D8] Z-Fighter Exhibit [23]14
+[0x62204] Z-Fighter Exhibit [23]14
+[0x62230] A crate with a Z logo on it.
+[0x6226A] Z. Exhibit [23]15
+[0x62288] Z-Fighter Exhibit [23]15
+[0x622B4] Z-Fighter Exhibit [23]15
+[0x622E0] A crate with a Z logo on it.
+[0x6231A] Cookie
+[0x62328] Cookie
+[0x62336] Cookies
+[0x62346] Mrs. Brief's freshly baked chocolate chip cookie! Restores 5 hit points.
+[0x623D8] Human
+[0x623E4] The Capsule Corporation database has no information on this person.
+[0x6246C] Fighter
+[0x6247C] This is a martial artist from the Other World.
+[0x624DA] Olibu
+[0x624E6] Olibu is an Other World fighter, originally from Earth. Many of Earth's legends are based off of him.
+[0x625B2] Criminal
+[0x625C4] A known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.
+[0x6267C] Mercenary
+[0x62690] A ruthless soldier of fortune. Armed with rocket propelled grenades.
+[0x6271A] Gunman
+[0x62728] A known criminal, wanted on several counts of mischief and multiple counts of high jinks.
+[0x627DE] Bomber
+[0x627EC] A bomber armed with dangerous explosives. Approach with extreme caution.
+[0x6287E] Majin Soldier
+[0x6289A] One of Babidi's Majin Henchmen from an unknown alien species.
+[0x62916] Majin Fighter
+[0x62932] A martial artist who has been converted over to Babidi's side.
+[0x629B0] Ninja
+[0x629BC] A ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving.
+[0x62AB4] Destroyer
+[0x62AC8] A robot with thick geromantium armor that makes it invulnerable to most conventional attacks.
+[0x62B84] Laser Turret
+[0x62B9E] These advanced megawatt class chemical laser guns are quite dangerous.
+[0x62C2C] Samurai
+[0x62C3C] Although many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.
+[0x62D94] Tank
+[0x62D9E] Battle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.
+[0x62E74] Pikkon
+[0x62E82] A powerful and respected alien warrior in the Other World.
+[0x62EF8] Idasa
+[0x62F04] An elementary school student who has made a name for himself in various junior martial arts tournaments.
+[0x62FD6] Spopovich
+[0x62FEA] This martial artist fought against Hercule in the 24th World Tournament. There appears to be something strange about him...
+[0x630E2] Yamu
+[0x630EC] There appears to be something strange about this martial artist.
+[0x6316E] PuiPui
+[0x6317C] PuiPui is an alien from the planet Zoon and also a henchman of Babidi.
+[0x6320A] Dabura
+[0x63218] Dabura is the ruler of the Underworld. He is a henchman of Babidi.
+[0x6329E] Babidi
+[0x632AC] An evil wizard. Babidi is the son of Bibidi. He controls people by exploiting the evil in their hearts.
+[0x6337C] Majin Buu
+[0x63390] An evil creature created by Bibidi many ages ago. Although he is child-like, his extreme power, underdeveloped sense of right and wrong, and rubbery indestructible body make him a dangerous adversary.
+[0x63522] King Kai
+[0x63534] This guardian of the North Galaxy is known as one of the greatest martial arts trainers in the universe, and his corny sense of humor.
+[0x63642] Bulma
+[0x6364E] Bulma Brief is the daughter of the founder and president of the Capsule Corporation, Dr. Brief. Bulma has many invention patents in her name, most notably the Dragon Radar. Bulma is often involved in Goku's adventures, and is married to Vegeta.
+[0x63838] Broly
+[0x63844] Broly is the Legendary Super Saiyan, prophesied in ancient Saiyan folklore. Once defeated by Goku, he has returned, insane with rage.
+[0x63950] Kid Buu
+[0x63960] Although  he looks like a child, Kid Buu is actually the most dangerous of all Buu's many forms.
+[0x63A22] Super Buu
+[0x63A36] When Majin Buu was absorbed the mysterious Evil Buu, the Evil Buu transformed into this new dangerous form.
+[0x63B0E] Super Buu
+[0x63B22] When Gotenks was absorbed by Super Buu, Super Buu transformed into this new form.
+[0x63BC6] Super Buu
+[0x63BDA] When Gohan was absorbed by Super Buu, Super Buu transformed into this new form.
+[0x63C7A] Janemba
+[0x63C8A] The evil soul of an organized crime boss named Janemba has escaped and become this evil creature.
+[0x63D4E] Super Janemba
+[0x63D6A] Janemba has transformed into a faster and more dangerous form.
+[0x63DE8] Yakon
+[0x63DF4] A notorious monster from an alien planet of darkness. Has the power to absorb energy.
+[0x63EA0] Android [23]13
+[0x63EB8] An evil Android created by Dr. Gero's computer.
+[0x63F18] Android [23]14
+[0x63F30] An evil Android created by Dr. Gero's computer.
+[0x63F90] Android [23]15
+[0x63FA8] An evil Android created by Dr. Gero's computer.
+[0x64008] Super Android [23]13
+[0x6402C] After absorbing the broken parts of Androids [23]14 and [23]15, [23]13 transformed into this Super Android.
+[0x640F2] Android [23]18
+[0x6410A] Once Dr. Gero's evil Android, she has now changed her ways and fights for the good guys. Is married to Krillin.
+[0x641EA] Hercule
+[0x641FA] The World Champion of Martial Arts. The world believes he was the one who defeated Cell, even though it was really Gohan. Although a powerful martial artist in his own right, he is no match for the Z-fighters powers.
+[0x643AC] Krillin
+[0x643BC] Krillin is an old friend of Goku's. They trained together under Master Roshi. Krillin is married to Android [23]18.
+[0x6449E] Tien
+[0x644A8] Tien was once a rival of Goku is now a loyal Z-Fighter. His most distinguishing feature is his mysterious third eye.
+[0x64592] Videl
+[0x6459E] The crimefighting daughter of Hercule. She attends Orange Star High School with Gohan.
+[0x6464C] Yamcha
+[0x6465A] Yamcha was once known as the dreaded Desert Bandit of Diablo Desert. He's now one of good guys.
+[0x6471A] Announcer
+[0x6472E] This Announcer has been announcing Martial Arts Tournaments since back when Goku was a kid!
+[0x647E6] Baba
+[0x647F0] Baba is a fortune teller who sometimes acts as an emmisary between the physical world and the Other World. She is also Master Roshi's sister.
+[0x6490C] Dr. Brief
+[0x64920] Dr. Brief is the president of the Capsule Corporation, and Bulma's father.
+[0x649B6] Mrs. Brief
+[0x649CC] Mrs. Brief is Dr. Brief's wife, and Bulma's mother.
+[0x64A34] Bubbles
+[0x64A44] Bubbles is an ape who hangs out with King Kai.
+[0x64AA2] Chiaotzu
+[0x64AB4] Chiaotzu is a mysterious telepathic being who is often seen around Tien.
+[0x64B46] Chi-Chi
+[0x64B56] Chi-Chi is Goku's wife and Gohan and Goten's mother. She is the daughter of the Ox-King.
+[0x64C08] Chobi
+[0x64C14] Chobi is a dinosaur who is friends with Gohan's family.
+[0x64C84] Dende
+[0x64C90] Dende is the Guardian Of Earth and an alien from the planet Namek.
+[0x64D16] Erasa
+[0x64D22] Erasa attends high school with Gohan at Orange Star High School.
+[0x64DA4] Gregory
+[0x64DB4] Gregory is a talking cricket who hangs out with King Kai.
+[0x64E28] Jewl
+[0x64E32] Jewl is a popular martial artist.
+[0x64E76] Grand Kai
+[0x64E8A] The Grand Kai is one of the Guardians of the universe and of the Other World. He is also a legendary martial artist.
+[0x64F74] Supreme Kai
+[0x64F8C] The Supreme Kai is the highest ranking Guardian of the universe.
+[0x6500E] Kibito
+[0x6501C] Kibito is the body guard of the Supreme Kai.
+[0x65076] Kibitoshin
+[0x6508C] The Supreme Kai and Kibito fused to become Kibitoshin.
+[0x650FA] Killa
+[0x65106] Killa is a martial artist.
+[0x6513C] King Yemma
+[0x65152] King Yemma is a giant ogre who guards the entrance to the Other World.
+[0x651E0] Yemma's Assistant
+[0x65204] This assistant helps King Yemma usher souls into the Other World.
+[0x65288] Korin
+[0x65294] Korin is a wise martial artist cat who lives at the top of Korin's tower.
+[0x65328] Marron
+[0x65336] Marron is the daughter of Krillin and Android [23]18.
+[0x6539C] Master Roshi
+[0x653B6] Master Roshi is a master of martial arts who trained Goku and Krillin. He is also known as the Turtle Hermit.
+[0x65492] Mayor
+[0x6549E] The Mayor of Hercule City.
+[0x654D4] Monk
+[0x654DE] One of the monks in charge of running the World Tournament.
+[0x65556] Mr. Popo
+[0x65568] Mr. Popo is Dende's right hand man. He has lived on Kami's Lookout for countless ages.
+[0x65616] Oolong
+[0x65624] Oolong is a friend of the Z-Fighters. He has the power to shapeshift.
+[0x656B0] Ox King
+[0x656C0] Ox King is the father of Chi-Chi.
+[0x65704] Emperor Pilaf
+[0x65720] The bumbling Pilaf has tried to take over the world many times, but is usually foiled by Goku.
+[0x657DE] Pintar
+[0x657EC] Pintar is a martial artist.
+[0x65824] Village Priest
+[0x65842] The head shaman of Nataday Village.
+[0x6588A] Puar
+[0x65894] Puar is a shapeshiting cat and a constant companion of Yamcha.
+[0x65912] Musaka
+[0x65920] Musaka is the ringmaster of the Musaka Circus.
+[0x6597E] Scientist
+[0x65992] A man of science!
+[0x659B6] Sharpner
+[0x659C8] Sharpner attends Orange Star High School with Gohan.
+[0x65A32] Soul
+[0x65A3C] This is a spirit that lives in the Other World.
+[0x65A9C] Uub
+[0x65AA4] Uub is 10 year old boy who is the reincarnation of Buu.
+[0x65B16] Yajirobe
+[0x65B28] Yajirobe is a friend of the Z-Fighters. Although he carries a sword, he rarely uses it.
+[0x65BD8] Bio Mech
+[0x65BEA] Watch out for this Cyborg's killer claw!
+[0x65C3C] Blister
+[0x65C4C] This blister creates enzymes.
+[0x65C88] Enzyme
+[0x65C96] Enzymes assist Buu in digestion.
+[0x65CD8] Blood Cell
+[0x65CEE] The Blood Cells in Buu's immune system don't like intruders.
+[0x65D68] Cyborg
+[0x65D76] Half man... Half machine... All deadly.
+[0x65DC6] Ghost
+[0x65DD2] These spirits come from the Other World to haunt the living.
+[0x65E4C] Mini-Janemba
+[0x65E66] Janemba creates these miniature versions of himself.
+[0x65ED0] Knight Destroyer
+[0x65EF2] The Destroyer's nastier, stronger, and meaner older brother.
+[0x65F6C] Majin Shield Soldier
+[0x65F96] This Majin Soldier will block your attacks with his shield.
+[0x6600E] Mechanoid
+[0x66022] This cyborg transforms into a metal ball.
+[0x66076] Mud Man
+[0x66086] This Mud Man will split in half when you attack him.
+[0x660F0] Mummy
+[0x660FC] From the ancient sands of time these mummies awaken to curse the living.
+[0x6618E] Skeleton
+[0x661A0] The bones of the dead are animated by an unseen force.
+[0x6620E] Sky Bandit
+[0x66224] These bandits have taken to the sky! Watch out for their bombs.
+[0x662A4] Thug
+[0x662AE] These tough guys have more muscles than brains.
+[0x6630E] Vampire
+[0x6631E] These undead monsters thrive off of the blood of the living.
+[0x66398] Worm Head
+[0x663AC] These worms live inside Buu's digestive system.
+[0x6640C] Worm Body
+[0x66420] These worms live inside Buu's digestive system.
+[0x66480] Worm Tail
+[0x66494] These worms live inside Buu's digestive system.
+[0x664F4] Mini-Yakon
+[0x6650A] These aliens are like miniature versions of Yakon.
+[0x66570] Zombie
+[0x6657E] When there is no more room in H.F.I.L. the dead will walk the Earth.
+[0x66608] Gohan
+[0x66614] Gohan is the son of Goku and Chi-Chi. He is half human and half Saiyan. Gohan defeated Cell in the Cell Games.
+[0x666F2] Goku
+[0x666FC] Goku is a Saiyan from the planet Vegeta that was stranded on Earth. He is an all-around good guy, who often saves the Earth.
+[0x667F6] Goten
+[0x66802] Goten is the son of  Goku and Chi-Chi. Despite his young age, he's one of the most powerful fighters in the universe.
+[0x668EE] Trunks
+[0x668FC] Trunks is the son of Vegeta and Bulma. Despite his young age he's one of the most powerful fighters in the universe.
+[0x669E6] Vegeta
+[0x669F4] Vegeta was the prince of the Planet Vegeta before it was destroyed by Frieza. Although he was once a villian, he usually fights for the Z-Fighters now.
+[0x66B24] Piccolo
+[0x66B34] Once an evil villian, Piccolo has seen the error of his ways and is now one of Earth's greatest heroes. Piccolo is an alien from the planet Namek.
+[0x66C5A] Annihilator
+[0x66C72] A robot with thick geromantium armor that makes it invulnerable to most conventional attacks.
+[0x66D2E] Assassin
+[0x66D40] A known criminal, wanted on several counts of mischief and multiple counts of high jinks.
+[0x66DF6] Atomizer
+[0x66E08] These advanced megawatt class chemical laser guns are quite dangerous.
+[0x66E96] Bones
+[0x66EA2] The bones of the dead are animated by an unseen force.
+[0x66F10] Bruiser
+[0x66F20] These tough guys have more muscles than brains.
+[0x66F80] Cursed One
+[0x66F96] From the ancient sands of time these mummies awaken to curse the living.
+[0x67028] Death Machine
+[0x67044] A robot with thick geromantium armor that makes it invulnerable to most conventional attacks.
+[0x67100] Elite Majin Fighter
+[0x67128] A martial artist who has been converted over to Babidi's side.
+[0x671A6] Elite Majin Soldier
+[0x671CE] One of Babidi's Majin Henchmen from an unknown alien species.
+[0x6724A] Elite Shield Soldier
+[0x67274] This Majin Soldier will block your attacks with his shield.
+[0x672EC] Ghoul
+[0x672F8] When there is no more room in H.F.I.L. the dead will walk the Earth.
+[0x67382] Golem
+[0x6738E] This Mud Man will split in half when you attack him.
+[0x673F8] Goon
+[0x67402] These tough guys have more muscles than brains.
+[0x67462] Grand Mechanoid
+[0x67482] This cyborg transforms into a metal ball.
+[0x674D6] Grenadier
+[0x674EA] A bomber armed with dangerous explosives. Approach with extreme caution.
+[0x6757C] Hessian
+[0x6758C] A ruthless soldier of fortune. Armed with rocket propelled grenades.
+[0x67616] Hooligan
+[0x67628] A known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.
+[0x676E0] Hyper Cyborg
+[0x676FA] Half man... Half machine... All deadly.
+[0x6774A] Ion Cannon
+[0x67760] These advanced megawatt class chemical laser guns are quite dangerous.
+[0x677EE] Janemba Hand
+[0x67808] Be careful of the hand of Janemba that travels through a dimensional portal.
+[0x678A2] Juggernaut
+[0x678B8] Battle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.
+[0x6798E] Lich
+[0x67998] The bones of the dead are animated by an unseen force.
+[0x67A06] Living Dead
+[0x67A1E] When there is no more room in H.F.I.L. the dead will walk the Earth.
+[0x67AA8] Mad Bomber
+[0x67ABE] A bomber armed with dangerous explosives. Approach with extreme caution.
+[0x67B50] Marauder
+[0x67B62] A ruthless soldier of fortune. Armed with rocket propelled grenades.
+[0x67BEC] Mega Cyborg
+[0x67C04] Half man... Half machine... All deadly.
+[0x67C54] Metal Hulk
+[0x67C6A] The Destroyer's nastier, stronger, and meaner older brother.
+[0x67CE4] Ninja Boss
+[0x67CFA] A ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving.
+[0x67DF2] Nosferatu
+[0x67E06] These undead monsters thrive off of the blood of the living.
+[0x67E80] Phantom
+[0x67E90] These spirits come from the Other World to haunt the living.
+[0x67F0A] Pharoah
+[0x67F1A] From the ancient sands of time these mummies awaken to curse the living.
+[0x67FAC] Poltergeist
+[0x67FC4] These spirits come from the Other World to haunt the living.
+[0x6803E] Power Mechandoid
+[0x68060] This cyborg transforms into a metal ball.
+[0x680B4] Rapscallion
+[0x680CC] A known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.
+[0x68184] Ronin
+[0x68190] Although many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.
+[0x682E8] Shadow Colossus
+[0x68308] The Destroyer's nastier, stronger, and meaner older brother.
+[0x68382] Shadow Warrior
+[0x683A0] A ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving.
+[0x68498] Shinobi
+[0x684A8] A ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving.
+[0x685A0] Shogun
+[0x685AE] Although many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.
+[0x68706] Sniper
+[0x68714] A known criminal, wanted on several counts of mischief and multiple counts of high jinks.
+[0x687CA] Super Bio Mech
+[0x687E8] Watch out for this Cyborg's killer claw!
+[0x6883A] Super Majin Fighter
+[0x68862] A martial artist who has been converted over to Babidi's side.
+[0x688E0] Super Majin Soldier
+[0x68908] One of Babidi's Majin Henchmen from an unknown alien species.
+[0x68984] Super Shield Soldier
+[0x689AE] This Majin Soldier will block your attacks with his shield.
+[0x68A26] Trash Heap
+[0x68A3C] This Mud Man will split in half when you attack him.
+[0x68AA6] Ultra Bio Mech
+[0x68AC4] Watch out for this Cyborg's killer claw!
+[0x68B16] Vlad
+[0x68B20] These undead monsters thrive off of the blood of the living.
+[0x68B9A] War Machine
+[0x68BB2] Battle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.
+[0x68C88] Majin Vegeta
+[0x68CA2] Vegeta has been taken over by Babidi's Majin powers.
+[0x68D0C] Airship Warlord
+[0x68D2C] Watch out for this Cyborg's killer claw!
+[0x68D7E] Pilaf's Guardian
+[0x68DA0] The Destroyer's nastier, stronger, and meaner older brother.
+[0x68E1A] Pharoah Totenhotep
+[0x68E40] From the ancient sands of time these mummies awaken to curse the living.
+[0x68ED2] Gotenks
+[0x68EE2] Gotenks is the fusion of Goten and Trunks using the Metamorese Art of Fusion.
+[0x68F7E] Gogeta
+[0x68F8C] Gogeta is the fusion of Goku and Vegeta using the Metamorese Art of Fusion.
+[0x69024] Vegito
+[0x69032] Vegito is the fusion of Goku and Vegeta using the magic Potara earrings.
+[0x690C4] Alien Announcer
+[0x690E4] This fungus alien is well known as the announcer of the Other World Tournament.
+[0x69184] West Kai
+[0x69196] This guardian of the West Galaxy has a fierce rivalry with King Kai.
+[0x69220] Banshee Blast
+[0x6923C] Hold the B Button to emit 5 thin, powerful beams of energy, one from each finger.
+[0x692E0] Big Bang
+[0x692F2] Press the B Button and release to emit a large ball of energy that explodes on contact.  Hold the B Button longer to make the attack stronger.
+[0x69410] Big Bang Kamehameha
+[0x69438] Hold the B Button to create a large ball of energy, followed by a long beam.
+[0x694D6] Burning Attack
+[0x694F4] Press the B Button to shoot a spiked ball of chrono-energy which stuns enemies on contact.  Hold the B Button longer to increase stun time.
+[0x6960C] Dragon Fist Explosion
+[0x69638] Hold the B Button to create a giant dragon of pure energy.  Use the +Control Pad to control the dragon's head.  Release the B Button to make the dragon bite.
+[0x69774] Electric Kamehameha
+[0x6979C] Hold the B Button to emit a long beam of energy.  Enemies hit by this beam can become electrically charged.
+[0x69874] Energy Blast
+[0x6988E] Press the B Button to shoot out a concentrated missile of internal energy.  Press the B Button multiple times to shoot out many blasts.
+[0x6999E] Energy Punch
+[0x699B8] Press the B Button to throw a mighty punch, enhanced with energy.
+[0x69A40] Energy Sword
+[0x69A5A] Hold the B Button to create a glowing sword of energy.  When fully charged, continue holding the B Button to spin around, and press the +Control Pad to move.
+[0x69B96] Final Flash
+[0x69BAE] Hold the B Button to emit a long beam of energy which travels across land instantly.
+[0x69C58] Flame Kamehameha
+[0x69C7A] Hold the B Button to emit a chain of energy flames.  While holding the B Button, press the +Control Pad to move the flames like a whip.
+[0x69D8A] Fusion Dance
+[0x69DA4] Press the B Button to begin the Fusion Dance sequence.  Watch carefully, then press the button indicated when it is highlighted.
+[0x69EAA] Super Kamikaze Ghost Attack
+[0x69EE2] Hold the B Button to create small ghost replicas.  Let go of the B Button to release the ghosts, which attack the closest enemy and explode on contact.
+[0x6A012] Instant Transmission
+[0x6A03C] Hold the B Button to bring up the cursor.  Use the +Control Pad to select an item, enemy, or switch.  Release the B Button to teleport there and back.
+[0x6A16A] Kamehameha
+[0x6A180] Hold the B Button to emit a long beam of energy.
+[0x6A1E2] Kamekameha
+[0x6A1F8] Mispronounced by Goten.  Hold the B Button to emit a long beam of energy.
+[0x6A28C] Masenkoha
+[0x6A2A0] Hold the B Button to make a cursor appear in front of the player.  Upon releasing the B Button, a large ball of energy will be thrown at the cursor's location.
+[0x6A3E0] Saiyaman
+[0x6A3F2] Press the B Button to turn into the Great Saiyaman.  Press the B Button again to turn back into Gohan.
+[0x6A4C0] Super Saiyan
+[0x6A4DA] Press the B Button to transform into a Super Saiyan.
+[0x6A544] Super Saiyan 3
+[0x6A562] Press the B Button to transform into a Super Saiyan 3.  You must already be a Super Sayian to use this technique.
+[0x6A646] Ultra Volleyball Attack
+[0x6A676] Press the B Button to emit a beam that turns enemies into giant volleyballs.
+[0x6A71A] Webfoot Technologies, Inc.
+[0x6A752] Jeffrey Lim
+[0x6A76A] Game Programming
+Tools Programming
+[0x6A7B0] Cliff Davies
+[0x6A7CA] AI Programming
+Network Programming
+[0x6A810] Jim Grant
+[0x6A824] Lead Game Scripting, Design, Art
+[0x6A866] Andrew Myers
+[0x6A880] Lead Character Production, Design, Art
+[0x6A8CE] Gerry Swanson
+[0x6A8EA] Lead Level Design, Dialog, Design, Art
+[0x6A938] Mandi Paugh
+[0x6A950] Character Art
+[0x6A96C] Alisa Kober
+[0x6A984] Portrait Art
+[0x6A99E] Brian Babendererde
+[0x6A9C4] Level Art
+[0x6A9D8] Character Animation:
+[0x6AA02] Devon Browne
+Adny Angrand
+Rafael Toledo
+Luis Lopez
+[0x6AA68] Yannis Brown
+[0x6AA82] Music, Sound Effects
+[0x6AAAC] Scripting:
+[0x6AAC2] Pascal Pochol
+Erik Hermansen
+Dana Dominiak
+[0x6AB18] Dana Dominiak
+[0x6AB34] Producer, President
+[0x6AB5C] Pascal Pochol
+[0x6AB78] Director of Software Engineering
+[0x6ABBA] Testers:
+[0x6ABCC] Peter DiLillo
+Ben Vitoff
+Scott Grant
+Andrew Osborn
+[0x6AC32] Testers:
+[0x6AC44] Charlie Bry
+Ben Mohrbacher
+Peter Mohrbacher
+Dana Pellegrini
+[0x6ACBC] Debra Osborn
+[0x6ACD6] Project Director
+[0x6ACF8] Atari, Inc.
+[0x6AD12] Mark Flitman
+[0x6AD2C] Senior Producer
+[0x6AD4C] Jim Boone
+[0x6AD60] Executive Producer
+[0x6AD86] Matt Collins
+[0x6ADA0] Senior Brand Manager
+[0x6ADCA] Tom Nichols
+[0x6ADE2] Director of Marketing
+[0x6AE0E] Nancy MacIntyre
+[0x6AE2E] V.P. of Marketing
+[0x6AE52] Wim Stocks
+[0x6AE68] Executive. V.P. of Sales and Marketing
+[0x6AEB6] Steve Martin
+[0x6AED0] Director of Creative Services
+[0x6AF0C] Elizabeth Mackney
+[0x6AF30] Director of Editorial [26] Documentation Services
+[0x6AF8E] Kelly Wolnik
+[0x6AFA8] Graphic Designer
+[0x6AFCA] Kurt Carlson
+[0x6AFE4] Documentation-Specialist
+[0x6B016] Paul Collin
+[0x6B02E] Copywriter
+[0x6B044] Michael Gilmartin
+[0x6B068] Director of Publishing Support
+[0x6B0A6] Ezequiel "Chuck" Nunez
+[0x6B0D4] QA Supervisors
+[0x6B0F2] Christopher D. Reimer
+[0x6B11E] QA Lead
+[0x6B12E] Howell Selburn
+[0x6B14C] Assistant Lead
+[0x6B16A] Testers
+[0x6B17A] Ray Cicero
+Leo Trac
+Libert Viray
+Ed Toribio
+[0x6B1D2] Testers
+[0x6B1E2] Joel Yabrudy
+Brian Tiangco
+Felix Gunawan
+Angel Marquez
+[0x6B250] Special Thanks:
+[0x6B270] Peter Armstrong
+Mike Cucchiarella
+Amy Jordan
+Chris Lundeen
+[0x6B2E6] FUNimation Productions, Ltd.
+[0x6B322] Gen Fukunaga
+[0x6B33C] President
+[0x6B350] Daniel Cocanougher
+[0x6B376] Executive Vice-President
+[0x6B3A8] Cindy Brennan Fukunaga
+[0x6B3D6] Vice-President, Marketing
+[0x6B40A] Bob Brennan
+[0x6B422] Director of Licensing
+[0x6B44E] Jeremy Snead
+[0x6B468] Licensing Account Manager
+[0x6B49C] Jeremy Carlile
+[0x6B4BA] Script Writer
+[0x6B4D6] Special Thanks:
+[0x6B4F8] SHUEISHA Inc.
+[0x6B516] Toei Animation
+[0x6B536] Akira Toriyama
+[0x6B554] Original Author
+[0x6B57C] Chapter 1
+[0x6B590] The Other World
+[0x6B5B0] Chapter 2
+[0x6B5C4] Great Saiyaman
+[0x6B5E2] Chapter 3
+[0x6B5F6] World Tournament
+[0x6B618] Chapter 4
+[0x6B62C] Babidi
+[0x6B63A] Chapter 5
+[0x6B64E] Majin Vegeta
+[0x6B668] Chapter 6
+[0x6B67C] Dragon Ball
+[0x6B694] Chapter 7
+[0x6B6A8] Majin Buu
+[0x6B6BC] Chapter 8
+[0x6B6D0] Janemba
+[0x6B6E0] Chapter 9
+[0x6B6F4] Super Buu
+[0x6B708] Chapter 10
+[0x6B71E] Fusion
+[0x6B72C] Chapter 11
+[0x6B742] Kid Buu
+[0x6B752] Chapter 12
+[0x6B768] A New Beginning
+[0x6B788] Monkey
+[0x6B796] Ape
+[0x6B79E] Chibi
+[0x6B7AA] Human
+[0x6B7B6] Student
+[0x6B7C6] Trainee
+[0x6B7D6] Apprentice
+[0x6B7EC] White Belt
+[0x6B802] Yellow Belt
+[0x6B81A] Red Belt
+[0x6B82C] Green Belt
+[0x6B842] Blue Belt
+[0x6B856] Brown Belt
+[0x6B86C] Black Belt
+[0x6B882] Fighter
+[0x6B892] Brawler
+[0x6B8A2] Champion
+[0x6B8B4] Grand Champion
+[0x6B8D2] World Champion
+[0x6B8F0] Sensei
+[0x6B8FE] Master
+[0x6B90C] Grandmaster
+[0x6B924] Supreme Grandmaster
+[0x6B94C] Hero
+[0x6B956] True Hero
+[0x6B96A] Superhero
+[0x6B97E] Defender
+[0x6B990] Protector
+[0x6B9A4] Guardian
+[0x6B9B6] Warrior
+[0x6B9C6] Z-Warrior
+[0x6B9DA] Namek
+[0x6B9E6] Grand Namek
+[0x6B9FE] Elder Namek
+[0x6BA16] Super Namek
+[0x6BA2E] Kai
+[0x6BA36] Grand Kai
+[0x6BA4A] Supreme Kai
+[0x6BA62] Daikaioh
+[0x6BA74] Super Saiyan
+[0x6BA8E] Ascendant Super Saiyan
+[0x6BABC] Super Saiyan 2
+[0x6BADA] Super Saiyan 3
+[0x6BAF8] Mystic Saiyan
+[0x6BB14] Legendary Super Saiyan
+[0x6BB42] Oozaru
+[0x6BB50] Golden Oozaru
+[0x6BB6C] Dragon
+[0x6BB7A] Mystical Dragon
+[0x6BB9A] Eternal Dragon
+[0x6BBB8] Match 1 Fight!
+[0x6BBD6] Match 2 Fight!
+[0x6BBF4] Match 3 Fight!
+[0x6BC12] Match 4 Fight!
+[0x6BC30] Match 5 Fight!
+[0x6BC4E] Match 6 Fight!
+[0x6BC6C] Match 7 Fight!
+[0x6BC8A] Match 8 Fight!
+[0x6BCA8] Match 9 Fight!
+[0x6BCC6] Match 10 Fight!
+[0x6D971] [0E]\n
+[0x6DB07] [0E]\n
+[0x6F7F6] [E0]
+[0x6FB67] [0E]\n
+[0x7053C] [E0]H
+[0x707AF] [E0]3
+[0x71AF4] [FE]C
+[0x729C8] [88][A0]+
+[0x739FC] xH[AB]Y
+[0x73A2C] [80][10][A1]9
+[0x73AC8] y\n
+[0x73AE8] y\n
+[0x73E0C] Ayp
+[0x74364] IQ`
+[0x743C8] IQ`
+[0x74454] IQ`
+[0x744B8] IQ`
+[0x744D8] [A8]P
+[0x74520] IQ`
+[0x74ADC] [98]pI
+[0x7525C] y\n
+[0x7528C] [1E]\n
+[0x753C8] y\n
+[0x75479] [A2][08]}
+[0x754E5] [A2][08]}
+[0x75509] [A2][08]}
+[0x7552D] [A2][08]}
+[0x7555D] [A2][08]}
+[0x756A8] \na(
+[0x757A1] [A2][08]}
+[0x757AC] [09][02][A8]x
+[0x757C1] [A2][08]}
+[0x757D4] [A8]x
+[0x759A0] [09]I
+[0x759B4] [E9]q
+[0x75A04] [E9]y
+[0x75A18] [E1]y
+[0x75D0E] [E0]Q
+[0x75F7C] QYwg
+[0x75FAC] [11]YPx
+[0x75FDC] Y9[7F]G
+[0x75FF0] [09]Y8x
+[0x7620C] [E8]`"
+[0x762BC] [E0][90]F
+[0x76470] [E8][A8]F
+[0x76490] [C8][A8]F
+[0x767A4] [E0]`
+[0x767E0] [A0]$
+[0x76A70] [C8]`[D1]y
+[0x76AE8] [19]YHx
+[0x76B1C] YQx`
+[0x76DBC] [A0]P
+[0x76E68] qI
+[0x76E88] [B9]I
+[0x76F28] [A8]"
+[0x7705C] [E0]X
+[0x77154] !A[A0]P
+[0x771C8] x[A0]"
+[0x77218] [80][E0]E
+[0x772CC] x[A0]"
+[0x7734A] [A1]F
+[0x773AA] [A9]F
+[0x775BC] [09]Y0h
+[0x77648] XP
+[0x7765D] [A2][08]}
+[0x77710] Y9[88]H
+[0x77726] X[09]i
+[0x7778D] [A2][08]}
+[0x777AD] [A2][08]}
+[0x777CD] [A2][08]}
+[0x777ED] [A2][08]}
+[0x7780D] [A2][08]}
+[0x7782D] [A2][08]}
+[0x7784D] [A2][08]}
+[0x7786D] [A2][08]}
+[0x7788D] [A2][08]}
+[0x77984] [40]a
+[0x779B0] [B8]a
+[0x77A6C] [E0]P
+[0x77AC0] [99]aF
+[0x77AE0] p[E0]F
+[0x77B00] pY"
+[0x77B94] [11][E0]F
+[0x77BD4] iAF
+[0x77CA0] [1A]a
+[0x77CE0] [2A][D0]"
+[0x77D34] [B8]Y
+[0x77D54] [E0]X
+[0x77D9C] [E0]0
+[0x77E5C] 9YXh
+[0x77E78] QYph
+[0x77E98] ii[88]x
+[0x77EB4] [A1]i[C0]x
+[0x77ED4] [C9]Y[F0]h
+[0x77EE8] [E5]\n
+[0x77EF8] [ED]\n
+[0x77F08] [EE]\n
+[0x77FA0] 9YXh
+[0x77FBC] QYph
+[0x77FD8] ii[88]x
+[0x77FF8] [A1]a[C0]p
+[0x78014] [C1]Y[E0]h
+[0x78030] [D9]Y[F8]h
+[0x7804C] A[F1]`
+[0x780AC] [E0]\n
+[0x780B4] [E1]\n
+[0x780BC] [E8]\n
+[0x780CC] [E3]\n
+[0x780D4] [E2]\n
+[0x780DC] [E4]\n
+[0x780E4] [DE]\n
+[0x780F4] [E7]\n
+[0x78198] 9YXh
+[0x781B4] QYph
+[0x781D0] ii[88]x
+[0x781EC] [A9]q
+[0x78208] [C1]Y[E0]h
+[0x78224] [D9]Y[F8]h
+[0x78244] A[F1]`
+[0x782AC] [E6]\n
+[0x782BC] [DA]\n
+[0x782C4] [EB]\n
+[0x782CC] [EA]\n
+[0x782D4] [EF]\n
+[0x782DC] [E9]\n
+[0x782E4] [EC]\n
+[0x78514] !a[40]x
+[0x7872C] IA[98]X
+[0x78760] QA[90]P
+[0x787C0] aq
+[0x78800] HX[99]a
+[0x78980] a1
+[0x789A0] [A1]9[D0]H
+[0x789C0] [E1]a
+[0x789E0] aq
+[0x78A00] [A1]q
+[0x78B68] [FE]\n
+[0x78B70] [FA]\n
+[0x78CC8] [E8]h
+[0x78DCC] qy
+[0x791C8] Y9[88]H
+[0x79584] 9yh
+[0x79650] [A9]d[C7]l
+[0x7971C] [C0]i
+[0x797E8] [C9]d[E7]l
+[0x79BDC] [E8]hu
+[0x7A028] [E8]Pp
+[0x7A120] [C9]M[FE]\
+[0x7A1C0] [C9]?[FE]N
+[0x7A4B0] [A0]X
+[0x7A4F8] `[40][A4]`
+[0x7A524] `[40][A4]`
+[0x7ABD4] Y1
+[0x7AC24] Y1
+[0x7AC7C] Y1
+[0x7ACC0] [A3][02]D
+[0x7ACE0] [A3][02]D
+[0x7AD00] [A3][02]D
+[0x7AD20] [A3][02]D
+[0x7ADCC] [A4]\n{
+[0x7ADEC] [A4]\n{
+[0x7ADF4] [E1]|
+[0x7AE0C] [A4]\n{
+[0x7AE2C] [A4]\n{
+[0x7AEA8] [A3][02]D
+[0x7AEC8] [A3][02]D
+[0x7AEE8] [A3][02]E
+[0x7AF50] [E9][C6]U
+[0x7AF68] [A4]\n{
+[0x7AF88] [A4]\n{
+[0x7AFA8] [A4]\n|
+[0x7B000] [A3][02]D
+[0x7B020] [A3][02]D
+[0x7B040] [A3][02]E
+[0x7B060] [A3][02]E
+[0x7B100] [A4]\n{
+[0x7B120] [A4]\n|
+[0x7B140] [A4]\n|
+[0x7B160] [A4]\n{
+[0x7B204] [A3][02]D
+[0x7B20C] Ai
+[0x7B224] [A3][02]D
+[0x7B244] [A3][02]D
+[0x7B264] [A3][02]D
+[0x7B2AC] seT
+[0x7B2CC] \[C6]U
+[0x7B2EC] [93][EE]U
+[0x7B304] [A4]\n{
+[0x7B324] [A4]\n{
+[0x7B344] [A4]\n{
+[0x7B364] [A4]\n{
+[0x7B3D4] [A3][02]D
+[0x7B3DC] Yi
+[0x7B3F4] [A3][02]D
+[0x7B414] [A3][02]E
+[0x7B434] [A3][02]E
+[0x7B49C] [B0]yU
+[0x7B4BE] xU
+[0x7B4D4] [A4]\n{
+[0x7B4F4] [A4]\n{
+[0x7B514] [A4]\n|
+[0x7B534] [A4]\n|
+[0x7B5D4] [A3][02]D
+[0x7B5F4] [A3][02]D
+[0x7B61C] v[9A]d
+[0x7B674] [A4]\nj
+[0x7B694] [A4]\nj
+[0x7B6E8] [A3][02]D
+[0x7B708] [A3][02]D
+[0x7B728] [A3][02]D
+[0x7B748] [A3][02]E
+[0x7B768] [A3][02]E
+[0x7B788] [A3][02]E
+[0x7B832] [9D]U
+[0x7B852] [A5]U
+[0x7B868] [A4]\n{
+[0x7B888] [A4]\n{
+[0x7B8A8] [A4]\n{
+[0x7B8C8] [A4]\n|
+[0x7B8E8] [A4]\n|
+[0x7B908] [A4]\n|
+[0x7B998] [A3][02]E
+[0x7B9F8] [A4]\nj
+[0x7BA2C] [A1])[D0]H
+[0x7BA70] [A3][02]D
+[0x7BA90] [A3][02]D
+[0x7BAB0] [A3][02]D
+[0x7BAB8] YA
+[0x7BB30] [A4]\nR
+[0x7BB50] [A4]\nR
+[0x7BB70] [A4]\nR
+[0x7BBB8] [A3][02]D
+[0x7BBD8] [A3][02]D
+[0x7BBF8] [A3][02]D
+[0x7BC18] [A3][02]D
+[0x7BC38] [A3][02]E
+[0x7BC58] [A3][02]E
+[0x7BCA0] o[E8]U
+[0x7BCC2] [E3]U
+[0x7BCD8] [A4]\n}
+[0x7BCF8] [A4]\n|
+[0x7BD18] [A4]\n|
+[0x7BD38] [A4]\n{
+[0x7BD58] [A4]\n{
+[0x7BE60] [A4]\nL
+[0x7BE90] [A3][02]D
+[0x7BEB0] [A3][02]D
+[0x7BED0] [A3][02]E
+[0x7BEF0] [A3][02]E
+[0x7BF38] [A3][DC]V
+[0x7BF50] [A4]\n
+[0x7BF58] [F8][AB]L
+[0x7BF70] [A4]\n}
+[0x7BFF4] x8[A1]a
+[0x7C190] [F1]a
+[0x7C3A8] [B1]a
+[0x7C520] [A3][02]D
+[0x7C540] [A3][02]D
+[0x7C768] Y!
+[0x7C7C8] `H[81]Y
+[0x7C89C] [A9]9[D8]X
+[0x7C8D6] [1A]pX
+[0x7CC90] Y!
+[0x7CCEC] `H[81]Y
+[0x7CF28] [A9]9[D8]X
+[0x7D11C] Y!
+[0x7D14C] `H[81]Y
+[0x7D1D8] [A9]9[D8]X
+[0x7D478] Y!
+[0x7D490] `P[81]Y
+[0x7D7D4] Y!
+[0x7D800] `H[81]Y
+[0x7D95A] [2A][C0]p
+[0x7DA8C] [A9]9[D8]X
+[0x7DC06] [2A](
+[0x7DE28] Y!
+[0x7DE70] `P[81]Y
+[0x7DEE4] [AB]z
+[0x7DF74] Y!
+[0x7DFA4] `H[81]Y
+[0x7E078] [A9]9[D8]X
+[0x7E184] [E8][98]N
+[0x7E238] [B0]i
+[0x7E280] Y!
+[0x7E30C] `P[81]Y
+[0x7E338] A\n
+[0x7E43C] Y!
+[0x7E46C] `H[81]Y
+[0x7E51C] Y!
+[0x7E54C] `P[81]Y
+[0x7E698] Y!
+[0x7E6C8] `P[81]Y
+[0x7E824] h[A0]N
+[0x7E844] Y!
+[0x7E88C] `P[81]Y
+[0x7E978] Y!
+[0x7E9A8] `H[81]Y
+[0x7EA70] ya
+[0x7EBDC] PPYY
+[0x7EC90] hPyY
+[0x7ED44] [88]P[91]Y
+[0x7EDA0] IY
+[0x7EF30] Y!
+[0x7EF5C] `H[81]Y
+[0x7F000] [C0]HI
+[0x7F074] [90][C8]I
+[0x7F098] [90][C8]I
+[0x7F0C8] [1E]\n
+[0x7F0E8] [1E]\n
+[0x7F208] I\n
+[0x7F24C] [E0][E8]+
+[0x7F26C] [E0][E8]+
+[0x7F2F8] [19][E1]H
+[0x7F38C] uU
+[0x7F420] [E0]`z
+[0x7F820] [F9]I
+[0x7FA64] [09]A
+[0x7FB34] IAx`
+[0x7FBA0] [E9]A
+[0x7FBF4] [E9]A
+[0x7FC4C] [E9]A
+[0x7FCA0] [A6][02]/
+[0x7FCEC] [A8]\n^
+[0x7FD1C] [A7][02]/
+[0x7FD3C] [A7][02]/
+[0x7FD9C] [A8]\nj
+[0x7FDBC] [A8]\ne
+[0x7FE38] [A8]\n
+[0x7FE40] HPL
+[0x7FE58] [A8]\n
+[0x7FE8C] [A7][02].
+[0x7FEAC] [A7][02].
+[0x7FECC] [A7][02]/
+[0x7FEEC] [A7][02]/
+[0x7FF6C] [A8]\nj
+[0x7FF8C] [A8]\nj
+[0x7FFAC] [A8]\nf
+[0x7FFB4] [AD]i
+[0x7FFCC] [A8]\ne
+[0x7FFD4] [D3]i
+[0x80034] [A7][02]/
+[0x80054] [A7][02]/
+[0x80074] [A7][02]/
+[0x800F4] [A8]\nj
+[0x80114] [A8]\ne
+[0x80134] [A8]\ne
+[0x801F8] [A7][02]
+[0x80218] [A7][02]
+[0x80280] [1A]dG
+[0x80298] [A8]\nj
+[0x802B8] [A8]\ne
+[0x80318] [A7][02]k
+[0x80338] [A7][02]k
+[0x80398] [A8]\n
+[0x803B8] [A8]\n
+[0x803F8] [A7][02]
+[0x80438] [A8]\ne
+[0x80468] [A7][02]$
+[0x80490] B[9A]d
+[0x804A8] [A8]\nL
+[0x804B0] [8D]U
+[0x804F8] [A7][02]l
+[0x80518] [A7][02]l
+[0x80598] [A8]\nj
+[0x805A0] Xi
+[0x805B8] [A8]\nj
+[0x805D8] [A8]\ne
+[0x805F8] [A8]\ne
+[0x806A6] qO
+[0x806BC] [A7][02]/
+[0x806DC] [A7][02]l
+[0x806FC] [A7][02].
+[0x8071C] [A7][02]C
+[0x8077C] [A8]\n
+[0x8079C] [A8]\n
+[0x80910] [AF]y
+[0x80950] [A7][02]/
+[0x80970] [A7][02]/
+[0x809B8] [A0]_
+[0x809D0] [A8]\n
+[0x809D8] [2A]\
+[0x809F0] [A8]\n
+[0x80A10] [A8]\n
+[0x80A94] Y9[88]P
+[0x80AC8] [A7][02]$
+[0x80AE8] [A7][02]l
+[0x80B08] [A7][02]l
+[0x80B88] [A8]\n
+[0x80BA8] [A8]\nj
+[0x80C30] A9pP
+[0x80C7C] [A7][02]k
+[0x80C9C] [A7][02]k
+[0x80CBC] [A7][02]k
+[0x80CE4] Up
+[0x80D24] uQG
+[0x80D3C] [A8]\nj
+[0x80D5C] [A8]\nj
+[0x80D7C] [A8]\n
+[0x80D84] to
+[0x80E08] [19]9HP
+[0x80E1C] A[89]p
+[0x80E5C] [A7][02]
+[0x80E7C] [A7][02]
+[0x80E9C] [A7][02]
+[0x80EBC] [A7][02]
+[0x80F3C] [A8]\n
+[0x80F5C] [A8]\n^
+[0x81030] [E0]0
+[0x81060] [A7][02]$
+[0x810A0] [A8]\n
+[0x810D0] h[E0]y
+[0x810F0] [A7][02]/
+[0x81110] [A7][02]/
+[0x81130] [A7][02]/
+[0x811B0] [A8]\ne
+[0x811D0] [A8]\ne
+[0x811F0] [A8]\nf
+[0x8127C] [A8]\nL
+[0x812B0] [A7][02].
+[0x812D0] [A7][02].
+[0x812F0] [A7][02]C
+[0x812F8] [A0]x
+[0x81390] [A8]\n
+[0x813B0] [A8]\nj
+[0x81410] [A7][02]l
+[0x81430] [A7][02]l
+[0x81458] [B1][AA]'
+[0x81478] [A1]hd
+[0x814B0] [A8]\nL
+[0x814D8] [A0]x
+[0x81570] [A7][02]
+[0x81590] [A7][02]
+[0x815B0] [A7][02]
+[0x815B8] [E0]P`
+[0x81618] [E5]l
+[0x81650] [A8]\nj
+[0x81670] [A8]\nj
+[0x81690] [A8]\ne
+[0x8177C] [D5]UG
+[0x81794] [A8]\nj
+[0x817B4] [A8]\ne
+[0x81838] [A9]9[D8]P
+[0x81858] [A7][02]$
+[0x81878] [A7][02]$
+[0x818A0] [9A]]d
+[0x818E0] DUd
+[0x818F8] [A8]\nj
+[0x81918] [A8]\nj
+[0x819B0] [A8]H
+[0x81A08] [A8]\n^
+[0x81A28] [A8]\n^
+[0x81D64] [AA][02]/
+[0x81D84] [AA][02]/
+[0x81DA4] [AA][02]/
+[0x81DD8] [AF][BE]G
+[0x81E10] [AB]\nY
+[0x81E30] [AB]\nY
+[0x81F0C] [AA][02]:
+[0x81F54] [BE][C8]G
+[0x81F74] [E6][DC]G
+[0x81F8C] [AB]\n
+[0x81FAC] [AB]\n
+[0x8202C] [AA][02]C
+[0x8204C] [AA][02]C
+[0x8206C] [AA][02]C
+[0x820EC] [AB]\nY
+[0x8210C] [AB]\nY
+[0x82220] [AA][02]/
+[0x82228] [9A]h
+[0x82240] [AA][02]/
+[0x82260] [AA][02]/
+[0x82280] [AA][02]/
+[0x822E8] [FA][96]G
+[0x82320] [AB]\nY
+[0x82340] [AB]\nY
+[0x82360] [AB]\nY
+[0x823F0] QYpp
+[0x82404] 9[E9]h
+[0x82468] [AA][02]M
+[0x82470] [DA]h
+[0x82488] [AA][02]M
+[0x824A8] [AA][02]M
+[0x824D0] [9F][CE]'
+[0x824F2] [BE]'
+[0x82508] [AB]\n)
+[0x82510] [DA]h
+[0x82528] [AB]\n)
+[0x825A8] [AA][02]$
+[0x825C8] [AA][02]$
+[0x82630] [A0][DC]G
+[0x82648] [AB]\nY
+[0x82668] [AB]\nY
+[0x826E8] [AA][02].
+[0x826F0] [A9]S
+[0x82708] [AA][02].
+[0x82728] [AA][02]/
+[0x82748] [AA][02]/
+[0x827C8] [AB]\n)
+[0x82870] [AA][02]M
+[0x82898] [E6]r
+[0x82970] [AB]\nY
+[0x82990] [AB]\nY
+[0x829B0] [AB]\nY
+[0x82A44] [DA][BA]N
+[0x82ADC] [AB]\nY
+[0x82AFC] [AB]\n
+[0x82B04] [C8][AF]L
+[0x82BC8] [AA][02]/
+[0x82BE8] [AA][02]/
+[0x82C08] [AA][02]/
+[0x82C28] [AA][02]/
+[0x82CC8] [AB]\nY
+[0x82CE8] [AB]\nY
+[0x82D08] [AB]\nY
+[0x82D88] [AA][02]:
+[0x82DB0] [E1]x
+[0x82E08] [AB]\n
+[0x82E28] [AB]\nY
+[0x82E30] [E1]}
+[0x82EA8] 8xi
+[0x82F4C] [AA][02]C
+[0x82F6C] [AA][02]C
+[0x82F8C] [AA][02]C
+[0x8300C] [AB]\nY
+[0x8302C] [AB]\nY
+[0x8304C] [AB]\nY
+[0x83144] [AB]\n
+[0x83164] [AB]\nY
+[0x831E0] [AA][02]/
+[0x83200] [AA][02]/
+[0x83248] [A0]s
+[0x83260] [AB]\n0
+[0x83268] [E6]i
+[0x83280] [AB]\n0
+[0x83288] [AA]i
+[0x83358] \nI
+[0x83384] [AA][02]/
+[0x833A4] [AA][02]/
+[0x833C4] [AA][02]l
+[0x833CC] [E0]h
+[0x8342C] [A0]s
+[0x83464] [AB]\n0
+[0x8346C] [E6]i
+[0x83484] [AB]\n0
+[0x8348C] [AA]i
+[0x83530] \nI
+[0x83554] [AA][02]$
+[0x83574] [AA][02].
+[0x835D4] [AB]\n0
+[0x835F4] [AB]\na
+[0x83694] \nI
+[0x836C4] [AA][02]$
+[0x83704] [AB]\n^
+[0x83744] [D1]a
+[0x83838] [AA][02]l
+[0x83858] [AA][02]l
+[0x83878] [AA][02]/
+[0x83898] [AA][02]/
+[0x83938] [AB]\n0
+[0x839FC] [AA][02]C
+[0x83A1C] [AA][02]C
+[0x83A3C] [AA][02]C
+[0x83A64] [E1][C4]'
+[0x83A7C] [AB]\n)
+[0x83A9C] [AB]\n)
+[0x83AD8] [AA][02]$
+[0x83AE0] [E8][D8]z
+[0x83B38] [AB]\n0
+[0x83C6C] U[02].
+[0x83D6C] [AB]\n
+[0x83DA8] [AB]\n)
+[0x83E34] [11]i
+[0x83E8C] [E8]xH
+[0x83EAC] [AF]}
+[0x83EDE] i0
+[0x840CC] p`[81]i
+[0x84150] [FA]p
+[0x84300] 9aX
+[0x84460] ``qi
+[0x845B4] ``qi
+[0x84624] [A0]xN
+[0x846D4] [AF]n
+[0x847A8] p`[81]i
+[0x8484C] p`[81]i
+[0x84870] [A8]h
+[0x848B0] [E1]d
+[0x848E0] Y![88]8
+[0x84974] 9aX
+[0x849C0] [A8]p
+[0x84A00] [A8]p
+[0x84AD8] [E1]K
+[0x84B94] ``qi
+[0x84C38] ``qi
+[0x84CBC] [E1]n
+[0x84D10] [A0]xH
+[0x84D90] [AA]s
+[0x84E50] p`[81]i
+[0x84EF4] p`[81]i
+[0x84F8A] a8
+[0x8501C] 9aX
+[0x850EC] ``qi
+[0x854EC] [9D]a
+[0x85514] [9D]a
+[0x855F8] 0[D8]A
+[0x85680] A[E9]p
+[0x856DC] Y9[88]`
+[0x8572C] Y9[88]`
+[0x85778] Y9[88]`
+[0x85810] w[02]O
+[0x858A4] [AA]_
+[0x85904] [AA]s
+[0x85974] [C0]I
+[0x85994] i-
+[0x85A74] [A5]P
+[0x85BF4] [95]\ne
+[0x85C14] [95]\ne
+[0x85C68] [A6]L
+[0x85CE8] [E1]x
+[0x85D40] [95]\ne
+[0x85D60] [95]\ne
+[0x85D88] [E1]x
+[0x85DD4] [9B]A
+[0x85DEC] w[02]O
+[0x85E34] [AF]x
+[0x85E54] [9B]A
+[0x85E94] [AF]x
+[0x86060] yJ
+[0x86078] w[02]O
+[0x860D8] [95]\ne
+[0x860F8] [95]\ne
+[0x86118] [95]\ne
+[0x86120] yJ
+[0x861A4] [BE]L
+[0x86204] [BE]F
+[0x86244] [AA]2
+[0x86284] [BE]<
+[0x86498] [95]\ne
+[0x864C0] [AA]d
+[0x86664] [A0]x
+[0x866A4] [BE]x
+[0x8673C] [95]\ne
+[0x86880] [A0]n
+[0x86900] [95]\ne
+[0x8694C] yI[A8]h
+[0x86AE0] [95]\ne
+[0x86B00] [95]\ne
+[0x86B20] [95]\ne
+[0x86B40] [95]\ne
+[0x86BF4] w[02]O
+[0x86C1C] [E1]d
+[0x86C3C] [E1]x
+[0x86CD4] [95]\ne
+[0x86DA4] [A0]<
+[0x86DDC] [95]\ne
+[0x86DE4] [A0]P
+[0x86DFC] [95]\ne
+[0x86E04] [A0](
+[0x86FA0] [FA]K
+[0x86FC0] [C8]U
+[0x86FE0] [E6]n
+[0x8750C] [D1]I
+[0x87560] [D1]I
+[0x875BC] [D1]I
+[0x87A6C] [B1]\nA
+[0x87A8C] [B1]\nA
+[0x87AAC] [B1]\nA
+[0x87AF8] iA[88]X
+[0x87B20] A[91]p
+[0x87D68] [B1]\nY
+[0x87D88] [B1]\nA
+[0x87DA8] [B1]\nA
+[0x87DC8] [B1]\nA
+[0x87E44] 1Y
+[0x87E74] [99]Y
+[0x8803C] [8C][A0]L
+[0x88074] [09]aX
+[0x88088] [09]aX
+[0x880C8] [09]I`
+[0x882B0] [B1]\nY
+[0x882D0] [B1]\nY
+[0x882F0] [B1]\nA
+[0x88310] [B1]\nA
+[0x8874C] [B1]\nY
+[0x88774] [B1]\nY
+[0x8879C] [B1]\nA
+[0x888D0] [A0]X
+[0x88ABC] [E6][96]G
+[0x88AFC] [E6]d
+[0x88CEA] \n[E0]0
+[0x88F54] [40]HY
+[0x89094] [FD]E
+[0x8926C] [B1]\nA
+[0x8928C] [B1]\nA
+[0x892AC] [B1]\nA
+[0x892CC] [B1]\nY
+[0x89364] [E8]h
+[0x89424] x[AF]L
+[0x89804] 1A``
+[0x89818] [81]A[B0]`
+[0x8982C] [D1]A
+[0x89A0C] [F9]y
+[0x89A54] [F9]y
+[0x89AA4] [F9]y
+[0x89CF4] [B8][80]U
+[0x89D54] [A0]}
+[0x89E10] [B3][02]a
+[0x89E78] [BE]H
+[0x89ED4] [AA]d
+[0x89FD8] [81]I
+[0x8A058] [AA]U
+[0x8A0B8] [E1]d
+[0x8A138] [B3][02]i
+[0x8A1A0] [F0][FA]L
+[0x8A1D8] p[A0]d
+[0x8A1F8] [E6][BA]d
+[0x8A218] [A8][EF]d
+[0x8A318] [B3][02]a
+[0x8A338] [B3][02]a
+[0x8A358] [B3][02]a
+[0x8A360] [A3]J
+[0x8A378] [B3][02]a
+[0x8A4C4] [E1]}
+[0x8A830] [FA]n
+[0x8A910] [89]od
+[0x8ABC0] [B3][02]a
+[0x8ACF4] [E0]HN
+[0x8AD54] [FA]U
+[0x8ADD4] [FA]U
+[0x8B320] [E0]`
+[0x8B514] [FA]n
+[0x8B64E] [AA]L
+[0x8B920] x[E6]N
+[0x8BC20] [A0]}
+[0x8BCE0] [AA]}
+[0x8BEF0] Z[E1]}
+[0x8BF68] [E0]X
+[0x8C824] [11]Y=
+[0x8C914] [40]U|
+[0x8CA08] xA[A8]p
+[0x8CA9C] I!x0
+[0x8CC38] 8[C8]I
+[0x8CEDC] [A8][F8]{
+[0x8D0EC] [B8][DA]L
+[0x8D260] [FA]T3
+[0x8D680] `[A8]!
+[0x8D94C] [A0][C8]!
+[0x8DAC0] 6[BA]!
+[0x8DC64] [E0][C0]
+[0x8DCC8] [B0][E0]!
+[0x8DD50] [E0]X!
+[0x8DDC0] [E0]X!
+[0x8DE30] [E0]X!
+[0x8DEA0] [E0]X!
+[0x8E2B4] Ya
+[0x8E2C8] [16]"AI
+[0x92C2C] [0E]\n\n
+[0xAA595] [A1]J
+[0xCFE02] [E3]0
+[0xD4FD1] [25]a
+[0xDD86F] [A1]y
+[0xE3B58] [08]a
+[0xE580B] Ew
+[0xEACB5] aA
+[0xEC442] [AB]s
+[0xF43D6] [D1]U
+[0x106740] [E3]W
+[0x1115AC] [BA]S
+[0x112710] [E1]l
+[0x113731] ax
+[0x121CFB] Pi
+[0x1237C5] [80]I
+[0x141AC3] [0E]V
+[0x1455B6] [EC]V
+[0x1459AE] [E0][23]-
+[0x1462A2] [C2][CE]q
+[0x15A19A] [12]u
+[0x1612FD] [14]E
+[0x17C0FC] [A1][F1]\n
+[0x17CA90] H Y9
+[0x17D398] [A1]\n\n
+[0x17E5E6] [15][E0]\
+[0x17E614] [A1]\n\n
+[0x17ED0C] [D8][40][E1]q
+[0x17F4E4] [A1]\n\n
+[0x17F931] [FA]<
+[0x181572] [0E]p8
+[0x18242C] h[18]y1
+[0x1830E8] Q[A1]\n
+[0x183E04] [A1]\n\n
+[0x184B94] [A1][F1]\n
+[0x18A0CC] [A1]\n\n
+[0x192F52] [1E]F
+[0x19474C] [A1]Q
+[0x19C890] [A0]0[B1]A\n^t
+[0x1A0D25] [AA],
+[0x1A1791] [FE]c
+[0x1A1E0A] [7E]=
+[0x1A68E2] 8[09]i
+[0x1A68FC] Q[A1]\n
+[0x1AACDE] [A1]\n
+[0x1B0E34] [A0]x
+[0x1B1FFC] X[D8]i
+[0x1B3A9A] [1E]`
+[0x1B3AB0] [A1]Q
+[0x1B641F] [FB]E
+[0x1B6818] `[D8]y
+[0x1B71C2] [40][09]Y
+[0x1B71E2] [1A]
+[0x1B71F0] 0[D8]I
+[0x1B8822] H[09]i
+[0x1B98FC] 7e
+[0x1B99D0] [15]e
+[0x1BA1F8] [D8]X[E1]i
+[0x1BB01A] h[09]y
+[0x1BE25A] [1A]l
+[0x1BFE00] [18][D8]a
+[0x1BFE38] [A1]Q
+[0x1C198E] [0E]8
+[0x1C19A4] [A1]Q
+[0x1C4402] 0[09]i
+[0x1C4B3A] [AE].
+[0x1C4EAE] [09]y
+[0x1C7ED5] [10]U
+[0x1C89A4] [A0]x
+[0x1C9248] 0[D8]a
+[0x1C92A8] [A0]x
+[0x1C9C18] [A0]x
+[0x1CA5EC] [A1]Q
+[0x1CAE36] Ew
+[0x1CEDB0] [A1]Q
+[0x1D01A4] [90][10][A1]!
+[0x1D01EC] [A0]x
+[0x1D0A4C] [A0]x
+[0x1D0DF2] [E3]O
+[0x1D14D4] "a
+[0x1D27A0] [A1]Q\n
+[0x1D484C] [90] [A1]1
+[0x1D4E74] [40][E0]Q
+[0x1D4E80] [E8],
+[0x1D4ED4] [A0]x
+[0x1D54A0] [40][E0]Q
+[0x1D54AC] [E8],
+[0x1D5ABC] [E0] [F1]1
+[0x1D608C] [E0] [F1]1
+[0x1D610C] [A0]x
+[0x1D6914] [90] [A1]1
+[0x1D6950] [A1]Q
+[0x1D85E4] [A0]x
+[0x1DAD14] Q[A1]\n
+[0x1DB394] h y1
+[0x1DBD18] [90] [A1]1
+[0x1E37E8] [A0]P
+[0x1E4830] [A0]P
+[0x1E7DC0] [A0]P
+[0x1EA76E] [2A][F8]h
+[0x1EAA74] [A0]P
+[0x1ECAA8] [A0]P
+[0x1EFCB4] [A0]P
+[0x1F0FB6] [2A]8h
+[0x1F1000] [F1][A1]\n
+[0x1F2180] [A0]P
+[0x1F4108] X[C8]i
+[0x1F6784] Q[A1]\n
+[0x1F8C3C] [D8]`[E1]q
+[0x1F982C] [A1]\n
+[0x1F9D10] [A1]\n
+[0x1FA498] [A1]\n
+[0x1FA59C] [A1]\n
+[0x1FA844] [D8]`[E1]q
+[0x1FB368] h[10]y!
+[0x1FB388] [A1]\n
+[0x1FB3B0] [E0]X
+[0x1FBC52] [0E][08]t
+[0x1FBC68] [A1]\n
+[0x1FC698] [A1]\n
+[0x1FC968] h[10]y!
+[0x1FC988] [A1]\n
+[0x1FC9B0] [E0]X
+[0x1FCE78] [A1]\n
+[0x1FCF7C] [A1]\n
+[0x1FD038] [D8]`[E1]q
+[0x1FD110] [D8]`[E1]q
+[0x1FD2D8] [A1]\n
+[0x1FD3DC] [A1]\n
+[0x204D66] AH
+[0x20923E] AH
+[0x20A648] [D8]`[E1]y
+[0x20A660] h y)
+[0x20A910] h[90]y
+[0x20AE1A] `[09]y
+[0x20AE7C] [A0]P
+[0x20B2B4] [A0]P
+[0x20C414] [D8]`[E1]y
+[0x20C42C] X[90]i
+[0x20C438] [A8]
+[0x20CA68] [A8]
+[0x20CD7A] `[09]y
+[0x20D2E8] h y)
+[0x20D83C] h y)
+[0x20DBBC] [A8] [B9])
+[0x20E0B0] [D0] [E1]1
+[0x20E0F8] [A0]x
+[0x20E4B0] [A8] [B9])
+[0x20EB40] P a1
+[0x20EB8C] [A0]x
+[0x20EF6A] `[09]y
+[0x20EF80] [D8]`[E1]y
+[0x20EFB0] h(y9
+[0x210A5C] h(y1
+[0x2110E4] [10][E0]1
+[0x211684] `[90]y
+[0x2135BC] [A1]Q
+[0x21428C] [D8][10][E1]A
+[0x214986] [10][09]A
+[0x21594A] [09][A8]$
+[0x216310] h[D8]y
+[0x216A0E] [0E][B0],
+[0x217170] [A8][18][B9])
+[0x2177FA] [0E]0
+[0x217FAC] X[D8]i
+[0x217FC4] [A8][18][B9])
+[0x219094] 8pA
+[0x2199C4] h[18]y1
+[0x219DB8] h[88]y
+[0x219DD0] [A0][10][A9]1
+[0x21B610] [A0]x
+[0x21C404] [EF]c
+[0x21DAE1] [1D]E
+[0x21E110] [A1]Q
+[0x21EEC8] [A1]Q
+[0x221A4C] [A0]8\n
+[0x22CC10] [A1]Q
+[0x23E158] [A1]Q
+[0x248F0D] [17]E
+[0x248FAE] [7E]j
+[0x24FED8] h[E0]y
+[0x250A10] p[D8]y
+[0x251C0C] [A1]Q
+[0x251FA0] [09]A
+[0x25206C] [E1]A
+[0x2535E8] [A1][F1]\n
+[0x253910] [D8]`[E1]y
+[0x253DD2] `[09]y
+[0x254654] h[E0]y
+[0x25465E] [09][BE](
+[0x25468E] [08][CA]p
+[0x254D8C] h[D8]y
+[0x255C84] [E0]x
+[0x256EEE] [0E]p
+[0x256EFC] [E0]x
+[0x25770D] [E3](
+[0x2590F8] [90]H[A1]Y
+[0x25913C] [A0]d
+[0x259C0C] [B8]8[C9]Y
+[0x259C44] Q[A1]\n
+[0x2607BE] `[09]y
+[0x261138] Q[A1]\n
+[0x2637A8] h0yA
+[0x263A00] [D8]`[E1]y
+[0x263A0A] [1A][10]l
+[0x263A1A] `[09]y
+[0x2645E8] [D8]`[E1]y
+[0x264D5A] `[09]y
+[0x264D7A] [14][E8]D
+[0x264D88] `0[81]A
+[0x264DA0] [D8]`[E1]y
+[0x266688] [E0]8[F1]I
+[0x267AC8] [E0]8[F1]I
+[0x26B1F0] [E0]8
+[0x26B208] [E8]8
+[0x26BBC0] [08]8O
+[0x26BCE5] [40]O
+[0x271260] h y1
+[0x272D70] [90]h[A1]y
+[0x276070] [88]8[91]A\n
+[0x27737C] h[88]y
+[0x2789BC] 0[D8]y
+[0x278A04] [A0]x
+[0x279EF4] [D8][10][E1]I
+[0x279F16] [2A][C8]t
+[0x27A92A] [2A][18]V
+[0x27C69E] [10][09]A
+[0x27CB98] [D8][10][E1]A
+[0x27EEED] [AB](
+[0x280B48] 8[88]i
+[0x280B60] [D8][10][E1]i
+[0x28193E] ([09]Y
+[0x282D29] [DE]T
+[0x283FE2] [0D][CA]t
+[0x28A214] [A0]P
+[0x28AE80] `[40]iY
+[0x28D224] [EA]s
+[0x290580] hh[81]y
+[0x2910D1] [17]e
+[0x292804] 8[F8]a
+[0x292826] [0E](
+[0x292AF1] [EF]-
+[0x298344] h[C8]y
+[0x29DDE8] [E0]8
+[0x29DE18] [E0]8
+[0x29DE48] [E0]8
+[0x29FA22] [ED]4
+[0x2ACBF6] [8E]m
+[0x2B1D32] [BE]o
+[0x2B9270] [E0]8
+[0x2B92B0] [06][80][E0]88
+[0x2BF5A4] [FE]\n
+[0x2BF679] [FE][02][FE]\n
+[0x2BF701] \n[FE][02][FF]\n
+[0x2BF7DC] [FE]\n
+[0x2BF984] [FE]\n
+[0x2BFB17] [FE][FF]\n
+[0x2C2917] [D0][7E][82][7E][F7][0C][F4]s[8D]o
+[0x2C2931] i[9B]e
+[0x2C296D] N[BA]F
+[0x2C3DD0] [FE]\n
+[0x2C8904] [FE]\n
+[0x2C8B09] [FE]\n
+[0x2C8BE1] [FE]\n
+[0x2C8CBA] [FE]\n[FF]\n[FF]\n
+[0x2C8CCB] \n[FF]\n[FE]\n
+[0x2C8CDC] [FF]\n[FE]\n
+[0x2C8CE8] [FE]\n
+[0x2C8D0B] \n[FE]\n
+[0x2C8DB9] [FE]\n
+[0x2CD1EB] [FE]\n
+[0x2CD5D4] [FE]\n
+[0x2CF507] [FE]\n
+[0x2CF66D] [02][FE]\n
+[0x2CF684] [02][FE]\n
+[0x2CF69B] [02][FE]\n
+[0x2CF6B2] [02][FE]\n
+[0x2CF6C9] [02][FE]\n
+[0x2CF70E] [02][FE]\n
+[0x2CF73C] [02][FE]\n
+[0x2CF753] [02][FE]\n
+[0x2CF76A] [02][FE]\n
+[0x2CF781] [02][FE]\n[FF]\n
+[0x2CF798] [02][FE]\n[FF]\n
+[0x2CF803] [02][FE]\n
+[0x2CF81A] [02][FE]\n[FF]\n
+[0x2CF831] [02][FE]\n[FF]\n
+[0x2CF848] [02][FE]\n[FF]\n
+[0x2CF85F] [02][FE]\n[FF]\n
+[0x2D10F0] [FF][FE]\n
+[0x2D2F53] [FE]\n
+[0x2D31CC] [FE]\n
+[0x2D347E] [FE]\n
+[0x2D366C] [FE]\n
+[0x2D4907] [FE]\n\n\n
+[0x2D818D] [FE]\n
+[0x2D9F4F] [0E]"
+[0x2DB75C] [FE][FE][05][06]\n
+[0x2DB7F6] [FE]\n
+[0x2DB821] [FA]\n
+[0x2E167B] [FE]2
+[0x2E21C5] [02][FE]\n
+[0x2E51E0] [FE]\n
+[0x2E8543] [FE]\n
+[0x2E9871] [FE]\n
+[0x2EA48C] [FE]\n
+[0x2EAB6C] [FE]\n
+[0x2F0B84] [FA]\n
+[0x2F0ED1] [FE]\n
+[0x2F72DB] [FE]\n
+[0x2FDC82] [FE]\n
+[0x2FDE1F] [FE]\n
+[0x302010] [FE]\n
+[0x303372] [FE]\n
+[0x3033A5] [FE]\n
+[0x3035D2] \n[FE][02][FE]\n
+[0x3040F9] [FE]\n
+[0x309840] [FE]\n
+[0x30A1BD] [FE]\n
+[0x30A2FA] [FE]\n
+[0x30A4A1] [FE]\n
+[0x30CC24] [FE]\n
+[0x30CF69] [FE]\n
+[0x310226] [FE]\n
+[0x310290] [FE]\n
+[0x31172B] [03][FE]\n[FF]\n
+[0x31174C] [FE]\n
+[0x311757] [02][FE]\n
+[0x31176A] [FF]\n[FE]\n
+[0x31228B] [FE]\n
+[0x312A12] [FE]\n
+[0x312AC2] [FF][FE]\n
+[0x312C6C] [FA]\n
+[0x313211] [FE]\n
+[0x316996] [E3]'
+[0x3174D6] \n[FE]\n
+[0x317600] \n[FE]\n
+[0x317607] [FE]\n
+[0x3177CF] [FE]\n[FB]\n
+[0x317881] [FE]\n
+[0x317B55] [FE]\n
+[0x318C34] [EC]\n
+[0x31C30D] [FE]\n
+[0x3290B0] [FE]\n
+[0x32ED35] [0E]\n
+[0x32F7A5] [08][F3][EE]\n
+[0x330B0A] [FA]\n
+[0x333F67] [EB]\n
+[0x3431BB] [FE]\n
+[0x3436E0] [FE]\n
+[0x345AAF] [FE]\n
+[0x345AC3] [FE]\n
+[0x3462D5] [FE]\n
+[0x360CCB] [FE]\n
+[0x360DA4] [FE]\n
+[0x360E9F] [FE]\n
+[0x363EB4] [FE]\n
+[0x36695C] [FA]\n
+[0x36B3F9] [FE]\n
+[0x36D1E4] \nA
+[0x36D418] \ni
+[0x3728D8] [1A]V
+[0x372908] [1A]V
+[0x37293A] [1A]V
+[0x372BCB] [0E]V
+[0x372E4F] [1A]V
+[0x37312B] [1A]V
+[0x3751CD] [1A]V
+[0x3751EE] [1A]V
+[0x375211] [1A]V
+[0x3753F5] [1A]V
+[0x37542A] [1A]V
+[0x393714] AA
+[0x3A5B21] [0E]B
+[0x3A5CB5] [0E]B
+[0x3A5FEB] AB
+[0x3B04E0] LA
+[0x3B06FF] [1E]R
+[0x3B07A1] [1E]"
+[0x3B0A40] [1E]R
+[0x3B0AE2] [1E]"
+[0x3B453C] [15]U
+[0x3B46F3] [10]U
+[0x3C8A72] [A8]`
+[0x3D88FA] [13]I
+[0x3DB432] [ED]q
+[0x3E008E] V[A0]H
+[0x3E8A19] [E5]k
+[0x3EEB41] [D1]e
+[0x3F219D] [A8]2
+[0x3F2AB7] [10]e
+[0x40DF92] yD
+[0x40F832] [85]i
+[0x4111F9] [A6]H
+[0x4264A5] UV
+[0x429BF1] [E4]H
+[0x42F3F8] [95]E
+[0x4378C3] Y\n
+[0x43D9A1] !o
+[0x4457DD] [9E]T
+[0x44B741] [A1]\n
+[0x45D21E] aX
+[0x465E90] [A4]H
+[0x468D95] [E6]4
+[0x4694FE] [DA]X
+[0x46E160] [B1][AA]A
+[0x48334E] [A4]+
+[0x490AD7] [A0]z
+[0x494159] [CA]S
+[0x49703D] [C4]E
+[0x4977AA] [0E]!
+[0x4AADB5] [E1]
+[0x4AB771] !o
+[0x4AC381] !y
+[0x4ACBF2] [E1]\n
+[0x4AD775] !y
+[0x4AD876] [94]a
+[0x4B0BA8] [E0]f
+[0x4B0E42] [E0]P
+[0x4D1A95] A9
+[0x4D5E8F] [CE]"
+[0x4E96A8] [C3]U
+[0x5036F2] [8A]p
+[0x50625E] [E1]K
+[0x506AA4] [8E]I
+[0x50FE34] [A4]J
+[0x51372A] [A0]Y
+[0x524579] [A3]B
+[0x5275A9] [EB]s
+[0x52D28C] [8A]Z
+[0x531C80] [8A](
+[0x5440DB] [FA]4
+[0x5442A4] [A6]4
+[0x546342] aK
+[0x551C12] [EA]D
+[0x55D276] ES
+[0x56A892] [1C]a
+[0x570EE2] [C6]y
+[0x57CF19] [AE]s
+[0x57EC5B] [E4]D
+[0x580668] Pu
+[0x584E41] [E4]8
+[0x59EEF5] [A0]"
+[0x5A0423] [A4]x
+[0x5A4C09] [19]E
+[0x5A5E80] [A6]R
+[0x5A9694] "e
+[0x5A990B] [A9](
+[0x5C3E06] [A4]\n
+[0x5C7C21] [91]a
+[0x5C9F57] [A4]{
+[0x5CC9FB] [7E]D
+[0x5CF69C] zI
+[0x5CFA50] zI
+[0x5CFC64] zI
+[0x5D896C] [A1]X
+[0x5DB32E] [E0]x
+[0x5F5B55] [88]A
+[0x5F66BD] uE
+[0x5FB391] [BA]Q
+[0x600A0A] [8A]\n
+[0x600F9A] [8A]\n
+[0x604A33] [AF]X
+[0x60A011] [40]I
+[0x60C447] SI
+[0x61248A] zu
+[0x615C1F] [A4]6
+[0x61C38A] [8E])
+[0x61C9F6] [8E])
+[0x61F7E1] [23]e
+[0x630112] [A0]P
+[0x636A64] [88]y
+[0x64BD7E] a,
+[0x64C065] [AA]3
+[0x64F2DA] [A1]r
+[0x653127] [A0]S
+[0x65AAB4] [0E]M
+[0x66BAE0] [86]E
+[0x670112] [EF]b
+[0x676D8D] "a
+[0x67FA5C] [8A]H
+[0x685AA5] Po
+[0x68C140] [FA]S
+[0x695E09] PE
+[0x6980DD] PE
+[0x69BE69] aA
+[0x69FF11] [E0]I
+[0x6A6786] [E9]F
+[0x6B7400] "Energy attack level set for attack which doesn't exist for player!"
+[0x6B748C] "Energy attack level requested for attack which doesn't exist for player!"
+[0x6B7524] "Unable to find sprite index in character state data"
+[0x6B801B] A3
+[0x6B8448] \no
+[0x6B8700] [07]i
+[0x6BE4F8] 2a
+[0x6C6CAE] fe
+[0x6E5894] [0F]A
+[0x6F081D] [AD]A
+[0x6F7E1D] [D0]A
+[0x6F84E3] [08]E
+[0x6F8567] [08]U
+[0x6F86F3] [08]i
+[0x6F87A3] [08]y
+[0x6F8CD2] [F6]U
+[0x6F927E] [F6]U
+[0x6FDA5E] 7UU
+[0x6FDAA6] K[AC]X
+[0x6FDAB8] K[AC]X
+[0x6FDACA] K[AC]X
+[0x72367E] AA
+[0x72452A] AA
+[0x724585] AA
+[0x7245FF] [04]A
+[0x7246F1] nmA
+[0x724709] nmA
+[0x72C475] lA
+[0x72C4F7] [F9]A
+[0x72CBFC] As
+[0x72D014] AA
+[0x72D076] Aq
+[0x72D473] Arq
+[0x72E024] ac
+[0x72E4A3] ad
+[0x72E58C] aa
+[0x72E594] ab
+[0x72E5A3] ab
+[0x72F68C] ba
+[0x73186C] [95]A
+[0x732BD8] [1A][1B][1C][1D][1E][1F]
+[0x732C2E] NOPQRO
+[0x732C44] UVWXYZ[\]^_
+[0x732C6E] AB
+[0x732C74] CDEFGHIJKLM
+[0x732CB8] tu
+[0x732CC0] vwxy
+[0x732CFC] bcde
+[0x732D06] fghijklmno
+[0x732E0A] [CD][CE][CF][D0][D1][D2][D3][D4]|
+[0x733CDC] [19][1A][1B][1C][1D][1E][1F] !"[23]$
+[0x733D00] ()[2A]+,-[1F]./00
+[0x733DE4] NOPQRSTUVW
+[0x733E04] ABCDEFGHIJ
+[0x733E40] ab
+[0x733E50] eff
+[0x733E60] XY
+[0x733EB6] [93]ff[94]f[95][96]f[97][98]ff[99][9A]f[9B]f[9C][9D]fff[9E]f[9F]f[A0][9D][A1][A2]f[A3]f
+[0x733F14] [AD][AE]f
+[0x733F34] ijkkkkkj
+[0x733F46] l]]m]no]pq]]rs]t]uv]]]w]x]yvz{]|]}
+[0x73406E] [D2][D3]ij
+[0x734080] [CD][CE]\n
+[0x734818] [0B][0C][0D][0E][0F][10][11][12]\n
+[0x734860] [23]$[25][26]'()[2A]+
+[0x734ABA] [1B][1E][1F] !"[23]$\n
+[0x734AE4] [09][0C][0D][0E][0F][10][11][12]\n
+[0x734CDC] [0B][0C][0D][0E][0F][10][11][12]\n
+[0x734D24] [26]'()[2A]+,-./012345678
+[0x734D4C] [13][14][15][16][17][18][19][1A][1B][1C][1D][1E][1F] !"[23]$
+[0x735022] [14][15][16][17][18][19][1A][1B][1C][1D][1E][1F] !"\n[02]\n
+[0x7350AC] [26]'()[2A]+,-
+[0x7350E0] EFGHIJKLMNOP9:;<=>?[40]ABCD
+[0x735134] YZ
+[0x73514C] STUVWX
+[0x73517C] qrstuvwxyz{|}[7E][7F][80]abcdefghijklmnop
+[0x7351FC] [81][82][83][84][85][86][87][88][89][8A]\n
+[0x7358A6] [26]'()[2A]+,-./01234
+[0x7358C6] [17][18][19][1A][1B][1C][1D][1E][1F] !"[23]$
+[0x735908] >?[40]ABCDEF56789:;<=[
+[0x735CE2] [1D][1E][1F]
+[0x735E74] [13][14][15][16][17][18][19][1A][1B][1C][1D][1E][1F] !"[23]$\n[02][03][04][05][06][07][08][09]
+[0x735EE0] 6789[14]:;<=>?[40]ABCDE
+[0x735F04] [25][26]'([02])[2A]+,-./012345
+[0x735F58] YZ[\]^_=>`abcCdefg
+[0x735F88] HIJKLMN,-OPQR2STUV
+[0x735FFC] [93][94]hijklmnopqrstuv
+[0x736020] wxyz{|}
+[0x7360E4] [A6][A7][A7][BE][BF][C0][C1][C2][A7][A7]]
+[0x736508] [A7]]
+[0x737364] !"[23]$[25][26]'()[2A]+,-./01234567
+[0x7373DC] [18][19][19][1A][1B][1C][1D][1E][1F]
+[0x73741C] PQRSTUV9WXY999Z[\]]]]^
+[0x73744C] ABCDEFG[19]HIJ[19][19][19]KLMNNNNO
+[0x7374A4] mno
+[0x7374BC] _`abcde
+[0x7374D4] iNN
+[0x737532] stuvwxyz{|
+[0x7376C0] [FB][FC][FD][FE]9
+[0x737B76] I"
+[0x739310] ()[2A]+,-
+[0x739340] [40]ABCD[10]EFG[10]H
+[0x739412] MUV
+[0x739424] OP
+[0x73946E] MAA
+[0x73947C] `aN
+[0x739494] de
+[0x7394AC] YZL
+[0x7395A8] [40]ABCD[10]EFG[10]H
+[0x7396A0] hi
+[0x73975A] MUV
+[0x73976C] OP
+[0x739880] hij
+[0x7398D0] ![10][8D][8E]U
+[0x739900] uv
+[0x73990C] [19]xyz{
+[0x739970] [9A]C
+[0x739A82] MUV
+[0x739A94] OP
+[0x739ADC] [A9][9F][9F][AA][AB][10][AC][AD][AB][10][AE]C[AF]NNF[A2][9C][9C][A3][A4][05][A5][A6][A4][05][A7]8[A8]LL;
+[0x73A2AE] [26]()[2A]+,-
+[0x73A2E8] CDEFGH
+[0x73A300] =>?[40]AB
+[0x73A33A] IJ
+[0x73A372] IOOOP
+[0x73A42A] IOOO
+[0x73A462] IOOO
+[0x73A490] CDEFGH=
+[0x73A4A0] ?[40]AB
+[0x73A4CC] CDEYZ[
+[0x73A510] a22bcdde\[26][26]]^__`
+[0x73A55E] fOOO
+[0x73A596] IJ
+[0x73A5C4] a22bcdde\[26][26]]^__`
+[0x73A69E] IOOO
+[0x73A6D6] IOOO
+[0x73A704] CDEFGH=
+[0x73A714] ?[40]AB
+[0x73A740] ClEFmH
+[0x73A752] =>?[40]AB
+[0x73A78E] IJ
+[0x73A7C6] IOOO
+[0x73A880] pqrstuvwxyz{{{|
+[0x73B030] [23]$[25][26]'()[2A][1B][1C][1D][1E][1F] !"\n
+[0x73B240] [1D][1E][1F]
+[0x73B294] '()[2A]+,!"[23]$[25][26]\n
+[0x73B568] '()[2A]+,-.+/012334[19][1A][1B][1C][1D][1E][1F] [1D]!"[23]$
+[0x73B5CE] FGHIJKLMNO/PQNRSTUV
+[0x73B5F6] 56789:;<=>!?[40]=ABCDE
+[0x73B642] de
+[0x73B648] fghNiQ/Njklm
+[0x73B662] n3o
+[0x73B66A] WXYZ[\=][40]!=^_`a
+[0x73B6C4] O//[8B][8C][8D][8E][8F]O/////[90][91]O
+[0x73B714] >!!uvwxy>!!!!!z{>|
+[0x73B786] [AD][AE][AF][B0][B1][B2][B3][B4][B5][B6]/
+[0x73B7BE] [9E][9F][A0][A1][A2][A3][A4][A5][A6][A7]!
+[0x73BE8C] [13][14][15][16][17][18][19][1A][1B][1C][1D][1E]\n
+[0x73BEAC] [04][05][06][07][08][09]
+[0B][0C][0D][0E][0F]0
+[0x73C096] [15][16][17][18][19][16][1A][16][16][1B][1C][1D][1E][1E][1E][1E][1E][1E][1F]\n
+[0x73C120] /0[16][16]123-4[1E][1E][1E][1E]5
+[0x73C19A] DEF
+[0x73C1AC] [1B][1B][1B]H,I
+[0x73C1C6] K[1E][1E][1E][1E]L
+[0x73C204] AB[0F][0F][0F][0F]C
+[0x73C246] [19]U
+[0x73C25C] O[09]PQ
+[0x73C298] XY
+[0x73C2C2] hi
+[0x73C2CC] jklmno
+[0x73C2F0] _`abcd
+[0x73C300] effg
+[0x73C33A] [81]stuvwxyz
+[0x73C482] \nE
+[0x73CA32] [9A]\n
+[0x73CC60] '()[2A]+,-./[1E][1F] !"[23]$[25][26]\n
+[0x73CEF8] )[2A]+,-./01 !"[23]$[25][26]'(
+[0x73CF40] <=>?[40][09][09]AB[09][09]ACDDE23456[03][03]78[03][03]79::;
+[0x73CFA4] NOOOPOOQR[09][09][09][09][09][09]SR
+[0x73D014] TUUUUUU
+[0x73D024] FGGGHGGIJ[03][03][03][03][03][03]KJ
+[0x73D0C8] nopqrstuv[09][09][09][09]wxyz[09]{|
+[0x73D102] [83][81][84]VWXYZ[\]^[03][03][03][03]_`ab[03]cd
+[0x73D132] efghijiklim
+[0x73D1B6] [A3]/
+[0x73DF36] [AE]\n
+[0x73E1EC] [0D][0E][0F][10][11][12][07][08][09]
+[0x73E5A2] [15][16][17][18][19][1A][17][17][17][1B][1C][17][17][17][1D][1E][1F] !"
+[0x73E638] [25][06][26]'[0E](
+[0x73E6B4] GHIJKL
+[0x73E6C2] MNO[17]PQ9R;<=>?
+[0x73E6E0] ABC[06]DE3F
+[0x73E720] 999YS000TU333V
+[0x73E80C] GHIeKL
+[0x73E81A] fgO[17][1D]hij;<=_?
+[0x73E838] `aC[06][0C]bcd
+[0x73E86C] tHuvw
+[0x73E944] tHuvw
+[0x73EB4C] [AB]00
+[0x73EB6A] [06][06][06][AE]^333
+[0x73ECB0] [EA]000
+[0x73FF50] ABC
+[0x73FF5A] DEF
+[0x73FF6A] IJKLMNO
+[0x73FF7A] PQRSTUVW[12]XY
+[0x73FFA8] `ab
+[0x73FFDA] [25][26]'()[2A]+
+[0x7400C6] \nI
+[0x7404C6] [1E][1F]
+[0x7405F2] \ne
+[0x740638] [04]\nE
+[0x7409CC] [0B][0C][0D][0E][0F][10][11][12]\n
+[0x740E8E] [2A]+,,-
+[0x740EEA] 4'5[40]AAB,,
+[0x740EFE] AA
+[0x740F4E] [0C][0D][0E][0F][10]
+[0x740F9E] [12][05][13][1E][1F][1F]
+[0x740FF2] QRSTU,VW
+[0x741004] ,XYZ[\
+[0x741012] EFGHI
+JK
+[0x741024] LMNOP
+[0x741054] klmnopqr
+[0x741066] stuvwx]^_`abcd
+[0x741084] efghij
+[0x7410B4] [85][86][87][88][89][8A][8B][8C][8D][8E][8F][90]yz{|}
+[0x7411D0] [D9][DA]q
+[0x7411DA] [DC][DD][DE][DF][BF][C0][C1]_
+[0x741202] [C9][CA]c
+[0x74123C] [EB][EC][ED][EE][EF][F0][F1],,
+[0x74125C] [E0][E1][E2][E3][E4][E5][E6]
+[0x741722] AA
+[0x742D74] ()[2A][2A]+,-./012
+[0x742DB0] OPQRSPQRTUQVTWXYZ[XYZ\]YZ^?[40]ABC[40]ABDEAFDGHIJKHIJLMIJN\n
+[0x743186] [19][1A][1B][1C][1D][1E][1F] !"[1C][23]$
+[0x7431A4] [26]'()[2A]+
+[0x743210] 9:;<=>?[40]A
+[0x743224] BCDE
+[0x74359C] [23]$[25][26]'()[2A]+,-.
+[0x7435DC] abcd
+[0x7435E6] edfghicjkl
+[0x743604] knopqrstu[19]vwxydz{|}[7E][19]k
+[0x743648] A[40]BCDE?FGH
+[0x743660] ID
+[0x743666] GJKLMNOPQ[08]RSTU[40]VWXYZ[08]G
+[0x7447E6] [AB]n
+[0x745038] E[1D]FGH
+[0x745044] IJK
+[0x74505C] O[1D]P
+[0x745068] OQR
+[0x745074] ST[1D]U
+[0x7450A4] )[2A]+,
+[0x745110] ?[40][40][40][40]A
+[0x74514C] abcde
+[0x745164] )[2A]+,
+[0x745170] YZ[\]
+[0x7451C0] pqhiiii
+[0x745200] }[7E][7F]C
+[0x745232] rst[2A]uv
+w
+xyz{
+[0x7457EC] [08][09][09]
+[0B][0C][0D][0E]\n
+[0x745830] [19][1A][1A][1B][1C][1D][1D][1E][1F] !"
+[0x7458D2] 67897:;<=[2A]+,-./0.1234
+[0x74592A] MNONPQR
+[0x74593A] ST>?[40]?ABCDCEFG
+[0x745958] HI
+[0x745990] `U?VW.XY
+[0x7459CA] K\de
+[0x7459D6] ?Vabc
+[0x745A12] op
+[0x745A18] ?Vfghijk
+[0x745A4C] [08]u
+[0x745AEC] [99][9A]][9B][9C]7
+[0x745AFA] [9D][9E][9F]  [A0]
+[0x745B0C] yz
+[0x745BC0] [A6][AF]K
+[0x745BD0] [B1][B2][0D][B3][A1][AA]?
+[0x745BE0] [AB]..
+[0x745C50] [A6]K
+[0x745C68] [A1]?
+[0x745C70] [AB]..
+[0x745CE0] [A6]L
+[0x745CF8] [AB].
+[0x745D28] [A6]L
+[0x745D7C] [A6]K
+[0x745D88] [A1]?
+[0x745DD6] [C9][CA][CB][C9].
+[0x745E0C] [A6]K
+[0x745E18] [A1]?
+[0x745F14] [A6]K[F4]\
+[0x745F24] [A1]?[F2]V
+[0x745F94] [A6]L
+[0x745FD0] [A6]K[F7]K
+[0x745FEE] [A1]?[F5]?
+[0x745FF8] [AB]...
+[0x7469B4] [26]'()[2A]+
+[0x7469FC] abcd
+[0x746A0E] efghijkl
+[0x746A20] mnoppppqr
+[0x746A36] sppppptu4
+[0x746A4A] vpwxyppz
+[0x746A5E] {|}[7E][7F]bb
+[0x746A9A] ABCDEFGH
+[0x746AAC] IJKLLLLMN
+[0x746AC2] OLLLLLPQ'
+[0x746AD6] RLSTULLV
+[0x746AEA] WXYZ[>>\
+[0x746B20] [90][91][92][93][94][95][96][97][98]p[99][9A][9B][9C][9D][9E][81][82][83][84][85][86][87][88][89]L
+[0x746B86] [A9][AA][AB][AC]p
+[0x746B9E] [9F][A0][A1][A2]L
+[0x74743C] [0D][0E][0F][10][11][12][13][14][15][16][17][18]\n[02][03][04][05][06][07][08][09]
+[0x747538] [0D][0E]01
+[0x74754A] 45[18])[2A]+,
+[0x7475FE] [40]A
+[0x7476AC] TU
+[0x7476BC] XYY
+[0x7476C4] VYY
+[0x7476D2] \D[03][03][04]EF
+[0x7476EC] IJ
+[0x7476FC] ILL
+[0x747704] MNOP
+[0x747732] [0F][0F][10]`[13][13][14]Raab
+[0x74774A] [03][03][04]][07][07][08]E^^_
+[0x74779C] ywz{|}[7E][7F][80][81][80][82][83][84][85][86]'[87]'
+[0x7477D0] [03]cde
+[0x7477DC] fdghijklmnmopqrs"t"u
+[0x747FB4] [1B][1C][1C][1D][1E][1F] !"[23]$[25][26]'()
+[0x748018] [0B][0C][0C]E
+[0x748040] [04][05][05]A
+[0x7480B8] [04]HI
+[0x748138] hijklmnompj
+[0x748170] umr
+[0x748180] xy
+[0x7481A0] OPQRSTUVTWQ
+[0x7481B8] TXY
+[0x7481C0] TTY
+[0x7481CA] ZY
+[0x7481D0] [TY
+[0x7481D8] \TY
+[0x7481F0] aSbcdefg
+[0x74823E] [0C][0C]E
+[0x748264] [83][05][05]A
+[0x748B1A] 234555567895:;<55=>?5[40]AB5C
+[0x748B52] DEFGHIJKLM55555NOP
+[0x748B78] 5QRS5TU
+[0x748BE2] [17][18][19][1A][1B][1C][1D][1E][1F] [08][08][08][08][08]!"
+[0x748C18] )[2A]+
+[0x749004] [1E][1F][09] ![0C][1A][1B][03][1C][1D][06]\n
+[0x74926E] [1E][1F]
+[0x749392] [1E][1F]
+[0x74941C] \n[2A]6+,
+[0x74953E] [1E]GH
+[0x749548] !I?
+[0x749584] [15]E<
+[0x7498CE] [1E][1F]
+[0x749958] \n)[2A]+,
+[0x7499F2] [1E][1F]
+[0x749A84] 6[02]7[02][2A]+,8,
+[0x749AC8] \n[02][2A]+;
+[0x749B54] 6[02]7[02][2A]+,8,
+[0x749BD0] E"
+[0x749C32] [1E]MN
+[0x749C3E] OE
+[0x749C48] PE
+[0x749C64] [12]HI
+[0x74A078] [2A][02]+[02],-./.
+[0x74A100] [2A][02]+[02],-./.
+[0x74A2B8] [2A][02]+[02],-./.
+[0x74A308] [2A]>,-7
+[0x74A3EC] [2A]>
+[0x74A430] [2A][02]+[02],-./.
+[0x74A500] [2A][02]+[02],-./.
+[0x74A630] [2A][02]+[02],-./.
+[0x74A6B8] [2A][02]+[02],-./.
+[0x74A6FC] [2A]5
+[0x74AB4C] [0C][0D][0E]\n
+[0x74AD68] )[2A]+,-.-/01234
+[0x74AD86] [1C][1D][1E][1F] ! "[23]$[25][26]'
+[0x74ADC4] [40]ABCDEFG
+[0x74ADDA] IJ
+[0x74AE26] XY
+[0x74AE34] ]^_`abcd
+[0x74AE4C] MNO
+[0x74AE54] PQRSTUVW
+[0x74AE90] rstuv
+[0x74AE9C] wxy
+[0x74AEA8] ef
+[0x74AEAE] ghijk
+[0x74AEBA] lmno
+[0x74AF02] [8E][8F]2
+[0x74AF54] [0E][9C][9D][9E][9F]-
+[0x74B022] [CB][CC][CD][CE]-
+[0x74BD44] HI
+[0x74BD60] OPQRSTUVWXYZ[\X]^_`abbcdebfbg
+[0x74BD9C] hiiiiiiiiijklmnoipqrstuvwxyiz{|}[7E][7F]i[80][81][82]i[83][84][85][86][87][88][89][89][89][8A]s[8B][8C]s[8D][8E]\n
+[0x74BE26] [08][09]
+[0B][0C][0D][0E][0F][10][11][12][13][14][15][11][16][17][18][19][1A][1B][1B][1C][1D][1E][1B][1F][1B]
+[0x74BE62] !"""""""""[23]$[25][26]'(")[2A]+,-./012"345678"9:;"<=>?[40]ABBBC,DE,FG
+[0x74BF00] [A2][A3][A4][A5][A6][A7][A8]iiz[A9][AA]hiiii
+[0x74C5E8] [1D][1E][1E][1F]
+[0x74C5F4] !"[1E][23]$
+[0x74C602] [25][26][1E]'(
+[0x74C60E] )[2A]+,
+[0x75273F] [1E]n
+[0x753D56] [FE]>
+[0x753F0F] [FF][E0][E0][E0][E0][F0]0
+[0x75409E] [FE]>
+[0x7540DE] [FE]>
+[0x757EE8] [17][1E][25],P[1F][26]-QX'.RY`/SZahT[biU\cjV]dkW^el[90]_fm[91][98]gn[92][99][A0]o
+[0x771C7D] OO
+[0x772698] PO
+[0x772E65] [D2]O
+[0x773E65] [D2]O
+[0x7746CF] OP
+[0x774977] nO
+[0x77554F] PO
+[0x7755CF] an
+[0x7756BE] OP
+[0x7756E3] OP
+[0x7756EB] OP
+[0x7756F3] OP
+[0x7756FB] OP
+[0x775703] OP
+[0x775B57] mO
+[0x776B57] mO
+[0x777F6E] OO
+[0x777FAA] OO
+[0x778B47] OO
+[0x779085] OO
+[0x779B47] PO
+[0x77A085] OO
+[0x77F096] [03][03]Welcome to the Hercule City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End
+[0x77F12E] [03][03]A fine day to you, good sir. What would you like from my humble shop?
+
+-Buy
+-Sell
+
+-End
+[0x77F200] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0x77F3FE] [03][03]Welcome to the West City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End
+[0x77F490] [03][03]Oh, what nice clothes! Please, have a look at what we have to offer!
+
+-Buy
+-Sell
+
+-End
+[0x77F560] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0x77F784] [04][03]Welcome to the black market! You can spend your loot here.
+
+-Buy
+-Sell
+
+-End
+[0x77F822] [04][03]Welcome to the Legally Obtained Goods Store! How may I help you?
+
+-Buy
+-Sell
+
+-End
+[0x77F8CC] [04][03]You think you can impress me with them fancy-schmancy clothes? Get real!
+
+-Buy
+-Sell
+
+-End
+[0x77F9A4] [06][03]What would you like to buy?
+
+-Items
+-Equipment
+[0x77FB36] [03][03]Welcome to the Planet of the Kais Z-Mart! How may I help you?
+
+-Buy
+-Sell
+
+-End
+[0x77FBDA] [03][03]Hmm, quite the dapper lad, aren't you? Have a look at our wares.
+
+-Buy
+-Sell
+
+-End
+[0x77FCA2] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0x77FE2C] \n[03]You won't believe what I got! This is primo merchandise!
+
+-Buy
+-Sell
+
+-End
+[0x77FEE4] [03][03]What would you like to buy?
+
+-Items
+-Equipment
+[0x78003C] \n[03]Welcome to the West City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End
+[0x7800EC] [03][03]What would you like to buy?
+-Food Items
+-Drink Items
+-Body Equipment
+-Hands Equipment
+-Feet Equipment
+-Accessories
+[0x786119] [98]I
+[0x7861CE] [A8]$
+[0x78FD52] [E5]?
+[0x795EE2] [E8]=
+[0x7964FE] [AA]
+[0x796782] [11]E
+[0x7B6041] [0E]\n
+[0x7B61D7] [0E]\n
+[0x7B73DE] \n[B2]\nO\n[13]\n
+[0x7B73EE] \n[13]\nO\n[B2]\n

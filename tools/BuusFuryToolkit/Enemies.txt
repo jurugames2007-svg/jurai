@@ -1,0 +1,308 @@
+[Experience (3-byte)] 00 [HP (3-byte)] 00 [Enemy Type (2-byte)] 00 00 [Level][Strength][Power][Endurance][After battle data (12-byte)]
+
+
+Fighter
+$711BDC
+
+Olibu
+$711BC0
+
+Pikkon
+$711C68
+
+Criminal
+$711418
+
+Mercenary
+$711AA8
+
+Gunman
+$711744
+
+Bomber
+$711354
+
+Thug
+$712074
+
+Tank
+$712058
+
+Goten (1)
+$71169C
+
+Vegeta
+$712154
+
+Goten (2)
+$711680
+
+Tournament Boy
+$7118E8
+
+Idasa
+$7117D0
+
+Hercule
+$711760
+
+Spopovich (1)
+$711E60
+
+Spopovich (2)
+$711E7C
+
+Spopovich (3)
+$711E98
+$711EB4
+
+Yamu
+$712288
+$7122A4
+
+Majin Fighter
+$7119E4
+
+Majin Soldier
+$711A00
+
+Destroyer
+$7114A4
+
+Laser Turret
+$711974
+
+PuiPui
+$711CF4
+
+Majin Shield Soldier
+$711DB8
+
+Yakon
+$712250
+
+Mini-Yakon
+$71226C
+
+Dabura
+$71146C
+
+Majin Vegeta
+$711A1C
+
+Babidi
+$7112E4
+$711530
+$7115A0
+
+Majin Buu (1)
+$711568
+
+Hooligan
+$711798
+
+Sniper
+$711E44
+
+Goon
+$711664
+
+Hessian
+$71177C
+
+Juggernaut
+$7118CC
+
+Mad Bomber
+$7119C8
+
+Skeleton
+$711E28
+
+Ghost
+$7115F4
+
+Vampire
+$712100
+
+Pilaf's Guardian
+$711958
+
+Mummy
+$711AE0
+
+Totenhotep
+$712090
+
+Ninja
+$711AFC
+
+Ninja in a box
+$711B18
+
+Samurai
+$711D48
+
+Ninja Boss
+$711B34
+
+Cyborg
+$711450
+
+Bio Mech
+$711300
+
+Mechanoid
+$711A54
+
+Airship Warlord
+$711274
+
+Phantom
+$711C14
+
+Elite Majin Fighter
+$7114C0
+
+Elite Majin Soldier
+$7114DC
+
+Shinobi in a box
+$711DF0
+
+Shinobi
+$711DD4
+
+Ghoul
+$711610
+
+Rapscallion
+$711D10
+
+Vlad
+$71218C
+
+Grenadier
+$711728
+
+Knight Destroyer
+$71193C
+
+Assassin
+$7112AC
+
+Marauder
+$711A38
+
+Bones
+$711370
+
+Bruiser
+$7113C4
+
+Cursed One
+$711434
+
+Ronin
+$711D2C
+
+Broly
+$71138C
+
+Majin Buu (2)
+$711584
+
+Janemba Hand
+$7118B0
+
+Living Dead
+$7119AC
+
+Poltergeist
+$711C84
+$711CA0
+
+Nosferatu
+$711B6C
+
+Lich
+$711990
+
+Annihilator
+$711290
+
+Elite Shield Soldier
+$7114F8
+
+Janemba
+$711808
+
+Mini-Janemba
+$711894
+
+Janemba Hand (2)
+$71185C
+
+Super Janemba
+$711FCC
+
+Goten
+$7116B8
+
+Trunks
+$7120AC
+
+Super Buu
+$711F08
+$711F24
+$711F40
+
+Death Machine
+$711488
+
+Hyper Cyborg
+$7117B4
+
+Super Buu (2)
+$711F5C
+
+Metal Hulk
+$711AC4
+
+Power Mechanoid
+$711CBC
+
+Super Buu (3)
+$711F78
+$711F94
+
+Blood Cell
+$711338
+
+Blister
+$71131C
+
+Enzyme
+$711514
+
+Worm Head
+$7121FC
+
+Worm Body & Tail
+$712218
+
+Gotenks
+$7116D4
+
+Gohan
+$711648
+
+Piccolo
+$711C4C
+
+Super Buu (4)
+$711FB0
+
+Kid Buu
+$711904
+$711920

@@ -1,0 +1,59 @@
+{
+  "schema": "jurai.phase22.snakeway_gatekeeper.v1",
+  "policy": "debug_visible_contract_native_npc_hook_pending",
+  "npc": {
+    "id": "SNAKEWAY_RIFT_GATE_GUIDE",
+    "display_name": "Rift Gate Guide",
+    "intended_map": "Snakeway / Riftway",
+    "intended_role": "dimension navigator NPC",
+    "native_hook_status": "pending_entity_record_decode"
+  },
+  "dialogue": [
+    {
+      "id": "SW_GATE_HELLO",
+      "speaker": "Rift Gate Guide",
+      "text": "The road bends through time. Choose a dimension."
+    },
+    {
+      "id": "SW_GATE_SUPER",
+      "speaker": "Rift Gate Guide",
+      "text": "Super opens after Kid Buu. Gods and universes wait."
+    },
+    {
+      "id": "SW_GATE_GT",
+      "speaker": "Rift Gate Guide",
+      "text": "GT follows the Black Star trail."
+    },
+    {
+      "id": "SW_GATE_AF",
+      "speaker": "Rift Gate Guide",
+      "text": "AF is a dangerous fan rift. Enter only when ready."
+    },
+    {
+      "id": "SW_GATE_LOG1",
+      "speaker": "Rift Gate Guide",
+      "text": "LOG1 is a memory of Saiyan and Namek battles."
+    },
+    {
+      "id": "SW_GATE_LOG2",
+      "speaker": "Rift Gate Guide",
+      "text": "LOG2 is a memory of Androids and Cell."
+    }
+  ],
+  "options": [
+    "SUPER_ROUTE",
+    "GT_ROUTE",
+    "AF_ROUTE",
+    "LOG1_DIMENSION",
+    "LOG2_DIMENSION"
+  ],
+  "unlock": {
+    "debug": "LOG4_DEBUG_GATEWAY_UNLOCKED",
+    "story": "STORY_KID_BUU_DEFEATED"
+  },
+  "next_native_tasks": [
+    "Decode entity record field for visual actor ID.",
+    "Create native NPC on Snakeway using Rift Gate Guide dialogue.",
+    "Bind option selection to route/dimension starts."
+  ]
+}

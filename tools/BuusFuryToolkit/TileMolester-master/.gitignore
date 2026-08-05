@@ -1,0 +1,9 @@
+build
+dist
+TileMolester.jar
+.DS_Store
+.vscode
+/src/languages
+/resources/*.xml
+/target
+/private

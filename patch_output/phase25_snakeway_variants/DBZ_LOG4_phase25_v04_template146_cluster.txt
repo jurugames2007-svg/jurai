@@ -1,0 +1,59 @@
+{
+  "id": "v04_template146_cluster",
+  "template": "npc_map146_z8a7",
+  "positions": [
+    [
+      112,
+      88
+    ],
+    [
+      136,
+      88
+    ],
+    [
+      160,
+      88
+    ],
+    [
+      184,
+      88
+    ]
+  ],
+  "mutations": [],
+  "purpose": "Clusters a known NPC/object-like template near early Snakeway view.",
+  "output_gba": "patch_output/phase25_snakeway_variants/DBZ_LOG4_phase25_v04_template146_cluster.gba",
+  "output_ips": "patch_output/phase25_snakeway_variants/DBZ_LOG4_phase25_v04_template146_cluster.ips",
+  "modified_sha1": "5ee86187ff99067e0671f7d44042da81a592721d",
+  "npc_array": {
+    "offset": "0x800000",
+    "va": "0x08800000",
+    "record_count": 4,
+    "record_size": 32
+  },
+  "extended_map_table": {
+    "offset": "0x800080",
+    "va": "0x08800080"
+  },
+  "text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Riftway"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Rift Gate Guide"
+    },
+    {
+      "offset": "0x05DFCC",
+      "old": "Train with Other World Fighters",
+      "new": "Choose Gateway Dimension"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Rift Gate Guide"
+    }
+  ]
+}

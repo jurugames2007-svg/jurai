@@ -1,0 +1,75 @@
+{
+  "schema": "jurai.phase20.gateway_menu_layout.v1",
+  "screen": [
+    240,
+    160
+  ],
+  "tile": [
+    8,
+    8
+  ],
+  "grid": [
+    30,
+    20
+  ],
+  "preview": "additive_content/gateway/gateway_menu_preview_240x160.png",
+  "text_bank": "additive_content/gateway/gateway_text_bank.utf16le.bin",
+  "options": [
+    {
+      "id": "GATE_SUPER",
+      "label": "SUPER",
+      "subtitle": "Gods, universes, Goku Black",
+      "target": "SUPER_ROUTE",
+      "color": [
+        45,
+        165,
+        235
+      ]
+    },
+    {
+      "id": "GATE_GT",
+      "label": "GT",
+      "subtitle": "Black Star, Baby, Shadow Dragons",
+      "target": "GT_ROUTE",
+      "color": [
+        218,
+        64,
+        56
+      ]
+    },
+    {
+      "id": "GATE_AF",
+      "label": "AF",
+      "subtitle": "SSJ5, I'K'l, Xicor",
+      "target": "AF_ROUTE",
+      "color": [
+        220,
+        220,
+        230
+      ]
+    },
+    {
+      "id": "GATE_LOG1",
+      "label": "LOG1 DIM",
+      "subtitle": "Saiyan / Namek memory",
+      "target": "LOG1_DIMENSION",
+      "color": [
+        238,
+        188,
+        72
+      ]
+    },
+    {
+      "id": "GATE_LOG2",
+      "label": "LOG2 DIM",
+      "subtitle": "Android / Cell memory",
+      "target": "LOG2_DIMENSION",
+      "color": [
+        98,
+        210,
+        128
+      ]
+    }
+  ],
+  "native_ui_policy": "reuse Buu's Fury style: 240x160 screen, 8x8 tile grid, low-color hard-edge UI"
+}

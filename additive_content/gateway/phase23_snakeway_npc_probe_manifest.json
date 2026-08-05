@@ -1,0 +1,43 @@
+{
+  "schema": "jurai.phase23.snakeway_npc_probe.v1",
+  "policy": "experimental_map_table_extension_original_map_table_preserved",
+  "output_gba": "patch_output/DBZ_LOG4_phase23_snakeway_npc_probe.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase23_snakeway_npc_probe.ips",
+  "modified_sha1": "cb090a41584472d323deb4211e3926120aa6b8f4",
+  "snakeway_map_entry": 0,
+  "npc_record": {
+    "offset": "0x800000",
+    "va": "0x08800000",
+    "size": 32,
+    "template_source": "map65_Z2A33_native_npc_record"
+  },
+  "extended_map_table": {
+    "offset": "0x800020",
+    "va": "0x08800020",
+    "entry_count": 452
+  },
+  "text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Riftway"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Rift Gate Guide"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Rift Gate Guide"
+    },
+    {
+      "offset": "0x065204",
+      "old": "This assistant helps King Yemma usher souls into the Other World.",
+      "new": "Guide at Snakeway opens Super, GT, AF, LOG1 and LOG2."
+    }
+  ],
+  "test_goal": "Start game, reach Riftway/Snakeway, see if native NPC record spawns without crash.",
+  "fallback": "Use phase22 debug text build if entity probe crashes."
+}

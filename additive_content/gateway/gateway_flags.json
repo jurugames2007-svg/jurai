@@ -1,0 +1,14 @@
+{
+  "schema": "jurai.phase19.gateway_flags.v1",
+  "flags": [
+    "STORY_KID_BUU_DEFEATED",
+    "LOG4_POSTGAME_GATEWAY_UNLOCKED",
+    "LOG4_DEBUG_GATEWAY_UNLOCKED",
+    "LOG4_ROUTE_SUPER_UNLOCKED",
+    "LOG4_ROUTE_GT_UNLOCKED",
+    "LOG4_ROUTE_AF_UNLOCKED",
+    "DIM_LOG1_UNLOCKED",
+    "DIM_LOG2_UNLOCKED"
+  ],
+  "status": "reserved_not_mapped_to_save_yet"
+}

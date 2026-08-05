@@ -1,0 +1,41 @@
+{
+  "schema": "jurai.phase22.snakeway_dialogue_index.v1",
+  "strings": [
+    {
+      "id": "SW_GATE_HELLO",
+      "offset": 0,
+      "bytes": 132,
+      "text": "Rift Gate Guide: The road bends through time. Choose a dimension."
+    },
+    {
+      "id": "SW_GATE_SUPER",
+      "offset": 132,
+      "bytes": 138,
+      "text": "Rift Gate Guide: Super opens after Kid Buu. Gods and universes wait."
+    },
+    {
+      "id": "SW_GATE_GT",
+      "offset": 270,
+      "bytes": 100,
+      "text": "Rift Gate Guide: GT follows the Black Star trail."
+    },
+    {
+      "id": "SW_GATE_AF",
+      "offset": 370,
+      "bytes": 136,
+      "text": "Rift Gate Guide: AF is a dangerous fan rift. Enter only when ready."
+    },
+    {
+      "id": "SW_GATE_LOG1",
+      "offset": 506,
+      "bytes": 126,
+      "text": "Rift Gate Guide: LOG1 is a memory of Saiyan and Namek battles."
+    },
+    {
+      "id": "SW_GATE_LOG2",
+      "offset": 632,
+      "bytes": 112,
+      "text": "Rift Gate Guide: LOG2 is a memory of Androids and Cell."
+    }
+  ]
+}

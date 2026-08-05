@@ -1,0 +1,47 @@
+{
+  "schema": "jurai.phase19.log_dimensions.v1",
+  "dimensions": [
+    {
+      "id": "LOG1_DIMENSION",
+      "source_style": "The Legacy of Goku 1",
+      "runtime_screen": [
+        240,
+        160
+      ],
+      "tile": [
+        8,
+        8
+      ],
+      "actor_cell": [
+        40,
+        40
+      ],
+      "boss_cell": [
+        72,
+        72
+      ],
+      "role": "pre Kid Buu memory dimension"
+    },
+    {
+      "id": "LOG2_DIMENSION",
+      "source_style": "The Legacy of Goku 2",
+      "runtime_screen": [
+        240,
+        160
+      ],
+      "tile": [
+        8,
+        8
+      ],
+      "actor_cell": [
+        40,
+        40
+      ],
+      "boss_cell": [
+        72,
+        72
+      ],
+      "role": "pre Kid Buu memory dimension"
+    }
+  ]
+}

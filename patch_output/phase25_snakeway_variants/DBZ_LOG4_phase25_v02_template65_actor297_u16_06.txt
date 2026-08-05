@@ -1,0 +1,73 @@
+{
+  "id": "v02_template65_actor297_u16_06",
+  "template": "npc_map65_z2a33",
+  "positions": [
+    [
+      72,
+      88
+    ],
+    [
+      160,
+      88
+    ],
+    [
+      256,
+      88
+    ],
+    [
+      448,
+      88
+    ],
+    [
+      704,
+      88
+    ],
+    [
+      928,
+      88
+    ]
+  ],
+  "mutations": [
+    [
+      6,
+      "u16",
+      297
+    ]
+  ],
+  "purpose": "Tests hypothesis: u16 @ 0x06 is actor/character id.",
+  "output_gba": "patch_output/phase25_snakeway_variants/DBZ_LOG4_phase25_v02_template65_actor297_u16_06.gba",
+  "output_ips": "patch_output/phase25_snakeway_variants/DBZ_LOG4_phase25_v02_template65_actor297_u16_06.ips",
+  "modified_sha1": "e71fd617f3ed90b455365b0a3be9f73dd2f93f51",
+  "npc_array": {
+    "offset": "0x800000",
+    "va": "0x08800000",
+    "record_count": 6,
+    "record_size": 32
+  },
+  "extended_map_table": {
+    "offset": "0x8000C0",
+    "va": "0x088000C0"
+  },
+  "text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Riftway"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Rift Gate Guide"
+    },
+    {
+      "offset": "0x05DFCC",
+      "old": "Train with Other World Fighters",
+      "new": "Choose Gateway Dimension"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Rift Gate Guide"
+    }
+  ]
+}

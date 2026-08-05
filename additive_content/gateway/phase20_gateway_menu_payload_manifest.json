@@ -1,0 +1,16 @@
+{
+  "schema": "jurai.phase20.gateway_menu_build.v1",
+  "policy": "append_only_gateway_menu_data_original_game_unchanged",
+  "output_gba": "patch_output/DBZ_LOG4_phase20_gateway_menu_payload.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase20_gateway_menu_payload.ips",
+  "modified_sha1": "40c5d0e3f601c32baa540e52a2ebf9dac35ddee9",
+  "payload_offset": 8389025,
+  "payload_size": 11733,
+  "files": [
+    "additive_content/gateway/gateway_menu_preview_240x160.png",
+    "additive_content/gateway/gateway_text_bank.utf16le.bin",
+    "additive_content/gateway/gateway_text_bank_index.json",
+    "additive_content/gateway/gateway_menu_layout.json",
+    "additive_content/gateway/gateway_state_machine.json"
+  ]
+}

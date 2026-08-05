@@ -1,0 +1,13 @@
+Dragon Ball Z: Buu's Fury USA - GT/Super phase 1
+Base SHA-1: f1c4b07554d2a3b1ad2f325307051e775ce68087
+Modified SHA-1: bb4ba5c32854f2a8576bfa15d8e0313d7a080734
+
+Applied changes:
+- Goku slot -> native Goku GT: file 0x6B6D80, 086AD1CC -> 086AD278
+- Mystic Gohan slot -> native Gogeta: file 0x6B6D6C, 086ACE80 -> 086AC9B8
+- Vegita slot -> native Vegito: file 0x6B7010, 086B58D4 -> 086B5CE0
+- GBA title: DBZBUUSFURY -> DBZGTSPHACK1
+
+This phase reuses native same-format character definitions. The custom
+PNG/JPEG sheets are not blindly copied into the ROM; phase 2 must
+encode each animation frame with Webfoot's custom graphics codec.
