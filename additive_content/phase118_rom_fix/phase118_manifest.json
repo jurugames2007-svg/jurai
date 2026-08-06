@@ -1,0 +1,51 @@
+{
+  "phase": 118,
+  "name": "ROM Fix and Final Integration",
+  "description": "Create a valid GBA ROM file that includes all Phase 117 corrections and can be executed in emulators. This phase focuses on fixing the ROM format issues that prevent the game from loading.",
+  "start_date": "2026-08-06",
+  "estimated_duration_days": 3,
+  "objectives": [
+    "Create a valid 16MB GBA ROM structure",
+    "Include proper GBA header with correct checksum",
+    "Embed all Phase 117 data in correct locations",
+    "Ensure ROM loads in mGBA and other emulators",
+    "Add basic boot code to prevent crashes",
+    "Verify ROM integrity"
+  ],
+  "dependencies": [
+    "phase117_final_polish"
+  ],
+  "target_platforms": ["GBA", "mGBA", "VBA-M", "BGB", "Mednafen"],
+  "compatibility_requirements": {
+    "minimum_size": "16MB",
+    "valid_header": true,
+    "correct_checksum": true
+  },
+  "hooks": [
+    {
+      "id": "rom_header_hook",
+      "type": "header_fix",
+      "description": "Fixes GBA ROM header to be valid",
+      "files": ["output/DBZ_Buus_Fury_Hack_10_10_Fixed.gba"]
+    },
+    {
+      "id": "data_integration_hook",
+      "type": "data_embedding",
+      "description": "Embeds all Phase 117 data into ROM",
+      "files": [
+        "corrections/balance/*",
+        "corrections/collision/*",
+        "corrections/performance/*",
+        "corrections/tutorial_system.asm",
+        "corrections/new_content/*"
+      ]
+    }
+  ],
+  "new_content": {
+    "rom_structure": "16MB GBA ROM with valid header",
+    "boot_code": "Basic GBA boot code to prevent crashes",
+    "data_organization": "All Phase 117 data organized in ROM banks"
+  },
+  "language": "English",
+  "notes": "This phase creates a valid GBA ROM file. For a fully functional game, the original Dragon Ball Z: Buu's Fury (USA).gba ROM is required as a base."
+}
