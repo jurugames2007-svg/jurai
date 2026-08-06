@@ -8,6 +8,7 @@
 - phase33_route_matrix: sha1 `14eb4cda97292e7536b7ff3088562564b6c4e910` header_ok=True size=8390712
 - phase34_hook_research: sha1 `b0b374ac455a48e19a60e3296dfbd48defb4f6fc` header_ok=True size=8390280
 - phase40_hook_blueprint: sha1 `bf5acf1d625d4fd24ba0e8dc177505a1e2006a6c` header_ok=True size=8389968
+- phase44_title_payload: sha1 `515d36faccc6b51077f083771fc056177c325ae1` header_ok=True size=8562500
 - patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip: sha1 `023fc9f3e5ceacbc77e6e1781792ae0bded7092c`
 - patch_output/LOG4_phase28_missing_asset_kit.zip: sha1 `670d4cbe2415ef387dce0c75f908d03a41834541`
 - patch_output/LOG4_phase38_release_candidate_docs.zip: sha1 `dae4f67542818a820da998602e0a7d63f6a87adb`
@@ -16,4 +17,4 @@
 Errors: 0
 
 ## Result
-PASS — phase 39–43 batch outputs are structurally valid.
+PASS — phase 44 title/menu outputs are structurally valid.

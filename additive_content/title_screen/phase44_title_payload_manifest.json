@@ -1,0 +1,33 @@
+{
+  "schema": "jurai.phase44.title_payload_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase44_title_screen_payload.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase44_title_screen_payload.ips",
+  "modified_sha1": "515d36faccc6b51077f083771fc056177c325ae1",
+  "entries": [
+    {
+      "file": "additive_content/title_screen/LOG4_title_screen_240x160.png",
+      "sha1": "8d44713001b238cbd594abfde77ba7bcf15ff20c",
+      "size": 51481
+    },
+    {
+      "file": "additive_content/title_screen/LOG4_main_menu_240x160.png",
+      "sha1": "95af85f0e492b898b97ea269c8f272036be812f2",
+      "size": 45173
+    },
+    {
+      "file": "additive_content/title_screen/LOG4_title_background_240x160.png",
+      "sha1": "8a89fc76af359d870cfa9b63bc0b3355003cfff2",
+      "size": 54539
+    },
+    {
+      "file": "additive_content/title_screen/phase44_title_screen_manifest.json",
+      "sha1": "b534951fd75b0af4f083b187b6a77f3e4e8464a4",
+      "size": 825
+    },
+    {
+      "file": "include/log4_title_screen.h",
+      "sha1": "6d0c52102767da0b77859e3df6a0050e7c90ce57",
+      "size": 171768
+    }
+  ]
+}

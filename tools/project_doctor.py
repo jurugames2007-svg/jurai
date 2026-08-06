@@ -15,6 +15,7 @@ ROMS=[
  ('phase33_route_matrix',ROOT/'patch_output/DBZ_LOG4_phase33_full_route_expansion_matrix.gba','14eb4cda97292e7536b7ff3088562564b6c4e910'),
  ('phase34_hook_research',ROOT/'patch_output/DBZ_LOG4_phase34_gateway_hook_research.gba','b0b374ac455a48e19a60e3296dfbd48defb4f6fc'),
  ('phase40_hook_blueprint',ROOT/'patch_output/DBZ_LOG4_phase40_gateway_hook_blueprint.gba','bf5acf1d625d4fd24ba0e8dc177505a1e2006a6c'),
+ ('phase44_title_payload',ROOT/'patch_output/DBZ_LOG4_phase44_title_screen_payload.gba','515d36faccc6b51077f083771fc056177c325ae1'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -32,6 +33,8 @@ JSONS=[
  ROOT/'additive_content/phase41_trace_validation/trace_validation_report.json',
  ROOT/'additive_content/phase42_readiness/v0_2_readiness_manifest.json',
  ROOT/'additive_content/phase43_next_engineering/v0_2_next_engineering_plan.json',
+ ROOT/'additive_content/title_screen/phase44_title_screen_manifest.json',
+ ROOT/'additive_content/title_screen/phase44_title_payload_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -59,7 +62,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 39–43 batch outputs are structurally valid.']
+ else: lines += ['','## Result','PASS — phase 44 title/menu outputs are structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

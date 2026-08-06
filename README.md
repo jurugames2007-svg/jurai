@@ -225,3 +225,14 @@ sobrescribe.
 - Kit completo de assets faltantes en dimensiones nativas: `patch_output/LOG4_phase28_missing_asset_kit.zip`.
 - Línea principal prevista: Buu's Fury original → post Kid Buu (`Super`, `GT`, `AF`) → dimensiones pre Kid Buu (`LOG1_DIMENSION`, `LOG2_DIMENSION`).
 - Próximo hito jugable: hacer que Bubbles/Gate Guide abra un menú real de selección y conecte al menos una mini-ruta completa.
+
+## Phase 44 title/menu asset
+
+AI-assisted native GBA title/menu art is available at:
+
+- `additive_content/title_screen/LOG4_title_screen_240x160.png`
+- `additive_content/title_screen/LOG4_main_menu_240x160.png`
+- `include/log4_title_screen.h`
+- `patch_output/DBZ_LOG4_phase44_title_screen_payload.gba`
+
+This is an append-only payload/title asset; a future runtime title hook is still required to replace the in-game title flow.
