@@ -1,15 +1,35 @@
-# Remaining phases to complete a seamless playable LOG4 experience
+# Remaining work after Phase 34–38
 
-After Phase 29–33, the project has native-dimension draft assets, an encoded draft asset bank, gateway interaction data, a first LOG2 mini-route contract, and a full route matrix.
+The project now has:
 
-## Remaining major phases
+- v0.1 Bubbles Gateway test package.
+- Missing asset kit in native dimensions.
+- Review queue and encoded draft asset bank.
+- Gateway interaction payload.
+- First LOG2 mini-route data package.
+- Full route matrix for Super, GT, AF, LOG1 and LOG2.
+- Save flag allocation plan.
+- Content insertion order.
+- Final QA/release plan.
 
-1. **Phase 34 — Native script/menu hooks:** make Bubbles/Gate Guide open the actual gateway menu in-game.
-2. **Phase 35 — First playable route runtime:** connect the LOG2 mini-route to real maps/NPCs/items/battles and verify return to gateway.
-3. **Phase 36 — Save/flag integration:** map reserved route/dimension flags into safe save/RAM storage with fallback/migration.
-4. **Phase 37 — Full route content insertion:** insert approved sprites/maps/enemies for Super, GT, AF, LOG1 and LOG2 chapters.
-5. **Phase 38 — Full QA/release:** mGBA and hardware-like QA, route completion, collision, save/load, IPS/BPS final packaging.
+## What still blocks a seamless playable experience
 
-**Estimated remaining major phases: 5.**
+Only a few major engineering tasks remain, but they are the hardest tasks:
 
-The next real playable milestone is Phase 34/35: Bubbles opens a real gateway menu and at least the LOG2 mini-route becomes playable.
+1. **Native menu/script hook** — make Bubbles/Gate Guide open the gateway menu in runtime.
+2. **First route hook** — connect the LOG2 mini-route to actual map/NPC/item/battle scripts.
+3. **Save integration** — write/read LOG4 flags safely without corrupting saves.
+4. **Pixel cleanup** — convert the 55 character/enemy sheets from draft to approved pixel art.
+5. **Full QA** — mGBA and hardware-like testing across route completion.
+
+## Practical next milestone
+
+The next milestone should be **v0.2 Gateway Runtime**:
+
+- Talk to Bubbles.
+- See a menu/list with Super, GT, AF, LOG1, LOG2.
+- Select LOG2.
+- Enter a safe placeholder map or existing fallback map.
+- Return to gateway.
+
+Once that works, the rest of the project becomes content expansion rather than core engine risk.

@@ -1,0 +1,42 @@
+{
+  "schema": "jurai.phase38.qa_release_plan.v1",
+  "checks": [
+    {
+      "check": "Boot in mGBA",
+      "status": "pending"
+    },
+    {
+      "check": "Header checksum valid",
+      "status": "passing_structural"
+    },
+    {
+      "check": "Original-first path unchanged",
+      "status": "pending"
+    },
+    {
+      "check": "Bubbles Gateway debug visible",
+      "status": "pending"
+    },
+    {
+      "check": "Gateway interaction hook tested",
+      "status": "pending"
+    },
+    {
+      "check": "LOG2 mini-route complete",
+      "status": "pending"
+    },
+    {
+      "check": "Save/load after gateway",
+      "status": "pending"
+    },
+    {
+      "check": "No crash on map transitions",
+      "status": "pending"
+    },
+    {
+      "check": "IPS/BPS package excludes base ROM for public release",
+      "status": "pending"
+    }
+  ],
+  "release_rule": "public release must ship patches/docs only, not base ROM"
+}

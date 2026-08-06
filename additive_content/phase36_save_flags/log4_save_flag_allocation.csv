@@ -1,0 +1,17 @@
+flag,byte_index,bit_index,mask,status
+STORY_KID_BUU_DEFEATED,0,0,0x01,reserved_not_written_to_sram
+LOG4_POSTGAME_GATEWAY_UNLOCKED,0,1,0x02,reserved_not_written_to_sram
+LOG4_DEBUG_GATEWAY_UNLOCKED,0,2,0x04,reserved_not_written_to_sram
+LOG4_ROUTE_SUPER_UNLOCKED,0,3,0x08,reserved_not_written_to_sram
+LOG4_ROUTE_GT_UNLOCKED,0,4,0x10,reserved_not_written_to_sram
+LOG4_ROUTE_AF_UNLOCKED,0,5,0x20,reserved_not_written_to_sram
+DIM_LOG1_UNLOCKED,0,6,0x40,reserved_not_written_to_sram
+DIM_LOG2_UNLOCKED,0,7,0x80,reserved_not_written_to_sram
+DIM_LOG1_ENTERED,1,0,0x01,reserved_not_written_to_sram
+DIM_LOG2_ENTERED,1,1,0x02,reserved_not_written_to_sram
+LOG2_ANDROID_SIGNAL_FOUND,1,2,0x04,reserved_not_written_to_sram
+LOG2_CELL_JR_DEFEATED,1,3,0x08,reserved_not_written_to_sram
+LOG2_MINI_ROUTE_COMPLETE,1,4,0x10,reserved_not_written_to_sram
+ASSET_BANK_READY,1,5,0x20,reserved_not_written_to_sram
+GATEWAY_MENU_UNLOCKED,1,6,0x40,reserved_not_written_to_sram
+BUBBLES_GATE_TESTED,1,7,0x80,reserved_not_written_to_sram
