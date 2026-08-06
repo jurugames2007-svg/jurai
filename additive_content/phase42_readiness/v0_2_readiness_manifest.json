@@ -1,0 +1,52 @@
+{
+  "schema": "jurai.phase42.v02_readiness_pack.v1",
+  "zip": "patch_output/LOG4_v0_2_gateway_runtime_readiness_pack.zip",
+  "zip_sha1": "777434ba835f5c93bb2ee7c41b8411c5fd763ca0",
+  "files": [
+    {
+      "archive": "README.md",
+      "sha1": "9f4e46fcbf6791ede38ed8c557b1340cd3f12302",
+      "size": 473
+    },
+    {
+      "archive": "patch_output/DBZ_LOG4_phase26_bubbles_start_gateway.gba",
+      "sha1": "3aa4a54f95dd218f7494ea54def741883a6a8c7e",
+      "size": 8389676
+    },
+    {
+      "archive": "patch_output/DBZ_LOG4_phase34_gateway_hook_research.gba",
+      "sha1": "b0b374ac455a48e19a60e3296dfbd48defb4f6fc",
+      "size": 8390280
+    },
+    {
+      "archive": "patch_output/DBZ_LOG4_phase31_gateway_interaction_payload.gba",
+      "sha1": "ab593510d1cef6dcf051e478eb265330eefa3c1a",
+      "size": 8390000
+    },
+    {
+      "archive": "patch_output/DBZ_LOG4_phase32_first_playable_route_package.gba",
+      "sha1": "d70c1143fdf5a128e3afb54edaab69595b18bf20",
+      "size": 8390060
+    },
+    {
+      "archive": "docs/PHASE39_DIALOGUE_TRACE_PACKAGE.md",
+      "sha1": "bfa49d7b622ba2b95f45e5796334a6b6dd11986e",
+      "size": 725
+    },
+    {
+      "archive": "docs/PHASE40_GATEWAY_HOOK_BLUEPRINT.md",
+      "sha1": "e0a680acd662ab435e1be68d6bc74f9f0e270034",
+      "size": 367
+    },
+    {
+      "archive": "docs/PHASE41_TRACE_VALIDATION_REPORT.md",
+      "sha1": "270383d187f698ca84d5de0ae3d65cba67851411",
+      "size": 257
+    },
+    {
+      "archive": "docs/PROJECT_PHASES_REMAINING.md",
+      "sha1": "ddd61b6e7771f45a7d1f6db1f22d82ccda3ebdbb",
+      "size": 1307
+    }
+  ]
+}

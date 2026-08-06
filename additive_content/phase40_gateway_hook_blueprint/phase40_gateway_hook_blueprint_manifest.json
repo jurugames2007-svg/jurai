@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase40.gateway_hook_blueprint_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase40_gateway_hook_blueprint.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase40_gateway_hook_blueprint.ips",
+  "modified_sha1": "bf5acf1d625d4fd24ba0e8dc177505a1e2006a6c",
+  "blueprint": "additive_content/phase40_gateway_hook_blueprint/gateway_hook_blueprint.json"
+}

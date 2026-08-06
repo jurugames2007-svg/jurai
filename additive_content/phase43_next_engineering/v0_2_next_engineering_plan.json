@@ -1,0 +1,44 @@
+{
+  "schema": "jurai.phase43.next_engineering_plan.v1",
+  "milestone": "v0.2 Gateway Runtime",
+  "blocking_problem": "Need native script/menu hook so Bubbles opens a real gateway menu.",
+  "ordered_tasks": [
+    {
+      "id": "43A",
+      "task": "Use watchpoint PCs 0x03000268 and 0x03000060 to trace caller registers/source pointer",
+      "deliverable": "caller register trace JSON"
+    },
+    {
+      "id": "43B",
+      "task": "Locate compressed dialogue package for first Other World/Bubbles text",
+      "deliverable": "ROM offset + decompression validation"
+    },
+    {
+      "id": "43C",
+      "task": "Patch data pointer or package to Gateway text bank with fallback",
+      "deliverable": "ROM that changes one existing Bubbles dialogue safely"
+    },
+    {
+      "id": "43D",
+      "task": "Reuse native list/menu flow or simple dialogue branch for Super/GT/AF/LOG1/LOG2 choices",
+      "deliverable": "interactive gateway prototype"
+    },
+    {
+      "id": "43E",
+      "task": "Route LOG2 option to first route contract",
+      "deliverable": "first route transition smoke test"
+    }
+  ],
+  "success_criteria": [
+    "Talk to Bubbles/Gate Guide",
+    "See selectable gateway choices",
+    "Select LOG2",
+    "Land in safe map or route stub",
+    "Return without crash"
+  ],
+  "fallbacks": [
+    "phase26 text debug build",
+    "phase31 data payload",
+    "phase32 first route data package"
+  ]
+}

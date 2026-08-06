@@ -14,34 +14,30 @@ ROMS=[
  ('phase32_first_route',ROOT/'patch_output/DBZ_LOG4_phase32_first_playable_route_package.gba','d70c1143fdf5a128e3afb54edaab69595b18bf20'),
  ('phase33_route_matrix',ROOT/'patch_output/DBZ_LOG4_phase33_full_route_expansion_matrix.gba','14eb4cda97292e7536b7ff3088562564b6c4e910'),
  ('phase34_hook_research',ROOT/'patch_output/DBZ_LOG4_phase34_gateway_hook_research.gba','b0b374ac455a48e19a60e3296dfbd48defb4f6fc'),
+ ('phase40_hook_blueprint',ROOT/'patch_output/DBZ_LOG4_phase40_gateway_hook_blueprint.gba','bf5acf1d625d4fd24ba0e8dc177505a1e2006a6c'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
  ROOT/'additive_content/gateway/postgame_dimension_gateway.json',
  ROOT/'additive_content/gateway/bubbles_start_gateway_contract.json',
- ROOT/'additive_content/gateway/phase26_bubbles_start_gateway_manifest.json',
- ROOT/'additive_content/release/v0_1_bubbles_gateway_manifest.json',
  ROOT/'additive_content/final_asset_kit/phase28_missing_asset_kit_manifest.json',
  ROOT/'additive_content/phase29_review/phase29_asset_review_seed_manifest.json',
  ROOT/'additive_content/phase30_native_bank/phase30_reviewed_asset_bank_manifest.json',
  ROOT/'additive_content/phase31_gateway_interaction/gateway_interaction_contract.json',
- ROOT/'additive_content/phase31_gateway_interaction/phase31_gateway_interaction_payload_manifest.json',
  ROOT/'additive_content/phase32_first_route/log2_first_route_contract.json',
- ROOT/'additive_content/phase32_first_route/phase32_first_route_build_manifest.json',
  ROOT/'additive_content/phase33_route_matrix/full_route_expansion_matrix.json',
- ROOT/'additive_content/phase33_route_matrix/phase33_route_matrix_build_manifest.json',
  ROOT/'additive_content/phase34_gateway_hook_research/gateway_hook_research.json',
- ROOT/'additive_content/phase34_gateway_hook_research/phase34_gateway_hook_research_manifest.json',
- ROOT/'additive_content/phase35_runtime_tests/runtime_route_test_plan.json',
- ROOT/'additive_content/phase36_save_flags/log4_save_flag_allocation.json',
- ROOT/'additive_content/phase37_insertion/content_insertion_order.json',
- ROOT/'additive_content/phase38_release/phase38_qa_release_plan.json',
- ROOT/'additive_content/phase38_release/phase38_release_candidate_manifest.json',
+ ROOT/'additive_content/phase39_dialogue_trace/dialogue_trace_findings.json',
+ ROOT/'additive_content/phase40_gateway_hook_blueprint/gateway_hook_blueprint.json',
+ ROOT/'additive_content/phase41_trace_validation/trace_validation_report.json',
+ ROOT/'additive_content/phase42_readiness/v0_2_readiness_manifest.json',
+ ROOT/'additive_content/phase43_next_engineering/v0_2_next_engineering_plan.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
  (ROOT/'patch_output/LOG4_phase28_missing_asset_kit.zip','670d4cbe2415ef387dce0c75f908d03a41834541'),
  (ROOT/'patch_output/LOG4_phase38_release_candidate_docs.zip','dae4f67542818a820da998602e0a7d63f6a87adb'),
+ (ROOT/'patch_output/LOG4_v0_2_gateway_runtime_readiness_pack.zip','777434ba835f5c93bb2ee7c41b8411c5fd763ca0'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff
@@ -63,7 +59,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 34–38 batch outputs are structurally valid.']
+ else: lines += ['','## Result','PASS — phase 39–43 batch outputs are structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')
