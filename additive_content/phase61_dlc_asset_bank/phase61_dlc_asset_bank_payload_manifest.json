@@ -1,0 +1,21 @@
+{
+  "schema": "jurai.phase61.dlc_asset_bank_payload.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.ips",
+  "modified_sha1": "3495fab96e7df9387f8fbd0fc854163f32be6254",
+  "source_phase54_rom": "patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba",
+  "source_phase54_sha1": "c2e76758af2cd989485e1b74de668c295cb88101",
+  "asset_bank_bin": "additive_content/phase61_dlc_asset_bank/log4_phase61_asset_bank.bin",
+  "asset_bank_sha1": "6828d502171364b7455e7f9b4b0467f5a023fbe3",
+  "asset_bank_offset": "0x8D4B28",
+  "asset_bank_va": "0x088D4B28",
+  "asset_bank_size": 502050,
+  "asset_count": 103,
+  "counts_by_kind": {
+    "playable_sprite_sheet": 22,
+    "enemy_sprite_sheet": 37,
+    "portrait_40x40": 16,
+    "object_icon_32x32": 28
+  },
+  "status": "ROM payload appended; assets are registered in a custom bank but not yet hooked into native renderer/entity tables."
+}

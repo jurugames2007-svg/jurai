@@ -279,3 +279,20 @@ What works now:
 - Phase 54 additively registers native route IDs `F0:01` through `F0:05` by extending the AreaEntry table from 452 to 457 entries.
 
 Honest status: Gateway-to-native-map transition is not implemented yet. The current rooms are playable debug rooms plus native registry groundwork for the next map-constructor hook.
+
+## Phase 56–62 v0.4 DLC asset readiness
+
+Current asset-readiness package:
+
+- v0.4 DLC asset-readiness pack: `patch_output/LOG4_v0_4_dlc_asset_readiness_pack.zip`
+- Advanced ROM with appended asset bank: `patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba`
+
+New add-only DLC asset payloads:
+
+- 22 playable-route 32×32 sprite sheets in `additive_content/phase57_playable_32x32_sprites/`.
+- 37 enemy/boss 32×32 sprite sheets in `additive_content/phase59_enemy_32x32_sprites/`.
+- 16 AI-assisted portraits, processed to 40×40 and 32×32, in `additive_content/phase58_ai_portraits/`.
+- 28 item/object/warp-pad 32×32 icons in `additive_content/phase60_dlc_objects_tiles/`.
+- Custom appended `LOG4A32` asset bank in `additive_content/phase61_dlc_asset_bank/` and the Phase 61 ROM.
+
+Runtime status: the Phase 61 ROM still passes boot Gateway rooms and original fallback tests. Honest limitation: the new art is banked/payload-ready but is not yet rendered by native Buu's Fury OBJ/dialogue/item hooks.

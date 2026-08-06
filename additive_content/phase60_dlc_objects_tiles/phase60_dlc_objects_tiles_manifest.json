@@ -1,0 +1,232 @@
+{
+  "schema": "jurai.phase60.dlc_objects_tiles.v1",
+  "records": [
+    {
+      "id": "senzu_bean",
+      "display": "Senzu",
+      "kind": "bean",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/senzu_bean_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "ultra_divine_water",
+      "display": "Divine Water",
+      "kind": "bottle",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/ultra_divine_water_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "beerus_ration",
+      "display": "Beerus Ration",
+      "kind": "food",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/beerus_ration_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "capsule_energy_drink",
+      "display": "Capsule Drink",
+      "kind": "capsule",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/capsule_energy_drink_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "ki_battery",
+      "display": "Ki Battery",
+      "kind": "battery",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/ki_battery_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "gravity_boots",
+      "display": "Gravity Boots",
+      "kind": "boots",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/gravity_boots_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "black_star_dragon_ball",
+      "display": "Black Star DB",
+      "kind": "ball",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/black_star_dragon_ball_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "time_chamber_key",
+      "display": "Time Key",
+      "kind": "key",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/time_chamber_key_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "tournament_invitation",
+      "display": "Invitation",
+      "kind": "scroll",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/tournament_invitation_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "moro_box",
+      "display": "Moro Box",
+      "kind": "box",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/moro_box_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "baby_scepter",
+      "display": "Baby Scepter",
+      "kind": "staff",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/baby_scepter_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "android17_core",
+      "display": "A17 Core",
+      "kind": "core",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/android17_core_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "negative_dragon_ball",
+      "display": "Negative DB",
+      "kind": "ball",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/negative_dragon_ball_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "kaioshin_key",
+      "display": "Kai Key",
+      "kind": "key",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/kaioshin_key_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "ikl_seal",
+      "display": "I'K'L Seal",
+      "kind": "seal",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/ikl_seal_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "stolen_goku_cells",
+      "display": "Stolen Cells",
+      "kind": "vial",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/stolen_goku_cells_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "creator_heart",
+      "display": "Creator Heart",
+      "kind": "heart",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/creator_heart_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "rift_shard_super",
+      "display": "Super Shard",
+      "kind": "crystal",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/rift_shard_super_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "rift_shard_gt",
+      "display": "GT Shard",
+      "kind": "crystal",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/rift_shard_gt_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "rift_shard_af",
+      "display": "AF Shard",
+      "kind": "crystal",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/rift_shard_af_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "log1_memory_chip",
+      "display": "LOG1 Chip",
+      "kind": "chip",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/log1_memory_chip_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "log2_memory_chip",
+      "display": "LOG2 Chip",
+      "kind": "chip",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/log2_memory_chip_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "gateway_capsule",
+      "display": "Gateway Cap",
+      "kind": "capsule",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/gateway_capsule_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "debug_warp_pad",
+      "display": "Warp Pad",
+      "kind": "pad",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/debug_warp_pad_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "home_warp_pad",
+      "display": "Home Pad",
+      "kind": "pad",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/home_warp_pad_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "origin_warp_pad",
+      "display": "Orig Pad",
+      "kind": "pad",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/origin_warp_pad_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "next_warp_pad",
+      "display": "Next Pad",
+      "kind": "pad",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/next_warp_pad_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    },
+    {
+      "id": "dlc_route_token",
+      "display": "Route Token",
+      "kind": "token",
+      "icon": "additive_content/phase60_dlc_objects_tiles/icons_32x32/dlc_route_token_32x32.png",
+      "cell_size": "32x32",
+      "palette_budget": 32
+    }
+  ],
+  "count": 28,
+  "atlas": "additive_content/phase60_dlc_objects_tiles/phase60_object_icon_atlas.png",
+  "status": "object_icon_and_warp_tile_payloads_not_hooked"
+}

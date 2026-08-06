@@ -1,0 +1,31 @@
+{
+  "schema": "jurai.phase61.dlc_asset_bank.runtime_report.v1",
+  "rom": "patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba",
+  "rom_sha1": "3495fab96e7df9387f8fbd0fc854163f32be6254",
+  "runtime_status": "PASS",
+  "tests": [
+    {
+      "name": "phase51_warp_rooms_compatibility",
+      "output_dir": "playtest_output/phase61_asset_bank_warp_rooms",
+      "result": "PASS_PHASE51_WARP_ROOMS_RUNTIME_SCRIPT_COMPLETED",
+      "coverage": [
+        "boot Gateway shown",
+        "enter route room",
+        "move marker",
+        "L/R room cycling",
+        "NEXT pad warp",
+        "HOME pad return",
+        "Start fallback to original"
+      ]
+    },
+    {
+      "name": "original_fallback_skip_intro_40_cycles",
+      "output_dir": "playtest_output/phase61_asset_bank_original_fallback_skip",
+      "result": "PASS_RUNTIME_SCRIPT_COMPLETED",
+      "coverage": [
+        "Start/original fallback boots original Buu's Fury flow after appended asset bank"
+      ]
+    }
+  ],
+  "honest_status": "Playable boot Gateway/original fallback survived the appended LOG4A32 asset bank. New DLC assets are present as bank payload, not yet rendered by native engine hooks."
+}

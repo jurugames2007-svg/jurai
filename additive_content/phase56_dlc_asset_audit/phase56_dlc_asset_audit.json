@@ -1,0 +1,1346 @@
+{
+  "schema": "jurai.phase56.dlc_asset_audit.v1",
+  "purpose": "Audit and generation target list for DLC-like 32x32 route assets.",
+  "policy": "additive_asset_payloads_only_no_original_replacement",
+  "target_cell_sizes": {
+    "sprites": "32x32",
+    "enemies": "32x32",
+    "icons": "32x32",
+    "portraits": "40x40 and 32x32 review thumbnails"
+  },
+  "playable_targets": [
+    {
+      "id": "goku_ssg",
+      "route": "SUPER",
+      "display": "Goku SSG",
+      "primary": [
+        230,
+        62,
+        42
+      ],
+      "secondary": [
+        42,
+        78,
+        160
+      ],
+      "hair": [
+        210,
+        34,
+        30
+      ],
+      "aura": [
+        255,
+        210,
+        80
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "goku_ssb",
+      "route": "SUPER",
+      "display": "Goku SSB",
+      "primary": [
+        48,
+        116,
+        224
+      ],
+      "secondary": [
+        230,
+        110,
+        34
+      ],
+      "hair": [
+        48,
+        202,
+        255
+      ],
+      "aura": [
+        96,
+        230,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "goku_ui_sign",
+      "route": "SUPER",
+      "display": "Goku UI Sign",
+      "primary": [
+        50,
+        58,
+        76
+      ],
+      "secondary": [
+        232,
+        232,
+        232
+      ],
+      "hair": [
+        34,
+        38,
+        50
+      ],
+      "aura": [
+        210,
+        220,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "goku_ui_mastered",
+      "route": "SUPER",
+      "display": "Goku UI Mastered",
+      "primary": [
+        236,
+        236,
+        240
+      ],
+      "secondary": [
+        58,
+        78,
+        120
+      ],
+      "hair": [
+        224,
+        224,
+        232
+      ],
+      "aura": [
+        255,
+        255,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "vegeta_ssb",
+      "route": "SUPER",
+      "display": "Vegeta SSB",
+      "primary": [
+        28,
+        72,
+        178
+      ],
+      "secondary": [
+        236,
+        236,
+        244
+      ],
+      "hair": [
+        34,
+        198,
+        255
+      ],
+      "aura": [
+        92,
+        222,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "vegeta_ssbe",
+      "route": "SUPER",
+      "display": "Vegeta SSBE",
+      "primary": [
+        18,
+        44,
+        162
+      ],
+      "secondary": [
+        255,
+        220,
+        70
+      ],
+      "hair": [
+        38,
+        132,
+        255
+      ],
+      "aura": [
+        90,
+        154,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "vegeta_ultra_ego",
+      "route": "SUPER",
+      "display": "Vegeta Ultra Ego",
+      "primary": [
+        92,
+        34,
+        128
+      ],
+      "secondary": [
+        210,
+        190,
+        70
+      ],
+      "hair": [
+        180,
+        92,
+        230
+      ],
+      "aura": [
+        232,
+        92,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "gohan_beast",
+      "route": "SUPER",
+      "display": "Gohan Beast",
+      "primary": [
+        92,
+        72,
+        118
+      ],
+      "secondary": [
+        250,
+        250,
+        250
+      ],
+      "hair": [
+        218,
+        220,
+        232
+      ],
+      "aura": [
+        245,
+        220,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "trunks_rage",
+      "route": "SUPER",
+      "display": "Trunks Rage",
+      "primary": [
+        52,
+        60,
+        148
+      ],
+      "secondary": [
+        76,
+        220,
+        255
+      ],
+      "hair": [
+        184,
+        148,
+        238
+      ],
+      "aura": [
+        255,
+        242,
+        88
+      ],
+      "kind": "sword"
+    },
+    {
+      "id": "piccolo_orange",
+      "route": "SUPER",
+      "display": "Piccolo Orange",
+      "primary": [
+        230,
+        118,
+        46
+      ],
+      "secondary": [
+        65,
+        118,
+        64
+      ],
+      "hair": [
+        40,
+        120,
+        62
+      ],
+      "aura": [
+        255,
+        176,
+        70
+      ],
+      "kind": "namek"
+    },
+    {
+      "id": "android17_super",
+      "route": "SUPER",
+      "display": "Android 17",
+      "primary": [
+        34,
+        68,
+        74
+      ],
+      "secondary": [
+        220,
+        82,
+        62
+      ],
+      "hair": [
+        28,
+        32,
+        36
+      ],
+      "aura": [
+        72,
+        196,
+        220
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "android18_super",
+      "route": "SUPER",
+      "display": "Android 18",
+      "primary": [
+        72,
+        96,
+        168
+      ],
+      "secondary": [
+        232,
+        214,
+        76
+      ],
+      "hair": [
+        238,
+        218,
+        118
+      ],
+      "aura": [
+        164,
+        214,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "gogeta_ssb",
+      "route": "SUPER",
+      "display": "Gogeta SSB",
+      "primary": [
+        38,
+        80,
+        190
+      ],
+      "secondary": [
+        238,
+        186,
+        58
+      ],
+      "hair": [
+        38,
+        190,
+        252
+      ],
+      "aura": [
+        110,
+        230,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "vegito_blue",
+      "route": "SUPER",
+      "display": "Vegito Blue",
+      "primary": [
+        42,
+        70,
+        172
+      ],
+      "secondary": [
+        245,
+        128,
+        38
+      ],
+      "hair": [
+        48,
+        208,
+        255
+      ],
+      "aura": [
+        100,
+        226,
+        255
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "goku_ssj4",
+      "route": "GT",
+      "display": "Goku SSJ4",
+      "primary": [
+        178,
+        38,
+        48
+      ],
+      "secondary": [
+        64,
+        76,
+        112
+      ],
+      "hair": [
+        36,
+        30,
+        40
+      ],
+      "aura": [
+        255,
+        92,
+        64
+      ],
+      "kind": "fur"
+    },
+    {
+      "id": "vegeta_ssj4",
+      "route": "GT",
+      "display": "Vegeta SSJ4",
+      "primary": [
+        154,
+        42,
+        58
+      ],
+      "secondary": [
+        36,
+        54,
+        120
+      ],
+      "hair": [
+        84,
+        42,
+        64
+      ],
+      "aura": [
+        255,
+        112,
+        74
+      ],
+      "kind": "fur"
+    },
+    {
+      "id": "pan_gt",
+      "route": "GT",
+      "display": "Pan GT",
+      "primary": [
+        232,
+        82,
+        72
+      ],
+      "secondary": [
+        62,
+        82,
+        128
+      ],
+      "hair": [
+        30,
+        28,
+        32
+      ],
+      "aura": [
+        255,
+        160,
+        120
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "uub_majuub",
+      "route": "GT",
+      "display": "Majuub",
+      "primary": [
+        218,
+        190,
+        122
+      ],
+      "secondary": [
+        92,
+        52,
+        124
+      ],
+      "hair": [
+        38,
+        34,
+        42
+      ],
+      "aura": [
+        232,
+        226,
+        148
+      ],
+      "kind": "humanoid"
+    },
+    {
+      "id": "goku_ssj5_af",
+      "route": "AF",
+      "display": "Goku SSJ5",
+      "primary": [
+        238,
+        238,
+        232
+      ],
+      "secondary": [
+        156,
+        56,
+        64
+      ],
+      "hair": [
+        240,
+        240,
+        240
+      ],
+      "aura": [
+        255,
+        255,
+        255
+      ],
+      "kind": "fur"
+    },
+    {
+      "id": "vegeta_ssj5_af",
+      "route": "AF",
+      "display": "Vegeta SSJ5",
+      "primary": [
+        224,
+        224,
+        230
+      ],
+      "secondary": [
+        62,
+        68,
+        140
+      ],
+      "hair": [
+        236,
+        236,
+        242
+      ],
+      "aura": [
+        255,
+        245,
+        255
+      ],
+      "kind": "fur"
+    },
+    {
+      "id": "xicor_ally",
+      "route": "AF",
+      "display": "Xicor Ally",
+      "primary": [
+        218,
+        218,
+        228
+      ],
+      "secondary": [
+        112,
+        62,
+        154
+      ],
+      "hair": [
+        232,
+        232,
+        240
+      ],
+      "aura": [
+        212,
+        148,
+        255
+      ],
+      "kind": "villain"
+    },
+    {
+      "id": "kaioshin_af_ally",
+      "route": "AF",
+      "display": "AF Kaioshin",
+      "primary": [
+        92,
+        62,
+        144
+      ],
+      "secondary": [
+        232,
+        188,
+        72
+      ],
+      "hair": [
+        222,
+        230,
+        244
+      ],
+      "aura": [
+        184,
+        142,
+        255
+      ],
+      "kind": "kai"
+    }
+  ],
+  "enemy_targets": [
+    {
+      "id": "beerus_trial",
+      "route": "SUPER",
+      "display": "Beerus Trial",
+      "primary": [
+        94,
+        58,
+        138
+      ],
+      "secondary": [
+        236,
+        186,
+        64
+      ],
+      "kind": "beast"
+    },
+    {
+      "id": "frieza_soldier_super",
+      "route": "SUPER",
+      "display": "Frieza Soldier",
+      "primary": [
+        72,
+        112,
+        148
+      ],
+      "secondary": [
+        226,
+        226,
+        238
+      ],
+      "kind": "soldier"
+    },
+    {
+      "id": "golden_frieza",
+      "route": "SUPER",
+      "display": "Golden Frieza",
+      "primary": [
+        236,
+        190,
+        42
+      ],
+      "secondary": [
+        142,
+        48,
+        166
+      ],
+      "kind": "alien"
+    },
+    {
+      "id": "frost_memory",
+      "route": "SUPER",
+      "display": "Frost",
+      "primary": [
+        198,
+        206,
+        228
+      ],
+      "secondary": [
+        80,
+        94,
+        180
+      ],
+      "kind": "alien"
+    },
+    {
+      "id": "hit_trial",
+      "route": "SUPER",
+      "display": "Hit",
+      "primary": [
+        92,
+        54,
+        128
+      ],
+      "secondary": [
+        196,
+        100,
+        224
+      ],
+      "kind": "assassin"
+    },
+    {
+      "id": "goku_black_rift",
+      "route": "SUPER",
+      "display": "Black Rift",
+      "primary": [
+        42,
+        44,
+        54
+      ],
+      "secondary": [
+        232,
+        72,
+        138
+      ],
+      "kind": "sword"
+    },
+    {
+      "id": "zamasu_rift",
+      "route": "SUPER",
+      "display": "Zamasu",
+      "primary": [
+        78,
+        132,
+        82
+      ],
+      "secondary": [
+        224,
+        224,
+        238
+      ],
+      "kind": "kai"
+    },
+    {
+      "id": "fused_zamasu",
+      "route": "SUPER",
+      "display": "Fused Zamasu",
+      "primary": [
+        206,
+        216,
+        232
+      ],
+      "secondary": [
+        120,
+        74,
+        174
+      ],
+      "kind": "boss"
+    },
+    {
+      "id": "toppo_trial",
+      "route": "SUPER",
+      "display": "Toppo",
+      "primary": [
+        74,
+        58,
+        124
+      ],
+      "secondary": [
+        242,
+        202,
+        64
+      ],
+      "kind": "heavy"
+    },
+    {
+      "id": "jiren_trial",
+      "route": "SUPER",
+      "display": "Jiren",
+      "primary": [
+        188,
+        42,
+        42
+      ],
+      "secondary": [
+        42,
+        48,
+        54
+      ],
+      "kind": "heavy"
+    },
+    {
+      "id": "broly_vampa",
+      "route": "SUPER",
+      "display": "Broly",
+      "primary": [
+        76,
+        168,
+        72
+      ],
+      "secondary": [
+        90,
+        52,
+        112
+      ],
+      "kind": "heavy"
+    },
+    {
+      "id": "moro_scout",
+      "route": "SUPER",
+      "display": "Moro Scout",
+      "primary": [
+        64,
+        76,
+        92
+      ],
+      "secondary": [
+        156,
+        210,
+        236
+      ],
+      "kind": "horned"
+    },
+    {
+      "id": "moro_73",
+      "route": "SUPER",
+      "display": "Moro 73",
+      "primary": [
+        82,
+        92,
+        112
+      ],
+      "secondary": [
+        62,
+        192,
+        220
+      ],
+      "kind": "horned"
+    },
+    {
+      "id": "granolah_drone",
+      "route": "SUPER",
+      "display": "Granolah Drone",
+      "primary": [
+        72,
+        106,
+        84
+      ],
+      "secondary": [
+        228,
+        214,
+        84
+      ],
+      "kind": "robot"
+    },
+    {
+      "id": "baby_parasite",
+      "route": "GT",
+      "display": "Baby Parasite",
+      "primary": [
+        210,
+        210,
+        222
+      ],
+      "secondary": [
+        82,
+        134,
+        220
+      ],
+      "kind": "crawler"
+    },
+    {
+      "id": "baby_vegeta",
+      "route": "GT",
+      "display": "Baby Vegeta",
+      "primary": [
+        226,
+        220,
+        206
+      ],
+      "secondary": [
+        92,
+        118,
+        204
+      ],
+      "kind": "villain"
+    },
+    {
+      "id": "rilldo_machine",
+      "route": "GT",
+      "display": "Rilldo",
+      "primary": [
+        166,
+        62,
+        54
+      ],
+      "secondary": [
+        202,
+        202,
+        216
+      ],
+      "kind": "robot"
+    },
+    {
+      "id": "super17_core",
+      "route": "GT",
+      "display": "Super 17",
+      "primary": [
+        36,
+        36,
+        46
+      ],
+      "secondary": [
+        88,
+        172,
+        232
+      ],
+      "kind": "android"
+    },
+    {
+      "id": "hell_fighter_17",
+      "route": "GT",
+      "display": "Hell 17",
+      "primary": [
+        44,
+        54,
+        68
+      ],
+      "secondary": [
+        220,
+        92,
+        64
+      ],
+      "kind": "android"
+    },
+    {
+      "id": "nuova_shadow_dragon",
+      "route": "GT",
+      "display": "Nuova",
+      "primary": [
+        226,
+        98,
+        42
+      ],
+      "secondary": [
+        248,
+        214,
+        82
+      ],
+      "kind": "dragon"
+    },
+    {
+      "id": "eis_shadow_dragon",
+      "route": "GT",
+      "display": "Eis",
+      "primary": [
+        92,
+        174,
+        232
+      ],
+      "secondary": [
+        220,
+        242,
+        255
+      ],
+      "kind": "dragon"
+    },
+    {
+      "id": "omega_shadow_dragon",
+      "route": "GT",
+      "display": "Omega",
+      "primary": [
+        206,
+        222,
+        232
+      ],
+      "secondary": [
+        58,
+        76,
+        110
+      ],
+      "kind": "dragon_boss"
+    },
+    {
+      "id": "af_xicor_boss",
+      "route": "AF",
+      "display": "Xicor",
+      "primary": [
+        232,
+        232,
+        238
+      ],
+      "secondary": [
+        118,
+        66,
+        166
+      ],
+      "kind": "boss"
+    },
+    {
+      "id": "af_ikl_entity",
+      "route": "AF",
+      "display": "I'K'L",
+      "primary": [
+        44,
+        36,
+        64
+      ],
+      "secondary": [
+        214,
+        72,
+        180
+      ],
+      "kind": "shadow"
+    },
+    {
+      "id": "af_creator_drone",
+      "route": "AF",
+      "display": "Creator Drone",
+      "primary": [
+        88,
+        76,
+        118
+      ],
+      "secondary": [
+        238,
+        190,
+        82
+      ],
+      "kind": "robot"
+    },
+    {
+      "id": "af_frieza_revenge",
+      "route": "AF",
+      "display": "AF Frieza",
+      "primary": [
+        230,
+        232,
+        240
+      ],
+      "secondary": [
+        184,
+        72,
+        216
+      ],
+      "kind": "alien"
+    },
+    {
+      "id": "cell_jr_memory",
+      "route": "LOG2",
+      "display": "Cell Jr",
+      "primary": [
+        52,
+        184,
+        168
+      ],
+      "secondary": [
+        38,
+        82,
+        122
+      ],
+      "kind": "alien"
+    },
+    {
+      "id": "android19_memory",
+      "route": "LOG2",
+      "display": "Android 19",
+      "primary": [
+        226,
+        220,
+        210
+      ],
+      "secondary": [
+        238,
+        162,
+        72
+      ],
+      "kind": "android"
+    },
+    {
+      "id": "android20_memory",
+      "route": "LOG2",
+      "display": "Android 20",
+      "primary": [
+        92,
+        96,
+        110
+      ],
+      "secondary": [
+        232,
+        232,
+        232
+      ],
+      "kind": "android"
+    },
+    {
+      "id": "imperfect_cell_memory",
+      "route": "LOG2",
+      "display": "Imperfect Cell",
+      "primary": [
+        76,
+        166,
+        74
+      ],
+      "secondary": [
+        46,
+        70,
+        54
+      ],
+      "kind": "bug"
+    },
+    {
+      "id": "perfect_cell_memory",
+      "route": "LOG2",
+      "display": "Perfect Cell",
+      "primary": [
+        72,
+        188,
+        92
+      ],
+      "secondary": [
+        36,
+        62,
+        52
+      ],
+      "kind": "bug"
+    },
+    {
+      "id": "raditz_memory",
+      "route": "LOG1",
+      "display": "Raditz",
+      "primary": [
+        62,
+        54,
+        70
+      ],
+      "secondary": [
+        118,
+        84,
+        54
+      ],
+      "kind": "saiyan"
+    },
+    {
+      "id": "nappa_memory",
+      "route": "LOG1",
+      "display": "Nappa",
+      "primary": [
+        210,
+        172,
+        120
+      ],
+      "secondary": [
+        52,
+        58,
+        88
+      ],
+      "kind": "heavy"
+    },
+    {
+      "id": "saiyan_scout_memory",
+      "route": "LOG1",
+      "display": "Saiyan Scout",
+      "primary": [
+        88,
+        108,
+        78
+      ],
+      "secondary": [
+        206,
+        150,
+        70
+      ],
+      "kind": "soldier"
+    },
+    {
+      "id": "namek_frieza_soldier",
+      "route": "LOG1",
+      "display": "Namek Soldier",
+      "primary": [
+        80,
+        132,
+        160
+      ],
+      "secondary": [
+        226,
+        226,
+        236
+      ],
+      "kind": "soldier"
+    },
+    {
+      "id": "ginyu_memory",
+      "route": "LOG1",
+      "display": "Ginyu Memory",
+      "primary": [
+        88,
+        54,
+        130
+      ],
+      "secondary": [
+        220,
+        220,
+        232
+      ],
+      "kind": "heavy"
+    },
+    {
+      "id": "final_frieza_memory",
+      "route": "LOG1",
+      "display": "Final Frieza",
+      "primary": [
+        230,
+        232,
+        240
+      ],
+      "secondary": [
+        116,
+        72,
+        168
+      ],
+      "kind": "alien"
+    }
+  ],
+  "object_targets": [
+    {
+      "id": "senzu_bean",
+      "display": "Senzu",
+      "kind": "bean"
+    },
+    {
+      "id": "ultra_divine_water",
+      "display": "Divine Water",
+      "kind": "bottle"
+    },
+    {
+      "id": "beerus_ration",
+      "display": "Beerus Ration",
+      "kind": "food"
+    },
+    {
+      "id": "capsule_energy_drink",
+      "display": "Capsule Drink",
+      "kind": "capsule"
+    },
+    {
+      "id": "ki_battery",
+      "display": "Ki Battery",
+      "kind": "battery"
+    },
+    {
+      "id": "gravity_boots",
+      "display": "Gravity Boots",
+      "kind": "boots"
+    },
+    {
+      "id": "black_star_dragon_ball",
+      "display": "Black Star DB",
+      "kind": "ball"
+    },
+    {
+      "id": "time_chamber_key",
+      "display": "Time Key",
+      "kind": "key"
+    },
+    {
+      "id": "tournament_invitation",
+      "display": "Invitation",
+      "kind": "scroll"
+    },
+    {
+      "id": "moro_box",
+      "display": "Moro Box",
+      "kind": "box"
+    },
+    {
+      "id": "baby_scepter",
+      "display": "Baby Scepter",
+      "kind": "staff"
+    },
+    {
+      "id": "android17_core",
+      "display": "A17 Core",
+      "kind": "core"
+    },
+    {
+      "id": "negative_dragon_ball",
+      "display": "Negative DB",
+      "kind": "ball"
+    },
+    {
+      "id": "kaioshin_key",
+      "display": "Kai Key",
+      "kind": "key"
+    },
+    {
+      "id": "ikl_seal",
+      "display": "I'K'L Seal",
+      "kind": "seal"
+    },
+    {
+      "id": "stolen_goku_cells",
+      "display": "Stolen Cells",
+      "kind": "vial"
+    },
+    {
+      "id": "creator_heart",
+      "display": "Creator Heart",
+      "kind": "heart"
+    },
+    {
+      "id": "rift_shard_super",
+      "display": "Super Shard",
+      "kind": "crystal"
+    },
+    {
+      "id": "rift_shard_gt",
+      "display": "GT Shard",
+      "kind": "crystal"
+    },
+    {
+      "id": "rift_shard_af",
+      "display": "AF Shard",
+      "kind": "crystal"
+    },
+    {
+      "id": "log1_memory_chip",
+      "display": "LOG1 Chip",
+      "kind": "chip"
+    },
+    {
+      "id": "log2_memory_chip",
+      "display": "LOG2 Chip",
+      "kind": "chip"
+    },
+    {
+      "id": "gateway_capsule",
+      "display": "Gateway Cap",
+      "kind": "capsule"
+    },
+    {
+      "id": "debug_warp_pad",
+      "display": "Warp Pad",
+      "kind": "pad"
+    },
+    {
+      "id": "home_warp_pad",
+      "display": "Home Pad",
+      "kind": "pad"
+    },
+    {
+      "id": "origin_warp_pad",
+      "display": "Orig Pad",
+      "kind": "pad"
+    },
+    {
+      "id": "next_warp_pad",
+      "display": "Next Pad",
+      "kind": "pad"
+    },
+    {
+      "id": "dlc_route_token",
+      "display": "Route Token",
+      "kind": "token"
+    }
+  ],
+  "portrait_targets": [
+    "hero_spiky",
+    "stern_rival",
+    "young_scholar",
+    "time_warrior",
+    "green_monk",
+    "destroyer_mentor",
+    "angel_mentor",
+    "godki_fighter",
+    "bio_alien",
+    "warrior_monk",
+    "cyborg_woman",
+    "cyborg_ranger",
+    "ancient_kai",
+    "shadow_dragon",
+    "lab_villain",
+    "divine_boss"
+  ],
+  "counts": {
+    "playable": 22,
+    "enemies": 37,
+    "objects": 28,
+    "portraits": 16
+  },
+  "honest_status": "Generation targets. Downstream phases create draft/review-ready pixel assets; not yet hooked as animated engine OBJ records."
+}

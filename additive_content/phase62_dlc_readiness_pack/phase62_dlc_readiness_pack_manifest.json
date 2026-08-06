@@ -1,0 +1,28 @@
+{
+  "schema": "jurai.release.v0_4_dlc_asset_readiness.v1",
+  "package": "patch_output/LOG4_v0_4_dlc_asset_readiness_pack.zip",
+  "package_sha1": "1ab780d976373de82a8dda7a197870a32b7c2202",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_4_DLCAssetBank.gba",
+  "rom_sha1": "3495fab96e7df9387f8fbd0fc854163f32be6254",
+  "ips_sha1": "d43d627bdfd0a90ca2b0994c91fd005f812113dc",
+  "source_phase": 61,
+  "release_phase": 62,
+  "phase_block": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "counts": {
+    "playable_sheets": 22,
+    "enemy_sheets": 37,
+    "object_icons": 28,
+    "portraits": 16
+  },
+  "playable_gateway_rooms": true,
+  "asset_bank_payload": true,
+  "native_asset_hooks": false
+}
