@@ -244,3 +244,19 @@ The first visible in-game LOG4 title screen hook is available at:
 - `patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba`
 
 This redirects the original splash/title graphics pointers to an appended uncompressed Webfoot container using the LOG4 title screen art. Runtime screenshots confirm the custom title appears in the title flow.
+
+## Phase 49 boot Gateway selector
+
+The first real boot-time route/dimension selector is available at:
+
+- `patch_output/DBZ_LOG4_phase49_boot_gateway_menu.gba`
+
+Controls:
+
+- Up/Down: select route.
+- A/Start on `ORIGINAL`: boot the original Buu's Fury flow.
+- A/Start on `SUPER`, `GT`, `AF`, `LOG1 DIM`, `LOG2 DIM`: show the route/dimension debug screen.
+- B: return from route/dimension screen to the Gateway selector.
+- Start from a route/dimension screen: boot original Buu's Fury.
+
+This is currently a debug selector with route info screens. Native map warps are the next hook.

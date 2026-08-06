@@ -20,6 +20,7 @@ ROMS=[
  ('phase46_title_runtime_probe',ROOT/'patch_output/DBZ_LOG4_phase46_title_screen_runtime_hook.gba','90b56a0ba388d2975012b53ce424996d2a70fcbc'),
  ('phase47_title_kind0',ROOT/'patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba','81a00e341197a7d4b4158a37a4c34c2009681966'),
  ('phase48_unified_gateway',ROOT/'patch_output/DBZ_LOG4_phase48_unified_gateway_test.gba','7decb822ea9a11dfc674f890067fd2465e9c9b42'),
+ ('phase49_boot_gateway',ROOT/'patch_output/DBZ_LOG4_phase49_boot_gateway_menu.gba','05823a9e846a14777121e9bee5254c0e1731f401'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -43,6 +44,7 @@ JSONS=[
  ROOT/'additive_content/title_screen/phase46_title_screen_runtime_hook_manifest.json',
  ROOT/'additive_content/title_screen/phase47_title_screen_kind0_hook_manifest.json',
  ROOT/'additive_content/phase48_unified_gateway/phase48_unified_gateway_manifest.json',
+ ROOT/'additive_content/gateway/phase49_boot_gateway_menu_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -70,7 +72,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 48 unified gateway test output is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 49 boot gateway selector output is structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

@@ -1,0 +1,17 @@
+{
+  "schema": "jurai.phase49.boot_gateway_menu.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase49_boot_gateway_menu.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase49_boot_gateway_menu.ips",
+  "modified_sha1": "05823a9e846a14777121e9bee5254c0e1731f401",
+  "appended_code_va": "0x08800000",
+  "appended_code_size": 380,
+  "image_base_va": "0x0880017C",
+  "screen_count": 11,
+  "controls": [
+    "Up/Down select",
+    "A/Start enter",
+    "B back",
+    "Start on route screen boots original"
+  ],
+  "limitation": "route screens are debug warp information screens; actual map warps still require native map transition hook"
+}

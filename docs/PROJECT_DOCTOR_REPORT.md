@@ -13,6 +13,7 @@
 - phase46_title_runtime_probe: sha1 `90b56a0ba388d2975012b53ce424996d2a70fcbc` header_ok=True size=8429420
 - phase47_title_kind0: sha1 `81a00e341197a7d4b4158a37a4c34c2009681966` header_ok=True size=8427016
 - phase48_unified_gateway: sha1 `7decb822ea9a11dfc674f890067fd2465e9c9b42` header_ok=True size=8507996
+- phase49_boot_gateway: sha1 `05823a9e846a14777121e9bee5254c0e1731f401` header_ok=True size=9233788
 - patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip: sha1 `023fc9f3e5ceacbc77e6e1781792ae0bded7092c`
 - patch_output/LOG4_phase28_missing_asset_kit.zip: sha1 `670d4cbe2415ef387dce0c75f908d03a41834541`
 - patch_output/LOG4_phase38_release_candidate_docs.zip: sha1 `dae4f67542818a820da998602e0a7d63f6a87adb`
@@ -21,4 +22,4 @@
 Errors: 0
 
 ## Result
-PASS — phase 48 unified gateway test output is structurally valid.
+PASS — phase 49 boot gateway selector output is structurally valid.
