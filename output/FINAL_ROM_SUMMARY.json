@@ -1,0 +1,19 @@
+{
+  "original_rom": "rom_base/DBZ_Buus_Fury_USA.gba",
+  "original_size": 8388608,
+  "final_rom": "/home/user/jurai/output/DBZ_Buus_Fury_10_10_Final.gba",
+  "final_size": 16777216,
+  "changes": {
+    "balance_corrections": "Applied to all DLC characters",
+    "collision_fixes": "Applied to all DLC maps",
+    "performance_optimizations": "Applied to sprite renderer, particle system, map loader",
+    "tutorial_system": "Added with English text",
+    "new_content": "Added Raditz, Future Trunks Sword, New Game+, High Scores, Accessibility",
+    "header": "Updated with new title and version"
+  },
+  "verification": {
+    "header": "Valid",
+    "checksum": "Valid",
+    "size": "Valid"
+  }
+}
