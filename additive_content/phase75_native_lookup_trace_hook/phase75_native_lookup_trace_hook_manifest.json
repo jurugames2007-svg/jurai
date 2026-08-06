@@ -1,0 +1,9 @@
+{
+  "schema": "jurai.phase75.native_lookup_trace_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "hook_va": "0x080089FC",
+  "trace_base": "0x0203F740",
+  "record_size": 32,
+  "max_records": 32,
+  "status": "Applied to native AreaEntry lookup; active after original fallback boots."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "jurai.phase79.dlc_action_runtime_validation.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "rom_sha1": "c68113e8a2b097e0f549b56216cd796410ffb73b",
+  "runtime_status": "PASS",
+  "output_dir": "playtest_output/phase78_dlc_action_hooks",
+  "coverage": [
+    "SELECT frame cycling",
+    "dynamic asset frame offsets",
+    "native status pointer still resolves",
+    "LOG2 route state",
+    "original fallback"
+  ]
+}

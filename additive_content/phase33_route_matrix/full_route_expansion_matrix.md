@@ -1,0 +1,33 @@
+# Full route expansion matrix
+
+## SUPER_ROUTE
+
+- Chapter 1: BEERUS_PLANET — enemies: BEERUS, GOLDEN_FRIEZA
+- Chapter 2: UNIVERSE_6_ARENA — enemies: GOLDEN_FRIEZA, HIT
+- Chapter 3: FUTURE_CITY_RUINS — enemies: HIT, GOKU_BLACK
+- Chapter 4: TOURNAMENT_POWER — enemies: GOKU_BLACK, ZAMASU
+- Chapter 5: PLANET_VAMPA — enemies: ZAMASU, JIREN
+- Chapter 6: NEW_NAMEK — enemies: JIREN, BROLY_DBS
+- Chapter 7: PLANET_CEREAL — enemies: BROLY_DBS, MORO
+
+## GT_ROUTE
+
+- Chapter 1: PLANET_M2_FACTORY — enemies: GENERAL_RILDO, BABY_VEGETA
+- Chapter 2: GT_SHADOW_DRAGON_FIELD — enemies: BABY_VEGETA, SUPER_17
+- Chapter 3: HELL_GT — enemies: SUPER_17, OMEGA_SHENRON
+- Chapter 4: CAPSULE_RIFT_LAB — enemies: OMEGA_SHENRON
+
+## AF_ROUTE
+
+- Chapter 1: AF_KAIOSHIN_REALM — enemies: IKL_AF, XICOR_FINAL
+- Chapter 2: AF_XICOR_LAB — enemies: XICOR_FINAL
+
+## LOG1_DIMENSION
+
+- Chapter 1: LOG1_SNAKE_ROAD_MEMORY — enemies: RADITZ, NAPPA
+- Chapter 2: LOG1_NAMEK_MEMORY — enemies: NAPPA, VEGETA_SAIYAN
+
+## LOG2_DIMENSION
+
+- Chapter 1: LOG2_WEST_CITY_MEMORY — enemies: ANDROID_17_BOSS, ANDROID_18_BOSS
+- Chapter 2: LOG2_CELL_GAMES_MEMORY — enemies: ANDROID_18_BOSS, ANDROID_19

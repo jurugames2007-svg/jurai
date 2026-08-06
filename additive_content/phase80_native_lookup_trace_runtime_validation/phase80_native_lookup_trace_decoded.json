@@ -1,0 +1,46 @@
+{
+  "schema": "jurai.phase80.native_lookup_trace_decoded.v1",
+  "source_save": "playtest_output/phase78_native_lookup_trace_skip/final_save.json",
+  "trace_base": "0x0203F740",
+  "count": 6,
+  "magic": "0x82",
+  "records": [
+    {
+      "index": 0,
+      "area": "0x00",
+      "room": "0x02",
+      "caller_lr": "0x0800905B"
+    },
+    {
+      "index": 1,
+      "area": "0x00",
+      "room": "0x04",
+      "caller_lr": "0x0800905B"
+    },
+    {
+      "index": 2,
+      "area": "0x00",
+      "room": "0x05",
+      "caller_lr": "0x0800905B"
+    },
+    {
+      "index": 3,
+      "area": "0x00",
+      "room": "0x06",
+      "caller_lr": "0x0800905B"
+    },
+    {
+      "index": 4,
+      "area": "0x00",
+      "room": "0x07",
+      "caller_lr": "0x0800905B"
+    },
+    {
+      "index": 5,
+      "area": "0x00",
+      "room": "0x01",
+      "caller_lr": "0x0800905B"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase31.gateway_interaction_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase31_gateway_interaction_payload.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase31_gateway_interaction_payload.ips",
+  "modified_sha1": "ab593510d1cef6dcf051e478eb265330eefa3c1a",
+  "contract": "additive_content/phase31_gateway_interaction/gateway_interaction_contract.json"
+}

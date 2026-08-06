@@ -1,0 +1,15 @@
+{
+  "schema": "jurai.phase66.native_lookup_bridge_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "native_lookup_thumb_reference": "0x080089FD",
+  "bridge_kind": "direct native AreaEntry table scan",
+  "registered_pairs": [
+    "F0:01",
+    "F0:02",
+    "F0:03",
+    "F0:04",
+    "F0:05"
+  ],
+  "state_base": "0x0203F700",
+  "status": "Applied: Gateway room render scans the native AreaEntry table for F0 route IDs and stores pointer in EWRAM."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "jurai.phase71.v05_dlc_runtime_hooks_pack.v1",
+  "package": "patch_output/LOG4_v0_5_dlc_runtime_hooks_pack.zip",
+  "package_sha1": "27abc801a82ea8a140a97ad74b492dc23cbfbd82",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_5_DLCRuntimeHooks.gba",
+  "rom_sha1": "8ddc84c0a95a1316441a4066da8a2024afe7cdf5",
+  "ips_sha1": "4d63974ded0ee7c957ef338268edf89266095fbc",
+  "runtime_status": "PASS",
+  "phase_block": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "native_map_constructor_handoff": false,
+  "runtime_asset_hooks": true,
+  "native_areaentry_table_bridge": true,
+  "original_fallback": true
+}

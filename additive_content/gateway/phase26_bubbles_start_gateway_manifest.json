@@ -1,0 +1,77 @@
+{
+  "schema": "jurai.phase26.bubbles_start_gateway_build.v1",
+  "policy": "safe_debug_text_trigger_native_npc_hook_pending",
+  "output_gba": "patch_output/DBZ_LOG4_phase26_bubbles_start_gateway.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase26_bubbles_start_gateway.ips",
+  "modified_sha1": "3aa4a54f95dd218f7494ea54def741883a6a8c7e",
+  "text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Bubbles",
+      "note": "start map/debug label"
+    },
+    {
+      "offset": "0x05DE1C",
+      "old": "Other World Saga",
+      "new": "Bubbles Saga",
+      "note": "saga label"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Bubbles Gate",
+      "note": "first objective"
+    },
+    {
+      "offset": "0x05DFCC",
+      "old": "Train with Other World Fighters",
+      "new": "Choose Bubbles Gate",
+      "note": "second objective"
+    },
+    {
+      "offset": "0x06B57C",
+      "old": "Chapter 1",
+      "new": "Bubbles!",
+      "note": "chapter title"
+    },
+    {
+      "offset": "0x06B590",
+      "old": "The Other World",
+      "new": "Bubbles Gateway",
+      "note": "chapter subtitle"
+    },
+    {
+      "offset": "0x06513C",
+      "old": "King Yemma",
+      "new": "Bubbles",
+      "note": "NPC/database label"
+    },
+    {
+      "offset": "0x065152",
+      "old": "King Yemma is a giant ogre who guards the entrance to the Other World.",
+      "new": "Bubbles guards the gate to Super, GT, AF, LOG1 and LOG2.",
+      "note": "database description"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Bubbles Guide",
+      "note": "NPC/database label"
+    },
+    {
+      "offset": "0x065204",
+      "old": "This assistant helps King Yemma usher souls into the Other World.",
+      "new": "Talk to Bubbles on Snakeway to open Super, GT, AF, LOG1 and LOG2.",
+      "note": "NPC/database description"
+    },
+    {
+      "offset": "0x064A44",
+      "old": "Bubbles is an ape who hangs out with King Kai.",
+      "new": "Bubbles helps open the Rift Gate.",
+      "note": "Bubbles database description"
+    }
+  ],
+  "contract": "additive_content/gateway/bubbles_start_gateway_contract.json",
+  "dialogue_bank": "additive_content/gateway/bubbles_gateway_dialogue.utf16le.bin"
+}

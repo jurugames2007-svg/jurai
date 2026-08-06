@@ -1,0 +1,17 @@
+{
+  "schema": "jurai.phase46.title_screen_runtime_hook.v1",
+  "policy": "append_new_splash_container_and_redirect_known_title_pointers",
+  "output_gba": "patch_output/DBZ_LOG4_phase46_title_screen_runtime_hook.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase46_title_screen_runtime_hook.ips",
+  "modified_sha1": "90b56a0ba388d2975012b53ce424996d2a70fcbc",
+  "old_splash_va": "0x083BE3D4",
+  "new_splash_va": "0x08800000",
+  "container_offset": "0x800000",
+  "container_size": 40812,
+  "pointer_refs": [
+    "0x005414",
+    "0x01E744",
+    "0x01E9E0"
+  ],
+  "raw_index_sha1": "789e55feecc8f0ee916872c00d35b9e46eeccf64"
+}

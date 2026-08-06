@@ -1,0 +1,32 @@
+{
+  "schema": "jurai.phase51.boot_gateway_warp_rooms.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase51_boot_gateway_warp_rooms.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase51_boot_gateway_warp_rooms.ips",
+  "modified_sha1": "f16c4b450afcab9205dd2410ee7e02ba11bab010",
+  "base_sha1": "f1c4b07554d2a3b1ad2f325307051e775ce68087",
+  "appended_code_va": "0x08800000",
+  "appended_code_size": 816,
+  "image_base_va": "0x08800330",
+  "screen_count": 11,
+  "screen_bytes_each": 76800,
+  "title": "LOG4WARP51",
+  "route_rooms": [
+    "SUPER",
+    "GT",
+    "AF",
+    "LOG1",
+    "LOG2"
+  ],
+  "controls": [
+    "Menu Up/Down select",
+    "Menu A enters route room; Menu Start boots original",
+    "Room D-pad moves marker",
+    "Room A on HOME pad returns to menu",
+    "Room A on NEXT pad warps to next route room",
+    "Room A on ORIG pad or Start boots original Buu's Fury",
+    "Room L/R cycles previous/next route room",
+    "Room B returns to menu"
+  ],
+  "playability_status": "Playable self-contained warp-room layer from boot. Native Buu's Fury map transition is still pending.",
+  "safety": "Additive appended ROM hook; original entry point remains available and original map/save data are not modified."
+}

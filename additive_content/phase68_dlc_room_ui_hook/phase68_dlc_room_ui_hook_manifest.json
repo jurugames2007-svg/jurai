@@ -1,0 +1,18 @@
+{
+  "schema": "jurai.phase68.dlc_room_ui_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "previews": [
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_00.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_01.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_02.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_03.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_04.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_05.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_06.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_07.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_08.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_09.png",
+    "additive_content/phase68_dlc_room_ui_hook/phase68_dlc_hook_screen_10.png"
+  ],
+  "status": "Applied: rooms expose dynamic asset boxes and native lookup labels."
+}

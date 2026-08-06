@@ -1,0 +1,34 @@
+{
+  "schema": "jurai.phase19.canonical_line.v1",
+  "main_line": [
+    {
+      "order": 1,
+      "id": "BUUS_FURY_MAIN",
+      "label": "Original Dragon Ball Z: Buu's Fury",
+      "position": "mainline through Kid Buu",
+      "runtime_policy": "unchanged early game"
+    },
+    {
+      "order": 2,
+      "id": "POST_KID_BUU_EXPANSION",
+      "label": "Post Kid Buu: Super / GT / AF",
+      "position": "after original ending",
+      "routes": [
+        "SUPER_ROUTE",
+        "GT_ROUTE",
+        "AF_ROUTE"
+      ]
+    },
+    {
+      "order": 3,
+      "id": "PRE_KID_BUU_DIMENSIONS",
+      "label": "Pre Kid Buu dimensions: LOG1 / LOG2",
+      "position": "memory dimensions accessible after gateway",
+      "dimensions": [
+        "LOG1_DIMENSION",
+        "LOG2_DIMENSION"
+      ]
+    }
+  ],
+  "rule": "Story mode starts with Buu's Fury. Expansion/dimension starts are unlocked after Kid Buu or through debug gateway."
+}

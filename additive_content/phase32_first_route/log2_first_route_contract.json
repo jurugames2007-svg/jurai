@@ -1,0 +1,67 @@
+{
+  "schema": "jurai.phase32.first_playable_route.v1",
+  "route_id": "LOG2_DIMENSION_CELL_GAMES_MEMORY_MINI_ROUTE",
+  "dimension": "LOG2_DIMENSION",
+  "goal": "Create first complete mini-route: gateway -> West City memory -> Android scout -> Cell Jr battle -> Cell Games memory -> return",
+  "nodes": [
+    {
+      "id": "enter_gateway",
+      "type": "gateway_option",
+      "target": "LOG2_DIMENSION",
+      "sets": [
+        "DIM_LOG2_ENTERED"
+      ]
+    },
+    {
+      "id": "west_city_memory",
+      "type": "map",
+      "map": "LOG2_WEST_CITY_MEMORY",
+      "objective": "Find Capsule Corp signal"
+    },
+    {
+      "id": "bulma_memory",
+      "type": "npc_dialogue",
+      "npc": "BULMA_MEMORY",
+      "text": "This is a LOG2 memory. Android energy is rising."
+    },
+    {
+      "id": "android_scout",
+      "type": "enemy",
+      "enemy": "ANDROID_17_BOSS",
+      "count": 1,
+      "sets": [
+        "LOG2_ANDROID_SIGNAL_FOUND"
+      ]
+    },
+    {
+      "id": "cell_jr_battle",
+      "type": "battle",
+      "enemy": "CELL_JR",
+      "count": 3,
+      "sets": [
+        "LOG2_CELL_JR_DEFEATED"
+      ]
+    },
+    {
+      "id": "reward",
+      "type": "item_reward",
+      "item": "TIME_CHAMBER_KEY",
+      "sets": [
+        "LOG2_MINI_ROUTE_COMPLETE"
+      ]
+    },
+    {
+      "id": "return_gate",
+      "type": "return",
+      "target": "CAPSULE_CORP_RIFT_GATEWAY"
+    }
+  ],
+  "required_assets": [
+    "LOG2_WEST_CITY_MEMORY",
+    "CELL_JR",
+    "ANDROID_17_BOSS",
+    "BULMA_MEMORY",
+    "TIME_CHAMBER_KEY"
+  ],
+  "status": "data_ready_script_hooks_pending"
+}

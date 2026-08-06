@@ -1,0 +1,16 @@
+{
+  "schema": "jurai.phase19.gateway_payload_build.v1",
+  "policy": "append_only_original_early_game_unchanged",
+  "base_sha1": "f1c4b07554d2a3b1ad2f325307051e775ce68087",
+  "output_gba": "patch_output/DBZ_LOG4_phase19_postgame_dimension_gateway.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase19_postgame_dimension_gateway.ips",
+  "modified_sha1": "ebfbb4a296a730735526612fe64105ebbf4c5a6a",
+  "payload_offset": 8388962,
+  "payload_size": 2129,
+  "files": [
+    "additive_content/playability/canonical_line.json",
+    "additive_content/gateway/postgame_dimension_gateway.json",
+    "additive_content/gateway/gateway_flags.json",
+    "additive_content/gateway/log_dimensions_profile.json"
+  ]
+}

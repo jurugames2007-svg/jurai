@@ -1,0 +1,64 @@
+{
+  "schema": "jurai.phase54.gateway_native_map_registry.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.ips",
+  "modified_sha1": "c2e76758af2cd989485e1b74de668c295cb88101",
+  "base_sha1": "f1c4b07554d2a3b1ad2f325307051e775ce68087",
+  "source_phase51_rom_sha1": "f16c4b450afcab9205dd2410ee7e02ba11bab010",
+  "native_registry_status": "registered_not_warped",
+  "map_table_literal_ref": "0x008A58",
+  "extended_map_table_va": "0x088CE730",
+  "extended_map_table_offset": "0x8CE730",
+  "original_entry_count": 452,
+  "new_entry_count": 457,
+  "count_function_patch": {
+    "offset": "0x0125E0",
+    "old_return": 452,
+    "new_return": 457
+  },
+  "stubs": [
+    {
+      "route": "SUPER",
+      "new_pair": "F0:01",
+      "clone_pair": "00:02",
+      "clone_index": 1,
+      "new_index": 452,
+      "label": "post Kid Buu gods safe stub"
+    },
+    {
+      "route": "GT",
+      "new_pair": "F0:02",
+      "clone_pair": "00:04",
+      "clone_index": 3,
+      "new_index": 453,
+      "label": "Black Star/Baby safe stub"
+    },
+    {
+      "route": "AF",
+      "new_pair": "F0:03",
+      "clone_pair": "00:05",
+      "clone_index": 4,
+      "new_index": 454,
+      "label": "SSJ5/Xicor safe stub"
+    },
+    {
+      "route": "LOG1_DIM",
+      "new_pair": "F0:04",
+      "clone_pair": "00:60",
+      "clone_index": 29,
+      "new_index": 455,
+      "label": "LOG1 Saiyan/Namek memory safe stub"
+    },
+    {
+      "route": "LOG2_DIM",
+      "new_pair": "F0:05",
+      "clone_pair": "00:62",
+      "clone_index": 31,
+      "new_index": 456,
+      "label": "LOG2 Android/Cell memory safe stub"
+    }
+  ],
+  "playable_layer": "Phase 51 boot Gateway playable warp rooms retained",
+  "limitation": "Gateway options still enter debug rooms. The native IDs are registered for the next hook but are not invoked by the Gateway yet.",
+  "safety": "Original AreaEntry records are copied unchanged before appended stubs; original lookups still resolve to original entries first."
+}

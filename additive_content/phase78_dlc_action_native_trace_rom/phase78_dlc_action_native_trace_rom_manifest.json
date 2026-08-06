@@ -1,0 +1,25 @@
+{
+  "schema": "jurai.phase78.dlc_action_native_trace_rom.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.ips",
+  "modified_sha1": "c68113e8a2b097e0f549b56216cd796410ffb73b",
+  "source_phase61_rom": "patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba",
+  "gateway_hook_va": "0x0894F44C",
+  "gateway_hook_size": 1800,
+  "image_base_va": "0x0894FB54",
+  "state_base": "0x0203F700",
+  "action_state_offset": "+0x10",
+  "native_lookup_trace_hook_va": "0x080089FC",
+  "native_lookup_trace_va": "0x08A1DF54",
+  "native_lookup_trace_size": 84,
+  "trace_base": "0x0203F740",
+  "overwritten_bytes": "38 b5 04 1c 0d 1c 09 f0 ed fd 00 22",
+  "hooks": [
+    "SELECT action frame hook",
+    "native status widget",
+    "route action EWRAM state",
+    "native lookup trace",
+    "original fallback preserved"
+  ],
+  "native_map_constructor_handoff": false
+}

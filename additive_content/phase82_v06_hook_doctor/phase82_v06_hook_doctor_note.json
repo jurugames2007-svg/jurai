@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase82.v06_hook_doctor.v1",
+  "latest_rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "latest_package": "patch_output/LOG4_v0_6_dlc_action_native_trace_hooks_pack.zip",
+  "runtime_status": "PASS",
+  "doctor_expected_update": "project_doctor includes phase78 ROM and v0.6 package."
+}

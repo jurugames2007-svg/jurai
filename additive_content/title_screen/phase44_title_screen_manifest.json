@@ -1,0 +1,21 @@
+{
+  "schema": "jurai.phase44.ai_title_screen.v1",
+  "policy": "ai_background_plus_manual_pixel_text_native_gba_dimensions",
+  "raw_source": "additive_content/title_screen/ai_title_background_raw.png",
+  "background": "additive_content/title_screen/LOG4_title_background_240x160.png",
+  "title_screen": "additive_content/title_screen/LOG4_title_screen_240x160.png",
+  "main_menu_screen": "additive_content/title_screen/LOG4_main_menu_240x160.png",
+  "dimensions": [
+    240,
+    160
+  ],
+  "palette_limit": 128,
+  "sha1": {
+    "title_screen": "8d44713001b238cbd594abfde77ba7bcf15ff20c",
+    "main_menu_screen": "95af85f0e492b898b97ea269c8f272036be812f2"
+  },
+  "notes": [
+    "Menu is an image asset/payload candidate; runtime title hook is future work.",
+    "Text is manually overlaid with deterministic pixel font."
+  ]
+}

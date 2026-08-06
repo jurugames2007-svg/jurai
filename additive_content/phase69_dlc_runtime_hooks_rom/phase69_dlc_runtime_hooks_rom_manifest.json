@@ -1,0 +1,23 @@
+{
+  "schema": "jurai.phase69.dlc_runtime_hooks_rom.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.ips",
+  "modified_sha1": "8ddc84c0a95a1316441a4066da8a2024afe7cdf5",
+  "source_phase61_rom": "patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba",
+  "source_phase61_sha1": "3495fab96e7df9387f8fbd0fc854163f32be6254",
+  "appended_code_va": "0x0894F44C",
+  "appended_code_size": 1492,
+  "image_base_va": "0x0894FA20",
+  "screen_count": 11,
+  "state_base": "0x0203F700",
+  "state_magic": "L4HK / 0x4B48344C",
+  "hooks": [
+    "runtime sprite blit",
+    "runtime enemy blit",
+    "runtime portrait blit",
+    "runtime icon blit",
+    "native AreaEntry table bridge",
+    "EWRAM route-state hook"
+  ],
+  "limitation": "Debug Gateway layer; no native map constructor handoff yet."
+}

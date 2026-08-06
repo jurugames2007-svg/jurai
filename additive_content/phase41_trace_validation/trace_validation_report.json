@@ -1,0 +1,35 @@
+{
+  "schema": "jurai.phase41.trace_validation.v2",
+  "scripts": [
+    {
+      "path": "tools/gba_headless/watch_dialog_writes.mjs",
+      "exists": true,
+      "size": 2162
+    },
+    {
+      "path": "tools/gba_headless/watch_long_dialog_writes.mjs",
+      "exists": true,
+      "size": 2134
+    },
+    {
+      "path": "tools/gba_headless/disasm_iwram.mjs",
+      "exists": true,
+      "size": 612
+    },
+    {
+      "path": "tools/gba_headless/snapshot_iwram.mjs",
+      "exists": true,
+      "size": 324
+    }
+  ],
+  "scripts_complete": true,
+  "evidence_summary": {
+    "ewram_dialog_buffer_region_a": "0x0202DB00-0x0202E300",
+    "ewram_dialog_buffer_region_b": "0x0202C000-0x0202C200",
+    "writer_iwram_pc_main": "0x03000268",
+    "writer_iwram_pc_literal": "0x03000060",
+    "rom_source_for_iwram_03000268_exact32": "0x007B7C0C",
+    "rom_source_for_iwram_03000060_exact32": "0x007B7A04"
+  },
+  "note": "Raw playtest_output traces are ignored by git; this report stores the reproducible scripts and distilled findings."
+}

@@ -1,0 +1,228 @@
+{
+  "schema": "jurai.phase57.playable_32x32_sprites.v1",
+  "records": [
+    {
+      "id": "goku_ssg",
+      "route": "SUPER",
+      "display": "Goku SSG",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ssg_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ssg_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "goku_ssb",
+      "route": "SUPER",
+      "display": "Goku SSB",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ssb_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ssb_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "goku_ui_sign",
+      "route": "SUPER",
+      "display": "Goku UI Sign",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ui_sign_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ui_sign_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "goku_ui_mastered",
+      "route": "SUPER",
+      "display": "Goku UI Mastered",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ui_mastered_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ui_mastered_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegeta_ssb",
+      "route": "SUPER",
+      "display": "Vegeta SSB",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegeta_ssb_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegeta_ssb_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegeta_ssbe",
+      "route": "SUPER",
+      "display": "Vegeta SSBE",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegeta_ssbe_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegeta_ssbe_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegeta_ultra_ego",
+      "route": "SUPER",
+      "display": "Vegeta Ultra Ego",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegeta_ultra_ego_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegeta_ultra_ego_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "gohan_beast",
+      "route": "SUPER",
+      "display": "Gohan Beast",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/gohan_beast_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/gohan_beast_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "trunks_rage",
+      "route": "SUPER",
+      "display": "Trunks Rage",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/trunks_rage_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/trunks_rage_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "piccolo_orange",
+      "route": "SUPER",
+      "display": "Piccolo Orange",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/piccolo_orange_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/piccolo_orange_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "android17_super",
+      "route": "SUPER",
+      "display": "Android 17",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/android17_super_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/android17_super_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "android18_super",
+      "route": "SUPER",
+      "display": "Android 18",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/android18_super_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/android18_super_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "gogeta_ssb",
+      "route": "SUPER",
+      "display": "Gogeta SSB",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/gogeta_ssb_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/gogeta_ssb_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegito_blue",
+      "route": "SUPER",
+      "display": "Vegito Blue",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegito_blue_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegito_blue_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "goku_ssj4",
+      "route": "GT",
+      "display": "Goku SSJ4",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ssj4_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ssj4_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegeta_ssj4",
+      "route": "GT",
+      "display": "Vegeta SSJ4",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegeta_ssj4_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegeta_ssj4_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "pan_gt",
+      "route": "GT",
+      "display": "Pan GT",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/pan_gt_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/pan_gt_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "uub_majuub",
+      "route": "GT",
+      "display": "Majuub",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/uub_majuub_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/uub_majuub_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "goku_ssj5_af",
+      "route": "AF",
+      "display": "Goku SSJ5",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/goku_ssj5_af_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/goku_ssj5_af_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "vegeta_ssj5_af",
+      "route": "AF",
+      "display": "Vegeta SSJ5",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/vegeta_ssj5_af_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/vegeta_ssj5_af_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "xicor_ally",
+      "route": "AF",
+      "display": "Xicor Ally",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/xicor_ally_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/xicor_ally_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    },
+    {
+      "id": "kaioshin_af_ally",
+      "route": "AF",
+      "display": "AF Kaioshin",
+      "sheet": "additive_content/phase57_playable_32x32_sprites/sheets_96x32/kaioshin_af_ally_sheet_3f_32x32.png",
+      "idle_cell": "additive_content/phase57_playable_32x32_sprites/cells_32x32/kaioshin_af_ally_idle_32x32.png",
+      "cell_size": "32x32",
+      "frames": 3,
+      "palette_budget": 32
+    }
+  ],
+  "count": 22,
+  "atlas": "additive_content/phase57_playable_32x32_sprites/phase57_playable_32x32_atlas.png",
+  "status": "draft_review_ready_not_hooked"
+}

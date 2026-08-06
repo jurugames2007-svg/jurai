@@ -1,0 +1,22 @@
+{
+  "schema": "jurai.phase53.native_map_findarea_trace.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase53_native_map_findarea_trace.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase53_native_map_findarea_trace.ips",
+  "modified_sha1": "6c90b221878bef39ff125f9a07c685e1c1da8895",
+  "hook_function": "AreaEntry lookup / native map table scan",
+  "hook_va": "0x080089FC",
+  "return_va": "0x08008A08",
+  "appended_code_va": "0x08800000",
+  "appended_code_size": 84,
+  "log_base": "0x0203F800",
+  "max_logs": 64,
+  "log_format": {
+    "base+0": "count",
+    "base+1": "magic 0x53",
+    "base+0x10+n*8+0": "r0 area/group byte",
+    "base+0x10+n*8+1": "r1 room/subarea byte",
+    "base+0x10+n*8+4": "caller LR/return address"
+  },
+  "original_overwritten_bytes": "38 b5 04 1c 0d 1c 09 f0 ed fd 00 22",
+  "recommended_use": "Run original intro/new-game flow, snapshot EWRAM 0x0203F800..0x0203FA20, decode route IDs for native warp hook research."
+}

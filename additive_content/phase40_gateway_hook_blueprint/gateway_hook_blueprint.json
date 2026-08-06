@@ -1,0 +1,31 @@
+{
+  "schema": "jurai.phase40.gateway_hook_blueprint.v1",
+  "policy": "blueprint_payload_no_code_patch_yet",
+  "hook_target": "early Other World/Bubbles dialogue decompression caller",
+  "do_not_patch_globally": [
+    "0x03000268 generic back-reference decompressor write",
+    "0x03000060 generic literal writer"
+  ],
+  "safe_strategy": [
+    "Find compressed dialogue package pointer for early Bubbles/Other World text.",
+    "Append replacement compressed or plain UTF-16 dialogue bank.",
+    "Patch the caller's source pointer or data table, not the generic decompressor routine.",
+    "Add a fallback flag: if LOG4 gateway flag unset, original pointer is used."
+  ],
+  "gateway_text_lines": [
+    "Bubbles: Choose a rift.",
+    "-Super",
+    "-GT",
+    "-AF",
+    "-LOG1 Dimension",
+    "-LOG2 Dimension",
+    "-End"
+  ],
+  "route_bindings": {
+    "Super": "SUPER_ROUTE",
+    "GT": "GT_ROUTE",
+    "AF": "AF_ROUTE",
+    "LOG1 Dimension": "LOG1_DIMENSION",
+    "LOG2 Dimension": "LOG2_DIMENSION"
+  }
+}

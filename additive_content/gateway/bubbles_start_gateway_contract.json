@@ -1,0 +1,15 @@
+{
+  "schema": "jurai.phase26.bubbles_start_gateway.v1",
+  "mode": "debug_visible_text_trigger",
+  "npc": "Bubbles",
+  "location": "start / Snakeway / Bubbles Gateway",
+  "routes": [
+    "SUPER_ROUTE",
+    "GT_ROUTE",
+    "AF_ROUTE",
+    "LOG1_DIMENSION",
+    "LOG2_DIMENSION"
+  ],
+  "goal": "Make the intended gateway visible at the beginning while native NPC interaction bytecode is still being decoded.",
+  "canonical_note": "Use phase19/20 for original-first story. This build is explicit debug/testing."
+}

@@ -1,0 +1,6 @@
+{
+  "schema": "jurai.phase72.hook_doctor.v1",
+  "doctor_expected_update": "tools/project_doctor.py should include phase69 ROM and v0.5 package after this script runs.",
+  "latest_rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "latest_package": "patch_output/LOG4_v0_5_dlc_runtime_hooks_pack.zip"
+}

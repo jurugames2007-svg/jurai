@@ -1,0 +1,308 @@
+[08008A72] p"Unable to find area"
+[0803E024] Assertion Failure!
+[0803E054] File
+  
+Line
+[0803E084] Condition
+[0803E0A0] Error
+[0805553C] "Expected dialog to start with a code block"
+[080555BC] ,Mp"Internal equipment consistency error!"
+[0805792E] StartOptionsSingle PlayerMultiplayerWireless SlaveWireless MasterSave GameSaving...Select GameNew GameDelete GameSwitch CharacterEmpty GameGame [25]dLanguageSound FX VolumeMusic VolumeText SpeedSleepCreditsLoadQuitSelectAcceptDeleteCancelAre you sure?StatusSkillsJournalGoalsCompleted GoalsInventorySuppliesStory ItemsEquipYesNoPause[08][05][25]s[08][02] [08][03]LVL [25]d[08][02][08][05]HP:[08][02] [08]v[25]d[08][05]/[08]v[25]d[08][02][08][05]EP:[08][02] [08]v[25]d[08][05]/[08]v[25]d[08][02][08][05]XP:[08][02] [08]v[25]d[08][02][08][05]NXT LVL:[08][02] [08]v[25]d[08][02][08][05]ZENIE: [08]v[25]d[08][02][08][05]TIME: [08]v[25]d:[25]02d[08][02][08][05]STR:[08][02][08][05]POW:[08][02][08][05]END:[08][02][08][05]SPD:[08][02]LevelUp![08][05]Pts.[08][02]SkillsUse Points[08][05]STR: [08]v[25]d[08][02][08][05]STR: [08][06][25]d[08][02][08][05]STR: [08][03][25]d[08][02][08][05]POW: [08]v[25]d[08][02][08][05]POW: [08][06][25]d[08][02][08][05]POW: [08][03][25]d[08][02][08][05]END: [08]v[25]d[08][02][08][05]END: [08][06][25]d[08][02][08][05]END: [08][03][25]d[08][02][08][05]SPD: [08]v[25]d[08][02][08][05]SPD: [08][06][25]d[08][02][08][05]SPD: [08][03][25]d[08][02][08][05]RqLvl: [08][06][25]d[08][02][08][05]RqLvl: [08][03][25]d[08][02] EEquip to [25]sUnequip from [25]sDropNo Equipment AvailableCan't drop here!No SuppliesNo Story ItemsUseBackTrading Post[08][05]Your Trade:[08][02][08][05]Friend's Trade:[08][02]ZenieHow many to trade?Propose TradeAcceptDeclineYou have accepted tradeTRADECOMPLETE!Waiting for a friend...No Saved GamesPlease select a saved gameDisconnectedSelect Saved GameDojoStart FightBalanced ModeIn-Game ModeCharacter Mode:Rounds:135Battle with your friends in the Dojo!Choose your character!Round 1Round 2Round 3Round 4Round 5You Win!!You Lose!!Draw!!Grab your prize!Go back to training!GokuSS GokuSS3 GokuTeen GohanSS Teen GohanMystic GohanGreat SaiyamanGohanSS GohanTrunksSS TrunksVegetaSS VegetaGotenSS GotenGotenksSS GotenksSS3 GotenksVegitoSS VegitoSS GogetaHerculeVidelPikkonPiccoloBrolyMajin BuuSuper BuuSuper Buu 2Super Buu 3Kid BuuUubWatch This!Your Turn!Fusion-Ha![08][03]Level [25]d[08][02]Press A Button To Punch[25]d ZENIE[25]d ZBuy x [25]dSell x [25]d x [25]dGokuGohanGotenTrunksVegetaGotenksVegitoGogetaAndroid 18HerculeKrillinPiccoloPikkonTienVidelYamchaGOKUGOHANGOTENTRUNKSVEGETAGOTENKSVEGITOGOGETAANDROID 18HERCULEKRILLINPICCOLOPIKKONTIENVIDELYAMCHA[08][03]HP[08][02][08][07]STR[08][02][08][06]POW[08][02][08][1D]END[08][02]No
+Portrait
+DataDatabase Empty-None- (Body)
+[08058958] Cotton GiA simple cotton gi.-None- (Hands)
+[080589B4] -None- (Feet)
+[080589D2] -None- (Accessories)
+[080589FE] Wool SweaterA thick knitted wool sweater.Leather JacketA cool looking leather jacket.Wooden ArmorArmor carved out of wood.Stone O-YoroiA traditional samurai armor carved out of stone.Bronze KeikoA traditional samurai scale armor made of bronze.Iron ArmorA chestplate made of iron.Silver ArmorA chestplate made of silver.Gold ArmorA chestplate made of gold.Platinum ArmorA chestplate made of platinum.Diamond ArmorA chestplate carved out of a giant diamond.Geromantium KataginuA traditional samurai clothing made of Geromantium.Reflective TunicA tunic made of a reflective material resistant to energy attacks.Brute CoatThe kind of coat a real tough guy might wear.Jade KeikoA traditional samurai scale armor made of jade that reduces damage done while blocking.Mystic AegisA mystical chestplate that reduces the cost of the energy block.Dirty ShirtMaybe you should get this shirt cleaned before you wear it.Dirty GiMaybe you should get this gi cleaned before you wear it.Dirty ArmorMaybe you should get this armor cleaned before you wear it.Clean ShirtA shirt so clean it shines!Clean GiA gi so clean it shines!Clean ArmorAn armor so clean it shines!Prototype Space ArmorIt's a prototype so it isn't working yet.Enhanced Space ArmorThis high tech armor emits an electronic aura.Spiked BreastplateThis breastplate is covered with sharp spikes.Halloween CostumeIt's a scary Halloween costume.Rhinestone Leisure SuitThis a really tacky looking suit.Fancy WardrobeThis suit is expensive looking.Stylish HaoriWearing this stylish jacket gives you a lot of charisma.Do-Maru of ShadowsA traditional samurai armor that is good for stealth.Monk's RobeA simple monks robe that is good for stealth.Super ArmorThis armor has magic that makes Super Saiyan last longer.Wet SuitThis suit helps you catch better fish.Pyrite ArmorIt looks like Gold Amor, but it's fool's gold!Armor of LightThis magic armor makes your energy regenerate faster when you use melee.Armor of DarknessThis magic armor makes your HP increase faster when you use melee.Force SuitThis suit is imbued with the power of science.Crystal O-YoroiThe crystals in this armor make your energy attacks stronger.Titanium BreastplateA breastplate made of titanium."BAD MAN" ShirtA pink shirt? Who would wear such a ridiculous thing?"Z" ArmorThis magic armor constantly heals you.Dragon ArmorArmor made from the scales of a dragon. Reduces the cost of energy attacks.Saiyan ArmorArmor like the Saiyans once wore.Cotton GlovesA pair of simple cotton gloves.Wool MittensA pair of thick knitted wool mittens.Leather GlovesGloves made of tough leather.Brass KnucklesA pair of brass knuckles.Iron BracerAn arm guard made of iron.Silver GauntletsA pair of gauntlets made of silver.Platinum GauntletsA pair of gauntlets made of platinum.Diamond GauntletsA pair of gauntlets carved from a diamond.Geromantium GlovesA pair of gloves made of Geromantium.Reflective GlovesA pair of gloves made of a reflective material resistant to energy attacks.Brute GlovesThe kind of gloves a real tough guy might wear.1 Ton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.2 Ton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.10 Ton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.20 Ton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.100 Ton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.Kiloton ArmbandsWeighted armbands slow you down, but give you more experience as a reward.Magician's GlovesThese magic gloves reduce the cost of an energy block.Dirty GlovesMaybe you should get these gloves cleaned before you wear it.Dirty GauntletsMaybe you should get these gauntlets cleaned before you wear it.Clean GlovesGloves so clean they shine!Clean GauntletsGauntlets so clean they shine!Prototype Energy GlovesIt's a prototype so it isn't working yet.Enhanced Energy GlovesThese are powerful high tech gloves.Power GauntletsThese gauntlets are glowing with energy.Super GlovesThese gloves have magic that make Super Saiyan last longer.Scuba GlovesThese gloves helps you catch better fish.Geromantis GlovesLooks like Geromantium Gloves, but are actually a cheap knock-off.Charge GlovesYou can detect power flowing through these high tech gloves.Crystal GauntletsThe crystals in these gauntlets make your energy attacks stronger.Saiyan GlovesGloves like the Saiyans once wore.Pilaf's GlovesLegend has it wearing these gloves will make you rich!Cotton TabiSimple cotton tabi boots.Woolen ShoesShoes made of knitted wool.Leather MoccasinsMoccasins made of thick tanned leather.Wooden GetaSandals made of wood.Stone GetaSandals made of stone.Bronze Plated BootsLeather boots covered in bronze plates.Iron GreavesShin-guards made of iron.Silver BootsBoots made of silver.Gold BootsBoots made of gold.Geromantium TabiTabi boots made of Geromantium.Winged SandalsThese winged sandals will make you walk and run faster.1 Ton BootsWeighted boots slow you down, but give you more experience as a reward.2 Ton BootsWeighted boots slow you down, but give you more experience as a reward.10 Ton BootsWeighted boots slow you down, but give you more experience as a reward.20 Ton BootsWeighted boots slow you down, but give you more experience as a reward.100 Ton BootsWeighted boots slow you down, but give you more experience as a reward.Kiloton BootsWeighted boots slow you down, but give you more experience as a reward.Dirty TabiMaybe you should get these tabi boots cleaned before you wear them.Dirty ShoesMaybe you should get these shoes cleaned before you wear them.Dirty BootsMaybe you should get these boots cleaned before you wear them.Clean TabiTabi boots so clean they shine!Clean ShoesShoes so clean they shine!Clean BootsBoots so clean they shine!Prototype Hyper BootsIt's a prototype so it isn't working yet.Enhanced Hyper BootsThese are powerful high tech boots.Alligator LoafersThese are some expensive shoes!Spirit GetaThere is a mysterious supernatural aura around these sandals.SneakersThese are sneakers... For sneaking!Soccer CleatsThese soccer cleats pack quite a kick!Super BootsThese boots have magic that makes Super Saiyan last longer.FlippersThese flippers helps you catch better fish.Silvery BootsThese look like Silver Boots, but the silver paint is scratching off.Shock BootsYou can detect power flowing through these high tech boots.Saiyan BootsBoots like the Saiyans once wore.Wool CapA thick knitted wool cap.Stone Men-poAn armored samurai face mask made of stone.Iron KabutoA traditional samurai helmet made of iron.Geromantium BandanaA bandana made of Geromantium.Mercury's CapThe legendary cap of Mercury.Dirty CapeMaybe you should get this cape cleaned before you wear it.Dirty BeltMaybe you should get this belt cleaned before you wear it.Clean CapeA cape so clean it shines!Clean BeltA belt so clean it shines!Demon MaskThis a terrifying looking mask.Rhinestone SunglassesThese are some really tacky looking sunglasses.Lucky CharmThis charm gives you good luck!Rabbit's FootThis rabbit's foot gives you good luck!Four-Leaf CloverThis four-leaf clover gives you good luck!Skull RingThere's an evil aura around this ring...Doom AmuletThere's an evil aura around this amulet...Expensive WristwatchThis is an extremely expensive wristwatch.MonocleWearing this classy monocle gives you lots of charisma.Eldritch CameoThis carving of unfathomable age is etched in a long forgotten ancient language.Pure Black CapeHow much more black could this cape be? The answer is none.Super CapeThis cape has magic that makes Super Saiyan last longer.SnorkelThis snorkel helps you catch better fish.Hare's FootThis item looks like a rabbit's foot... but it's not real.Talisman of LightThis talisman increases the amount of energy recharged when you use melee attacks.Vampire CapeThis cape causes HP to be recharged instead of energy when you use melee attacks.Polka-Dot KazooThis is a very silly kazoo.Crystal PendantThe crystals in this pendant increase the power of energy attacks.Crisis RingWhen you're about to die, this ring makes you stronger.Garlic NecklaceThis protects against the undead.Evil TalismanThere is a terrible cost to this talisman's power.Ox-King's HatThis is the kind of viking hat that Ox-King is often seen wearing."Gokuu" HatIf you wear this hat while you level up, you'll get a bonus!Majestic ChopsticksFood tastes better when you use these chopsticks.Primordial Twisty-StrawDrinks taste better when you use this ancient straw.White BeltThis is a white karate belt.Yellow BeltThis is a yellow karate belt.Red BeltThis is a red karate belt.Green BeltThis is a green karate belt.Blue BeltThis is a blue karate belt.Brown BeltThis is a brown karate belt.Black BeltThis is a black karate belt.Quartz AmuletThis is an amulet made of quartz.Topaz AmuletThis is an amulet made of topaz.Amethyst AmuletThis is an amulet made of amethyst.Sapphire AmuletThis is an amulet made of sapphire.Emerald AmuletThis is an amulet made of emerald.Ruby AmuletThis is an amulet made of ruby.Diamond AmuletThis is an amulet made of diamond.BandanaOnly a really vicious criminal would wear something like this.AirshipAirship InteriorAtriumBaba's ArenaBabidi's ShipInside Babidi's ShipBarren WastelandBulma's AirshipBulma's HouseBrainDr. Brief's LabBuu's HouseCapsule CorporationCapsule RoomCave of the AncientsChi Chi's RoomComputer RoomControl RoomCrash SiteDemon WorldDiablo DesertEarthEast District 439Exhibit HallFinal ShowdownFukurou ForestGiant AirshipGiant CraterGohan and Goten's RoomGoku's HouseGrandpa Gohan's HutGrand Kai's MansionGrand Kai's PlanetGravity ChamberHeavenHercule Caf[E9]Hercule CityHercule's MansionHFILHigh Above EarthHyperbolic Time ChamberIntestinesKame HouseKami's LookoutKami's PalaceKorin's TowerKyodai PyramidOutside Kyodai PyramidLighthouseLobbyMusuka CircusNataday VillageNinja StrongholdNorthern WildernessOrange Star High SchoolOther World StadiumPapaya IslandPilaf's CastlePlanet of the KaisRocky CanyonRogue SubmarineRoshi's IslandDiablo DesertSinking ShipSnakewaySouthwest ForestStolen AirshipStomachThe Other WorldThieves DenThrone RoomTotenhotep's ChamberDiablo Desert ExpressVolcanoVolcano SummitWest CityWestern WildernessA Button: [08][07]Descend/Land[08][02] B Button: [08][07]Ascend[08][02]World Tournament StadiumYakon's PlanetYemma's OfficeZ-MartOther World SagaGreat Saiyaman SagaWorld Tournament SagaBabidi SagaMajin Vegeta SagaDragon Ball SagaMajin Buu SagaJanemba SagaSuper Buu SagaFusion SagaKid Buu SagaA New BeginningGo to King Yemma's CastleTrain with Other World FightersGo to the Other World TournamentGo to your class at Orange Star High SchoolFly to West City and talk to BulmaFight Crime in Hercule CityDefeat the Red Shark Gang and Save the MayorSave Chobi from the CircusTell Your Mother That Goku's Coming BackTell Piccolo and Dende That Goku's Coming BackTell Bulma and Vegeta That Goku's Coming BackTell Master Roshi and Krillin That Goku's Coming BackMeet Goten in the eastern forest to train.Meet Bulma to go to the World TournamentRegister for the World TournamentGo to Kami's Lookout and get a Senzu Bean from KorrinFind Babidi's SpaceshipEnter Babidi's Ship and Defeat DaburaDestroy Babidi's SpaceshipGo To Kami's LookoutGet the Dragon Radar from BulmaFind The Dragon BallsFind Vegeta in HFILDefeat JanembaPull the Z-Sword from the rockTake a nap at Kami's LookoutGet the Scouter Upgrade from Dr. Brief at Capsule CorpSave Goten and Trunks from Super Buu.Find DendeGo back and defeat Super BuuFind Gohan, Goten, Trunks, and PiccoloEscape from BuuGo to the Barren Wastelands and Defeat Kid BuuGet a root beer for the Lighthouse KeeperGet a turkey for the Lighthouse KeeperGet Hercule-ade for the Lighthouse KeeperGet an elixir for the Lighthouse KeeperGet a dinosaur tail for the Lighthouse KeeperGet a super elixir for the Lighthouse KeeperDefeat Airship Bandits and take the bandanas they drop to the NinjaMiso SoupMiso SoupMiso SoupsA tasty, yet nutritious soup. Restores 20 hit points.Rice BallRice BallRice BallsA small ball of sticky rice. Restores 40 hit points.Chicken LegChicken LegChicken LegsIt tastes like chicken! Restores 80 hit points.HamburgerHamburgerHamburgersA flame broiled and delicious hamburger. Restores 120 hit points.OnigiriOnigiriOnigiriA traditional triangle of rice, wrapped in kelp. Restores 200 hit points.Curry PlateCurry PlateCurry PlatesA dish of chicken and rice covered in a spicy curry sauce. Restores 400 hit points.TurkeyTurkeyTurkeysA full sized turkey with stuffing. Restores 800 hit points.SteakSteakSteaksA medium-rare steak seasoned to perfection. Restores 600 hit points.3Course MealThree Course MealThree Course MealsAre you sure you can eat that all by yourself? Restores 1100 hit points.DinosaurTailDinosaur TailDinosaur TailsThey say the most succulent dinosaur meat comes from the tail. Restores 1500 hit points.MilkMilkMilkA carton of milk. Restores 20 energy points.TeaTeaTeaCare for a spot of tea? Restores 40 energy points.SodaSodaSodasNow that's a tasty beverage! Restores 80 energy points.V. SodaVanilla SodaVanilla SodasVanilla makes a good soda even better! Restores 125 energy points.C. SodaCherry SodaCherry SodasThere's nothing like a good Cherry Soda! Restores 175 energy points.Root BeerRoot BeerRoot BeersA cool refreshing root beer. Restores 250 energy points.Hercule-adeHercule-adeHercule-adesReplenishes your precious electrolytes. Restores 350 energy points.ElixirElixirElixirsA rare magical liquid that restores your vitality! Restores 500 energy points.S. ElixirSuper ElixirSuper ElixirsThe best magical elixir on the market. Restores 750 energy points.DinosaurMilkDinosaur MilkDinosaur MilkWhere does dinosaur milk come from? Restores 2500 energy points.Holy WaterHoly WaterHoly WatersThe legendary holy water of Korin. Greatly increases your stats for 30 seconds.Senzu BeanSenzu BeanSenzu BeansOne of Korin's special Senzu Beans. Fully restores hit points and energy.CapsuleCapsuleCapsulesA Dyna-Cap.  What is contained inside? It is a mystery.L. CrystalLazarus CrystalLazarus CrystalsA strange blue crystal. Some say carrying them is good luck!2402 Capsule2402 Capsule2402 CapsuleA Number 2402 Capsule that contains a digital wrist watch.Dragon Ball 1Dragon Ball 1Dragon Ball 1The one-star Dragon Ball.Dragon Ball 2Dragon Ball 2Dragon Ball 2The two-star Dragon Ball.Dragon Ball 3Dragon Ball 3Dragon Ball 3The three-star Dragon Ball.Dragon Ball 4Dragon Ball 4Dragon Ball 4The four-star Dragon Ball.Dragon Ball 5Dragon Ball 5Dragon Ball 5The five-star Dragon Ball.Dragon Ball 6Dragon Ball 6Dragon Ball 6The six-star Dragon Ball.Dragon Ball 7Dragon Ball 7Dragon Ball 7The seven-star Dragon Ball.P. EarringPotara EarringPotara EarringsWear these Earrings to perform a more powerful fusion than the fusion dance.Small FishSmall FishSmall FishA lovely, little fish.Red SnapperRed SnapperRed SnapperOooo! A Red Snapper! Very tasty!Large FishLarge FishLarge FishOnce thought extinct, these giant fish are now quite plentiful.SwitchSwitchSwitchIt's a switch with two prongs, but it's not attached to anything.Grandpa's KeyGrandpa's KeyGrandpa's KeyThe key to Grandpa Gohan's house.HeaddressHeaddress of TotenhotepHeaddress of TotenhotepThe headdress of an ancient pharaoh. Some say it's cursed!KeyKeyKeyAn old key.Ninja KeyNinja KeyNinja KeyThe key to the Boss Ninja's inner sanctumOld ShoeOld ShoeOld ShoesAn old shoe? What are you going to do with this?H. Exhibit [23]1Hercule Exhibit [23]1Hercule Exhibit [23]1A crate with Hercule's logo on it.H. Exhibit [23]2Hercule Exhibit [23]2Hercule Exhibit [23]2A crate with Hercule's logo on it.H. Exhibit [23]3Hercule Exhibit [23]3Hercule Exhibit [23]3A crate with Hercule's logo on it.H. Exhibit [23]4Hercule Exhibit [23]4Hercule Exhibit [23]4A crate with Hercule's logo on it.H. Exhibit [23]5Hercule Exhibit [23]5Hercule Exhibit [23]5A crate with Hercule's logo on it.H. Exhibit [23]6Hercule Exhibit [23]6Hercule Exhibit [23]6A crate with Hercule's logo on it.H. Exhibit [23]7Hercule Exhibit [23]7Hercule Exhibit [23]7A crate with Hercule's logo on it.H. Exhibit [23]8Hercule Exhibit [23]8Hercule Exhibit [23]8A crate with Hercule's logo on it.H. Exhibit [23]9Hercule Exhibit [23]9Hercule Exhibit [23]9A crate with Hercule's logo on it.H. Exhibit [23]10Hercule Exhibit [23]10Hercule Exhibit [23]10A crate with Hercule's logo on it.H. Exhibit [23]11Hercule Exhibit [23]11Hercule Exhibit [23]11A crate with Hercule's logo on it.H. Exhibit [23]12Hercule Exhibit [23]12Hercule Exhibit [23]12A crate with Hercule's logo on it.H. Exhibit [23]13Hercule Exhibit [23]13Hercule Exhibit [23]13A crate with Hercule's logo on it.H. Exhibit [23]14Hercule Exhibit [23]14Hercule Exhibit [23]14A crate with Hercule's logo on it.H. Exhibit [23]15Hercule Exhibit [23]15Hercule Exhibit [23]15A crate with Hercule's logo on it.H. Exhibit [23]16Hercule Exhibit [23]16Hercule Exhibit [23]16A crate with Hercule's logo on it.H. Exhibit [23]17Hercule Exhibit [23]17Hercule Exhibit [23]17A crate with Hercule's logo on it.H. Exhibit [23]18Hercule Exhibit [23]18Hercule Exhibit [23]18A crate with Hercule's logo on it.H. Exhibit [23]19Hercule Exhibit [23]19Hercule Exhibit [23]19A crate with Hercule's logo on it.H. Exhibit [23]20Hercule Exhibit [23]20Hercule Exhibit [23]20A crate with Hercule's logo on it.H. Exhibit [23]21Hercule Exhibit [23]21Hercule Exhibit [23]21A crate with Hercule's logo on it.H. Exhibit [23]22Hercule Exhibit [23]22Hercule Exhibit [23]22A crate with Hercule's logo on it.H. Exhibit [23]23Hercule Exhibit [23]23Hercule Exhibit [23]23A crate with Hercule's logo on it.H. Exhibit [23]24Hercule Exhibit [23]24Hercule Exhibit [23]24A crate with Hercule's logo on it.H. Exhibit [23]25Hercule Exhibit [23]25Hercule Exhibit [23]25A crate with Hercule's logo on it.Z. Exhibit [23]1Z-Fighter Exhibit [23]1Z-Fighter Exhibit [23]1A crate with a Z logo on it.Z. Exhibit [23]2Z-Fighter Exhibit [23]2Z-Fighter Exhibit [23]2A crate with a Z logo on it.Z. Exhibit [23]3Z-Fighter Exhibit [23]3Z-Fighter Exhibit [23]3A crate with a Z logo on it.Z. Exhibit [23]4Z-Fighter Exhibit [23]4Z-Fighter Exhibit [23]4A crate with a Z logo on it.Z. Exhibit [23]5Z-Fighter Exhibit [23]5Z-Fighter Exhibit [23]5A crate with a Z logo on it.Z. Exhibit [23]6Z-Fighter Exhibit [23]6Z-Fighter Exhibit [23]6A crate with a Z logo on it.Z. Exhibit [23]7Z-Fighter Exhibit [23]7Z-Fighter Exhibit [23]7A crate with a Z logo on it.Z. Exhibit [23]8Z-Fighter Exhibit [23]8Z-Fighter Exhibit [23]8A crate with a Z logo on it.Z. Exhibit [23]9Z-Fighter Exhibit [23]9Z-Fighter Exhibit [23]9A crate with a Z logo on it.Z. Exhibit [23]10Z-Fighter Exhibit [23]10Z-Fighter Exhibit [23]10A crate with a Z logo on it.Z. Exhibit [23]11Z-Fighter Exhibit [23]11Z-Fighter Exhibit [23]11A crate with a Z logo on it.Z. Exhibit [23]12Z-Fighter Exhibit [23]12Z-Fighter Exhibit [23]12A crate with a Z logo on it.Z. Exhibit [23]13Z-Fighter Exhibit [23]13Z-Fighter Exhibit [23]13A crate with a Z logo on it.Z. Exhibit [23]14Z-Fighter Exhibit [23]14Z-Fighter Exhibit [23]14A crate with a Z logo on it.Z. Exhibit [23]15Z-Fighter Exhibit [23]15Z-Fighter Exhibit [23]15A crate with a Z logo on it.CookieCookieCookiesMrs. Brief's freshly baked chocolate chip cookie! Restores 5 hit points.HumanThe Capsule Corporation database has no information on this person.FighterThis is a martial artist from the Other World.OlibuOlibu is an Other World fighter, originally from Earth. Many of Earth's legends are based off of him.CriminalA known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.MercenaryA ruthless soldier of fortune. Armed with rocket propelled grenades.GunmanA known criminal, wanted on several counts of mischief and multiple counts of high jinks. BomberA bomber armed with dangerous explosives. Approach with extreme caution.Majin SoldierOne of Babidi's Majin Henchmen from an unknown alien species.Majin FighterA martial artist who has been converted over to Babidi's side.NinjaA ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving. DestroyerA robot with thick geromantium armor that makes it invulnerable to most conventional attacks.Laser TurretThese advanced megawatt class chemical laser guns are quite dangerous.SamuraiAlthough many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.TankBattle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.PikkonA powerful and respected alien warrior in the Other World.IdasaAn elementary school student who has made a name for himself in various junior martial arts tournaments.SpopovichThis martial artist fought against Hercule in the 24th World Tournament. There appears to be something strange about him...YamuThere appears to be something strange about this martial artist.PuiPuiPuiPui is an alien from the planet Zoon and also a henchman of Babidi.DaburaDabura is the ruler of the Underworld. He is a henchman of Babidi.BabidiAn evil wizard. Babidi is the son of Bibidi. He controls people by exploiting the evil in their hearts.Majin BuuAn evil creature created by Bibidi many ages ago. Although he is child-like, his extreme power, underdeveloped sense of right and wrong, and rubbery indestructible body make him a dangerous adversary.King KaiThis guardian of the North Galaxy is known as one of the greatest martial arts trainers in the universe, and his corny sense of humor.BulmaBulma Brief is the daughter of the founder and president of the Capsule Corporation, Dr. Brief. Bulma has many invention patents in her name, most notably the Dragon Radar. Bulma is often involved in Goku's adventures, and is married to Vegeta.BrolyBroly is the Legendary Super Saiyan, prophesied in ancient Saiyan folklore. Once defeated by Goku, he has returned, insane with rage.Kid BuuAlthough  he looks like a child, Kid Buu is actually the most dangerous of all Buu's many forms.Super BuuWhen Majin Buu was absorbed the mysterious Evil Buu, the Evil Buu transformed into this new dangerous form.Super BuuWhen Gotenks was absorbed by Super Buu, Super Buu transformed into this new form.Super BuuWhen Gohan was absorbed by Super Buu, Super Buu transformed into this new form.JanembaThe evil soul of an organized crime boss named Janemba has escaped and become this evil creature.Super JanembaJanemba has transformed into a faster and more dangerous form.YakonA notorious monster from an alien planet of darkness. Has the power to absorb energy.Android [23]13An evil Android created by Dr. Gero's computer.Android [23]14An evil Android created by Dr. Gero's computer.Android [23]15An evil Android created by Dr. Gero's computer.Super Android [23]13After absorbing the broken parts of Androids [23]14 and [23]15, [23]13 transformed into this Super Android.Android [23]18Once Dr. Gero's evil Android, she has now changed her ways and fights for the good guys. Is married to Krillin.HerculeThe World Champion of Martial Arts. The world believes he was the one who defeated Cell, even though it was really Gohan. Although a powerful martial artist in his own right, he is no match for the Z-fighters powers.KrillinKrillin is an old friend of Goku's. They trained together under Master Roshi. Krillin is married to Android [23]18.TienTien was once a rival of Goku is now a loyal Z-Fighter. His most distinguishing feature is his mysterious third eye.VidelThe crimefighting daughter of Hercule. She attends Orange Star High School with Gohan.YamchaYamcha was once known as the dreaded Desert Bandit of Diablo Desert. He's now one of good guys.AnnouncerThis Announcer has been announcing Martial Arts Tournaments since back when Goku was a kid!BabaBaba is a fortune teller who sometimes acts as an emmisary between the physical world and the Other World. She is also Master Roshi's sister.Dr. BriefDr. Brief is the president of the Capsule Corporation, and Bulma's father.Mrs. BriefMrs. Brief is Dr. Brief's wife, and Bulma's mother.BubblesBubbles is an ape who hangs out with King Kai.ChiaotzuChiaotzu is a mysterious telepathic being who is often seen around Tien.Chi-ChiChi-Chi is Goku's wife and Gohan and Goten's mother. She is the daughter of the Ox-King.ChobiChobi is a dinosaur who is friends with Gohan's family.DendeDende is the Guardian Of Earth and an alien from the planet Namek.ErasaErasa attends high school with Gohan at Orange Star High School.GregoryGregory is a talking cricket who hangs out with King Kai.JewlJewl is a popular martial artist.Grand KaiThe Grand Kai is one of the Guardians of the universe and of the Other World. He is also a legendary martial artist.Supreme KaiThe Supreme Kai is the highest ranking Guardian of the universe.KibitoKibito is the body guard of the Supreme Kai.KibitoshinThe Supreme Kai and Kibito fused to become Kibitoshin.KillaKilla is a martial artist.King YemmaKing Yemma is a giant ogre who guards the entrance to the Other World.Yemma's AssistantThis assistant helps King Yemma usher souls into the Other World.KorinKorin is a wise martial artist cat who lives at the top of Korin's tower.MarronMarron is the daughter of Krillin and Android [23]18.Master RoshiMaster Roshi is a master of martial arts who trained Goku and Krillin. He is also known as the Turtle Hermit.MayorThe Mayor of Hercule City.MonkOne of the monks in charge of running the World Tournament.Mr. PopoMr. Popo is Dende's right hand man. He has lived on Kami's Lookout for countless ages.OolongOolong is a friend of the Z-Fighters. He has the power to shapeshift.Ox KingOx King is the father of Chi-Chi.Emperor PilafThe bumbling Pilaf has tried to take over the world many times, but is usually foiled by Goku.PintarPintar is a martial artist.Village PriestThe head shaman of Nataday Village.PuarPuar is a shapeshiting cat and a constant companion of Yamcha.MusakaMusaka is the ringmaster of the Musaka Circus.ScientistA man of science!SharpnerSharpner attends Orange Star High School with Gohan.SoulThis is a spirit that lives in the Other World.UubUub is 10 year old boy who is the reincarnation of Buu. YajirobeYajirobe is a friend of the Z-Fighters. Although he carries a sword, he rarely uses it.Bio MechWatch out for this Cyborg's killer claw!BlisterThis blister creates enzymes.EnzymeEnzymes assist Buu in digestion.Blood CellThe Blood Cells in Buu's immune system don't like intruders.CyborgHalf man... Half machine... All deadly.GhostThese spirits come from the Other World to haunt the living.Mini-JanembaJanemba creates these miniature versions of himself.Knight DestroyerThe Destroyer's nastier, stronger, and meaner older brother.Majin Shield SoldierThis Majin Soldier will block your attacks with his shield.MechanoidThis cyborg transforms into a metal ball.Mud ManThis Mud Man will split in half when you attack him.MummyFrom the ancient sands of time these mummies awaken to curse the living.SkeletonThe bones of the dead are animated by an unseen force.Sky BanditThese bandits have taken to the sky! Watch out for their bombs.ThugThese tough guys have more muscles than brains.VampireThese undead monsters thrive off of the blood of the living.Worm HeadThese worms live inside Buu's digestive system.Worm BodyThese worms live inside Buu's digestive system.Worm TailThese worms live inside Buu's digestive system.Mini-YakonThese aliens are like miniature versions of Yakon.ZombieWhen there is no more room in H.F.I.L. the dead will walk the Earth.GohanGohan is the son of Goku and Chi-Chi. He is half human and half Saiyan. Gohan defeated Cell in the Cell Games.GokuGoku is a Saiyan from the planet Vegeta that was stranded on Earth. He is an all-around good guy, who often saves the Earth.GotenGoten is the son of  Goku and Chi-Chi. Despite his young age, he's one of the most powerful fighters in the universe.TrunksTrunks is the son of Vegeta and Bulma. Despite his young age he's one of the most powerful fighters in the universe.VegetaVegeta was the prince of the Planet Vegeta before it was destroyed by Frieza. Although he was once a villian, he usually fights for the Z-Fighters now.PiccoloOnce an evil villian, Piccolo has seen the error of his ways and is now one of Earth's greatest heroes. Piccolo is an alien from the planet Namek.AnnihilatorA robot with thick geromantium armor that makes it invulnerable to most conventional attacks.AssassinA known criminal, wanted on several counts of mischief and multiple counts of high jinks. AtomizerThese advanced megawatt class chemical laser guns are quite dangerous.BonesThe bones of the dead are animated by an unseen force.BruiserThese tough guys have more muscles than brains.Cursed OneFrom the ancient sands of time these mummies awaken to curse the living.Death MachineA robot with thick geromantium armor that makes it invulnerable to most conventional attacks.Elite Majin FighterA martial artist who has been converted over to Babidi's side.Elite Majin SoldierOne of Babidi's Majin Henchmen from an unknown alien species.Elite Shield SoldierThis Majin Soldier will block your attacks with his shield.GhoulWhen there is no more room in H.F.I.L. the dead will walk the Earth.GolemThis Mud Man will split in half when you attack him.GoonThese tough guys have more muscles than brains.Grand MechanoidThis cyborg transforms into a metal ball.GrenadierA bomber armed with dangerous explosives. Approach with extreme caution.HessianA ruthless soldier of fortune. Armed with rocket propelled grenades.HooliganA known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.Hyper CyborgHalf man... Half machine... All deadly.Ion CannonThese advanced megawatt class chemical laser guns are quite dangerous.Janemba HandBe careful of the hand of Janemba that travels through a dimensional portal.JuggernautBattle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.LichThe bones of the dead are animated by an unseen force.Living DeadWhen there is no more room in H.F.I.L. the dead will walk the Earth.Mad BomberA bomber armed with dangerous explosives. Approach with extreme caution.MarauderA ruthless soldier of fortune. Armed with rocket propelled grenades.Mega CyborgHalf man... Half machine... All deadly.Metal HulkThe Destroyer's nastier, stronger, and meaner older brother.Ninja BossA ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving. NosferatuThese undead monsters thrive off of the blood of the living.PhantomThese spirits come from the Other World to haunt the living.PharoahFrom the ancient sands of time these mummies awaken to curse the living.PoltergeistThese spirits come from the Other World to haunt the living.Power MechandoidThis cyborg transforms into a metal ball.RapscallionA known criminal, wanted on several counts of chicanery and multiple counts of shenanigans.RoninAlthough many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.Shadow ColossusThe Destroyer's nastier, stronger, and meaner older brother.Shadow WarriorA ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving. ShinobiA ninja. These warriors value stealth and subterfuge. Some ninja use their ninjutsu skills for assassination and thieving. ShogunAlthough many of these ancient warriors live by the code of the Bushido, they should be considered highly dangerous. Samurai are known for their devastating sword attacks.SniperA known criminal, wanted on several counts of mischief and multiple counts of high jinks. Super Bio MechWatch out for this Cyborg's killer claw!Super Majin FighterA martial artist who has been converted over to Babidi's side.Super Majin SoldierOne of Babidi's Majin Henchmen from an unknown alien species.Super Shield SoldierThis Majin Soldier will block your attacks with his shield.Trash HeapThis Mud Man will split in half when you attack him.Ultra Bio MechWatch out for this Cyborg's killer claw!VladThese undead monsters thrive off of the blood of the living.War MachineBattle tanks are fully armored in 2 inch plates of geromantium. These tanks are armed with a 120mm cannon.Majin VegetaVegeta has been taken over by Babidi's Majin powers.Airship WarlordWatch out for this Cyborg's killer claw!Pilaf's GuardianThe Destroyer's nastier, stronger, and meaner older brother.Pharoah TotenhotepFrom the ancient sands of time these mummies awaken to curse the living.GotenksGotenks is the fusion of Goten and Trunks using the Metamorese Art of Fusion.GogetaGogeta is the fusion of Goku and Vegeta using the Metamorese Art of Fusion.VegitoVegito is the fusion of Goku and Vegeta using the magic Potara earrings.Alien AnnouncerThis fungus alien is well known as the announcer of the Other World Tournament.West KaiThis guardian of the West Galaxy has a fierce rivalry with King Kai.Banshee BlastHold the B Button to emit 5 thin, powerful beams of energy, one from each finger.Big BangPress the B Button and release to emit a large ball of energy that explodes on contact.  Hold the B Button longer to make the attack stronger.Big Bang KamehamehaHold the B Button to create a large ball of energy, followed by a long beam.  Burning AttackPress the B Button to shoot a spiked ball of chrono-energy which stuns enemies on contact.  Hold the B Button longer to increase stun time.Dragon Fist ExplosionHold the B Button to create a giant dragon of pure energy.  Use the +Control Pad to control the dragon's head.  Release the B Button to make the dragon bite.Electric KamehamehaHold the B Button to emit a long beam of energy.  Enemies hit by this beam can become electrically charged.Energy BlastPress the B Button to shoot out a concentrated missile of internal energy.  Press the B Button multiple times to shoot out many blasts.Energy PunchPress the B Button to throw a mighty punch, enhanced with energy.  Energy SwordHold the B Button to create a glowing sword of energy.  When fully charged, continue holding the B Button to spin around, and press the +Control Pad to move.Final FlashHold the B Button to emit a long beam of energy which travels across land instantly.Flame KamehamehaHold the B Button to emit a chain of energy flames.  While holding the B Button, press the +Control Pad to move the flames like a whip.Fusion DancePress the B Button to begin the Fusion Dance sequence.  Watch carefully, then press the button indicated when it is highlighted.  Super Kamikaze Ghost AttackHold the B Button to create small ghost replicas.  Let go of the B Button to release the ghosts, which attack the closest enemy and explode on contact.Instant TransmissionHold the B Button to bring up the cursor.  Use the +Control Pad to select an item, enemy, or switch.  Release the B Button to teleport there and back.KamehamehaHold the B Button to emit a long beam of energy.KamekamehaMispronounced by Goten.  Hold the B Button to emit a long beam of energy.MasenkohaHold the B Button to make a cursor appear in front of the player.  Upon releasing the B Button, a large ball of energy will be thrown at the cursor's location.SaiyamanPress the B Button to turn into the Great Saiyaman.  Press the B Button again to turn back into Gohan.Super SaiyanPress the B Button to transform into a Super Saiyan.Super Saiyan 3Press the B Button to transform into a Super Saiyan 3.  You must already be a Super Sayian to use this technique.Ultra Volleyball AttackPress the B Button to emit a beam that turns enemies into giant volleyballs. [2A][2A][2A]Webfoot Technologies, Inc.
+[0806A752] Jeffrey LimGame Programming
+Tools ProgrammingCliff DaviesAI Programming
+Network ProgrammingJim GrantLead Game Scripting, Design, ArtAndrew MyersLead Character Production, Design, ArtGerry SwansonLead Level Design, Dialog, Design, ArtMandi PaughCharacter ArtAlisa KoberPortrait ArtBrian BabendererdeLevel ArtCharacter Animation:Devon Browne
+Adny Angrand
+Rafael Toledo
+Luis LopezYannis BrownMusic, Sound EffectsScripting:Pascal Pochol
+Erik Hermansen
+Dana DominiakDana DominiakProducer, PresidentPascal PocholDirector of Software EngineeringTesters:Peter DiLillo
+Ben Vitoff
+Scott Grant
+Andrew OsbornTesters:Charlie Bry
+Ben Mohrbacher
+Peter Mohrbacher
+Dana PellegriniDebra OsbornProject DirectorAtari, Inc.
+[0806AD12] Mark FlitmanSenior ProducerJim BooneExecutive ProducerMatt CollinsSenior Brand ManagerTom NicholsDirector of MarketingNancy MacIntyreV.P. of MarketingWim StocksExecutive. V.P. of Sales and MarketingSteve MartinDirector of Creative ServicesElizabeth MackneyDirector of Editorial [26] Documentation ServicesKelly WolnikGraphic DesignerKurt CarlsonDocumentation-SpecialistPaul CollinCopywriterMichael GilmartinDirector of Publishing SupportEzequiel "Chuck" NunezQA SupervisorsChristopher D. ReimerQA LeadHowell SelburnAssistant LeadTestersRay Cicero
+Leo Trac
+Libert Viray
+Ed ToribioTestersJoel Yabrudy
+Brian Tiangco
+Felix Gunawan
+Angel MarquezSpecial Thanks:Peter Armstrong
+Mike Cucchiarella
+Amy Jordan
+Chris LundeenFUNimation Productions, Ltd.
+[0806B322] Gen FukunagaPresidentDaniel CocanougherExecutive Vice-PresidentCindy Brennan FukunagaVice-President, MarketingBob BrennanDirector of LicensingJeremy SneadLicensing Account ManagerJeremy CarlileScript WriterSpecial Thanks:
+[0806B4F8] SHUEISHA Inc.
+[0806B516] Toei Animation
+[0806B536] Akira ToriyamaOriginal Author[2A][2A][2A]Chapter 1The Other WorldChapter 2Great SaiyamanChapter 3World TournamentChapter 4BabidiChapter 5Majin VegetaChapter 6Dragon BallChapter 7Majin BuuChapter 8JanembaChapter 9Super BuuChapter 10FusionChapter 11Kid BuuChapter 12A New BeginningMonkeyApeChibiHumanStudentTraineeApprenticeWhite BeltYellow BeltRed BeltGreen BeltBlue BeltBrown BeltBlack BeltFighterBrawlerChampionGrand ChampionWorld ChampionSenseiMasterGrandmasterSupreme GrandmasterHeroTrue HeroSuperheroDefenderProtectorGuardianWarriorZ-WarriorNamekGrand NamekElder NamekSuper NamekKaiGrand KaiSupreme KaiDaikaiohSuper SaiyanAscendant Super SaiyanSuper Saiyan 2Super Saiyan 3Mystic SaiyanLegendary Super SaiyanOozaruGolden OozaruDragonMystical DragonEternal DragonMatch 1 Fight!Match 2 Fight!Match 3 Fight!Match 4 Fight!Match 5 Fight!Match 6 Fight!Match 7 Fight!Match 8 Fight!Match 9 Fight!Match 10 Fight!
+[0806EA6A] [05]8DDD8
+[081CEBEA] 8HHXX
+[08215146] 8XHxh
+[0826BC08] 8F8VH
+[0826BC80] H8vL[86]l
+[082B8F10] [05]PP8PP
+[086B7400] "Energy attack level set for attack which doesn't exist for player!"
+[086B748C] "Energy attack level requested for attack which doesn't exist for player!"
+[086B7524] "Unable to find sprite index in character state data"
+[087198E4] ,[25][1E][17]-[26][1F]P.'XQ/`YRhaZSib[Tjc\Ukd]Vle^Wmf_[90]ng[98][91]o
+[0872BFD4] dCC[19]2v
+[0872BFF0] dCC[19]2x
+[0872C00C] dCC[19]2k
+[0872C028] dCC[19]2q
+[0872C044] dCC[19]2n
+[0872C060] dCC[19]2o
+[0872C07C] dCC[19]2p
+[0872C098] dCC[19]2r
+[0872C1E8] dCC[19]2f
+[08732BBA] 23456
+[08732C2E] NOPQRO
+[08732C44] UVWXYZ[\]^_
+[08732C74] CDEFGHIJKLM
+[08732CC0] vwxyz{|}
+[08732CFC] bcdefghijklmnopqrs
+[08733DBA] [0D][13][11][17][15][13][11][17][15]KLMNOPQRSTUVW
+[08733DFC] >?[40]ABCDEFGHIJ
+[08733EB6] [93]ff[94]f[95][96]f[97][98]ff[99][9A]f[9B]f[9C][9D]fff[9E]f[9F]f[A0][9D][A1][A2]f[A3]f
+[08733F34] ijkkkkkj
+[08733F46] l]]m]no]pq]]rs]t]uv]]]w]x]yvz{]|]}
+[08734D02] [17][08][06][0D]
+[08][06][0D]
+[26]'()[2A]+,-./012345678[13][14][15][16][17][18][19][1A][1B][1C][1D][1E][1F] !"[23]$[25]\n
+[0873506A] [19][09][06][0D][09][09][06][0D][09]./012345678[23]$[25][26]'()[2A]+,-
+[087350BE] [1A][09][03][0D][06][09][03][0D][06]EFGHIJKLMNOP9:;<=>?[40]ABCD
+[08735112] [1B][0D][03][10][06][0D][03][10][06]YZ[\]^_`QRSTUVWX
+[0873515A] [1C][05][03][09][07][05][03][09][07]qrstuvwxyz{|}[7E][7F][80]abcdefghijklmnop
+[087358A6] [26]'()[2A]+,-./01234[17][18][19][1A][1B][1C][1D][1E][1F] !"[23]$
+[087358E6] [11][0C][14][0F][11][0C][14][0F]>?[40]ABCDEF56789:;<=[FcN
+[08735EBE] [23][12][07][18]
+[12][07][18]
+6789[14]:;<=>?[40]ABCDE
+[08735F04] [25][26]'([02])[2A]+,-./012345
+[08735F52] WXYZ[\]^_=>`abcCdefg
+[08735F82] FGHIJKLMN,-OPQR2STUV
+[08735FFC] [93][94]hijklmnopqrstuv
+[08737342] 2\n[11][07][17]\n[11][07][17]!"[23]$[25][26]'()[2A]+,-./01234567
+[0873741C] PQRSTUV9WXY999Z[\]]]]^
+[0873744C] ABCDEFG[19]HIJ[19][19][19]KLMNNNNO
+[087374BC] _`abcde
+[08737528] [97][98][99][9A]stuvwxyz{|
+[087392FA] ./01234'()[2A]+,-
+[0873931E] Q[03]![07][26][03]![07][26][40]ABCD[10]EFG[10]HG[10]HI
+[08739364] H56789[05]:;<[05]=<[05]=>?=
+[087393BE] NNFJK
+[087394FA] NNFJK
+[08739586] W[03][12][07][17][03][12][07][17][40]ABCD[10]EFG[10]HG[10]HI
+[087395CC] H56789[05]:;<[05]=<[05]=fg=
+[08739626] NNFJK
+[0873968E] CtNNNN
+[087396CA] 8nLLLL
+[08739706] NNFJK
+[08739832] NNFJK
+[087399BA] NNFJK
+[08739ABA] d[15][0B][19][0F][15][0B][19][0F][A9][9F][9F][AA][AB][10][AC][AD][AB][10][AE]C[AF]NNF[A2][9C][9C][A3][A4][05][A5][A6][A4][05][A7]8[A8]LL;
+[0873A262] h[08][11][10][13][08][11][10][13]0123
+[0873A28E] 2456789
+[0873A2C6] i[08][15][0B][17][08][13][0B][17]CDEFGH<
+[0873A346] k[10][16][15][17][10][16][15][17]LQQQ
+[0873A372] IOOOP
+[0873A3FE] n[10][19][15][1A][10][19][15][1A]LQQQ
+[0873A436] o[0B][19][10][1A][0B][19][10][1A]LQQQ
+[0873A46E] p[08][18][0B][1A][08][18][0B][1A]CDEFGH=
+[0873A4AA] q[08][1B][0B][1D][08][1A][0B][1D]CDEYZ[
+[0873A4EE] r[08][1D][0C][1F][08][1D][0C][1F]a22bcdde\[26][26]]^__`
+[0873A532] s[0B][1C][10][1D][0B][1C][10][1D]gQQQ
+[0873A5A2] u[14][1D][18][1F][14][1D][18][1F]a22bcdde\[26][26]]^__`
+[0873A672] x[10]"[15][23][10]"[15][23]LQQQ
+[0873A6AA] y[0B]"[10][23][0B]"[10][23]LQQQ
+[0873A6E2] z[08]![0B][23][08]![0B][23]CDEFGH=
+[0873A71E] {[08]$[0B][26][08][23][0B][26]ClEFmH
+[0873A880] pqrstuvwxyz{{{|
+[0873B546] [88][13][0C][17][10][13][0C][17][10]'()[2A]+,-.+/012334[19][1A][1B][1C][1D][1E][1F] [1D]!"[23]$
+[0873B5CE] FGHIJKLMNO/PQNRSTUV56789:;<=>!?[40]=ABCDE
+[0873B648] fghNiQ/Njklmn3oWXYZ[\=][40]!=^_`ab[25]c
+[0873B6FC] [99][9A][9B]pqrst
+[0873B714] >!!uvwxy>!!!!!z{>|
+[0873C120] /0[16][16]123-4[1E][1E][1E][1E]5
+[0873C2CC] jklmno
+[0873C33A] [81]stuvwxyz
+[0873CF1E] [A1][1D][12]![16][1D][12]![16]<=>?[40][09][09]AB[09][09]ACDDE23456[03][03]78[03][03]79::;
+[0873CF82] [A2][15][12][1D][1A][15][12][1D][1A]NOOOPOOQR[09][09][09][09][09][09]SR
+[0873D014] TUUUUUU
+[0873D024] FGGGHGGIJ[03][03][03][03][03][03]KJ
+[0873D094] LMMMMMM
+[0873D0A6] [A3][15][0E][1D][12][15][0E][1D][12]nopqrstuv[09][09][09][09]wxyz[09]{|
+[0873D102] [83][81][84]VWXYZ[\]^[03][03][03][03]_`ab[03]cd
+[0873D132] efghijiklim
+[0873E30C] /012345\n
+[0873E646] [B8][12]-[17]/[12]-[17]/566678999:/000123334
+[0873E692] [B9][17]-[1A]2[17]-[1A]2GHIJKLMNO[17]PQ9R;<=>?[40]ABC[06]DE3F
+[0873E6F2] [BA][12]0[17]2[12]0[17]2W666X
+[0873E720] 999YS000TU333V
+[0873E79E] [BC][12]3[17]5[12]3[17]5566678999:/0001^3334
+[0873E7EA] [BD][17]3[1A]8[17]3[1A]8GHIeKLfgO[17][1D]hij;<=_?[40]`aC[06][0C]bcd
+[0873E84A] [BE][17]8[1D];[17]8[1D];tHuvwx
+[0873E88E] |k<lmno
+[0873E922] [C0][17]>[1D]A[17]>[1D]AtHuvwx
+[0873E966] |k<lmno
+[0873FF6A] IJKLMNOPQRSTUVW[12]XYZ[
+[0873FFDA] [25][26]'()[2A]+,-./0123[05]4567
+[087405AE] 789:;<=>?[40]-./01234562D:L
+[08740EAA] ,,4'567,8
+[08740EEA] 4'5[40]AAB,,
+[08740FF2] QRSTU,VW
+[08741004] ,XYZ[\EFGHI
+JK
+[08741024] LMNOP
+[08741032] [DD]
++[0F].
++[0F].klmnopqr
+[08741066] stuvwx]^_`abcd
+[08741084] efghij
+[0874118E] [E1][07][26][0C]+[07][26][0C]+[D0]R[D1]m[D2],qr[D3][D4][D5][D6][D7][D8][D9][DA]q[DB][DC][DD][DE][DF][BF][C0][C1]_[C2]
+cd[C3][C4][C5][C6][C7][C8][C9][CA]c
+[08742D4C] 34566789:;<=>
+[08742D8E] [F3][08][10][15][12][08][10][15][12]OPQRSPQRTUQVTWXYZ[XYZ\]YZ^?[40]ABC[40]ABDEAFDGHIJKHIJLMIJN\n
+[08743230] ,-./01234
+[08743244] 5678>dFl
+[0874357E] 0123456789:;
+[087435BA] [F8][0F]+[16]2[0F]+[16]2abcdedfghicjkl
+[08743604] knopqrstu[19]vwxydz{|}[7E][19]k[7F][80][81][82][83][84]=>?[40]A[40]BCDE?FGH
+[08743666] GJKLMNOPQ[08]RSTU[40]VWXYZ[08]G[\]^_`
+[08745098] WXXXX
+[0874514C] abcde
+[0874518C] [08][02][0E][04][08][02][0E][04]mnnnn
+[087451C0] pqhiiii
+[08745232] rst[2A]uv
+w
+xyz{
+[087458D2] 67897:;<=[2A]+,-./0.1234
+[0874592A] MNONPQR
+[0874593A] ST>?[40]?ABCDCEFG
+[08745990] `U?VW.XY
+[08745A18] ?Vfghijk
+[0874698C] 345678[1F]
+[08746A0E] efghijklmnoppppqr
+[08746A36] sppppptu4vpwxyppz
+[08746A9A] ABCDEFGHIJKLLLLMN
+[08746AC2] OLLLLLPQ'RLSTULLV
+[087477DC] fdghijklmnmopqrs"t"u
+[08747F64] [05][09][09][0F][05][09][09][0F]-../0123456789:;<
+[08748118] [0D][09][11][16][0D][09][11][16]hijklmnompj
+[087481A0] OPQRSTUVTWQ
+[087481F0] aSbcdefg
+[08748B0C] ./0/01234555567895:;<55=>?5[40]AB5C
+[08748B52] DEFGHIJKLM55555NOP
+[08748B78] 5QRS5TUVWXY
+[0874AD68] )[2A]+,-.-/01234
+[0874ADA4] [1C][0F][1F]
+[1C][0F][1F][40]ABCDEFG
+[0874ADE0] J56789:;<
+[0874AE26] XYZ[\]^_`abcdKLMNOPQRSTUVW
+[0874AE8A] pqrstuv
+[0874AEA8] efghijk
+[0874BD5A] MNOPQRSTUVWXYZ[\X]^_`abbcdebfbg
+[0874BD9C] hiiiiiiiiijklmnoipqrstuvwxyiz{|}[7E][7F]i[80][81][82]i[83][84][85][86][87][88][89][89][89][8A]s[8B][8C]s[8D][8E]\n
+[0874BE62] !"""""""""[23]$[25][26]'(")[2A]+,-./012"345678"9:;"<=>?[40]ABBBC,DE,FG
+[0874BF00] [A2][A3][A4][A5][A6][A7][A8]iiz[A9][AA]hiiii
+[08757AF4] 95999
+[08757EE8] [17][1E][25],P[1F][26]-QX'.RY`/SZahT[biU\cjV]dkW^el[90]_fm[91][98]gn[92][99][A0]o
+[0876B22C] KKKKKKKKLLLLLKKL[02]LL[02]LLLL[02][02][02][02]LLLLLLLLLL[02][02][02][02][02]LL[02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02][02]LLLLLLLL[02][02][02][02][02]LL[02][02][02][02][02][02][02][02][02][02][02][02][02][02][02]KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+[087751BA] PQPPP
+[08775275] PQPPPP[40]P
+[087781DE] nnnnnmmnm[04]mm
+[08778221] nnnmmn[04]mn
+[0877F096] [03][03]Welcome to the Hercule City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End[03][03]A fine day to you, good sir. What would you like from my humble shop?
+
+-Buy
+-Sell
+
+-End
+[0877F200] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0877F3FE] [03][03]Welcome to the West City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End[03][03]Oh, what nice clothes! Please, have a look at what we have to offer!
+
+-Buy
+-Sell
+
+-End
+[0877F560] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0877F784] [04][03]Welcome to the black market! You can spend your loot here.
+
+-Buy
+-Sell
+
+-End[04][03]Welcome to the Legally Obtained Goods Store! How may I help you?
+
+-Buy
+-Sell
+
+-End[04][03]You think you can impress me with them fancy-schmancy clothes? Get real!
+
+-Buy
+-Sell
+
+-End
+[0877F9A4] [06][03]What would you like to buy?
+
+-Items
+-Equipment
+[0877FB36] [03][03]Welcome to the Planet of the Kais Z-Mart! How may I help you?
+
+-Buy
+-Sell
+
+-End[03][03]Hmm, quite the dapper lad, aren't you? Have a look at our wares.
+
+-Buy
+-Sell
+
+-End
+[0877FCA2] [05][03]What would you like to buy?
+
+-Items
+-Equipment
+[0877FE2C] \n[03]You won't believe what I got! This is primo merchandise!
+
+-Buy
+-Sell
+
+-End
+[0877FEE4] [03][03]What would you like to buy?
+
+-Items
+-Equipment
+[0878003C] \n[03]Welcome to the West City Z-Mart! How can I help you?
+
+-Buy
+-Sell
+
+-End
+[087800EC] [03][03]What would you like to buy?
+-Food Items
+-Drink Items
+-Body Equipment
+-Hands Equipment
+-Feet Equipment
+-Accessories

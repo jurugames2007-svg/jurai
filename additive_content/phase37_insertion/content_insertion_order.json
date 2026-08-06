@@ -1,0 +1,62 @@
+{
+  "schema": "jurai.phase37.content_insertion_manifest.v1",
+  "policy": "insert in small reversible batches",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Gateway UI/text",
+      "inputs": [
+        "phase31 gateway interaction payload"
+      ],
+      "gate": "native text/menu hook verified"
+    },
+    {
+      "stage": 2,
+      "name": "LOG2 mini-route maps/items",
+      "inputs": [
+        "phase32 route package",
+        "phase30 asset bank"
+      ],
+      "gate": "map transition + item record verified"
+    },
+    {
+      "stage": 3,
+      "name": "LOG2 enemies",
+      "inputs": [
+        "CELL_JR",
+        "ANDROID_17_BOSS"
+      ],
+      "gate": "enemy spawn record verified"
+    },
+    {
+      "stage": 4,
+      "name": "GT Black Star intro",
+      "inputs": [
+        "BLACK_STAR_RADAR",
+        "BLACK_STAR_1",
+        "GENERAL_RILDO"
+      ],
+      "gate": "LOG2 mini-route stable"
+    },
+    {
+      "stage": 5,
+      "name": "Super route opener",
+      "inputs": [
+        "BEERUS_PLANET",
+        "BEERUS",
+        "SSG icons"
+      ],
+      "gate": "Gateway stable"
+    },
+    {
+      "stage": 6,
+      "name": "AF branch opener",
+      "inputs": [
+        "AF_KAIOSHIN_REALM",
+        "XICOR_AF",
+        "IKL_AF"
+      ],
+      "gate": "Super/GT route opener stable"
+    }
+  ]
+}

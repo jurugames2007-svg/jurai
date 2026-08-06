@@ -1,0 +1,32 @@
+{
+  "schema": "jurai.phase64.runtime_sprite_enemy_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "sprite_enemy_hooks": [
+    {
+      "route": "SUPER",
+      "playable_src_va": "0x088DDC4A",
+      "enemy_src_va": "0x0890044A"
+    },
+    {
+      "route": "GT",
+      "playable_src_va": "0x088F144A",
+      "enemy_src_va": "0x08913C4A"
+    },
+    {
+      "route": "AF",
+      "playable_src_va": "0x088F744A",
+      "enemy_src_va": "0x0891E44A"
+    },
+    {
+      "route": "LOG1",
+      "playable_src_va": "0x088DC44A",
+      "enemy_src_va": "0x0893344A"
+    },
+    {
+      "route": "LOG2",
+      "playable_src_va": "0x088E844A",
+      "enemy_src_va": "0x0892A44A"
+    }
+  ],
+  "status": "Applied in Phase 69 ROM via ARM blit_asset_skip_zero."
+}

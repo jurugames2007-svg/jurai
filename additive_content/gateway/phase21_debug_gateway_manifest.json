@@ -1,0 +1,64 @@
+{
+  "schema": "jurai.phase21.debug_gateway_build.v1",
+  "policy": "optional_debug_build_not_canonical_original_first",
+  "output_gba": "patch_output/DBZ_LOG4_phase21_debug_gateway_build.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase21_debug_gateway_build.ips",
+  "modified_sha1": "b1710d97a8325441b1d89c4ab66fd00a028896a1",
+  "text_patches": [
+    {
+      "offset": "0x0579E4",
+      "old": "Select Game",
+      "new": "Rift Gate",
+      "note": "save/select screen label"
+    },
+    {
+      "offset": "0x0579FC",
+      "old": "New Game",
+      "new": "Gateway",
+      "note": "new game label in debug build"
+    },
+    {
+      "offset": "0x058168",
+      "old": "No Saved Games",
+      "new": "Route Select",
+      "note": "no save label"
+    },
+    {
+      "offset": "0x06B57C",
+      "old": "Chapter 1",
+      "new": "RIFT GATE",
+      "note": "chapter overlay debug"
+    },
+    {
+      "offset": "0x06B708",
+      "old": "Chapter 10",
+      "new": "RIFT GATE",
+      "note": "chapter overlay debug duplicate"
+    },
+    {
+      "offset": "0x06B72C",
+      "old": "Chapter 11",
+      "new": "RIFT GATE",
+      "note": "chapter overlay debug duplicate"
+    },
+    {
+      "offset": "0x06B752",
+      "old": "Chapter 12",
+      "new": "RIFT GATE",
+      "note": "chapter overlay debug duplicate"
+    },
+    {
+      "offset": "0x06B590",
+      "old": "The Other World",
+      "new": "Post Kid Buu",
+      "note": "chapter subtitle debug"
+    },
+    {
+      "offset": "0x05DC32",
+      "old": "The Other World",
+      "new": "Rift Gateway",
+      "note": "map/name debug"
+    }
+  ],
+  "warning": "This build intentionally changes early text for debug visibility. Use phase19/20 for original-first line."
+}

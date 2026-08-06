@@ -1,0 +1,6 @@
+{
+  "schema": "jurai.phase38.release_candidate_docs.v1",
+  "zip": "patch_output/LOG4_phase38_release_candidate_docs.zip",
+  "zip_sha1": "dae4f67542818a820da998602e0a7d63f6a87adb",
+  "qa_plan": "additive_content/phase38_release/phase38_qa_release_plan.json"
+}

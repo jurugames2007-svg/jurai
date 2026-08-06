@@ -1,0 +1,202 @@
+{
+  "schema": "jurai.phase58.ai_portraits.v1",
+  "source_image": "additive_content/phase58_ai_portraits/ai_portrait_sheet_source.png",
+  "source_sha1": "bb2354f6c7e8d89045e9db081dbe9308a5a84ee2",
+  "records": [
+    {
+      "id": "hero_spiky",
+      "source_box": [
+        314,
+        18,
+        493,
+        188
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/hero_spiky_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/hero_spiky_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "stern_rival",
+      "source_box": [
+        516,
+        18,
+        696,
+        188
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/stern_rival_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/stern_rival_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "young_scholar",
+      "source_box": [
+        718,
+        18,
+        898,
+        188
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/young_scholar_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/young_scholar_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "time_warrior",
+      "source_box": [
+        918,
+        18,
+        1098,
+        188
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/time_warrior_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/time_warrior_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "green_monk",
+      "source_box": [
+        314,
+        208,
+        493,
+        379
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/green_monk_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/green_monk_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "destroyer_mentor",
+      "source_box": [
+        516,
+        208,
+        696,
+        379
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/destroyer_mentor_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/destroyer_mentor_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "angel_mentor",
+      "source_box": [
+        718,
+        208,
+        898,
+        379
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/angel_mentor_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/angel_mentor_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "godki_fighter",
+      "source_box": [
+        918,
+        208,
+        1098,
+        379
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/godki_fighter_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/godki_fighter_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "bio_alien",
+      "source_box": [
+        314,
+        398,
+        493,
+        569
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/bio_alien_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/bio_alien_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "warrior_monk",
+      "source_box": [
+        516,
+        398,
+        696,
+        569
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/warrior_monk_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/warrior_monk_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "cyborg_woman",
+      "source_box": [
+        718,
+        398,
+        898,
+        569
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/cyborg_woman_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/cyborg_woman_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "cyborg_ranger",
+      "source_box": [
+        918,
+        398,
+        1098,
+        569
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/cyborg_ranger_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/cyborg_ranger_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "ancient_kai",
+      "source_box": [
+        314,
+        588,
+        493,
+        759
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/ancient_kai_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/ancient_kai_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "shadow_dragon",
+      "source_box": [
+        516,
+        588,
+        696,
+        759
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/shadow_dragon_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/shadow_dragon_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "lab_villain",
+      "source_box": [
+        718,
+        588,
+        898,
+        759
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/lab_villain_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/lab_villain_portrait_32x32.png",
+      "palette_budget": 32
+    },
+    {
+      "id": "divine_boss",
+      "source_box": [
+        918,
+        588,
+        1098,
+        759
+      ],
+      "portrait_40x40": "additive_content/phase58_ai_portraits/portraits_40x40/divine_boss_portrait_40x40.png",
+      "portrait_32x32": "additive_content/phase58_ai_portraits/portraits_32x32/divine_boss_portrait_32x32.png",
+      "palette_budget": 32
+    }
+  ],
+  "count": 16,
+  "atlas": "additive_content/phase58_ai_portraits/phase58_ai_portrait_atlas_40x40.png",
+  "status": "AI-assisted portraits cropped/quantized for review; not final legal/title art; not hooked into dialogue UI yet."
+}

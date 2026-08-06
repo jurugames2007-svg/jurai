@@ -1,0 +1,120 @@
+{
+  "schema": "jurai.phase36.save_flag_map.v1",
+  "policy": "allocation_only_no_sram_write",
+  "byte_count": 2,
+  "flags": [
+    {
+      "flag": "STORY_KID_BUU_DEFEATED",
+      "byte_index": 0,
+      "bit_index": 0,
+      "mask": "0x01",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG4_POSTGAME_GATEWAY_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 1,
+      "mask": "0x02",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG4_DEBUG_GATEWAY_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 2,
+      "mask": "0x04",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG4_ROUTE_SUPER_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 3,
+      "mask": "0x08",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG4_ROUTE_GT_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 4,
+      "mask": "0x10",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG4_ROUTE_AF_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 5,
+      "mask": "0x20",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "DIM_LOG1_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 6,
+      "mask": "0x40",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "DIM_LOG2_UNLOCKED",
+      "byte_index": 0,
+      "bit_index": 7,
+      "mask": "0x80",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "DIM_LOG1_ENTERED",
+      "byte_index": 1,
+      "bit_index": 0,
+      "mask": "0x01",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "DIM_LOG2_ENTERED",
+      "byte_index": 1,
+      "bit_index": 1,
+      "mask": "0x02",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG2_ANDROID_SIGNAL_FOUND",
+      "byte_index": 1,
+      "bit_index": 2,
+      "mask": "0x04",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG2_CELL_JR_DEFEATED",
+      "byte_index": 1,
+      "bit_index": 3,
+      "mask": "0x08",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "LOG2_MINI_ROUTE_COMPLETE",
+      "byte_index": 1,
+      "bit_index": 4,
+      "mask": "0x10",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "ASSET_BANK_READY",
+      "byte_index": 1,
+      "bit_index": 5,
+      "mask": "0x20",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "GATEWAY_MENU_UNLOCKED",
+      "byte_index": 1,
+      "bit_index": 6,
+      "mask": "0x40",
+      "status": "reserved_not_written_to_sram"
+    },
+    {
+      "flag": "BUBBLES_GATE_TESTED",
+      "byte_index": 1,
+      "bit_index": 7,
+      "mask": "0x80",
+      "status": "reserved_not_written_to_sram"
+    }
+  ],
+  "next": "verify save block before writing"
+}

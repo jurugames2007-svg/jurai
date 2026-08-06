@@ -1,0 +1,12 @@
+{
+  "schema": "jurai.phase76.route_action_state_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "state_layout": {
+    "0x0203F700": "L4HK magic",
+    "0x0203F704": "route",
+    "0x0203F708": "F0 pair",
+    "0x0203F70C": "AreaEntry pointer",
+    "0x0203F710": "action frame"
+  },
+  "status": "Applied."
+}

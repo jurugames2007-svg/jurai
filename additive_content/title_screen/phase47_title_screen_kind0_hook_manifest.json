@@ -1,0 +1,10 @@
+{
+  "schema": "jurai.phase47.title_kind0_hook.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.ips",
+  "modified_sha1": "81a00e341197a7d4b4158a37a4c34c2009681966",
+  "new_va": "0x08800000",
+  "container_offset": "0x800000",
+  "kind": 0,
+  "size": 38400
+}

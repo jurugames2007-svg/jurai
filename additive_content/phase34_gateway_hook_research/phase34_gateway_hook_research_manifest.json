@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase34.gateway_hook_research_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase34_gateway_hook_research.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase34_gateway_hook_research.ips",
+  "modified_sha1": "b0b374ac455a48e19a60e3296dfbd48defb4f6fc",
+  "research": "additive_content/phase34_gateway_hook_research/gateway_hook_research.json"
+}

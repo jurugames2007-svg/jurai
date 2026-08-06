@@ -1,0 +1,62 @@
+{
+  "schema": "jurai.phase19.dimension_gateway.v1",
+  "gateway_id": "CAPSULE_CORP_RIFT_GATEWAY",
+  "location_plan": "Capsule Corp / Rift Lab, unlocked after Kid Buu or in debug builds",
+  "unlock_flags": [
+    "STORY_KID_BUU_DEFEATED",
+    "LOG4_POSTGAME_GATEWAY_UNLOCKED"
+  ],
+  "debug_unlock_flag": "LOG4_DEBUG_GATEWAY_UNLOCKED",
+  "entries": [
+    {
+      "entry_id": "GATE_SUPER",
+      "label": "Dragon Ball Super",
+      "target": "SUPER_ROUTE",
+      "timeline": "post Kid Buu",
+      "status": "payload_ready_event_hook_pending"
+    },
+    {
+      "entry_id": "GATE_GT",
+      "label": "Dragon Ball GT",
+      "target": "GT_ROUTE",
+      "timeline": "post Kid Buu alternate branch",
+      "status": "payload_ready_event_hook_pending"
+    },
+    {
+      "entry_id": "GATE_AF",
+      "label": "Dragon Ball AF",
+      "target": "AF_ROUTE",
+      "timeline": "post GT/Super rift fan branch",
+      "status": "payload_ready_event_hook_pending"
+    },
+    {
+      "entry_id": "GATE_LOG1",
+      "label": "The Legacy of Goku Dimension",
+      "target": "LOG1_DIMENSION",
+      "timeline": "pre Kid Buu memory dimension",
+      "status": "payload_ready_event_hook_pending"
+    },
+    {
+      "entry_id": "GATE_LOG2",
+      "label": "The Legacy of Goku II Dimension",
+      "target": "LOG2_DIMENSION",
+      "timeline": "pre Kid Buu memory dimension",
+      "status": "payload_ready_event_hook_pending"
+    }
+  ],
+  "menu_style": {
+    "screen": [
+      240,
+      160
+    ],
+    "tile": [
+      8,
+      8
+    ],
+    "portrait": [
+      40,
+      40
+    ],
+    "font": "reuse native Buu's Fury UI/font"
+  }
+}

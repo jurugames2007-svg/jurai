@@ -1,0 +1,27 @@
+{
+  "schema": "jurai.phase39.dialogue_trace.v1",
+  "policy": "analysis_only_no_rom_write",
+  "target_goal": "Convert visible Bubbles/Gate Guide text into a real gateway menu hook.",
+  "runtime_observations": {
+    "ewram_dialog_buffer_region_a": "0x0202DB00-0x0202E300",
+    "ewram_dialog_buffer_region_b": "0x0202C000-0x0202C200",
+    "writer_iwram_pc_main": "0x03000268",
+    "writer_iwram_pc_literal": "0x03000060",
+    "rom_source_for_iwram_03000268_exact32": "0x007B7C0C",
+    "rom_source_for_iwram_03000060_exact32": "0x007B7A04",
+    "meaning": "dialogue text is written through an IWRAM decompression/copy routine; raw early dialogue strings are not directly present as simple UTF-16 in ROM."
+  },
+  "watch_scripts": [
+    "tools/gba_headless/watch_dialog_writes.mjs",
+    "tools/gba_headless/watch_long_dialog_writes.mjs",
+    "tools/gba_headless/disasm_iwram.mjs",
+    "tools/gba_headless/snapshot_iwram.mjs"
+  ],
+  "next_hook_steps": [
+    "Trace caller registers before entering decompression routine.",
+    "Identify compressed source pointer for the early Other World dialogue package.",
+    "Patch only the source dialogue package or add a branch guarded by LOG4_DEBUG_GATEWAY_UNLOCKED.",
+    "Avoid patching the generic decompressor globally unless a safe branch condition is proven."
+  ],
+  "base_rom_sha1": "f1c4b07554d2a3b1ad2f325307051e775ce68087"
+}

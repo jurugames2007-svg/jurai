@@ -1,0 +1,105 @@
+{
+  "schema": "jurai.phase20.gateway_text_bank.v1",
+  "strings": [
+    {
+      "text": "CAPSULE CORP RIFT GATE",
+      "offset": 0,
+      "bytes": 46
+    },
+    {
+      "text": "POST-KID BUU",
+      "offset": 46,
+      "bytes": 26
+    },
+    {
+      "text": "A: ENTER",
+      "offset": 72,
+      "bytes": 18
+    },
+    {
+      "text": "B: BACK",
+      "offset": 90,
+      "bytes": 16
+    },
+    {
+      "text": "START: DEBUG",
+      "offset": 106,
+      "bytes": 26
+    },
+    {
+      "text": "SUPER",
+      "offset": 132,
+      "bytes": 12
+    },
+    {
+      "text": "Gods, universes, Goku Black",
+      "offset": 144,
+      "bytes": 56
+    },
+    {
+      "text": "SUPER_ROUTE",
+      "offset": 200,
+      "bytes": 24
+    },
+    {
+      "text": "GT",
+      "offset": 224,
+      "bytes": 6
+    },
+    {
+      "text": "Black Star, Baby, Shadow Dragons",
+      "offset": 230,
+      "bytes": 66
+    },
+    {
+      "text": "GT_ROUTE",
+      "offset": 296,
+      "bytes": 18
+    },
+    {
+      "text": "AF",
+      "offset": 314,
+      "bytes": 6
+    },
+    {
+      "text": "SSJ5, I'K'l, Xicor",
+      "offset": 320,
+      "bytes": 38
+    },
+    {
+      "text": "AF_ROUTE",
+      "offset": 358,
+      "bytes": 18
+    },
+    {
+      "text": "LOG1 DIM",
+      "offset": 376,
+      "bytes": 18
+    },
+    {
+      "text": "Saiyan / Namek memory",
+      "offset": 394,
+      "bytes": 44
+    },
+    {
+      "text": "LOG1_DIMENSION",
+      "offset": 438,
+      "bytes": 30
+    },
+    {
+      "text": "LOG2 DIM",
+      "offset": 468,
+      "bytes": 18
+    },
+    {
+      "text": "Android / Cell memory",
+      "offset": 486,
+      "bytes": 44
+    },
+    {
+      "text": "LOG2_DIMENSION",
+      "offset": 530,
+      "bytes": 30
+    }
+  ]
+}

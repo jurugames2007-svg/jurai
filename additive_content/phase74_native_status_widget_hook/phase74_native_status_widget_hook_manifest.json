@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase74.native_status_widget_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "state_pointer_address": "0x0203F70C",
+  "visual": "green/red native AreaEntry status marker plus action-frame pips",
+  "status": "Applied in route-room render."
+}

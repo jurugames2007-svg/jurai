@@ -1,0 +1,50 @@
+{
+  "schema": "jurai.phase20.gateway_state_machine.v1",
+  "locked_until_any_flag": [
+    "STORY_KID_BUU_DEFEATED",
+    "LOG4_DEBUG_GATEWAY_UNLOCKED"
+  ],
+  "initial_state": "GATE_CLOSED",
+  "states": {
+    "GATE_CLOSED": {
+      "on_unlock": "GATE_MENU"
+    },
+    "GATE_MENU": {
+      "a": "ENTER_SELECTED",
+      "b": "EXIT_GATE",
+      "start": "DEBUG_ROUTE_SELECT"
+    },
+    "ENTER_SELECTED": {
+      "sets_flag_template": "{target}_ENTERED",
+      "loads_target": "selected.target"
+    },
+    "EXIT_GATE": {
+      "returns_to": "Capsule Corp / Rift Lab"
+    },
+    "DEBUG_ROUTE_SELECT": {
+      "requires": "LOG4_DEBUG_GATEWAY_UNLOCKED"
+    }
+  },
+  "options": [
+    {
+      "id": "GATE_SUPER",
+      "target": "SUPER_ROUTE"
+    },
+    {
+      "id": "GATE_GT",
+      "target": "GT_ROUTE"
+    },
+    {
+      "id": "GATE_AF",
+      "target": "AF_ROUTE"
+    },
+    {
+      "id": "GATE_LOG1",
+      "target": "LOG1_DIMENSION"
+    },
+    {
+      "id": "GATE_LOG2",
+      "target": "LOG2_DIMENSION"
+    }
+  ]
+}

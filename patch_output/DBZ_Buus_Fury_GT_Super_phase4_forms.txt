@@ -1,0 +1,42 @@
+Dragon Ball Z: Buu's Fury USA — GT/Super Phase 4 forms
+==========================================================
+
+Base SHA-1: f1c4b07554d2a3b1ad2f325307051e775ce68087
+Modified SHA-1: 4c1045609add45e92010f3363d74ae5f5ca7257f
+Original size: 8388608 bytes
+Modified size: 8414492 bytes
+
+Transformation structures:
+- 0x6B6D80: Goku slot -> Goku GT, 0x086AD1CC -> 0x086AD278
+- 0x6B6D6C: Mystic Gohan slot -> Gogeta, 0x086ACE80 -> 0x086AC9B8
+- 0x6B7010: Vegita slot -> Vegito, 0x086B58D4 -> 0x086B5CE0
+
+Imported transformation/character frames:
+- GOKU_BASE: Adult Goku GT / base form
+  source: new_assets/ADULT GOKU GT.png
+  structure VA: 0x086AD1CC; container: 0x800000; frame: 0x801008
+  animation tables: 20; redirected pointers: 320
+- GOKU_SSJ: Adult Goku GT / Super Saiyan
+  source: new_assets/ADULT GOKU GT.png
+  structure VA: 0x086AD3B8; container: 0x801100; frame: 0x802108
+  animation tables: 19; redirected pointers: 304
+- GOKU_SSJ3: Adult Goku GT / Super Saiyan 3
+  source: new_assets/ADULT GOKU GT.png
+  structure VA: 0x086AD510; container: 0x802200; frame: 0x803208
+  animation tables: 17; redirected pointers: 216
+- GOKU_GT: Goku SSJ4
+  source: new_assets/GOKU SSJ4.png
+  structure VA: 0x086AD278; container: 0x803300; frame: 0x804308
+  animation tables: 8; redirected pointers: 96
+- TRUNKS_DBS: Future Trunks
+  source: new_assets/FUTURE TRUNKS DBS.png
+  structure VA: 0x086B500C; container: 0x804400; frame: 0x805408
+  animation tables: 19; redirected pointers: 304
+- BEERUS: Beerus on Super Buu slot
+  source: new_assets/BEERUS DBS.png
+  structure VA: 0x086AA2F0; container: 0x805500; frame: 0x806508
+  animation tables: 15; redirected pointers: 232
+
+The existing character IDs and transformation logic are preserved.
+This phase uses one native-palette 64x64 frame per state; timing remains
+native, while action-specific frame separation remains a later step.

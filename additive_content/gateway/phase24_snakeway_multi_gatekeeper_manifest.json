@@ -1,0 +1,78 @@
+{
+  "schema": "jurai.phase24.snakeway_multi_gatekeeper_probe.v1",
+  "policy": "experimental_multi_npc_array_original_map_table_preserved",
+  "output_gba": "patch_output/DBZ_LOG4_phase24_snakeway_multi_gatekeeper_probe.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase24_snakeway_multi_gatekeeper_probe.ips",
+  "modified_sha1": "82505bfdd47a0786b38b8a3f677c0a7c873213dc",
+  "snakeway_map_entry": 0,
+  "npc_array": {
+    "offset": "0x800000",
+    "va": "0x08800000",
+    "record_size": 32,
+    "record_count": 6,
+    "positions": [
+      [
+        72,
+        88
+      ],
+      [
+        160,
+        88
+      ],
+      [
+        256,
+        88
+      ],
+      [
+        448,
+        88
+      ],
+      [
+        704,
+        88
+      ],
+      [
+        928,
+        88
+      ]
+    ]
+  },
+  "extended_map_table": {
+    "offset": "0x8000C0",
+    "va": "0x088000C0",
+    "entry_count": 452
+  },
+  "text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Riftway"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Rift Gate Guide"
+    },
+    {
+      "offset": "0x05DFCC",
+      "old": "Train with Other World Fighters",
+      "new": "Choose Gateway Dimension"
+    },
+    {
+      "offset": "0x06513C",
+      "old": "King Yemma",
+      "new": "Gate Guide"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Rift Gate Guide"
+    },
+    {
+      "offset": "0x065204",
+      "old": "This assistant helps King Yemma usher souls into the Other World.",
+      "new": "Guide at Snakeway opens Super, GT, AF, LOG1 and LOG2."
+    }
+  ],
+  "fallback": "phase22 text-only debug build or phase23 single-NPC probe"
+}

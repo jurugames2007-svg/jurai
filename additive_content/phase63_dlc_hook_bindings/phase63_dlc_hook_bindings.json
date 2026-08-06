@@ -1,0 +1,77 @@
+{
+  "schema": "jurai.phase63.dlc_hook_bindings.v1",
+  "asset_bank_va": "0x088D4B28",
+  "raw_base_va": "0x088DC44A",
+  "state_base": "0x0203F700",
+  "native_lookup_thumb_reference": "0x080089FD",
+  "native_map_table_va": "0x088CE730",
+  "map_entry_count": 457,
+  "bindings": [
+    {
+      "route": "SUPER",
+      "route_index": 1,
+      "native_pair": "F0:01",
+      "playable_asset": "goku_ssb",
+      "enemy_asset": "golden_frieza",
+      "portrait_asset": "godki_fighter",
+      "icon_asset": "rift_shard_super",
+      "playable_src_va": "0x088DDC4A",
+      "enemy_src_va": "0x0890044A",
+      "portrait_src_va": "0x0893A3CA",
+      "icon_src_va": "0x08949C4A"
+    },
+    {
+      "route": "GT",
+      "route_index": 2,
+      "native_pair": "F0:02",
+      "playable_asset": "goku_ssj4",
+      "enemy_asset": "baby_vegeta",
+      "portrait_asset": "shadow_dragon",
+      "icon_asset": "black_star_dragon_ball",
+      "playable_src_va": "0x088F144A",
+      "enemy_src_va": "0x08913C4A",
+      "portrait_src_va": "0x0893EECA",
+      "icon_src_va": "0x0894444A"
+    },
+    {
+      "route": "AF",
+      "route_index": 3,
+      "native_pair": "F0:03",
+      "playable_asset": "goku_ssj5_af",
+      "enemy_asset": "af_xicor_boss",
+      "portrait_asset": "lab_villain",
+      "icon_asset": "rift_shard_af",
+      "playable_src_va": "0x088F744A",
+      "enemy_src_va": "0x0891E44A",
+      "portrait_src_va": "0x0893FB4A",
+      "icon_src_va": "0x0894AC4A"
+    },
+    {
+      "route": "LOG1",
+      "route_index": 4,
+      "native_pair": "F0:04",
+      "playable_asset": "goku_ssg",
+      "enemy_asset": "final_frieza_memory",
+      "portrait_asset": "green_monk",
+      "icon_asset": "log1_memory_chip",
+      "playable_src_va": "0x088DC44A",
+      "enemy_src_va": "0x0893344A",
+      "portrait_src_va": "0x08937E4A",
+      "icon_src_va": "0x0894B44A"
+    },
+    {
+      "route": "LOG2",
+      "route_index": 5,
+      "native_pair": "F0:05",
+      "playable_asset": "trunks_rage",
+      "enemy_asset": "perfect_cell_memory",
+      "portrait_asset": "cyborg_woman",
+      "icon_asset": "log2_memory_chip",
+      "playable_src_va": "0x088E844A",
+      "enemy_src_va": "0x0892A44A",
+      "portrait_src_va": "0x0893C94A",
+      "icon_src_va": "0x0894BC4A"
+    }
+  ],
+  "status": "Raw LOG4A32 asset-bank addresses prepared for runtime blit hooks."
+}

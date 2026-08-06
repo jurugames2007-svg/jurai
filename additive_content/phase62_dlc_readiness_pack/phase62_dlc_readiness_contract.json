@@ -1,0 +1,90 @@
+{
+  "schema": "jurai.phase62.dlc_readiness_contract.v1",
+  "release_goal": "Move from debug Gateway to DLC-like route content pipeline.",
+  "playability": {
+    "boot_gateway_rooms": "working from Phase 51/54/61",
+    "original_fallback": "working",
+    "native_map_registry": "registered F0:01..F0:05",
+    "new_asset_bank": "appended LOG4A32 bank with 32x32 sprites/enemies/icons and portraits",
+    "native_asset_render_hooks": "pending",
+    "native_gateway_to_map_warp": "pending"
+  },
+  "route_asset_bindings": {
+    "SUPER": [
+      "goku_ssg",
+      "goku_ssb",
+      "goku_ui_sign",
+      "goku_ui_mastered",
+      "vegeta_ssb",
+      "vegeta_ssbe",
+      "vegeta_ultra_ego",
+      "gohan_beast",
+      "trunks_rage",
+      "piccolo_orange",
+      "android17_super",
+      "android18_super",
+      "gogeta_ssb",
+      "vegito_blue",
+      "beerus_trial",
+      "frieza_soldier_super",
+      "golden_frieza",
+      "frost_memory",
+      "hit_trial",
+      "goku_black_rift",
+      "zamasu_rift",
+      "fused_zamasu",
+      "toppo_trial",
+      "jiren_trial",
+      "broly_vampa",
+      "moro_scout",
+      "moro_73",
+      "granolah_drone"
+    ],
+    "GT": [
+      "goku_ssj4",
+      "vegeta_ssj4",
+      "pan_gt",
+      "uub_majuub",
+      "baby_parasite",
+      "baby_vegeta",
+      "rilldo_machine",
+      "super17_core",
+      "hell_fighter_17",
+      "nuova_shadow_dragon",
+      "eis_shadow_dragon",
+      "omega_shadow_dragon"
+    ],
+    "AF": [
+      "goku_ssj5_af",
+      "vegeta_ssj5_af",
+      "xicor_ally",
+      "kaioshin_af_ally",
+      "af_xicor_boss",
+      "af_ikl_entity",
+      "af_creator_drone",
+      "af_frieza_revenge"
+    ],
+    "LOG1_DIM": [
+      "raditz_memory",
+      "nappa_memory",
+      "saiyan_scout_memory",
+      "namek_frieza_soldier",
+      "ginyu_memory",
+      "final_frieza_memory"
+    ],
+    "LOG2_DIM": [
+      "cell_jr_memory",
+      "android19_memory",
+      "android20_memory",
+      "imperfect_cell_memory",
+      "perfect_cell_memory"
+    ]
+  },
+  "next_hooks": [
+    "Gateway route selection -> native constructor around 0x08009030",
+    "LOG4A32 bank reader -> native OBJ/Webfoot container converter",
+    "Dialogue portrait pointer hook -> Phase 58 portrait bank",
+    "Enemy spawn table hook -> Phase 59 enemy sheets",
+    "Item table hook -> Phase 60 object icons"
+  ]
+}

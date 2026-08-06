@@ -1,0 +1,32 @@
+{
+  "schema": "jurai.phase65.runtime_portrait_icon_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "portrait_icon_hooks": [
+    {
+      "route": "SUPER",
+      "portrait_src_va": "0x0893A3CA",
+      "icon_src_va": "0x08949C4A"
+    },
+    {
+      "route": "GT",
+      "portrait_src_va": "0x0893EECA",
+      "icon_src_va": "0x0894444A"
+    },
+    {
+      "route": "AF",
+      "portrait_src_va": "0x0893FB4A",
+      "icon_src_va": "0x0894AC4A"
+    },
+    {
+      "route": "LOG1",
+      "portrait_src_va": "0x08937E4A",
+      "icon_src_va": "0x0894B44A"
+    },
+    {
+      "route": "LOG2",
+      "portrait_src_va": "0x0893C94A",
+      "icon_src_va": "0x0894BC4A"
+    }
+  ],
+  "status": "Applied in Phase 69 ROM via ARM blit_asset_skip_zero."
+}

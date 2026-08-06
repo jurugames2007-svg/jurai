@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase33.route_matrix_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase33_full_route_expansion_matrix.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase33_full_route_expansion_matrix.ips",
+  "modified_sha1": "14eb4cda97292e7536b7ff3088562564b6c4e910",
+  "matrix": "additive_content/phase33_route_matrix/full_route_expansion_matrix.json"
+}
