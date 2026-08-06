@@ -1,0 +1,65 @@
+{
+  "schema": "jurai.phase27.test_release.v1",
+  "version": "v0.1-bubbles-gateway",
+  "recommended_test_rom": "roms/DBZ_LOG4_v0_1_DEBUG_BubblesGateway.gba",
+  "canonical_rom": "roms/DBZ_LOG4_v0_1_CANON_OriginalFirst.gba",
+  "zip": "patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip",
+  "zip_sha1": "023fc9f3e5ceacbc77e6e1781792ae0bded7092c",
+  "files": [
+    {
+      "archive": "roms/DBZ_LOG4_v0_1_DEBUG_BubblesGateway.gba",
+      "sha1": "3aa4a54f95dd218f7494ea54def741883a6a8c7e",
+      "size": 8389676
+    },
+    {
+      "archive": "patches/DBZ_LOG4_v0_1_DEBUG_BubblesGateway.ips",
+      "sha1": "7abc864567d9c3d6461afc9bf83b5fb8deb41897",
+      "size": 2844
+    },
+    {
+      "archive": "roms/DBZ_LOG4_v0_1_CANON_OriginalFirst.gba",
+      "sha1": "ebfbb4a296a730735526612fe64105ebbf4c5a6a",
+      "size": 8391092
+    },
+    {
+      "archive": "patches/DBZ_LOG4_v0_1_CANON_OriginalFirst.ips",
+      "sha1": "763fa467961dd73737c2d97dbb32b88f02e7c362",
+      "size": 2500
+    },
+    {
+      "archive": "roms/experimental/DBZ_LOG4_phase24_multi_gatekeeper_probe.gba",
+      "sha1": "82505bfdd47a0786b38b8a3f677c0a7c873213dc",
+      "size": 8414112
+    },
+    {
+      "archive": "docs/PHASE26_BUBBLES_START_GATEWAY.md",
+      "sha1": "479edfb185fee726517057d565c7b3ea71f5ce90",
+      "size": 1396
+    },
+    {
+      "archive": "docs/PHASE25_LONG_RUNTIME_COMPARE.md",
+      "sha1": "447ff3f9ae1ea4132758c4346234328635f6e987",
+      "size": 1511
+    },
+    {
+      "archive": "docs/PHASE19_POSTGAME_DIMENSION_GATEWAY.md",
+      "sha1": "9900dd8b38225d240288187b907f26b127b01dc7",
+      "size": 650
+    },
+    {
+      "archive": "manifests/bubbles_start_gateway_contract.json",
+      "sha1": "e7e7b0b7b13973a451823075ac3339fa52906d50",
+      "size": 510
+    },
+    {
+      "archive": "manifests/postgame_dimension_gateway.json",
+      "sha1": "821b95fe3587fad90ff7144e33fa9010ebe68c7f",
+      "size": 1609
+    },
+    {
+      "archive": "README.md",
+      "sha1": "92039e4aa6738dd5f5e45a0206087d5ffc47a044",
+      "size": 859
+    }
+  ]
+}
