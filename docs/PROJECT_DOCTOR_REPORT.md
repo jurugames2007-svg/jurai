@@ -18,8 +18,9 @@
 - patch_output/LOG4_phase28_missing_asset_kit.zip: sha1 `670d4cbe2415ef387dce0c75f908d03a41834541`
 - patch_output/LOG4_phase38_release_candidate_docs.zip: sha1 `dae4f67542818a820da998602e0a7d63f6a87adb`
 - patch_output/LOG4_v0_2_gateway_runtime_readiness_pack.zip: sha1 `777434ba835f5c93bb2ee7c41b8411c5fd763ca0`
+- patch_output/LOG4_v0_2_boot_warp_selector_pack.zip: sha1 `b4ded1d1f83f4533ee06d71a7901e77473d80bd1`
 
 Errors: 0
 
 ## Result
-PASS — phase 49 boot gateway selector output is structurally valid.
+PASS — phase 50 boot warp selector package is structurally valid.

@@ -51,6 +51,7 @@ FILES=[
  (ROOT/'patch_output/LOG4_phase28_missing_asset_kit.zip','670d4cbe2415ef387dce0c75f908d03a41834541'),
  (ROOT/'patch_output/LOG4_phase38_release_candidate_docs.zip','dae4f67542818a820da998602e0a7d63f6a87adb'),
  (ROOT/'patch_output/LOG4_v0_2_gateway_runtime_readiness_pack.zip','777434ba835f5c93bb2ee7c41b8411c5fd763ca0'),
+ (ROOT/'patch_output/LOG4_v0_2_boot_warp_selector_pack.zip','b4ded1d1f83f4533ee06d71a7901e77473d80bd1'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff
@@ -72,7 +73,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 49 boot gateway selector output is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 50 boot warp selector package is structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

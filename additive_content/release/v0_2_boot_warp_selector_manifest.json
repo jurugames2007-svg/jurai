@@ -1,0 +1,8 @@
+{
+  "schema": "jurai.phase50.boot_warp_selector_release.v1",
+  "zip": "patch_output/LOG4_v0_2_boot_warp_selector_pack.zip",
+  "zip_sha1": "b4ded1d1f83f4533ee06d71a7901e77473d80bd1",
+  "rom": "patch_output/DBZ_LOG4_phase49_boot_gateway_menu.gba",
+  "rom_sha1": "05823a9e846a14777121e9bee5254c0e1731f401",
+  "status": "working_boot_selector_debug_route_screens"
+}
