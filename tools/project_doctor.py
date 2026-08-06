@@ -25,6 +25,7 @@ ROMS=[
  ('phase53_native_map_trace',ROOT/'patch_output/DBZ_LOG4_phase53_native_map_findarea_trace.gba','6c90b221878bef39ff125f9a07c685e1c1da8895'),
  ('phase54_native_map_registry',ROOT/'patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba','c2e76758af2cd989485e1b74de668c295cb88101'),
  ('phase61_dlc_asset_bank_payload',ROOT/'patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba','3495fab96e7df9387f8fbd0fc854163f32be6254'),
+ ('phase69_dlc_runtime_hooks',ROOT/'patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba','8ddc84c0a95a1316441a4066da8a2024afe7cdf5'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -65,6 +66,16 @@ JSONS=[
  ROOT/'additive_content/phase61_dlc_asset_bank/phase61_runtime_report.json',
  ROOT/'additive_content/phase62_dlc_readiness_pack/phase62_dlc_readiness_contract.json',
  ROOT/'additive_content/phase62_dlc_readiness_pack/phase62_dlc_readiness_pack_manifest.json',
+ ROOT/'additive_content/phase63_dlc_hook_bindings/phase63_dlc_hook_bindings.json',
+ ROOT/'additive_content/phase64_runtime_sprite_enemy_hook/phase64_runtime_sprite_enemy_hook_manifest.json',
+ ROOT/'additive_content/phase65_runtime_portrait_icon_hook/phase65_runtime_portrait_icon_hook_manifest.json',
+ ROOT/'additive_content/phase66_native_lookup_bridge_hook/phase66_native_lookup_bridge_hook_manifest.json',
+ ROOT/'additive_content/phase67_route_state_ewram_hook/phase67_route_state_ewram_hook_manifest.json',
+ ROOT/'additive_content/phase68_dlc_room_ui_hook/phase68_dlc_room_ui_hook_manifest.json',
+ ROOT/'additive_content/phase69_dlc_runtime_hooks_rom/phase69_dlc_runtime_hooks_rom_manifest.json',
+ ROOT/'additive_content/phase70_dlc_runtime_validation/phase70_dlc_runtime_validation_report.json',
+ ROOT/'additive_content/phase71_v05_dlc_runtime_hooks_pack/phase71_v05_dlc_runtime_hooks_pack_manifest.json',
+ ROOT/'additive_content/phase72_hook_doctor/phase72_hook_doctor_note.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -75,6 +86,7 @@ FILES=[
  (ROOT/'patch_output/LOG4_v0_3_playable_warp_rooms_pack.zip','731e5a8e227fa43f1bb76ddf4a7e36d8b8c1548c'),
  (ROOT/'patch_output/LOG4_v0_3_1_native_registry_pack.zip','333bdbf7251c15dc0cc65933d9fef053c111c336'),
  (ROOT/'patch_output/LOG4_v0_4_dlc_asset_readiness_pack.zip','1ab780d976373de82a8dda7a197870a32b7c2202'),
+ (ROOT/'patch_output/LOG4_v0_5_dlc_runtime_hooks_pack.zip','27abc801a82ea8a140a97ad74b492dc23cbfbd82'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff
@@ -96,7 +108,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 62 DLC asset-readiness package is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 72 DLC runtime-hooks package is structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

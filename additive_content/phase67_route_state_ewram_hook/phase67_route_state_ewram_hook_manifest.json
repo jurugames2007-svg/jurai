@@ -1,0 +1,12 @@
+{
+  "schema": "jurai.phase67.route_state_ewram_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "state_base": "0x0203F700",
+  "layout": {
+    "+0": "magic L4HK",
+    "+4": "current route index",
+    "+8": "native pair F0:route",
+    "+12": "native AreaEntry pointer returned by lookup"
+  },
+  "status": "Applied in Phase 69 ROM."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "jurai.phase70.dlc_runtime_validation.v1",
+  "rom": "patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba",
+  "rom_sha1": "8ddc84c0a95a1316441a4066da8a2024afe7cdf5",
+  "runtime_status": "PASS",
+  "error": null,
+  "output_dir": "playtest_output/phase69_dlc_runtime_hooks",
+  "coverage": [
+    "Gateway boots",
+    "SUPER/GT/AF/LOG1/LOG2 dynamic asset blits",
+    "native AreaEntry table bridge for F0:01..F0:05",
+    "EWRAM route-state assertions",
+    "original fallback"
+  ]
+}

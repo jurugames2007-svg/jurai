@@ -296,3 +296,20 @@ New add-only DLC asset payloads:
 - Custom appended `LOG4A32` asset bank in `additive_content/phase61_dlc_asset_bank/` and the Phase 61 ROM.
 
 Runtime status: the Phase 61 ROM still passes boot Gateway rooms and original fallback tests. Honest limitation: the new art is banked/payload-ready but is not yet rendered by native Buu's Fury OBJ/dialogue/item hooks.
+
+## Phase 63–72 v0.5 DLC runtime hooks
+
+Current hook-test package:
+
+- v0.5 DLC runtime hooks pack: `patch_output/LOG4_v0_5_dlc_runtime_hooks_pack.zip`
+- Runtime hook ROM: `patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba`
+
+What is hooked now:
+
+- Boot Gateway rooms dynamically blit 32×32 playable sprites from the `LOG4A32` asset bank.
+- Rooms dynamically blit enemy sprites from the same bank.
+- Rooms dynamically blit 40×40 portraits and 32×32 item/warp icons from the bank.
+- Route render scans the native extended AreaEntry table for `F0:01` through `F0:05` and stores the resolved native pointer in EWRAM at `0x0203F700`.
+- Runtime validation asserts SUPER/GT/AF/LOG1/LOG2 route state and original fallback.
+
+Status: real runtime hooks are applied in the Gateway/debug layer. Native map-constructor handoff to full Buu's Fury maps is still pending.
