@@ -1,0 +1,209 @@
+{
+  "schema": "jurai.phase33.full_route_matrix.v1",
+  "routes": [
+    {
+      "route_id": "SUPER_ROUTE",
+      "chapters": [
+        {
+          "chapter": 1,
+          "map": "BEERUS_PLANET",
+          "enemies": [
+            "BEERUS",
+            "GOLDEN_FRIEZA"
+          ],
+          "objective": "Complete BEERUS_PLANET encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 2,
+          "map": "UNIVERSE_6_ARENA",
+          "enemies": [
+            "GOLDEN_FRIEZA",
+            "HIT"
+          ],
+          "objective": "Complete UNIVERSE_6_ARENA encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 3,
+          "map": "FUTURE_CITY_RUINS",
+          "enemies": [
+            "HIT",
+            "GOKU_BLACK"
+          ],
+          "objective": "Complete FUTURE_CITY_RUINS encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 4,
+          "map": "TOURNAMENT_POWER",
+          "enemies": [
+            "GOKU_BLACK",
+            "ZAMASU"
+          ],
+          "objective": "Complete TOURNAMENT_POWER encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 5,
+          "map": "PLANET_VAMPA",
+          "enemies": [
+            "ZAMASU",
+            "JIREN"
+          ],
+          "objective": "Complete PLANET_VAMPA encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 6,
+          "map": "NEW_NAMEK",
+          "enemies": [
+            "JIREN",
+            "BROLY_DBS"
+          ],
+          "objective": "Complete NEW_NAMEK encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 7,
+          "map": "PLANET_CEREAL",
+          "enemies": [
+            "BROLY_DBS",
+            "MORO"
+          ],
+          "objective": "Complete PLANET_CEREAL encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        }
+      ],
+      "completion_flag": "SUPER_ROUTE_COMPLETE"
+    },
+    {
+      "route_id": "GT_ROUTE",
+      "chapters": [
+        {
+          "chapter": 1,
+          "map": "PLANET_M2_FACTORY",
+          "enemies": [
+            "GENERAL_RILDO",
+            "BABY_VEGETA"
+          ],
+          "objective": "Complete PLANET_M2_FACTORY encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 2,
+          "map": "GT_SHADOW_DRAGON_FIELD",
+          "enemies": [
+            "BABY_VEGETA",
+            "SUPER_17"
+          ],
+          "objective": "Complete GT_SHADOW_DRAGON_FIELD encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 3,
+          "map": "HELL_GT",
+          "enemies": [
+            "SUPER_17",
+            "OMEGA_SHENRON"
+          ],
+          "objective": "Complete HELL_GT encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 4,
+          "map": "CAPSULE_RIFT_LAB",
+          "enemies": [
+            "OMEGA_SHENRON"
+          ],
+          "objective": "Complete CAPSULE_RIFT_LAB encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        }
+      ],
+      "completion_flag": "GT_ROUTE_COMPLETE"
+    },
+    {
+      "route_id": "AF_ROUTE",
+      "chapters": [
+        {
+          "chapter": 1,
+          "map": "AF_KAIOSHIN_REALM",
+          "enemies": [
+            "IKL_AF",
+            "XICOR_FINAL"
+          ],
+          "objective": "Complete AF_KAIOSHIN_REALM encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 2,
+          "map": "AF_XICOR_LAB",
+          "enemies": [
+            "XICOR_FINAL"
+          ],
+          "objective": "Complete AF_XICOR_LAB encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        }
+      ],
+      "completion_flag": "AF_ROUTE_COMPLETE"
+    },
+    {
+      "route_id": "LOG1_DIMENSION",
+      "chapters": [
+        {
+          "chapter": 1,
+          "map": "LOG1_SNAKE_ROAD_MEMORY",
+          "enemies": [
+            "RADITZ",
+            "NAPPA"
+          ],
+          "objective": "Complete LOG1_SNAKE_ROAD_MEMORY encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 2,
+          "map": "LOG1_NAMEK_MEMORY",
+          "enemies": [
+            "NAPPA",
+            "VEGETA_SAIYAN"
+          ],
+          "objective": "Complete LOG1_NAMEK_MEMORY encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        }
+      ],
+      "completion_flag": "LOG1_DIMENSION_COMPLETE"
+    },
+    {
+      "route_id": "LOG2_DIMENSION",
+      "chapters": [
+        {
+          "chapter": 1,
+          "map": "LOG2_WEST_CITY_MEMORY",
+          "enemies": [
+            "ANDROID_17_BOSS",
+            "ANDROID_18_BOSS"
+          ],
+          "objective": "Complete LOG2_WEST_CITY_MEMORY encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        },
+        {
+          "chapter": 2,
+          "map": "LOG2_CELL_GAMES_MEMORY",
+          "enemies": [
+            "ANDROID_18_BOSS",
+            "ANDROID_19"
+          ],
+          "objective": "Complete LOG2_CELL_GAMES_MEMORY encounter",
+          "status": "planned_assets_exist_hooks_pending"
+        }
+      ],
+      "completion_flag": "LOG2_DIMENSION_COMPLETE"
+    }
+  ],
+  "quality_gates": [
+    "assets READY_FOR_ROM_TEST_DRAFT or APPROVED",
+    "native script hooks decoded",
+    "save flags mapped",
+    "mGBA runtime pass"
+  ]
+}

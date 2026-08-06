@@ -1,0 +1,7 @@
+{
+  "schema": "jurai.phase32.first_route_build.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase32_first_playable_route_package.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase32_first_playable_route_package.ips",
+  "modified_sha1": "d70c1143fdf5a128e3afb54edaab69595b18bf20",
+  "contract": "additive_content/phase32_first_route/log2_first_route_contract.json"
+}

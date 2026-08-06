@@ -9,6 +9,10 @@ REPORT=ROOT/'docs/PROJECT_DOCTOR_REPORT.md'
 ROMS=[
  ('phase19_gateway',ROOT/'patch_output/DBZ_LOG4_phase19_postgame_dimension_gateway.gba','ebfbb4a296a730735526612fe64105ebbf4c5a6a'),
  ('phase26_bubbles',ROOT/'patch_output/DBZ_LOG4_phase26_bubbles_start_gateway.gba','3aa4a54f95dd218f7494ea54def741883a6a8c7e'),
+ ('phase30_asset_bank',ROOT/'patch_output/DBZ_LOG4_phase30_reviewed_asset_bank.gba','850f23e8db1524fa224e9cc27534e4d6662d44a3'),
+ ('phase31_gateway_interaction',ROOT/'patch_output/DBZ_LOG4_phase31_gateway_interaction_payload.gba','ab593510d1cef6dcf051e478eb265330eefa3c1a'),
+ ('phase32_first_route',ROOT/'patch_output/DBZ_LOG4_phase32_first_playable_route_package.gba','d70c1143fdf5a128e3afb54edaab69595b18bf20'),
+ ('phase33_route_matrix',ROOT/'patch_output/DBZ_LOG4_phase33_full_route_expansion_matrix.gba','14eb4cda97292e7536b7ff3088562564b6c4e910'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -17,6 +21,14 @@ JSONS=[
  ROOT/'additive_content/gateway/phase26_bubbles_start_gateway_manifest.json',
  ROOT/'additive_content/release/v0_1_bubbles_gateway_manifest.json',
  ROOT/'additive_content/final_asset_kit/phase28_missing_asset_kit_manifest.json',
+ ROOT/'additive_content/phase29_review/phase29_asset_review_seed_manifest.json',
+ ROOT/'additive_content/phase30_native_bank/phase30_reviewed_asset_bank_manifest.json',
+ ROOT/'additive_content/phase31_gateway_interaction/gateway_interaction_contract.json',
+ ROOT/'additive_content/phase31_gateway_interaction/phase31_gateway_interaction_payload_manifest.json',
+ ROOT/'additive_content/phase32_first_route/log2_first_route_contract.json',
+ ROOT/'additive_content/phase32_first_route/phase32_first_route_build_manifest.json',
+ ROOT/'additive_content/phase33_route_matrix/full_route_expansion_matrix.json',
+ ROOT/'additive_content/phase33_route_matrix/phase33_route_matrix_build_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -42,7 +54,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — v0.1 Bubbles Gateway package is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 29–33 batch outputs are structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

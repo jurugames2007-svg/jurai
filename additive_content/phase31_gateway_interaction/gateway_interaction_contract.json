@@ -1,0 +1,51 @@
+{
+  "schema": "jurai.phase31.gateway_interaction.v1",
+  "actor": "BUBBLES_GATE_GUIDE",
+  "trigger_plan": "reuse confirmed early Other World/Snakeway dialogue interaction, then replace text branch with gateway options",
+  "states": [
+    "CLOSED",
+    "OPENING_DIALOGUE",
+    "OPTION_SELECT",
+    "CONFIRM",
+    "WARP_OR_ROUTE_SET",
+    "RETURN"
+  ],
+  "input": {
+    "up_down": "move selection",
+    "a": "confirm",
+    "b": "cancel",
+    "start": "debug unlock"
+  },
+  "options": [
+    {
+      "index": 0,
+      "target": "SUPER_ROUTE",
+      "sets_flag": "ENTERED_SUPER_ROUTE"
+    },
+    {
+      "index": 1,
+      "target": "GT_ROUTE",
+      "sets_flag": "ENTERED_GT_ROUTE"
+    },
+    {
+      "index": 2,
+      "target": "AF_ROUTE",
+      "sets_flag": "ENTERED_AF_ROUTE"
+    },
+    {
+      "index": 3,
+      "target": "LOG1_DIMENSION",
+      "sets_flag": "ENTERED_LOG1_DIMENSION"
+    },
+    {
+      "index": 4,
+      "target": "LOG2_DIMENSION",
+      "sets_flag": "ENTERED_LOG2_DIMENSION"
+    }
+  ],
+  "native_work_remaining": [
+    "identify text/script pointer for Bubbles dialogue",
+    "implement cursor drawing or reuse native list menu",
+    "bind option to map/route transition"
+  ]
+}
