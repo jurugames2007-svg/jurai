@@ -1,0 +1,62 @@
+{
+  "schema": "jurai.phase53.native_map_trace.runtime_report.v1",
+  "rom": "patch_output/DBZ_LOG4_phase53_native_map_findarea_trace.gba",
+  "rom_sha1": "6c90b221878bef39ff125f9a07c685e1c1da8895",
+  "runtime_status": "PASS",
+  "tests": [
+    {
+      "name": "skip_intro_playtest_40_cycles",
+      "output_dir": "playtest_output/phase53_trace_skip",
+      "result": "PASS_RUNTIME_SCRIPT_COMPLETED",
+      "findarea_log": [
+        { "index": 0, "area": "0x00", "room": "0x02", "caller_lr": "0x0800905B" },
+        { "index": 1, "area": "0x00", "room": "0x04", "caller_lr": "0x0800905B" }
+      ]
+    },
+    {
+      "name": "snakeway_walk_after_skip",
+      "output_dir": "playtest_output/phase53_trace_walk",
+      "result": "PASS_RUNTIME_SCRIPT_COMPLETED",
+      "findarea_log_delta": [
+        { "index": 2, "area": "0x00", "room": "0x05", "caller_lr": "0x0800905B" }
+      ]
+    },
+    {
+      "name": "long_story_progress_120_cycles_after_walk",
+      "output_dir": "playtest_output/phase53_trace_long",
+      "result": "PASS_RUNTIME_SCRIPT_COMPLETED",
+      "findarea_log": [
+        { "index": 0, "area": "0x00", "room": "0x02", "caller_lr": "0x0800905B" },
+        { "index": 1, "area": "0x00", "room": "0x04", "caller_lr": "0x0800905B" },
+        { "index": 2, "area": "0x00", "room": "0x05", "caller_lr": "0x0800905B" },
+        { "index": 3, "area": "0x00", "room": "0x06", "caller_lr": "0x0800905B" },
+        { "index": 4, "area": "0x00", "room": "0x07", "caller_lr": "0x0800905B" },
+        { "index": 5, "area": "0x00", "room": "0x01", "caller_lr": "0x0800905B" },
+        { "index": 6, "area": "0x00", "room": "0x01", "caller_lr": "0x0800905B" },
+        { "index": 7, "area": "0x00", "room": "0x62", "caller_lr": "0x0800905B" },
+        { "index": 8, "area": "0x00", "room": "0x60", "caller_lr": "0x0800905B" },
+        { "index": 9, "area": "0x00", "room": "0x02", "caller_lr": "0x0800905B" },
+        { "index": 10, "area": "0x01", "room": "0x01", "caller_lr": "0x08008D71" }
+      ]
+    }
+  ],
+  "native_findings": {
+    "lookup_function_va": "0x080089FC",
+    "primary_loader_callsite_return_lr": "0x0800905B",
+    "primary_loader_function_region": "0x08009030",
+    "secondary_callsite_return_lr": "0x08008D71",
+    "confirmed_lookup_pairs_seen": [
+      "00:01",
+      "00:02",
+      "00:04",
+      "00:05",
+      "00:06",
+      "00:07",
+      "00:60",
+      "00:62",
+      "01:01"
+    ],
+    "interpretation": "The engine loads native AreaEntry records by (r0 area/group byte, r1 room/subarea byte). The 0x08009030 region is now the strongest native map-constructor hook candidate for a future Gateway-to-native-map warp."
+  },
+  "next_engineering_target": "Create a gated native warp by entering original engine initialization, then invoke or steer the 0x08009030 map constructor with a known safe AreaEntry pair such as 00:02/00:04/00:05, before assigning LOG1/LOG2/SUPER/GT/AF appended AreaEntry IDs."
+}

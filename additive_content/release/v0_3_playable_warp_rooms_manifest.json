@@ -1,0 +1,27 @@
+{
+  "schema": "jurai.release.v0_3_playable_warp_rooms.v1",
+  "package": "patch_output/LOG4_v0_3_playable_warp_rooms_pack.zip",
+  "package_sha1": "731e5a8e227fa43f1bb76ddf4a7e36d8b8c1548c",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_3_PlayableWarpRooms.gba",
+  "rom_sha1": "f16c4b450afcab9205dd2410ee7e02ba11bab010",
+  "ips_sha1": "f242ab632affc7df36496a75888b4d53dc02002f",
+  "source_phase": 51,
+  "release_phase": 52,
+  "playable": true,
+  "native_map_warp": false,
+  "original_fallback": true,
+  "included_files": [
+    "roms/DBZ_LOG4_v0_3_PlayableWarpRooms.gba",
+    "patches/DBZ_LOG4_v0_3_PlayableWarpRooms.ips",
+    "README.txt",
+    "docs/PHASE51_BOOT_GATEWAY_WARP_ROOMS.md",
+    "docs/PHASE52_V03_PLAYABLE_WARP_ROOMS_RELEASE.md",
+    "manifests/phase51_boot_gateway_warp_rooms_manifest.json",
+    "runtime_evidence/phase51-warp-rooms-result.json",
+    "runtime_evidence/screenshot-00_gateway_original.png",
+    "runtime_evidence/screenshot-02_super_room_spawn.png",
+    "runtime_evidence/screenshot-05_log1_room_after_r_cycle.png",
+    "runtime_evidence/screenshot-08_log2_on_home_pad.png",
+    "runtime_evidence/screenshot-11_original_boot_after_start.png"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "jurai.release.v0_3_1_native_registry.v1",
+  "package": "patch_output/LOG4_v0_3_1_native_registry_pack.zip",
+  "package_sha1": "333bdbf7251c15dc0cc65933d9fef053c111c336",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_3_1_NativeRegistry.gba",
+  "rom_sha1": "c2e76758af2cd989485e1b74de668c295cb88101",
+  "ips_sha1": "c929846e68d867df943ae94208a48a245e946f6c",
+  "source_phase": 54,
+  "release_phase": 55,
+  "playable_gateway_rooms": true,
+  "native_map_registry": true,
+  "native_map_warp": false,
+  "original_fallback": true,
+  "included_files": [
+    "README.txt",
+    "docs/PHASE53_RUNTIME_NATIVE_MAP_TRACE.md",
+    "docs/PHASE54_GATEWAY_NATIVE_MAP_REGISTRY.md",
+    "docs/PHASE55_V031_NATIVE_REGISTRY_RELEASE.md",
+    "manifests/phase53_runtime_trace_report.json",
+    "manifests/phase54_gateway_native_map_registry_manifest.json",
+    "patches/DBZ_LOG4_v0_3_1_NativeRegistry.ips",
+    "roms/DBZ_LOG4_v0_3_1_NativeRegistry.gba",
+    "runtime_evidence/phase54_original_fallback_skip_screenshot-final.png",
+    "runtime_evidence/phase54_original_fallback_skip_skip-playtest-result.json",
+    "runtime_evidence/phase54_warp_rooms_phase51-warp-rooms-result.json",
+    "runtime_evidence/phase54_warp_rooms_screenshot-02_super_room_spawn.png",
+    "runtime_evidence/phase54_warp_rooms_screenshot-05_log1_room_after_r_cycle.png",
+    "runtime_evidence/phase54_warp_rooms_screenshot-09_gateway_returned_from_home.png"
+  ]
+}

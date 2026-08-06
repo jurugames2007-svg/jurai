@@ -21,6 +21,9 @@ ROMS=[
  ('phase47_title_kind0',ROOT/'patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba','81a00e341197a7d4b4158a37a4c34c2009681966'),
  ('phase48_unified_gateway',ROOT/'patch_output/DBZ_LOG4_phase48_unified_gateway_test.gba','7decb822ea9a11dfc674f890067fd2465e9c9b42'),
  ('phase49_boot_gateway',ROOT/'patch_output/DBZ_LOG4_phase49_boot_gateway_menu.gba','05823a9e846a14777121e9bee5254c0e1731f401'),
+ ('phase51_boot_gateway_warp_rooms',ROOT/'patch_output/DBZ_LOG4_phase51_boot_gateway_warp_rooms.gba','f16c4b450afcab9205dd2410ee7e02ba11bab010'),
+ ('phase53_native_map_trace',ROOT/'patch_output/DBZ_LOG4_phase53_native_map_findarea_trace.gba','6c90b221878bef39ff125f9a07c685e1c1da8895'),
+ ('phase54_native_map_registry',ROOT/'patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba','c2e76758af2cd989485e1b74de668c295cb88101'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -45,6 +48,12 @@ JSONS=[
  ROOT/'additive_content/title_screen/phase47_title_screen_kind0_hook_manifest.json',
  ROOT/'additive_content/phase48_unified_gateway/phase48_unified_gateway_manifest.json',
  ROOT/'additive_content/gateway/phase49_boot_gateway_menu_manifest.json',
+ ROOT/'additive_content/gateway_warp_rooms/phase51_boot_gateway_warp_rooms_manifest.json',
+ ROOT/'additive_content/release/v0_3_playable_warp_rooms_manifest.json',
+ ROOT/'additive_content/phase53_native_map_trace/phase53_native_map_findarea_trace_manifest.json',
+ ROOT/'additive_content/phase53_native_map_trace/phase53_runtime_trace_report.json',
+ ROOT/'additive_content/phase54_native_map_registry/phase54_gateway_native_map_registry_manifest.json',
+ ROOT/'additive_content/release/v0_3_1_native_registry_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -52,6 +61,8 @@ FILES=[
  (ROOT/'patch_output/LOG4_phase38_release_candidate_docs.zip','dae4f67542818a820da998602e0a7d63f6a87adb'),
  (ROOT/'patch_output/LOG4_v0_2_gateway_runtime_readiness_pack.zip','777434ba835f5c93bb2ee7c41b8411c5fd763ca0'),
  (ROOT/'patch_output/LOG4_v0_2_boot_warp_selector_pack.zip','b4ded1d1f83f4533ee06d71a7901e77473d80bd1'),
+ (ROOT/'patch_output/LOG4_v0_3_playable_warp_rooms_pack.zip','731e5a8e227fa43f1bb76ddf4a7e36d8b8c1548c'),
+ (ROOT/'patch_output/LOG4_v0_3_1_native_registry_pack.zip','333bdbf7251c15dc0cc65933d9fef053c111c336'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff
@@ -73,7 +84,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 50 boot warp selector package is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 55 native-registry package is structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

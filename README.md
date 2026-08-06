@@ -260,3 +260,22 @@ Controls:
 - Start from a route/dimension screen: boot original Buu's Fury.
 
 This is currently a debug selector with route info screens. Native map warps are the next hook.
+
+## Phase 51–55 playable Gateway rooms and native registry
+
+Current advanced test packages:
+
+- v0.3 playable warp-room pack: `patch_output/LOG4_v0_3_playable_warp_rooms_pack.zip`
+- v0.3.1 native-registry pack: `patch_output/LOG4_v0_3_1_native_registry_pack.zip`
+- Advanced ROM: `patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba`
+
+What works now:
+
+- Gateway appears immediately at boot.
+- `ORIGINAL` / Start still boots the untouched Buu's Fury flow.
+- `SUPER`, `GT`, `AF`, `LOG1 DIM`, and `LOG2 DIM` open playable 240×160 GBA Mode 3 debug rooms.
+- D-pad moves a tester marker; A on `HOME` returns to Gateway; A on `NEXT` warps to the next room; L/R cycles rooms.
+- Phase 53 traced the native AreaEntry lookup at `0x080089FC`.
+- Phase 54 additively registers native route IDs `F0:01` through `F0:05` by extending the AreaEntry table from 452 to 457 entries.
+
+Honest status: Gateway-to-native-map transition is not implemented yet. The current rooms are playable debug rooms plus native registry groundwork for the next map-constructor hook.
