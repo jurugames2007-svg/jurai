@@ -1,0 +1,44 @@
+{
+  "schema": "jurai.phase45.bubbles_dialogue_text_hook.v1",
+  "policy": "append_uncompressed_text_bank_original_bank_preserved",
+  "output_gba": "patch_output/DBZ_LOG4_phase45_bubbles_dialogue_text_hook.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase45_bubbles_dialogue_text_hook.ips",
+  "modified_sha1": "7d6416c4934904c7ff318685df0cb6e381c91e20",
+  "text_bank_pointer_offset": "0x7B5B64",
+  "old_text_bank_va": "0x0879BF2C",
+  "new_text_bank_va": "0x08800000",
+  "new_text_bank_container_offset": "0x800000",
+  "decompressed_size": 65348,
+  "replacements": [
+    {
+      "offset_in_text_bank": "0x8F5A",
+      "old": "Welcome to King Yemma's Castle. You're going to want to talk to King Yemma.",
+      "new": "Bubbles guards the Rift Gate. Choose Super, GT, AF, LOG1 or LOG2.",
+      "padded_chars": 10
+    },
+    {
+      "offset_in_text_bank": "0x917E",
+      "old": "Sir, you can't go this way!",
+      "new": "Bubbles opens Rift Gate!",
+      "padded_chars": 3
+    },
+    {
+      "offset_in_text_bank": "0x91B4",
+      "old": "Sir, you can't go this way! I'm afraid you're going to have to wait in line like...Wait a second!",
+      "new": "Bubbles: A rift is open. Super, GT, AF, LOG1 and LOG2 wait beyond Snake Way.",
+      "padded_chars": 21
+    },
+    {
+      "offset_in_text_bank": "0x9278",
+      "old": "You still have your body!",
+      "new": "You can cross dimensions!",
+      "padded_chars": 0
+    },
+    {
+      "offset_in_text_bank": "0x9362",
+      "old": "Please, go ahead!",
+      "new": "Choose a rift!",
+      "padded_chars": 3
+    }
+  ]
+}
