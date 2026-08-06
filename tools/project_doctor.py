@@ -26,6 +26,7 @@ ROMS=[
  ('phase54_native_map_registry',ROOT/'patch_output/DBZ_LOG4_phase54_gateway_native_map_registry.gba','c2e76758af2cd989485e1b74de668c295cb88101'),
  ('phase61_dlc_asset_bank_payload',ROOT/'patch_output/DBZ_LOG4_phase61_dlc_asset_bank_payload.gba','3495fab96e7df9387f8fbd0fc854163f32be6254'),
  ('phase69_dlc_runtime_hooks',ROOT/'patch_output/DBZ_LOG4_phase69_dlc_runtime_hooks.gba','8ddc84c0a95a1316441a4066da8a2024afe7cdf5'),
+ ('phase78_dlc_action_native_trace_hooks',ROOT/'patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba','c68113e8a2b097e0f549b56216cd796410ffb73b'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -76,6 +77,17 @@ JSONS=[
  ROOT/'additive_content/phase70_dlc_runtime_validation/phase70_dlc_runtime_validation_report.json',
  ROOT/'additive_content/phase71_v05_dlc_runtime_hooks_pack/phase71_v05_dlc_runtime_hooks_pack_manifest.json',
  ROOT/'additive_content/phase72_hook_doctor/phase72_hook_doctor_note.json',
+ ROOT/'additive_content/phase73_dlc_action_frame_hook/phase73_dlc_action_frame_hook_manifest.json',
+ ROOT/'additive_content/phase74_native_status_widget_hook/phase74_native_status_widget_hook_manifest.json',
+ ROOT/'additive_content/phase75_native_lookup_trace_hook/phase75_native_lookup_trace_hook_manifest.json',
+ ROOT/'additive_content/phase76_route_action_state_hook/phase76_route_action_state_hook_manifest.json',
+ ROOT/'additive_content/phase77_v06_room_interaction_contract/phase77_v06_room_interaction_contract.json',
+ ROOT/'additive_content/phase78_dlc_action_native_trace_rom/phase78_dlc_action_native_trace_rom_manifest.json',
+ ROOT/'additive_content/phase79_dlc_action_runtime_validation/phase79_dlc_action_runtime_validation_report.json',
+ ROOT/'additive_content/phase80_native_lookup_trace_runtime_validation/phase80_native_lookup_trace_runtime_validation_report.json',
+ ROOT/'additive_content/phase80_native_lookup_trace_runtime_validation/phase80_native_lookup_trace_decoded.json',
+ ROOT/'additive_content/phase81_v06_action_trace_pack/phase81_v06_action_trace_pack_manifest.json',
+ ROOT/'additive_content/phase82_v06_hook_doctor/phase82_v06_hook_doctor_note.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -87,6 +99,7 @@ FILES=[
  (ROOT/'patch_output/LOG4_v0_3_1_native_registry_pack.zip','333bdbf7251c15dc0cc65933d9fef053c111c336'),
  (ROOT/'patch_output/LOG4_v0_4_dlc_asset_readiness_pack.zip','1ab780d976373de82a8dda7a197870a32b7c2202'),
  (ROOT/'patch_output/LOG4_v0_5_dlc_runtime_hooks_pack.zip','27abc801a82ea8a140a97ad74b492dc23cbfbd82'),
+ (ROOT/'patch_output/LOG4_v0_6_dlc_action_native_trace_hooks_pack.zip','62e958a86cdd64339b5f8939167ed4637233f5cb'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff
@@ -108,7 +121,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 72 DLC runtime-hooks package is structurally valid.']
+ else: lines += ['','## Result','PASS — phase 82 DLC action/native-lookup trace package is structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')

@@ -1,0 +1,24 @@
+{
+  "schema": "jurai.phase81.v06_action_trace_pack.v1",
+  "package": "patch_output/LOG4_v0_6_dlc_action_native_trace_hooks_pack.zip",
+  "package_sha1": "62e958a86cdd64339b5f8939167ed4637233f5cb",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_6_DLCActionNativeTrace.gba",
+  "rom_sha1": "c68113e8a2b097e0f549b56216cd796410ffb73b",
+  "ips_sha1": "2bad0a47830b3e8252da3c0acbdc44f6ef437b64",
+  "runtime_status": "PASS",
+  "phase_block": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "action_frame_hooks": true,
+  "native_lookup_trace_hook": true,
+  "native_map_constructor_handoff": false
+}

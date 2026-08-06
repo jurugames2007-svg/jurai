@@ -1,0 +1,11 @@
+{
+  "schema": "jurai.phase77.v06_room_interaction_contract.v1",
+  "controls": [
+    "D-pad move",
+    "SELECT action frame",
+    "A on HOME/NEXT/ORIG pads",
+    "B menu",
+    "START original"
+  ],
+  "status": "Runtime contract for v0.6 hook ROM."
+}

@@ -313,3 +313,20 @@ What is hooked now:
 - Runtime validation asserts SUPER/GT/AF/LOG1/LOG2 route state and original fallback.
 
 Status: real runtime hooks are applied in the Gateway/debug layer. Native map-constructor handoff to full Buu's Fury maps is still pending.
+
+## Phase 73–82 v0.6 DLC action + native lookup trace hooks
+
+Current action/trace package:
+
+- v0.6 DLC action/native-trace pack: `patch_output/LOG4_v0_6_dlc_action_native_trace_hooks_pack.zip`
+- Runtime hook ROM: `patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba`
+
+What is hooked now:
+
+- `SELECT` in a route room cycles the 3-frame 32×32 playable/enemy sheets from the `LOG4A32` bank.
+- A native lookup status widget shows the resolved `AreaEntry` state and frame pips.
+- Route/action state is stored in EWRAM at `0x0203F700`; current action frame is at `0x0203F710`.
+- A safe trace hook is installed at Buu's Fury native `AreaEntry` lookup `0x080089FC`, logging original map lookups to `0x0203F740`.
+- Runtime validation passes frame cycling, LOG2 route state, native lookup trace, and original fallback.
+
+Status: action-frame hooks and safe native lookup tracing are applied. The next hard milestone remains direct Gateway handoff into the native map constructor.

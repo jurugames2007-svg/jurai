@@ -1,0 +1,12 @@
+{
+  "schema": "jurai.phase73.dlc_action_frame_hook.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "input": "SELECT in route room",
+  "state_address": "0x0203F710",
+  "frames": [
+    0,
+    1,
+    2
+  ],
+  "effect": "Playable/enemy blit source is offset by frame*64 bytes inside each 96x32 sheet."
+}

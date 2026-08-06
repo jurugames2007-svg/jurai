@@ -1,0 +1,8 @@
+{
+  "schema": "jurai.phase80.native_lookup_trace_runtime_validation.v1",
+  "rom": "patch_output/DBZ_LOG4_phase78_dlc_action_native_trace_hooks.gba",
+  "runtime_status": "PASS",
+  "trace_base": "0x0203F740",
+  "evidence": "playtest_output/phase78_dlc_action_hooks/memory-phase78-native-lookup-trace.json",
+  "honest_note": "Trace hook is installed. It logs when original flow reaches native AreaEntry lookup calls in the automated window."
+}
