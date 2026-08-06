@@ -16,9 +16,11 @@ JSONS=[
  ROOT/'additive_content/gateway/bubbles_start_gateway_contract.json',
  ROOT/'additive_content/gateway/phase26_bubbles_start_gateway_manifest.json',
  ROOT/'additive_content/release/v0_1_bubbles_gateway_manifest.json',
+ ROOT/'additive_content/final_asset_kit/phase28_missing_asset_kit_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
+ (ROOT/'patch_output/LOG4_phase28_missing_asset_kit.zip','670d4cbe2415ef387dce0c75f908d03a41834541'),
 ]
 def sha1(p): return hashlib.sha1(p.read_bytes()).hexdigest()
 def hchk(d): return (-0x19-sum(d[0xA0:0xBD]))&0xff

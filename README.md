@@ -217,3 +217,11 @@ Después de la fase 4 quedan cuatro fases principales:
 
 La ROM de fase 4 es una copia local de prueba; la ROM base nunca se
 sobrescribe.
+
+## Estado actual v0.1 / Phase 28
+
+- ROM recomendada de prueba actual: `patch_output/DBZ_LOG4_phase26_bubbles_start_gateway.gba`.
+- Paquete de prueba v0.1: `patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip`.
+- Kit completo de assets faltantes en dimensiones nativas: `patch_output/LOG4_phase28_missing_asset_kit.zip`.
+- Línea principal prevista: Buu's Fury original → post Kid Buu (`Super`, `GT`, `AF`) → dimensiones pre Kid Buu (`LOG1_DIMENSION`, `LOG2_DIMENSION`).
+- Próximo hito jugable: hacer que Bubbles/Gate Guide abra un menú real de selección y conecte al menos una mini-ruta completa.
