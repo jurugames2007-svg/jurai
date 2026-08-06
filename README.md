@@ -236,3 +236,11 @@ AI-assisted native GBA title/menu art is available at:
 - `patch_output/DBZ_LOG4_phase44_title_screen_payload.gba`
 
 This is an append-only payload/title asset; a future runtime title hook is still required to replace the in-game title flow.
+
+## Phase 47 title runtime hook
+
+The first visible in-game LOG4 title screen hook is available at:
+
+- `patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba`
+
+This redirects the original splash/title graphics pointers to an appended uncompressed Webfoot container using the LOG4 title screen art. Runtime screenshots confirm the custom title appears in the title flow.

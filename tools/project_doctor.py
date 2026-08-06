@@ -18,6 +18,7 @@ ROMS=[
  ('phase44_title_payload',ROOT/'patch_output/DBZ_LOG4_phase44_title_screen_payload.gba','515d36faccc6b51077f083771fc056177c325ae1'),
  ('phase45_bubbles_dialogue',ROOT/'patch_output/DBZ_LOG4_phase45_bubbles_dialogue_text_hook.gba','7d6416c4934904c7ff318685df0cb6e381c91e20'),
  ('phase46_title_runtime_probe',ROOT/'patch_output/DBZ_LOG4_phase46_title_screen_runtime_hook.gba','90b56a0ba388d2975012b53ce424996d2a70fcbc'),
+ ('phase47_title_kind0',ROOT/'patch_output/DBZ_LOG4_phase47_title_screen_kind0_hook.gba','81a00e341197a7d4b4158a37a4c34c2009681966'),
 ]
 JSONS=[
  ROOT/'additive_content/playability/canonical_line.json',
@@ -39,6 +40,7 @@ JSONS=[
  ROOT/'additive_content/title_screen/phase44_title_payload_manifest.json',
  ROOT/'additive_content/phase45_dialogue_text_hook/phase45_bubbles_dialogue_text_hook_manifest.json',
  ROOT/'additive_content/title_screen/phase46_title_screen_runtime_hook_manifest.json',
+ ROOT/'additive_content/title_screen/phase47_title_screen_kind0_hook_manifest.json',
 ]
 FILES=[
  (ROOT/'patch_output/LOG4_v0_1_bubbles_gateway_test_pack.zip','023fc9f3e5ceacbc77e6e1781792ae0bded7092c'),
@@ -66,7 +68,7 @@ def main():
   except Exception as e: errors.append(f'Invalid JSON {p.relative_to(ROOT)}: {e}')
  lines += ['',f'Errors: {len(errors)}']
  if errors: lines += ['','## Errors',*['- '+e for e in errors]]
- else: lines += ['','## Result','PASS — phase 46 title runtime probe outputs are structurally valid.']
+ else: lines += ['','## Result','PASS — phase 47 title screen runtime hook outputs are structurally valid.']
  REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print(f'Wrote {REPORT.relative_to(ROOT)}')
  print('PASS' if not errors else 'FAIL')
