@@ -1,0 +1,116 @@
+{
+  "schema": "jurai.phase48.unified_gateway_test.v1",
+  "output_gba": "patch_output/DBZ_LOG4_phase48_unified_gateway_test.gba",
+  "output_ips": "patch_output/DBZ_LOG4_phase48_unified_gateway_test.ips",
+  "modified_sha1": "7decb822ea9a11dfc674f890067fd2465e9c9b42",
+  "title_hook": {
+    "new_va": "0x08800000",
+    "offset": "0x800000",
+    "pointer_refs": [
+      "0x005414",
+      "0x01E744",
+      "0x01E9E0"
+    ]
+  },
+  "text_bank_hook": {
+    "new_va": "0x08809608",
+    "offset": "0x809608",
+    "pointer_offset": "0x7B5B64",
+    "replacements": [
+      {
+        "offset_in_text_bank": "0x8F5A",
+        "old": "Welcome to King Yemma's Castle. You're going to want to talk to King Yemma.",
+        "new": "Bubbles guards the Rift Gate. Choose Super, GT, AF, LOG1 or LOG2."
+      },
+      {
+        "offset_in_text_bank": "0x917E",
+        "old": "Sir, you can't go this way!",
+        "new": "Bubbles opens Rift Gate!"
+      },
+      {
+        "offset_in_text_bank": "0x91B4",
+        "old": "Sir, you can't go this way! I'm afraid you're going to have to wait in line like...Wait a second!",
+        "new": "Bubbles: A rift is open. Super, GT, AF, LOG1 and LOG2 wait beyond Snake Way."
+      },
+      {
+        "offset_in_text_bank": "0x9278",
+        "old": "You still have your body!",
+        "new": "You can cross dimensions!"
+      },
+      {
+        "offset_in_text_bank": "0x9362",
+        "old": "Please, go ahead!",
+        "new": "Choose a rift!"
+      }
+    ]
+  },
+  "debug_text_patches": [
+    {
+      "offset": "0x05DBD0",
+      "old": "Snakeway",
+      "new": "Bubbles",
+      "note": "map/debug label"
+    },
+    {
+      "offset": "0x05DE1C",
+      "old": "Other World Saga",
+      "new": "Bubbles Saga",
+      "note": "saga label"
+    },
+    {
+      "offset": "0x05DF98",
+      "old": "Go to King Yemma's Castle",
+      "new": "Find Bubbles Gate",
+      "note": "first objective"
+    },
+    {
+      "offset": "0x05DFCC",
+      "old": "Train with Other World Fighters",
+      "new": "Choose Bubbles Gate",
+      "note": "second objective"
+    },
+    {
+      "offset": "0x06B57C",
+      "old": "Chapter 1",
+      "new": "Bubbles!",
+      "note": "chapter title"
+    },
+    {
+      "offset": "0x06B590",
+      "old": "The Other World",
+      "new": "Bubbles Gateway",
+      "note": "chapter subtitle"
+    },
+    {
+      "offset": "0x06513C",
+      "old": "King Yemma",
+      "new": "Bubbles",
+      "note": "NPC/database label"
+    },
+    {
+      "offset": "0x065152",
+      "old": "King Yemma is a giant ogre who guards the entrance to the Other World.",
+      "new": "Bubbles guards the gate to Super, GT, AF, LOG1 and LOG2.",
+      "note": "database description"
+    },
+    {
+      "offset": "0x0651E0",
+      "old": "Yemma's Assistant",
+      "new": "Bubbles Guide",
+      "note": "NPC/database label"
+    },
+    {
+      "offset": "0x065204",
+      "old": "This assistant helps King Yemma usher souls into the Other World.",
+      "new": "Talk to Bubbles on Snakeway to open Super, GT, AF, LOG1 and LOG2.",
+      "note": "NPC/database description"
+    },
+    {
+      "offset": "0x064A44",
+      "old": "Bubbles is an ape who hangs out with King Kai.",
+      "new": "Bubbles helps open the Rift Gate.",
+      "note": "Bubbles database description"
+    }
+  ],
+  "payload_offset": "0x819554"
+}
