@@ -1,0 +1,215 @@
+{
+  "name": "Cell Games Arena (Improved)",
+  "description": "The arena where the Cell Games took place, now with multiple levels",
+  "id": 103,
+  "size": [200, 160],
+  "tileset": "gfx/tilesets/cell_games.png",
+  "palette": "gfx/palettes/cell_games.pal",
+  "music": "audio/music/cell_games.mp3",
+  
+  "layers": [
+    {
+      "type": "terrain",
+      "name": "Base Terrain",
+      "data": [
+        ; Top platform (level 3)
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        
+        ; Middle platform (level 2)
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+        ; Main arena floor (level 1)
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        
+        ; Lower area (level 0)
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      ]
+    },
+    {
+      "type": "collision",
+      "name": "Collision Layer",
+      "data": [
+        ; Top platform (level 3) - solid
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        
+        ; Middle platform (level 2) - solid
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+        ; Main arena floor (level 1) - solid
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        
+        ; Lower area (level 0) - walkable
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    },
+    {
+      "type": "height",
+      "name": "Height Layer",
+      "data": [
+        ; Height levels: 0 = lowest, 3 = highest
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3],
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3],
+        
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3],
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+        
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    },
+    {
+      "type": "objects",
+      "name": "Object Layer",
+      "items": [
+        ; ===== PLATFORM LADDERS =====
+        {
+          "type": "ladder",
+          "id": "ladder_level1_to_2",
+          "x": 70,
+          "y": 90,
+          "height": 20,
+          "connects_levels": [1, 2],
+          "sprite": "gfx/objects/ladder.png",
+          "palette": 2
+        },
+        {
+          "type": "ladder",
+          "id": "ladder_level2_to_3",
+          "x": 70,
+          "y": 50,
+          "height": 20,
+          "connects_levels": [2, 3],
+          "sprite": "gfx/objects/ladder.png",
+          "palette": 2
+        },
+        {
+          "type": "ladder",
+          "id": "ladder_level1_to_0",
+          "x": 120,
+          "y": 110,
+          "height": 20,
+          "connects_levels": [1, 0],
+          "sprite": "gfx/objects/ladder.png",
+          "palette": 2
+        },
+        
+        ; ===== NEW NPCs =====
+        {
+          "type": "npc",
+          "id": "announcer",
+          "x": 75,
+          "y": 70,
+          "sprite": "gfx/npcs/announcer.png",
+          "palette": 1,
+          "dialogue": "text/dialogues/cell_games_announcer.txt",
+          "movement": "stationary",
+          "detection_radius": 8,
+          "interaction_radius": 3
+        },
+        {
+          "type": "npc",
+          "id": "referee",
+          "x": 75,
+          "y": 100,
+          "sprite": "gfx/npcs/referee.png",
+          "palette": 3,
+          "dialogue": "text/dialogues/cell_games_referee.txt",
+          "movement": "stationary",
+          "detection_radius": 6,
+          "interaction_radius": 2
+        },
+        
+        ; ===== ARENA EQUIPMENT =====
+        {
+          "type": "object",
+          "id": "battle_pod_1",
+          "x": 30,
+          "y": 70,
+          "sprite": "gfx/objects/battle_pod.png",
+          "palette": 2,
+          "collision": true,
+          "interaction": "examine",
+          "dialogue": "text/dialogues/battle_pod.txt"
+        },
+        {
+          "type": "object",
+          "id": "battle_pod_2",
+          "x": 120,
+          "y": 70,
+          "sprite": "gfx/objects/battle_pod.png",
+          "palette": 2,
+          "collision": true,
+          "interaction": "examine",
+          "dialogue": "text/dialogues/battle_pod.txt"
+        },
+        
+        ; ===== EXISTING OBJECTS =====
+        {
+          "type": "warp",
+          "id": "cell_games_exit",
+          "x": 75,
+          "y": 150,
+          "destination_map": "world_map",
+          "destination_x": 150,
+          "destination_y": 100,
+          "direction": "up",
+          "sprite": "gfx/objects/portal.png",
+          "palette": 0
+        }
+      ]
+    }
+  ],
+  
+  "scripts": {
+    "on_enter": "scripts/cell_games_on_enter.asm",
+    "on_exit": "scripts/cell_games_on_exit.asm",
+    "battle_start": "scripts/cell_games_battle.asm"
+  },
+  
+  "metadata": {
+    "designer": "Javi (MapDesigner)",
+    "version": "2.0",
+    "last_modified": "2026-08-06",
+    "improvements": [
+      "Added 3 platform levels (0-3)",
+      "Added ladders to connect platforms",
+      "Added 2 NPCs (Announcer and Referee)",
+      "Added battle pods as examineable objects",
+      "Fixed collision to properly handle different height levels",
+      "Improved visual hierarchy with height-based rendering"
+    ],
+    "notes": "Players can now fight on different levels, adding strategic depth to battles."
+  }
+}

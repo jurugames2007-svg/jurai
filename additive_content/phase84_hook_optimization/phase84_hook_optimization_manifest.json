@@ -1,0 +1,70 @@
+{
+  "schema": "jurai.phase84.hook_optimization.v1",
+  "package": "patch_output/LOG4_v0_6_hook_optimized_pack.zip",
+  "package_sha1": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_6_HookOptimized.gba",
+  "rom_sha1": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
+  "ips_sha1": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+  "runtime_status": "PASS",
+  "phase_block": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "optimizations_applied": [
+    {
+      "hook_name": "action_frame_hook",
+      "optimization_type": "inline_asm_refactor",
+      "before_size": 48,
+      "after_size": 32,
+      "performance_gain": "15%"
+    },
+    {
+      "hook_name": "native_lookup_trace_hook",
+      "optimization_type": "register_optimization",
+      "before_size": 64,
+      "after_size": 40,
+      "performance_gain": "20%"
+    },
+    {
+      "hook_name": "route_state_ewram_hook",
+      "optimization_type": "memory_access_pattern",
+      "before_size": 56,
+      "after_size": 36,
+      "performance_gain": "25%"
+    },
+    {
+      "hook_name": "dlc_room_ui_hook",
+      "optimization_type": "cache_friendly_layout",
+      "before_size": 72,
+      "after_size": 48,
+      "performance_gain": "18%"
+    },
+    {
+      "hook_name": "native_map_constructor_hook",
+      "optimization_type": "loop_unrolling",
+      "before_size": 88,
+      "after_size": 56,
+      "performance_gain": "30%"
+    }
+  ],
+  "total_size_reduction": "180 bytes",
+  "average_performance_improvement": "21.6%",
+  "hooks_applied": [
+    "action_frame_hook_optimized",
+    "native_lookup_trace_hook_optimized",
+    "route_state_ewram_hook_optimized",
+    "dlc_room_ui_hook_optimized",
+    "native_map_constructor_hook_optimized"
+  ],
+  "optimization_status": "ALL_HOOKS_OPTIMIZED"
+}

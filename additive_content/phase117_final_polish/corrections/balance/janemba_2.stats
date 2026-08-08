@@ -1,0 +1,61 @@
+; ============================================================================
+; DRAGON BALL Z: BUU'S FURY - LEGACY OF GOKU 4 ULTIMATE EDITION
+; Character Stats: Janemba (Second Form)
+; Phase 117: Balance Adjustments
+; -----------------------------------------------------------------------------
+; BALANCE NOTES:
+; - Increased HP by 30% to make him more durable
+; - Added new attack: Demon Kamehameha (long-range)
+; - Adjusted AI to be more aggressive
+; ============================================================================
+
+CHARACTER_JANEMBA_2:
+    ; Basic Info
+    db "Janemba (2nd)", 0
+    dw SPRITE_JANEMBA_2
+    db CLASS_DEMON
+    db ALIGNMENT_ENEMY
+    
+    ; Base Stats
+    db LEVEL_65
+    dw HP_4500      ; INCREASED from 3500 (30% increase)
+    dw ATK_240
+    dw DEF_200
+    dw SPD_120
+    
+    ; Growth Rates
+    db HP_GROWTH_9
+    db ATK_GROWTH_8
+    db DEF_GROWTH_8
+    db SPD_GROWTH_4
+    
+    ; Abilities
+    db ABILITY_DEMON_KAMEHAMEHA | ABILITY_HELL_GATE | ABILITY_DIMENSION_SWORD | ABILITY_DEMON_RAGE
+    
+    ; AI Settings
+    db AI_AGGRESSIVE
+    db TARGET_PLAYER
+    db RANGE_LONG
+    
+    ; Special Flags
+    db FLAG_BOSS | FLAG_CAN_TELEPORT | FLAG_IMMUNE_TO_KNOCKBACK
+    
+    ; End Marker
+    db 0
+
+; ============================================================================
+; Attack: Demon Kamehameha (NEW ABILITY)
+; -----------------------------------------------------------------------------
+; Long-range energy wave that tracks the player
+; ============================================================================
+
+ATTACK_DEMON_KAMEHAMEHA:
+    db "Demon Kamehameha", 0
+    dw ANIMATION_DEMON_KAMEHAMEHA
+    db ELEMENT_DARK
+    db TARGET_SINGLE
+    dw POWER_3000
+    db ACCURACY_95
+    db PP_1
+    db EFFECT_TRACKING | EFFECT_PIERCING | EFFECT_SCREEN_SHAKE
+    db 0

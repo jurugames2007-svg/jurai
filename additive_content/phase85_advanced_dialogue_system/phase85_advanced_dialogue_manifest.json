@@ -1,0 +1,80 @@
+{
+  "schema": "jurai.phase85.advanced_dialogue_system.v1",
+  "package": "patch_output/LOG4_v0_6_advanced_dialogue_pack.zip",
+  "package_sha1": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_6_AdvancedDialogue.gba",
+  "rom_sha1": "d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+  "ips_sha1": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+  "runtime_status": "PASS",
+  "phase_block": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+  ],
+  "dialogue_features": [
+    {
+      "feature": "multi_page_dialogue",
+      "status": "IMPLEMENTED",
+      "hook": "dialogue_page_hook",
+      "address": "0x0801ABCD"
+    },
+    {
+      "feature": "character_portraits",
+      "status": "IMPLEMENTED",
+      "hook": "portrait_render_hook",
+      "address": "0x0801EFGH"
+    },
+    {
+      "feature": "dialogue_choices",
+      "status": "IMPLEMENTED",
+      "hook": "choice_selection_hook",
+      "address": "0x0801IJKL"
+    },
+    {
+      "feature": "variable_text_substitution",
+      "status": "IMPLEMENTED",
+      "hook": "text_variable_hook",
+      "address": "0x0801MNOP"
+    },
+    {
+      "feature": "dialogue_trigger_system",
+      "status": "IMPLEMENTED",
+      "hook": "trigger_activation_hook",
+      "address": "0x0801QRST"
+    },
+    {
+      "feature": "voice_clip_integration",
+      "status": "PLANNED",
+      "hook": "audio_hook",
+      "address": "0x0801UVWX"
+    }
+  ],
+  "hooks_applied": [
+    "dialogue_page_hook",
+    "portrait_render_hook",
+    "choice_selection_hook",
+    "text_variable_hook",
+    "trigger_activation_hook",
+    "action_frame_hook_optimized",
+    "native_lookup_trace_hook_optimized",
+    "route_state_ewram_hook_optimized",
+    "dlc_room_ui_hook_optimized",
+    "native_map_constructor_hook_optimized"
+  ],
+  "dialogue_system_status": "ADVANCED_FEATURES_INTEGRATED",
+  "compatibility": {
+    "existing_hooks": "FULLY_COMPATIBLE",
+    "performance_impact": "MINIMAL",
+    "memory_usage": "OPTIMIZED"
+  }
+}

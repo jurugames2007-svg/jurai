@@ -1,0 +1,223 @@
+{
+  "name": "Saiyan Planet (Improved)",
+  "description": "The Saiyan homeworld with added terrain features and points of interest",
+  "id": 102,
+  "size": [256, 256],
+  "tileset": "gfx/tilesets/saiyan_planet.png",
+  "palette": "gfx/palettes/saiyan_planet.pal",
+  "music": "audio/music/saiyan_theme.mp3",
+  
+  "layers": [
+    {
+      "type": "terrain",
+      "name": "Base Terrain",
+      "data": [
+        ; Top area - mountains
+        [3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1],
+        [3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1],
+        [3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1],
+        [3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1],
+        
+        ; Middle area - plains with river
+        [2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [2, 2, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],  ; River starts here
+        [2, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        
+        ; Bottom area - ruins
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [4, 4, 0, 0, 0, 0, 5, 5, 5, 0, 0, 0, 0, 4, 4, 4],  ; Saiyan ruins
+        [4, 4, 4, 0, 0, 0, 5, 5, 5, 0, 0, 0, 4, 4, 4, 4]
+      ]
+    },
+    {
+      "type": "collision",
+      "name": "Collision Layer",
+      "data": [
+        ; Top area - mountains are solid
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+        ; Middle area - river is walkable (value 0)
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+        ; Bottom area - ruins are solid
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1]
+      ]
+    },
+    {
+      "type": "objects",
+      "name": "Object Layer",
+      "items": [
+        ; ===== NEW TERRAIN FEATURES =====
+        {
+          "type": "terrain_feature",
+          "id": "mountain_peak",
+          "x": 30,
+          "y": 20,
+          "sprite": "gfx/terrain/mountain_peak.png",
+          "palette": 1,
+          "collision": true,
+          "climbable": false
+        },
+        {
+          "type": "terrain_feature",
+          "id": "saiyan_statue",
+          "x": 120,
+          "y": 150,
+          "sprite": "gfx/objects/saiyan_statue.png",
+          "palette": 2,
+          "collision": false,
+          "interaction": "examine",
+          "dialogue": "text/dialogues/saiyan_statue.txt"
+        },
+        
+        ; ===== NEW NPCs =====
+        {
+          "type": "npc",
+          "id": "saiyan_elder",
+          "x": 80,
+          "y": 80,
+          "sprite": "gfx/npcs/saiyan_elder.png",
+          "palette": 1,
+          "dialogue": "text/dialogues/saiyan_elder.txt",
+          "movement": "stationary",
+          "detection_radius": 4,
+          "interaction_radius": 2
+        },
+        {
+          "type": "npc",
+          "id": "saiyan_warrior",
+          "x": 150,
+          "y": 120,
+          "sprite": "gfx/npcs/saiyan_warrior.png",
+          "palette": 1,
+          "dialogue": "text/dialogues/saiyan_warrior.txt",
+          "movement": "patrol",
+          "path": [150, 120, 160, 120, 160, 130, 150, 130],
+          "detection_radius": 3,
+          "interaction_radius": 2
+        },
+        
+        ; ===== NEW ENEMIES =====
+        {
+          "type": "enemy_spawn",
+          "id": "saiyan_wild_beast",
+          "x": 40,
+          "y": 60,
+          "radius": 10,
+          "rate": 25,
+          "max_active": 2
+        },
+        {
+          "type": "enemy_spawn",
+          "id": "saiyan_wild_beast",
+          "x": 180,
+          "y": 100,
+          "radius": 10,
+          "rate": 25,
+          "max_active": 2
+        },
+        
+        ; ===== NEW HIDDEN ITEMS =====
+        {
+          "type": "hidden_item",
+          "id": "saiyan_gauntlet",
+          "x": 20,
+          "y": 100,
+          "condition": "has_ability(scan)",
+          "sprite": "gfx/items/armor/saiyan_gauntlet.png",
+          "palette": 3,
+          "glow_animation": true,
+          "discovery_dialogue": "text/dialogues/found_saiyan_gauntlet.txt"
+        },
+        {
+          "type": "hidden_item",
+          "id": "bardock_diary",
+          "x": 100,
+          "y": 180,
+          "condition": "has_item(scanner)",
+          "sprite": "gfx/items/quest/bardock_diary.png",
+          "palette": 0,
+          "glow_animation": false,
+          "discovery_dialogue": "text/dialogues/found_bardock_diary.txt",
+          "quest_trigger": "quest_bardock_legacy"
+        },
+        
+        ; ===== EXISTING OBJECTS =====
+        {
+          "type": "warp",
+          "id": "saiyan_planet_exit",
+          "x": 80,
+          "y": 200,
+          "destination_map": "world_map",
+          "destination_x": 200,
+          "destination_y": 120,
+          "direction": "up",
+          "sprite": "gfx/objects/portal.png",
+          "palette": 0
+        }
+      ]
+    },
+    {
+      "type": "water",
+      "name": "Water Layer",
+      "data": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "animation": true,
+      "animation_speed": 2
+    }
+  ],
+  
+  "scripts": {
+    "on_enter": "scripts/saiyan_planet_on_enter.asm",
+    "on_exit": "scripts/saiyan_planet_on_exit.asm",
+    "random_encounter": {
+      "rate": 20,
+      "enemies": [
+        {"id": "saiyan_wild_beast", "weight": 50},
+        {"id": "saiyan_hunter", "weight": 30},
+        {"id": "great_ape", "weight": 20}
+      ]
+    }
+  },
+  
+  "metadata": {
+    "designer": "Javi (MapDesigner)",
+    "version": "2.0",
+    "last_modified": "2026-08-06",
+    "improvements": [
+      "Added mountains in top area",
+      "Added river running through the map",
+      "Added Saiyan ruins in bottom area",
+      "Added 2 new NPCs (Saiyan Elder and Warrior)",
+      "Added 2 new enemy spawn points",
+      "Added 2 hidden items (Saiyan Gauntlet and Bardock's Diary)",
+      "Added Saiyan statue as examineable object",
+      "Improved visual variety with different terrain types"
+    ]
+  }
+}

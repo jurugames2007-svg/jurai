@@ -1,0 +1,12 @@
+Press A to equip
+weapons and armor.
+
+Each piece affects
+your stats:
+
++ATK: Increases
+    damage dealt
++DEF: Reduces
+    damage taken
++SPD: Increases
+    speed

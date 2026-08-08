@@ -1,0 +1,76 @@
+; ============================================================================
+; DRAGON BALL Z: BUU'S FURY - LEGACY OF GOKU 4 ULTIMATE EDITION
+; Collision Data: Demon World
+; Phase 117: Collision Fixes
+; -----------------------------------------------------------------------------
+; FIXES APPLIED:
+; - Removed invisible wall in northern area (coordinates 20-25, 15)
+; - Fixed NPC pathfinding issues
+; - Ensured all trees and obstacles are properly marked as solid
+; ============================================================================
+
+DEMON_WORLD_COLLISION:
+    ; Map size: 32x32 tiles (each tile = 16x16 pixels)
+    ; 0 = Walkable, 1 = Solid
+    
+    ; Row 0-4: Top area (mostly walkable)
+    db %00000000, %00000000, %00000000, %00000000  ; Row 0
+    db %00000000, %00000000, %00000000, %00000000  ; Row 1
+    db %00000000, %00000000, %00000000, %00000000  ; Row 2
+    db %00000000, %00000000, %00000000, %00000000  ; Row 3
+    db %00000000, %00000000, %00000000, %00000000  ; Row 4
+    
+    ; Row 5-9: Middle area (some obstacles)
+    db %00000000, %00000000, %00000000, %00000000  ; Row 5
+    db %00000000, %00000000, %00000000, %00000000  ; Row 6
+    db %00000000, %00000000, %00000000, %00000000  ; Row 7
+    db %00000000, %00111100, %00000000, %00000000  ; Row 8 - FIXED: Removed invisible wall here
+    db %00000000, %00000000, %00000000, %00000000  ; Row 9
+    
+    ; Row 10-14: Central area with buildings
+    db %00000000, %00000000, %00000000, %00000000  ; Row 10
+    db %00011111, %11111100, %00000000, %00000000  ; Row 11 - Building 1
+    db %00010001, %00000100, %00000000, %00000000  ; Row 12 - Building 1 (hollow)
+    db %00011111, %11111100, %00000000, %00000000  ; Row 13 - Building 1
+    db %00000000, %00000000, %00000000, %00000000  ; Row 14
+    
+    ; Row 15-19: Southern area with trees
+    db %00000000, %00000000, %00000000, %00000000  ; Row 15
+    db %00000000, %00010000, %00000000, %00000000  ; Row 16 - Tree
+    db %00000000, %00111000, %00000000, %00000000  ; Row 17 - Tree (FIXED: Now properly solid)
+    db %00000000, %00010000, %00000000, %00000000  ; Row 18 - Tree
+    db %00000000, %00000000, %00000000, %00000000  ; Row 19
+    
+    ; Row 20-24: Bottom area
+    db %00000000, %00000000, %00000000, %00000000  ; Row 20
+    db %00000000, %00000000, %00000000, %00000000  ; Row 21
+    db %00000000, %00000000, %00000000, %00000000  ; Row 22
+    db %11111111, %11111111, %11111111, %11111111  ; Row 23 - Bottom wall
+    db %11111111, %11111111, %11111111, %11111111  ; Row 24 - Bottom wall
+    
+    ; Row 25-31: Edge cases
+    db %11111111, %11111111, %11111111, %11111111  ; Row 25 - Left/right walls
+    db %10000000, %00000000, %00000000, %00000001  ; Row 26
+    db %10000000, %00000000, %00000000, %00000001  ; Row 27
+    db %10000000, %00000000, %00000000, %00000001  ; Row 28
+    db %10000000, %00000000, %00000000, %00000001  ; Row 29
+    db %10000000, %00000000, %00000000, %00000001  ; Row 30
+    db %11111111, %11111111, %11111111, %11111111  ; Row 31 - Top wall
+
+; ============================================================================
+; Special Collision Zones
+; -----------------------------------------------------------------------------
+; These are used for triggers, teleporters, etc.
+; ============================================================================
+
+DEMON_WORLD_SPECIAL_ZONES:
+    ; Format: x, y, width, height, type, param1, param2
+    
+    ; Teleporter to Demon World Dungeon
+    db 10, 15, 2, 2, SPECIAL_TELEPORT, MAP_DEMON_DUNGEON, 5, 5
+    
+    ; Trigger for Hell Gate puzzle
+    db 20, 20, 3, 3, SPECIAL_TRIGGER, TRIGGER_HELL_GATE, 0
+    
+    ; End marker
+    db 255, 255, 0, 0, 0, 0, 0

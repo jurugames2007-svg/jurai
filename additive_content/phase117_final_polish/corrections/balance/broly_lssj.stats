@@ -1,0 +1,68 @@
+; ============================================================================
+; DRAGON BALL Z: BUU'S FURY - LEGACY OF GOKU 4 ULTIMATE EDITION
+; Character Stats: Broly (Legendary Super Saiyan)
+; Phase 117: Balance Adjustments
+; -----------------------------------------------------------------------------
+; BALANCE NOTES:
+; - Reduced base ATK by 20% (from 250 to 200) to prevent one-shot kills
+; - Added 30-second time limit for LSSJ form
+; - Adjusted DEF to be more balanced
+; ============================================================================
+
+CHARACTER_BROLY_LSSJ:
+    ; Basic Info
+    db "Broly (LSSJ)", 0
+    dw SPRITE_BROLY_LSSJ
+    db CLASS_WARRIOR
+    db ALIGNMENT_HERO
+    
+    ; Base Stats
+    db LEVEL_60
+    dw HP_3500      ; High HP to compensate for time limit
+    dw ATK_200      ; REDUCED from 250 (20% decrease)
+    dw DEF_160
+    dw SPD_140
+    
+    ; Growth Rates
+    db HP_GROWTH_8
+    db ATK_GROWTH_7
+    db DEF_GROWTH_6
+    db SPD_GROWTH_5
+    
+    ; Abilities
+    db ABILITY_GIGANTIC_METEOR | ABILITY_ERASER_CANNON | ABILITY_PLANET_CRUSHER | ABILITY_SAIYAN_RAGE
+    
+    ; Transformation Info
+    db TRANSFORMATION_LSSJ
+    dw LSSJ_TIMER_1800  ; 30 seconds (60 frames/sec * 30)
+    
+    ; AI Settings
+    db AI_AGGRESSIVE
+    db TARGET_PLAYER
+    db RANGE_LONG
+    
+    ; Special Flags
+    db FLAG_CANNOT_BE_CONTROLLED_BY_AI | FLAG_TIME_LIMITED
+    
+    ; End Marker
+    db 0
+
+; Time limit for LSSJ form (30 seconds)
+LSSJ_TIMER_1800 equ 1800
+
+; ============================================================================
+; Attack: Gigantic Meteor
+; -----------------------------------------------------------------------------
+; Reduced damage by 15% to balance the character
+; ============================================================================
+
+ATTACK_GIGANTIC_METEOR:
+    db "Gigantic Meteor", 0
+    dw ANIMATION_GIGANTIC_METEOR
+    db ELEMENT_KI
+    db TARGET_SINGLE
+    dw POWER_2800  ; REDUCED from 3200 (15% decrease)
+    db ACCURACY_85
+    db PP_1
+    db EFFECT_EXPLOSION | EFFECT_SCREEN_SHAKE
+    db 0

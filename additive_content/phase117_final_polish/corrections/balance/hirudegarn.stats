@@ -1,0 +1,115 @@
+; ============================================================================
+; DRAGON BALL Z: BUU'S FURY - LEGACY OF GOKU 4 ULTIMATE EDITION
+; Character Stats: Hirudegarn
+; Phase 117: Balance Adjustments
+; -----------------------------------------------------------------------------
+; BALANCE NOTES:
+; - Reduced base ATK by 10% to make him less deadly
+; - Added weakness phase after using Energy Drain
+; - Adjusted HP to be more balanced
+; ============================================================================
+
+CHARACTER_HIRUDEGARN:
+    ; Basic Info
+    db "Hirudegarn", 0
+    dw SPRITE_HIRUDEGARN
+    db CLASS_BIO_BEAST
+    db ALIGNMENT_ENEMY
+    
+    ; Base Stats (Baby Form)
+    db LEVEL_40
+    dw HP_2000
+    dw ATK_180      ; REDUCED from 200 (10% decrease)
+    dw DEF_140
+    dw SPD_160
+    
+    ; Growth Rates
+    db HP_GROWTH_8
+    db ATK_GROWTH_7
+    db DEF_GROWTH_6
+    db SPD_GROWTH_7
+    
+    ; Abilities
+    db ABILITY_ENERGY_DRAIN | ABILITY_ACID_SPIT | ABILITY_TAIL_WHIP | ABILITY_BIO_BARRAGE
+    
+    ; AI Settings
+    db AI_SMART
+    db TARGET_PLAYER
+    db RANGE_MEDIUM
+    
+    ; Special Flags
+    db FLAG_BOSS | FLAG_CAN_EVOLVE | FLAG_WEAKNESS_PHASE
+    
+    ; Evolution Data
+    db EVOLVE_AT_HP_50, EVOLVE_TO_HIRUDEGARN_ADULT
+    
+    ; Weakness Phase Data
+    db WEAKNESS_AFTER_ENERGY_DRAIN, 60  ; 60 frames of vulnerability after Energy Drain
+    
+    ; End Marker
+    db 0
+
+; ============================================================================
+; Attack: Energy Drain
+; -----------------------------------------------------------------------------
+; Now leaves Hirudegarn vulnerable for 60 frames after use
+; ============================================================================
+
+ATTACK_ENERGY_DRAIN:
+    db "Energy Drain", 0
+    dw ANIMATION_ENERGY_DRAIN
+    db ELEMENT_DARK
+    db TARGET_SINGLE
+    dw POWER_0  ; Does no direct damage, but drains energy
+    db ACCURACY_100
+    db PP_1
+    db EFFECT_DRAIN_HP | EFFECT_APPLY_WEAKNESS
+    
+    ; Drain amount
+    db DRAIN_PERCENTAGE, 15  ; Drains 15% of target's max HP
+    
+    ; Apply weakness to self after use
+    db SELF_EFFECT, EFFECT_APPLY_WEAKNESS
+    db WEAKNESS_DURATION, 60  ; 60 frames (1 second)
+    
+    db 0
+
+; ============================================================================
+; Hirudegarn (Adult Form)
+; -----------------------------------------------------------------------------
+; More powerful but slower
+; ============================================================================
+
+CHARACTER_HIRUDEGARN_ADULT:
+    ; Basic Info
+    db "Hirudegarn (Adult)", 0
+    dw SPRITE_HIRUDEGARN_ADULT
+    db CLASS_BIO_BEAST
+    db ALIGNMENT_ENEMY
+    
+    ; Base Stats
+    db LEVEL_70
+    dw HP_6000
+    dw ATK_280      ; REDUCED from 300 (10% decrease)
+    dw DEF_220
+    dw SPD_100      ; Slower than baby form
+    
+    ; Growth Rates
+    db HP_GROWTH_10
+    db ATK_GROWTH_9
+    db DEF_GROWTH_9
+    db SPD_GROWTH_3
+    
+    ; Abilities
+    db ABILITY_ENERGY_BLAST | ABILITY_ACID_RAIN | ABILITY_TAIL_SLAM | ABILITY_BIO_CANNON
+    
+    ; AI Settings
+    db AI_AGGRESSIVE
+    db TARGET_PLAYER
+    db RANGE_LONG
+    
+    ; Special Flags
+    db FLAG_BOSS | FLAG_IMMUNE_TO_STUN
+    
+    ; End Marker
+    db 0

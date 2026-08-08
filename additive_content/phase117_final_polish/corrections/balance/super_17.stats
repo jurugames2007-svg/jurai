@@ -1,0 +1,61 @@
+; ============================================================================
+; DRAGON BALL Z: BUU'S FURY - LEGACY OF GOKU 4 ULTIMATE EDITION
+; Character Stats: Super 17
+; Phase 117: Balance Adjustments
+; -----------------------------------------------------------------------------
+; BALANCE NOTES:
+; - Increased base ATK by 25% (from 180 to 225)
+; - Added new ability: Hell Flash Super (AoE attack)
+; - Adjusted DEF to be more competitive
+; ============================================================================
+
+CHARACTER_SUPER_17:
+    ; Basic Info
+    db "Super 17", 0
+    dw SPRITE_SUPER_17
+    db CLASS_ANDROID
+    db ALIGNMENT_HERO
+    
+    ; Base Stats
+    db LEVEL_58
+    dw HP_3000
+    dw ATK_225      ; INCREASED from 180 (25% increase)
+    dw DEF_170
+    dw SPD_150
+    
+    ; Growth Rates
+    db HP_GROWTH_6
+    db ATK_GROWTH_8
+    db DEF_GROWTH_7
+    db SPD_GROWTH_6
+    
+    ; Abilities
+    db ABILITY_HELL_FLASH | ABILITY_HELL_FLASH_SUPER | ABILITY_POWER_BLITZ | ABILITY_ANDROID_RAGE
+    
+    ; AI Settings
+    db AI_BALANCED
+    db TARGET_PLAYER
+    db RANGE_MEDIUM
+    
+    ; Special Flags
+    db FLAG_IMMUNE_TO_STUN | FLAG_NO_STATUS_EFFECTS
+    
+    ; End Marker
+    db 0
+
+; ============================================================================
+; Attack: Hell Flash Super (NEW ABILITY)
+; -----------------------------------------------------------------------------
+; AoE attack that hits all enemies
+; ============================================================================
+
+ATTACK_HELL_FLASH_SUPER:
+    db "Hell Flash Super", 0
+    dw ANIMATION_HELL_FLASH_SUPER
+    db ELEMENT_DARK
+    db TARGET_ALL_ENEMIES
+    dw POWER_2500
+    db ACCURACY_90
+    db PP_1
+    db EFFECT_EXPLOSION | EFFECT_SCREEN_SHAKE
+    db 0

@@ -1,0 +1,107 @@
+{
+  "phase": 117,
+  "name": "Final Polish to 10/10",
+  "description": "Apply all critical and important corrections to achieve perfect 10/10 score in all categories. Excludes combo system and team system improvements as requested.",
+  "start_date": "2026-08-06",
+  "estimated_duration_days": 21,
+  "objectives": [
+    "Balance all DLC characters to be fair and fun",
+    "Fix all collision bugs in maps",
+    "Optimize performance for GBA Original hardware",
+    "Implement contextual tutorial system in English",
+    "Improve empty/generic DLC maps",
+    "Redesign problematic sprites and portraits",
+    "Add more expressions to DLC character portraits",
+    "Add hidden content and Easter eggs",
+    "Implement New Game+ mode",
+    "Add High Score system",
+    "Add accessibility options"
+  ],
+  "exclusions": [
+    "Combo system improvements",
+    "Team system improvements"
+  ],
+  "dependencies": [
+    "phase116_final_polish"
+  ],
+  "hooks": [
+    {
+      "id": "balance_hook",
+      "type": "character_stats",
+      "description": "Adjusts base stats for DLC characters",
+      "files": [
+        "data/characters/broly_lssj.stats",
+        "data/characters/meta_cooler.stats",
+        "data/characters/super_17.stats",
+        "data/enemies/janemba_2.stats",
+        "data/enemies/hirudegarn.stats"
+      ]
+    },
+    {
+      "id": "collision_hook",
+      "type": "map_collision",
+      "description": "Fixes collision layers in all DLC maps",
+      "files": [
+        "maps/demon_world.collision",
+        "maps/kaioshin_planet.collision",
+        "maps/namek_planet.collision",
+        "maps/fusion_arena.collision",
+        "maps/snake_way_extended.collision"
+      ]
+    },
+    {
+      "id": "performance_hook",
+      "type": "render_optimization",
+      "description": "Optimizes sprite and particle rendering",
+      "files": [
+        "engine/sprite_renderer.asm",
+        "engine/particle_system.asm",
+        "engine/map_loader.asm"
+      ]
+    },
+    {
+      "id": "tutorial_hook",
+      "type": "contextual_help",
+      "description": "Shows tutorials when new mechanics are encountered",
+      "files": [
+        "engine/tutorial_system.asm",
+        "text/tutorials/equipment.txt",
+        "text/tutorials/fusion.txt",
+        "text/tutorials/quests.txt"
+      ]
+    }
+  ],
+  "new_content": {
+    "maps": [
+      "frieza_planet_improved",
+      "saiyan_planet_improved",
+      "cell_games_arena_improved",
+      "grand_kai_planet_improved"
+    ],
+    "characters": [
+      "raditz_secret"
+    ],
+    "items": [
+      "future_trunks_sword",
+      "ssg_armor"
+    ],
+    "features": [
+      "new_game_plus",
+      "high_scores",
+      "accessibility_options"
+    ]
+  },
+  "language": "English",
+  "target_platforms": ["GBA Original", "GBA SP", "GBA Micro", "mGBA", "VBA-M", "BGB"],
+  "compatibility_requirements": {
+    "minimum_fps": 50,
+    "maximum_rom_size": "32MB",
+    "sram_usage": "4KB"
+  },
+  "testing_requirements": {
+    "testers_needed": 10,
+    "hardware_testing": true,
+    "emulator_testing": true,
+    "regression_tests": 5842
+  }
+}

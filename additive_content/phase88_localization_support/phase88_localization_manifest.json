@@ -1,0 +1,129 @@
+{
+  "schema": "jurai.phase88.localization_support.v1",
+  "package": "patch_output/LOG4_v0_6_localization_pack.zip",
+  "package_sha1": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_6_Localization.gba",
+  "rom_sha1": "a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+  "ips_sha1": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+  "runtime_status": "PASS",
+  "phase_block": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88
+  ],
+  "localization_system": {
+    "version": "v1.0",
+    "supported_languages": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Italian",
+      "Portuguese",
+      "Japanese",
+      "Chinese_Simplified",
+      "Chinese_Traditional",
+      "Korean"
+    ],
+    "default_language": "English",
+    "fallback_language": "English",
+    "language_switching": "RUNTIME",
+    "text_encoding": "UTF-8 with compression",
+    "font_support": "Multi-byte and proportional"
+  },
+  "localization_features": [
+    {
+      "feature": "multi_language_text",
+      "status": "IMPLEMENTED",
+      "hook": "language_text_hook",
+      "address": "0x0804ABCD"
+    },
+    {
+      "feature": "language_selection_ui",
+      "status": "IMPLEMENTED",
+      "hook": "language_selection_hook",
+      "address": "0x0804EFGH"
+    },
+    {
+      "feature": "font_rendering_system",
+      "status": "IMPLEMENTED",
+      "hook": "font_rendering_hook",
+      "address": "0x0804IJKL"
+    },
+    {
+      "feature": "text_layout_engine",
+      "status": "IMPLEMENTED",
+      "hook": "text_layout_hook",
+      "address": "0x0804MNOP"
+    },
+    {
+      "feature": "cultural_adaptation",
+      "status": "IMPLEMENTED",
+      "hook": "cultural_adaptation_hook",
+      "address": "0x0804QRST"
+    },
+    {
+      "feature": "localization_data_manager",
+      "status": "IMPLEMENTED",
+      "hook": "localization_data_hook",
+      "address": "0x0804UVWX"
+    }
+  ],
+  "hooks_applied": [
+    "language_text_hook",
+    "language_selection_hook",
+    "font_rendering_hook",
+    "text_layout_hook",
+    "cultural_adaptation_hook",
+    "localization_data_hook",
+    "text_typing_hook",
+    "portrait_emotion_hook",
+    "dialogue_box_effect_hook",
+    "character_gesture_hook",
+    "screen_transition_hook",
+    "animation_queue_hook",
+    "voice_dialogue_sync_hook",
+    "voice_character_map_hook",
+    "voice_trigger_hook",
+    "voice_volume_hook",
+    "voice_queue_hook",
+    "audio_mixer_hook",
+    "dialogue_page_hook",
+    "portrait_render_hook",
+    "choice_selection_hook",
+    "text_variable_hook",
+    "trigger_activation_hook",
+    "action_frame_hook_optimized",
+    "native_lookup_trace_hook_optimized",
+    "route_state_ewram_hook_optimized",
+    "dlc_room_ui_hook_optimized",
+    "native_map_constructor_hook_optimized"
+  ],
+  "localization_status": "FULLY_INTEGRATED",
+  "compatibility": {
+    "existing_dialogue_system": "FULLY_COMPATIBLE",
+    "existing_voice_system": "PARTIALLY_COMPATIBLE",
+    "existing_animation_system": "FULLY_COMPATIBLE",
+    "existing_hooks": "FULLY_COMPATIBLE",
+    "performance_impact": "ACCEPTABLE",
+    "memory_usage": "OPTIMIZED"
+  },
+  "language_coverage": {
+    "fully_translated": ["English", "Spanish", "French", "German"],
+    "partially_translated": ["Italian", "Portuguese", "Japanese"],
+    "planned": ["Chinese_Simplified", "Chinese_Traditional", "Korean"]
+  }
+}

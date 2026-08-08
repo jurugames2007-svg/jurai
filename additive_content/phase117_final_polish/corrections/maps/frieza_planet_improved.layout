@@ -1,0 +1,215 @@
+{
+  "name": "Frieza Planet (Improved)",
+  "description": "Frieza's home planet with added content for better gameplay",
+  "id": 101,
+  "size": [256, 256],
+  "tileset": "gfx/tilesets/frieza_planet.png",
+  "palette": "gfx/palettes/frieza_planet.pal",
+  "music": "audio/music/frieza_theme.mp3",
+  
+  "layers": [
+    {
+      "type": "terrain",
+      "name": "Base Terrain",
+      "data": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0, 0, 1],
+        [1, 0, 0, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      ]
+    },
+    {
+      "type": "collision",
+      "name": "Collision Layer",
+      "data": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1],
+        [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+        [1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      ]
+    },
+    {
+      "type": "objects",
+      "name": "Object Layer",
+      "items": [
+        ; ===== NEW NPCs (Frieza Soldiers) =====
+        {
+          "type": "npc",
+          "id": "frieza_soldier_1",
+          "x": 50,
+          "y": 50,
+          "sprite": "gfx/npcs/frieza_soldier.png",
+          "palette": 1,
+          "dialogue": "text/dialogues/frieza_soldier_1.txt",
+          "movement": "patrol",
+          "path": [50, 50, 60, 50, 60, 60, 50, 60],
+          "detection_radius": 3,
+          "interaction_radius": 2
+        },
+        {
+          "type": "npc",
+          "id": "frieza_soldier_2",
+          "x": 100,
+          "y": 50,
+          "sprite": "gfx/npcs/frieza_soldier.png",
+          "palette": 1,
+          "dialogue": "text/dialogues/frieza_soldier_2.txt",
+          "movement": "patrol",
+          "path": [100, 50, 110, 50, 110, 60, 100, 60],
+          "detection_radius": 3,
+          "interaction_radius": 2
+        },
+        {
+          "type": "npc",
+          "id": "frieza_elite_guard",
+          "x": 75,
+          "y": 80,
+          "sprite": "gfx/npcs/frieza_elite_guard.png",
+          "palette": 2,
+          "dialogue": "text/dialogues/frieza_elite_guard.txt",
+          "movement": "stationary",
+          "detection_radius": 5,
+          "interaction_radius": 2
+        },
+        
+        ; ===== NEW ENEMIES =====
+        {
+          "type": "enemy_spawn",
+          "id": "frieza_soldier",
+          "x": 40,
+          "y": 70,
+          "radius": 8,
+          "rate": 30,
+          "max_active": 3
+        },
+        {
+          "type": "enemy_spawn",
+          "id": "frieza_soldier",
+          "x": 120,
+          "y": 70,
+          "radius": 8,
+          "rate": 30,
+          "max_active": 3
+        },
+        {
+          "type": "enemy_spawn",
+          "id": "elite_frieza_guard",
+          "x": 80,
+          "y": 100,
+          "radius": 5,
+          "rate": 20,
+          "max_active": 2
+        },
+        
+        ; ===== NEW HIDDEN ITEMS =====
+        {
+          "type": "hidden_item",
+          "id": "frieza_sword",
+          "x": 30,
+          "y": 30,
+          "condition": "has_ability(scan)",
+          "sprite": "gfx/items/swords/frieza_sword.png",
+          "palette": 3,
+          "glow_animation": true,
+          "discovery_dialogue": "text/dialogues/found_frieza_sword.txt"
+        },
+        {
+          "type": "hidden_item",
+          "id": "frieza_armor",
+          "x": 130,
+          "y": 120,
+          "condition": "has_ability(scan)",
+          "sprite": "gfx/items/armor/frieza_armor.png",
+          "palette": 3,
+          "glow_animation": true,
+          "discovery_dialogue": "text/dialogues/found_frieza_armor.txt"
+        },
+        
+        ; ===== EXISTING OBJECTS =====
+        {
+          "type": "warp",
+          "id": "frieza_palace_entrance",
+          "x": 80,
+          "y": 40,
+          "destination_map": "frieza_palace_interior",
+          "destination_x": 80,
+          "destination_y": 150,
+          "direction": "down",
+          "sprite": "gfx/objects/door.png",
+          "palette": 2
+        },
+        {
+          "type": "warp",
+          "id": "frieza_planet_exit",
+          "x": 80,
+          "y": 160,
+          "destination_map": "world_map",
+          "destination_x": 120,
+          "destination_y": 80,
+          "direction": "up",
+          "sprite": "gfx/objects/portal.png",
+          "palette": 0
+        }
+      ]
+    },
+    {
+      "type": "lighting",
+      "name": "Lighting Layer",
+      "ambient": [160, 160, 180],
+      "lights": [
+        {"x": 80, "y": 40, "radius": 30, "color": [255, 200, 150]},
+        {"x": 50, "y": 50, "radius": 15, "color": [200, 150, 100]},
+        {"x": 100, "y": 50, "radius": 15, "color": [200, 150, 100]}
+      ]
+    }
+  ],
+  
+  "scripts": {
+    "on_enter": "scripts/frieza_planet_on_enter.asm",
+    "on_exit": "scripts/frieza_planet_on_exit.asm",
+    "random_encounter": {
+      "rate": 15,
+      "enemies": [
+        {"id": "frieza_soldier", "weight": 60},
+        {"id": "elite_frieza_guard", "weight": 20},
+        {"id": "frieza_patrol_bot", "weight": 20}
+      ]
+    }
+  },
+  
+  "metadata": {
+    "designer": "Javi (MapDesigner)",
+    "version": "2.0",
+    "last_modified": "2026-08-06",
+    "improvements": [
+      "Added 3 new NPCs (Frieza Soldiers and Elite Guard)",
+      "Added 3 new enemy spawn points",
+      "Added 2 hidden items (Frieza Sword and Armor)",
+      "Improved collision layer",
+      "Added lighting effects",
+      "Increased enemy variety"
+    ]
+  }
+}

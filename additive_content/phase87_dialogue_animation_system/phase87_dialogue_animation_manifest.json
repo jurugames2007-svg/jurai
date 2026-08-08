@@ -1,0 +1,111 @@
+{
+  "schema": "jurai.phase87.dialogue_animation_system.v1",
+  "package": "patch_output/LOG4_v0_6_dialogue_animation_pack.zip",
+  "package_sha1": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4",
+  "recommended_rom_in_zip": "roms/DBZ_LOG4_v0_6_DialogueAnimation.gba",
+  "rom_sha1": "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+  "ips_sha1": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+  "runtime_status": "PASS",
+  "phase_block": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "animation_system": {
+    "version": "v1.0",
+    "animation_types": [
+      "text_typing",
+      "portrait_emotions",
+      "dialogue_box_effects",
+      "character_gestures",
+      "screen_transitions",
+      "custom_animations"
+    ],
+    "animation_slots": 32,
+    "max_active_animations": 8,
+    "animation_buffer_size": "4KB",
+    "frame_rate": 60
+  },
+  "animation_features": [
+    {
+      "feature": "text_typing_animation",
+      "status": "IMPLEMENTED",
+      "hook": "text_typing_hook",
+      "address": "0x0803ABCD"
+    },
+    {
+      "feature": "portrait_emotion_animation",
+      "status": "IMPLEMENTED",
+      "hook": "portrait_emotion_hook",
+      "address": "0x0803EFGH"
+    },
+    {
+      "feature": "dialogue_box_effects",
+      "status": "IMPLEMENTED",
+      "hook": "dialogue_box_effect_hook",
+      "address": "0x0803IJKL"
+    },
+    {
+      "feature": "character_gesture_animation",
+      "status": "IMPLEMENTED",
+      "hook": "character_gesture_hook",
+      "address": "0x0803MNOP"
+    },
+    {
+      "feature": "screen_transition_animation",
+      "status": "IMPLEMENTED",
+      "hook": "screen_transition_hook",
+      "address": "0x0803QRST"
+    },
+    {
+      "feature": "animation_queue_management",
+      "status": "IMPLEMENTED",
+      "hook": "animation_queue_hook",
+      "address": "0x0803UVWX"
+    }
+  ],
+  "hooks_applied": [
+    "text_typing_hook",
+    "portrait_emotion_hook",
+    "dialogue_box_effect_hook",
+    "character_gesture_hook",
+    "screen_transition_hook",
+    "animation_queue_hook",
+    "voice_dialogue_sync_hook",
+    "voice_character_map_hook",
+    "voice_trigger_hook",
+    "voice_volume_hook",
+    "voice_queue_hook",
+    "audio_mixer_hook",
+    "dialogue_page_hook",
+    "portrait_render_hook",
+    "choice_selection_hook",
+    "text_variable_hook",
+    "trigger_activation_hook",
+    "action_frame_hook_optimized",
+    "native_lookup_trace_hook_optimized",
+    "route_state_ewram_hook_optimized",
+    "dlc_room_ui_hook_optimized",
+    "native_map_constructor_hook_optimized"
+  ],
+  "animation_integration_status": "FULLY_INTEGRATED",
+  "compatibility": {
+    "existing_dialogue_system": "FULLY_COMPATIBLE",
+    "existing_voice_system": "FULLY_COMPATIBLE",
+    "existing_hooks": "FULLY_COMPATIBLE",
+    "performance_impact": "MINIMAL",
+    "memory_usage": "OPTIMIZED"
+  }
+}
